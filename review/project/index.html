@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Phân tích doanh thu, sản phẩm và khách hàng từ file bán hàng ngay trên thiết bị của bạn." />
+    <title>Bán Hàng Smarter · Thấu hiểu từng con số</title>
+    <script>
+      try {
+        const settings = JSON.parse(localStorage.getItem('banhang-theme-v1') || 'null') || {};
+        const root = document.documentElement;
+        const dark = settings.mode === 'dark' || (settings.mode !== 'light' && matchMedia('(prefers-color-scheme: dark)').matches);
+        root.dataset.theme = dark ? 'dark' : 'light';
+        root.dataset.accent = ['emerald', 'indigo', 'coral', 'ocean', 'amber'].includes(settings.accent) ? settings.accent : 'emerald';
+        root.dataset.density = settings.density === 'compact' ? 'compact' : 'comfortable';
+        root.dataset.motion = settings.reducedMotion || matchMedia('(prefers-reduced-motion: reduce)').matches ? 'reduced' : 'full';
+        if ([16, 18, 20].includes(settings.fontSize)) root.style.fontSize = settings.fontSize + 'px';
+      } catch {}
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

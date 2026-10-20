@@ -1,0 +1,359 @@
+{
+  "fixture": "fixtures/order-long.csv",
+  "groundTruth": {
+    "orders": [
+      "A",
+      "B"
+    ]
+  },
+  "expected": {
+    "rawRows": 2,
+    "validRows": 2,
+    "dropped": 0,
+    "invalid": [],
+    "duplicateRows": [],
+    "suspectedCount": 0,
+    "suspectedRevenue": 0,
+    "keptIndices": [
+      1,
+      2
+    ],
+    "revenue": 200000,
+    "quantity": 2,
+    "profit": 80000,
+    "margin": 40,
+    "costCoverage": 100,
+    "orders": 2,
+    "aov": 100000,
+    "products": [
+      {
+        "name": "Trà",
+        "revenue": 200000,
+        "quantity": 2,
+        "profit": 80000,
+        "orders": 2,
+        "category": "Đồ uống",
+        "monthly": {
+          "2026-09": 200000
+        },
+        "abc": "A"
+      }
+    ],
+    "customers": [
+      {
+        "id": "KH1",
+        "spend": 200000,
+        "last": "2026-09-01",
+        "frequency": 2,
+        "recency": 0,
+        "segment": "VIP"
+      }
+    ],
+    "identifiedRevenue": 200000,
+    "coverage": 100,
+    "vipRevenue": 200000,
+    "storeVipShare": 100,
+    "identifiedVipShare": 100,
+    "vipCount": 1,
+    "repeatCount": 1,
+    "repeatRate": 100,
+    "pairs": [],
+    "uncertain": false,
+    "missingOrders": false
+  },
+  "actual": {
+    "report": {
+      "totalRows": 2,
+      "validRows": 2,
+      "droppedTotal": 0,
+      "reasons": []
+    },
+    "overview": {
+      "hasReliableOrderIds": true,
+      "orderIdStatus": "reliable",
+      "hasOrderCollisions": false,
+      "costCoverage": 100,
+      "totalRevenue": 200000,
+      "totalQuantity": 2,
+      "totalOrders": 2,
+      "averageOrderValue": 100000,
+      "totalProfit": 80000,
+      "profitMargin": 40,
+      "uniqueProducts": 1,
+      "uniqueCustomers": 1,
+      "dateRange": {
+        "start": "2026-09-01",
+        "end": "2026-09-01",
+        "days": 1
+      },
+      "monthlyRevenue": [
+        {
+          "month": "2026-09",
+          "revenue": 200000,
+          "orders": 2,
+          "profit": 80000
+        }
+      ]
+    },
+    "customers": {
+      "hasCustomerData": true,
+      "customers": [
+        {
+          "customerId": "KH1",
+          "customerName": "KH1",
+          "ordersCount": 2,
+          "totalSpend": 200000,
+          "averageOrderValue": 100000,
+          "lastOrderDate": "2026-09-01",
+          "daysSinceLastOrder": 0,
+          "firstOrderDate": "2026-09-01",
+          "rfmScore": {
+            "r": 5,
+            "f": 2,
+            "m": 5,
+            "total": 12
+          },
+          "segment": "VIP",
+          "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+        }
+      ],
+      "totalCustomers": 1,
+      "totalStoreRevenue": 200000,
+      "identifiedCustomerRevenue": 200000,
+      "customerRevenueCoverage": 100,
+      "repeatCustomersCount": 1,
+      "repeatCustomerRate": 100,
+      "segmentsSummary": [
+        {
+          "segment": "VIP",
+          "count": 1,
+          "percentage": 100,
+          "totalRevenue": 200000,
+          "revenuePercentage": 100,
+          "storeRevenuePercentage": 100
+        },
+        {
+          "segment": "Trung thành",
+          "count": 0,
+          "percentage": 0,
+          "totalRevenue": 0,
+          "revenuePercentage": 0,
+          "storeRevenuePercentage": 0
+        },
+        {
+          "segment": "Mới",
+          "count": 0,
+          "percentage": 0,
+          "totalRevenue": 0,
+          "revenuePercentage": 0,
+          "storeRevenuePercentage": 0
+        },
+        {
+          "segment": "Có nguy cơ rời đi",
+          "count": 0,
+          "percentage": 0,
+          "totalRevenue": 0,
+          "revenuePercentage": 0,
+          "storeRevenuePercentage": 0
+        },
+        {
+          "segment": "Đã ngừng mua",
+          "count": 0,
+          "percentage": 0,
+          "totalRevenue": 0,
+          "revenuePercentage": 0,
+          "storeRevenuePercentage": 0
+        },
+        {
+          "segment": "Bình thường",
+          "count": 0,
+          "percentage": 0,
+          "totalRevenue": 0,
+          "revenuePercentage": 0,
+          "storeRevenuePercentage": 0
+        }
+      ],
+      "topCustomers": [
+        {
+          "customerId": "KH1",
+          "customerName": "KH1",
+          "ordersCount": 2,
+          "totalSpend": 200000,
+          "averageOrderValue": 100000,
+          "lastOrderDate": "2026-09-01",
+          "daysSinceLastOrder": 0,
+          "firstOrderDate": "2026-09-01",
+          "rfmScore": {
+            "r": 5,
+            "f": 2,
+            "m": 5,
+            "total": 12
+          },
+          "segment": "VIP",
+          "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+        }
+      ],
+      "vipCustomers": [
+        {
+          "customerId": "KH1",
+          "customerName": "KH1",
+          "ordersCount": 2,
+          "totalSpend": 200000,
+          "averageOrderValue": 100000,
+          "lastOrderDate": "2026-09-01",
+          "daysSinceLastOrder": 0,
+          "firstOrderDate": "2026-09-01",
+          "rfmScore": {
+            "r": 5,
+            "f": 2,
+            "m": 5,
+            "total": 12
+          },
+          "segment": "VIP",
+          "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+        }
+      ],
+      "atRiskCustomers": [],
+      "churnedCustomers": [],
+      "newCustomers": []
+    },
+    "products": {
+      "products": [
+        {
+          "id": "Trà",
+          "name": "Trà",
+          "category": "Đồ uống",
+          "quantity": 2,
+          "revenue": 200000,
+          "revenueShare": 100,
+          "cumulativeShare": 100,
+          "abcGroup": "A",
+          "costPrice": 60000,
+          "profit": 80000,
+          "profitMargin": 40,
+          "ordersCount": 2,
+          "trend": "Ổn định",
+          "monthlyTrendData": [
+            {
+              "month": "2026-09",
+              "quantity": 2,
+              "revenue": 200000
+            }
+          ],
+          "recommendation": "Đáng đầu tư",
+          "reasonText": "Sản phẩm chủ lực (Nhóm A), đóng góp 100.0% doanh thu. Luôn ưu tiên giữ hàng và vị trí trưng bày đẹp."
+        }
+      ],
+      "abcSummary": {
+        "groupA": {
+          "count": 1,
+          "revenue": 200000,
+          "percentage": 100
+        },
+        "groupB": {
+          "count": 0,
+          "revenue": 0,
+          "percentage": 0
+        },
+        "groupC": {
+          "count": 0,
+          "revenue": 0,
+          "percentage": 0
+        }
+      },
+      "topProfitable": [
+        {
+          "id": "Trà",
+          "name": "Trà",
+          "category": "Đồ uống",
+          "quantity": 2,
+          "revenue": 200000,
+          "revenueShare": 100,
+          "cumulativeShare": 100,
+          "abcGroup": "A",
+          "costPrice": 60000,
+          "profit": 80000,
+          "profitMargin": 40,
+          "ordersCount": 2,
+          "trend": "Ổn định",
+          "monthlyTrendData": [
+            {
+              "month": "2026-09",
+              "quantity": 2,
+              "revenue": 200000
+            }
+          ],
+          "recommendation": "Đáng đầu tư",
+          "reasonText": "Sản phẩm chủ lực (Nhóm A), đóng góp 100.0% doanh thu. Luôn ưu tiên giữ hàng và vị trí trưng bày đẹp."
+        }
+      ],
+      "topLossMaking": [],
+      "topRevenue": [
+        {
+          "id": "Trà",
+          "name": "Trà",
+          "category": "Đồ uống",
+          "quantity": 2,
+          "revenue": 200000,
+          "revenueShare": 100,
+          "cumulativeShare": 100,
+          "abcGroup": "A",
+          "costPrice": 60000,
+          "profit": 80000,
+          "profitMargin": 40,
+          "ordersCount": 2,
+          "trend": "Ổn định",
+          "monthlyTrendData": [
+            {
+              "month": "2026-09",
+              "quantity": 2,
+              "revenue": 200000
+            }
+          ],
+          "recommendation": "Đáng đầu tư",
+          "reasonText": "Sản phẩm chủ lực (Nhóm A), đóng góp 100.0% doanh thu. Luôn ưu tiên giữ hàng và vị trí trưng bày đẹp."
+        }
+      ],
+      "slowMoving": [],
+      "coOccurrences": [],
+      "hasCostPrice": true,
+      "hasOrderId": true
+    },
+    "conclusions": {
+      "overview": "Cửa hàng ghi nhận **2 đơn** với tổng doanh thu **200.000 đ** trong 1 ngày, ghi nhận lợi nhuận gộp **80.000 đ** trên phần dữ liệu có giá vốn (100% doanh thu; biên lãi **40%**). Giá trị trung bình mỗi đơn đạt **100.000 đ**.",
+      "monthlyTrend": "Dữ liệu phát sinh trong 1 tháng duy nhất.",
+      "productABC": "Chỉ **1 sản phẩm nhóm A** (chiếm 100% số lượng mặt hàng) đã đóng góp tới **100% doanh thu** (200.000 đ). Trong khi đó, **0 sản phẩm nhóm C** chỉ đóng góp 0%.",
+      "productProfit": "Mặt hàng mang lại nhiều tiền lãi nhất là **Trà** với lợi nhuận gộp **80.000 đ** (biên lãi **40%**).",
+      "customerRFM": "**1 khách VIP** đóng góp **100% doanh thu** (200.000 đ). Có **1/1 khách hàng** (100%) đã quay lại mua sắm từ 2 lần trở lên.",
+      "crossSelling": "Chưa có cặp sản phẩm mua cùng nổi bật."
+    },
+    "actions": [
+      {
+        "id": "prod-abc-stock",
+        "type": "inventory",
+        "severity": "high",
+        "title": "Đảm bảo nguồn hàng cho 1 sản phẩm chủ lực (Nhóm A)",
+        "description": "Chỉ 1 mặt hàng này mang về 100% doanh thu toàn tiệm (200.000 đ), dẫn đầu là \"Trà\". Hãy luôn kiểm kê và đặt hàng nhà cung cấp sớm để tránh đứt hàng vào giờ cao điểm.",
+        "metricBadge": "100% doanh thu"
+      },
+      {
+        "id": "overview-aov",
+        "type": "pricing",
+        "severity": "info",
+        "title": "Gia tăng giá trị đơn hàng trung bình (hiện tại 100.000 đ)",
+        "description": "Để tăng thêm doanh thu mà không cần tìm thêm khách mới, hãy áp dụng chương trình \"Hóa đơn trên 130.000 đ được tặng thêm quà nhỏ hoặc miễn phí giao hàng\".",
+        "metricBadge": "AOV: 100.000 đ"
+      }
+    ]
+  },
+  "comparison": {
+    "id": "order-long-drop_exact_duplicates",
+    "checks": 27,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/order-long.csv",
+    "uncertain": false
+  }
+}

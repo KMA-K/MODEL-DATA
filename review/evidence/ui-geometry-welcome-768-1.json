@@ -1,0 +1,93 @@
+{
+  "viewport": 768,
+  "scrollWidth": 768,
+  "rects": [
+    {
+      "selector": ".app-header",
+      "x": 0,
+      "y": 41,
+      "width": 768,
+      "height": 120.5,
+      "top": "41px",
+      "zIndex": "90",
+      "display": "flex",
+      "fontSize": "16px",
+      "padding": "14px 20px",
+      "visibleAtCenter": "<header class=\"app-header\"><button type=\"button\" class=\"brand-wrapper\" title=\"Bấm để quay về trang chính\" aria-label=\"Bấm vào logo để quay về trang chính\"><div class=\"brand-logo\"><svg xmlns=\"http://ww"
+    },
+    {
+      "selector": ".privacy-banner",
+      "x": 0,
+      "y": 120.5,
+      "width": 768,
+      "height": 42.5,
+      "top": "0px",
+      "zIndex": "100",
+      "display": "flex",
+      "fontSize": "13px",
+      "padding": "11px 20px",
+      "visibleAtCenter": "<span>Dữ liệu được xử lý 100% trên thiết bị của bạn, bảo mật tuyệt đối và <strong>KHÔNG</strong> gửi lên bất kỳ máy chủ nào.</span>"
+    },
+    {
+      "selector": ".brand-wrapper",
+      "x": 20,
+      "y": 55,
+      "width": 267.234375,
+      "height": 46,
+      "top": "auto",
+      "zIndex": "auto",
+      "display": "flex",
+      "fontSize": "13.3333px",
+      "padding": "0px",
+      "visibleAtCenter": "<p class=\"brand-title\">Bán Hàng <span>Smarter.</span></p>"
+    },
+    {
+      "selector": ".app-header .btn",
+      "x": 235.6875,
+      "y": 113.75,
+      "width": 190.171875,
+      "height": 32,
+      "top": "auto",
+      "zIndex": "auto",
+      "display": "flex",
+      "fontSize": "13px",
+      "padding": "7px 14px",
+      "visibleAtCenter": "<div class=\"privacy-banner\"><span class=\"privacy-pulse\"></span><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" str"
+    },
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+      "selector": "h1",
+      "x": 16,
+      "y": 232.59375,
+      "width": 736,
+      "height": 96.59375,
+      "top": "auto",
+      "zIndex": "auto",
+      "display": "block",
+      "fontSize": "42px",
+      "padding": "0px",
+      "visibleAtCenter": "<span>Thấu hiểu từng con số.</span>"
+    },
+    null,
+    null,
+    null,
+    {
+      "selector": ".theme-trigger",
+      "x": 551.34375,
+      "y": 935,
+      "width": 192.65625,
+      "height": 41,
+      "top": "935px",
+      "zIndex": "95",
+      "display": "flex",
+      "fontSize": "14px",
+      "padding": "10px 18px",
+      "visibleAtCenter": "<span>Tùy chỉnh giao diện</span>"
+    }
+  ],
+  "overflow": []
+}

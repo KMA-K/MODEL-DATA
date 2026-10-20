@@ -1,0 +1,513 @@
+[
+  {
+    "file": "fixtures/duplicate-real.xlsx",
+    "parsed": {
+      "headers": [
+        "Ngày bán",
+        "Tên sản phẩm",
+        "Mã sản phẩm",
+        "Danh mục",
+        "Số lượng",
+        "Doanh thu",
+        "Đơn giá",
+        "Giá vốn",
+        "Mã đơn hàng",
+        "Mã khách hàng"
+      ],
+      "totalRows": 2
+    },
+    "comparison": {
+      "id": "duplicate-real.xlsx",
+      "checks": 27,
+      "failures": [],
+      "status": "PASS"
+    },
+    "overview": {
+      "hasReliableOrderIds": true,
+      "orderIdStatus": "reliable",
+      "hasOrderCollisions": false,
+      "costCoverage": 100,
+      "totalRevenue": 200000,
+      "totalQuantity": 2,
+      "totalOrders": 1,
+      "averageOrderValue": 200000,
+      "totalProfit": 80000,
+      "profitMargin": 40,
+      "uniqueProducts": 1,
+      "uniqueCustomers": 1,
+      "dateRange": {
+        "start": "2026-09-01",
+        "end": "2026-09-01",
+        "days": 1
+      },
+      "monthlyRevenue": [
+        {
+          "month": "2026-09",
+          "revenue": 200000,
+          "orders": 1,
+          "profit": 80000
+        }
+      ]
+    },
+    "report": {
+      "totalRows": 2,
+      "validRows": 2,
+      "droppedTotal": 0,
+      "reasons": [],
+      "suspectedDuplicates": {
+        "count": 1,
+        "sampleRows": [
+          2
+        ],
+        "totalRevenue": 100000,
+        "policyApplied": "keep_all"
+      }
+    },
+    "elapsedMs": 9
+  },
+  {
+    "file": "fixtures/duplicate-real.xls",
+    "parsed": {
+      "headers": [
+        "Ngày bán",
+        "Tên sản phẩm",
+        "Mã sản phẩm",
+        "Danh mục",
+        "Số lượng",
+        "Doanh thu",
+        "Đơn giá",
+        "Giá vốn",
+        "Mã đơn hàng",
+        "Mã khách hàng"
+      ],
+      "totalRows": 2
+    },
+    "comparison": {
+      "id": "duplicate-real.xls",
+      "checks": 27,
+      "failures": [],
+      "status": "PASS"
+    },
+    "overview": {
+      "hasReliableOrderIds": true,
+      "orderIdStatus": "reliable",
+      "hasOrderCollisions": false,
+      "costCoverage": 100,
+      "totalRevenue": 200000,
+      "totalQuantity": 2,
+      "totalOrders": 1,
+      "averageOrderValue": 200000,
+      "totalProfit": 80000,
+      "profitMargin": 40,
+      "uniqueProducts": 1,
+      "uniqueCustomers": 1,
+      "dateRange": {
+        "start": "2026-09-01",
+        "end": "2026-09-01",
+        "days": 1
+      },
+      "monthlyRevenue": [
+        {
+          "month": "2026-09",
+          "revenue": 200000,
+          "orders": 1,
+          "profit": 80000
+        }
+      ]
+    },
+    "report": {
+      "totalRows": 2,
+      "validRows": 2,
+      "droppedTotal": 0,
+      "reasons": [],
+      "suspectedDuplicates": {
+        "count": 1,
+        "sampleRows": [
+          2
+        ],
+        "totalRevenue": 100000,
+        "policyApplied": "keep_all"
+      }
+    },
+    "elapsedMs": 4
+  },
+  {
+    "file": "fixtures/scale-50000.xlsx",
+    "parsed": {
+      "headers": [
+        "Ngày bán",
+        "Tên sản phẩm",
+        "Mã sản phẩm",
+        "Danh mục",
+        "Số lượng",
+        "Doanh thu",
+        "Đơn giá",
+        "Giá vốn",
+        "Mã đơn hàng",
+        "Mã khách hàng"
+      ],
+      "totalRows": 50000
+    },
+    "comparison": {
+      "id": "scale-50000.xlsx",
+      "checks": 953,
+      "failures": [],
+      "status": "PASS"
+    },
+    "overview": {
+      "hasReliableOrderIds": true,
+      "orderIdStatus": "reused_disambiguated",
+      "hasOrderCollisions": true,
+      "orderIdWarning": "Phát hiện mã hóa đơn bị tái sử dụng qua nhiều ngày hoặc nhiều khách hàng. Hệ thống đã phân tách thành các giao dịch riêng biệt.",
+      "costCoverage": 100,
+      "totalRevenue": 5000000,
+      "totalQuantity": 50000,
+      "totalOrders": 9000,
+      "averageOrderValue": 556,
+      "totalProfit": 2000000,
+      "profitMargin": 40,
+      "uniqueProducts": 25,
+      "uniqueCustomers": 270,
+      "dateRange": {
+        "start": "2026-09-01",
+        "end": "2026-09-02",
+        "days": 2
+      },
+      "monthlyRevenue": [
+        {
+          "month": "2026-09",
+          "revenue": 5000000,
+          "orders": 9000,
+          "profit": 2000000
+        }
+      ]
+    },
+    "report": {
+      "totalRows": 50000,
+      "validRows": 50000,
+      "droppedTotal": 0,
+      "reasons": [],
+      "suspectedDuplicates": {
+        "count": 5000,
+        "sampleRows": [
+          46,
+          47,
+          48,
+          49,
+          50
+        ],
+        "totalRevenue": 500000,
+        "policyApplied": "keep_all"
+      }
+    },
+    "elapsedMs": 2238
+  },
+  {
+    "file": "project/review/data/excel-first-normal.xlsx",
+    "parsed": {
+      "headers": [
+        "Mã đơn hàng",
+        "Ngày bán",
+        "Tên sản phẩm",
+        "Số lượng",
+        "Đơn giá",
+        "Doanh thu",
+        "Giá vốn",
+        "Mã khách hàng",
+        "Danh mục"
+      ],
+      "totalRows": 1
+    },
+    "comparison": {
+      "id": "excel-first-normal.xlsx",
+      "checks": 27,
+      "failures": [],
+      "status": "PASS"
+    },
+    "overview": {
+      "hasReliableOrderIds": true,
+      "orderIdStatus": "reliable",
+      "hasOrderCollisions": false,
+      "costCoverage": 100,
+      "totalRevenue": 100000,
+      "totalQuantity": 2,
+      "totalOrders": 1,
+      "averageOrderValue": 100000,
+      "totalProfit": 40000,
+      "profitMargin": 40,
+      "uniqueProducts": 1,
+      "uniqueCustomers": 1,
+      "dateRange": {
+        "start": "2026-09-30",
+        "end": "2026-09-30",
+        "days": 1
+      },
+      "monthlyRevenue": [
+        {
+          "month": "2026-09",
+          "revenue": 100000,
+          "orders": 1,
+          "profit": 40000
+        }
+      ]
+    },
+    "report": {
+      "totalRows": 1,
+      "validRows": 1,
+      "droppedTotal": 0,
+      "reasons": []
+    },
+    "elapsedMs": 2
+  },
+  {
+    "file": "project/review/data/excel-blanks.xlsx",
+    "parsed": {
+      "headers": [
+        "Mã đơn hàng",
+        "Ngày bán",
+        "Tên sản phẩm",
+        "Số lượng",
+        "Đơn giá",
+        "Doanh thu",
+        "Giá vốn",
+        "Mã khách hàng",
+        "Danh mục"
+      ],
+      "totalRows": 2
+    },
+    "comparison": {
+      "id": "excel-blanks.xlsx",
+      "checks": 35,
+      "failures": [],
+      "status": "PASS"
+    },
+    "overview": {
+      "hasReliableOrderIds": true,
+      "orderIdStatus": "reliable",
+      "hasOrderCollisions": false,
+      "costCoverage": 83,
+      "totalRevenue": 120000,
+      "totalQuantity": 4,
+      "totalOrders": 2,
+      "averageOrderValue": 60000,
+      "totalProfit": 40000,
+      "profitMargin": 40,
+      "uniqueProducts": 2,
+      "uniqueCustomers": 2,
+      "dateRange": {
+        "start": "2026-09-30",
+        "end": "2026-09-30",
+        "days": 1
+      },
+      "monthlyRevenue": [
+        {
+          "month": "2026-09",
+          "revenue": 120000,
+          "orders": 2,
+          "profit": 40000
+        }
+      ]
+    },
+    "report": {
+      "totalRows": 2,
+      "validRows": 2,
+      "droppedTotal": 0,
+      "reasons": []
+    },
+    "elapsedMs": 1
+  },
+  {
+    "file": "project/review/data/excel-date-serial.xlsx",
+    "parsed": {
+      "headers": [
+        "Mã đơn hàng",
+        "Ngày bán",
+        "Tên sản phẩm",
+        "Số lượng",
+        "Đơn giá",
+        "Doanh thu",
+        "Giá vốn",
+        "Mã khách hàng",
+        "Danh mục"
+      ],
+      "totalRows": 1
+    },
+    "comparison": {
+      "id": "excel-date-serial.xlsx",
+      "checks": 27,
+      "failures": [],
+      "status": "PASS"
+    },
+    "overview": {
+      "hasReliableOrderIds": true,
+      "orderIdStatus": "reliable",
+      "hasOrderCollisions": false,
+      "costCoverage": 100,
+      "totalRevenue": 100000,
+      "totalQuantity": 2,
+      "totalOrders": 1,
+      "averageOrderValue": 100000,
+      "totalProfit": 40000,
+      "profitMargin": 40,
+      "uniqueProducts": 1,
+      "uniqueCustomers": 1,
+      "dateRange": {
+        "start": "2026-09-30",
+        "end": "2026-09-30",
+        "days": 1
+      },
+      "monthlyRevenue": [
+        {
+          "month": "2026-09",
+          "revenue": 100000,
+          "orders": 1,
+          "profit": 40000
+        }
+      ]
+    },
+    "report": {
+      "totalRows": 1,
+      "validRows": 1,
+      "droppedTotal": 0,
+      "reasons": []
+    },
+    "elapsedMs": 1
+  },
+  {
+    "file": "project/review/data/excel-data-second.xlsx",
+    "error": "Trang tính Excel không chứa dòng dữ liệu nào.",
+    "elapsedMs": 2
+  },
+  {
+    "file": "project/review/data/excel-header-row3.xlsx",
+    "parsed": {
+      "headers": [
+        "BÁO CÁO",
+        "__EMPTY",
+        "__EMPTY_1",
+        "__EMPTY_2",
+        "__EMPTY_3",
+        "__EMPTY_4",
+        "__EMPTY_5",
+        "__EMPTY_6",
+        "__EMPTY_7"
+      ],
+      "totalRows": 2
+    },
+    "comparison": {
+      "id": "excel-header-row3.xlsx",
+      "checks": 19,
+      "failures": [],
+      "status": "PASS"
+    },
+    "overview": {
+      "hasReliableOrderIds": false,
+      "orderIdStatus": "missing",
+      "hasOrderCollisions": false,
+      "costCoverage": 0,
+      "totalRevenue": 0,
+      "totalQuantity": 0,
+      "totalOrders": 0,
+      "averageOrderValue": 0,
+      "totalProfit": null,
+      "profitMargin": null,
+      "uniqueProducts": 0,
+      "uniqueCustomers": null,
+      "dateRange": {
+        "start": "",
+        "end": "",
+        "days": 0
+      },
+      "monthlyRevenue": []
+    },
+    "report": {
+      "totalRows": 2,
+      "validRows": 0,
+      "droppedTotal": 2,
+      "reasons": [
+        {
+          "reason": "missing_date",
+          "description": "Ngày bán bị trống hoặc không đúng định dạng ngày tháng",
+          "count": 2,
+          "sampleRows": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    "elapsedMs": 1
+  },
+  {
+    "file": "project/review/data/legacy.xls",
+    "parsed": {
+      "headers": [
+        "Mã đơn hàng",
+        "Ngày bán",
+        "Tên sản phẩm",
+        "Số lượng",
+        "Đơn giá",
+        "Doanh thu",
+        "Giá vốn",
+        "Mã khách hàng",
+        "Danh mục"
+      ],
+      "totalRows": 1
+    },
+    "comparison": {
+      "id": "legacy.xls",
+      "checks": 27,
+      "failures": [],
+      "status": "PASS"
+    },
+    "overview": {
+      "hasReliableOrderIds": true,
+      "orderIdStatus": "reliable",
+      "hasOrderCollisions": false,
+      "costCoverage": 100,
+      "totalRevenue": 100000,
+      "totalQuantity": 2,
+      "totalOrders": 1,
+      "averageOrderValue": 100000,
+      "totalProfit": 40000,
+      "profitMargin": 40,
+      "uniqueProducts": 1,
+      "uniqueCustomers": 1,
+      "dateRange": {
+        "start": "2026-09-30",
+        "end": "2026-09-30",
+        "days": 1
+      },
+      "monthlyRevenue": [
+        {
+          "month": "2026-09",
+          "revenue": 100000,
+          "orders": 1,
+          "profit": 40000
+        }
+      ]
+    },
+    "report": {
+      "totalRows": 1,
+      "validRows": 1,
+      "droppedTotal": 0,
+      "reasons": []
+    },
+    "elapsedMs": 2
+  },
+  {
+    "file": "fixtures/empty.xlsx",
+    "error": "Trang tính Excel không chứa dòng dữ liệu nào.",
+    "elapsedMs": 0
+  },
+  {
+    "file": "fixtures/corrupt.xlsx",
+    "error": "Unsupported ZIP file",
+    "elapsedMs": 0
+  },
+  {
+    "file": "fixtures/header-only.xlsx",
+    "error": "Trang tính Excel không chứa dòng dữ liệu nào.",
+    "elapsedMs": 1
+  }
+]

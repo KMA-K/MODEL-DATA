@@ -1,0 +1,33 @@
+diff --git "a/D:\\2.TEST_PROJECT\\MODEL data\\review\\project\\src\\core\\analyzer.ts" "b/D:\\2.TEST_PROJECT\\MODEL data\\src\\core\\analyzer.ts"
+index 4c9d771..bc533f4 100644
+--- "a/D:\\2.TEST_PROJECT\\MODEL data\\review\\project\\src\\core\\analyzer.ts"	
++++ "b/D:\\2.TEST_PROJECT\\MODEL data\\src\\core\\analyzer.ts"	
+@@ -26,8 +26,8 @@ export function runFullAnalysis(
+   // 3. Tính toán sản phẩm
+   const productAnalysis = calculateProductMetrics(cleanRows);
+ 
+-  // 4. Tính toán khách hàng
+-  const customerAnalysis = calculateCustomerMetrics(cleanRows);
++  // 4. Tính toán khách hàng (truyền totalStoreRevenue để tính tỷ trọng chính xác)
++  const customerAnalysis = calculateCustomerMetrics(cleanRows, overview.totalRevenue);
+ 
+   // 5. Sinh gợi ý hành động
+   return finishAnalysis(overview, productAnalysis, customerAnalysis, report, mapping);
+@@ -43,7 +43,7 @@ function finishAnalysis(overview: OverviewMetrics, productAnalysis: ProductAnaly
+     monthlyTrend: generateMonthlyRevenueConclusion(overview),
+     productABC: generateAbcConclusion(productAnalysis),
+     productProfit: generateProfitMarginConclusion(productAnalysis),
+-    customerRFM: generateCustomerConclusion(customerAnalysis),
++    customerRFM: generateCustomerConclusion(customerAnalysis, overview.hasReliableOrderIds),
+     crossSelling: productAnalysis.hasOrderId 
+       ? (productAnalysis.coOccurrences[0] 
+           ? `Cặp đôi mua cùng nhiều nhất là "${productAnalysis.coOccurrences[0].productA}" & "${productAnalysis.coOccurrences[0].productB}" (${productAnalysis.coOccurrences[0].count} đơn).` 
+@@ -79,7 +79,7 @@ export async function runFullAnalysisAsync(
+   await stage(55, 'Đang tìm sản phẩm bán chạy và các cặp mua cùng...');
+   const productAnalysis = calculateProductMetrics(cleanRows);
+   await stage(75, 'Đang phân nhóm khách hàng RFM...');
+-  const customerAnalysis = calculateCustomerMetrics(cleanRows);
++  const customerAnalysis = calculateCustomerMetrics(cleanRows, overview.totalRevenue);
+   await stage(92, 'Đang tổng hợp nhận xét và gợi ý hành động...');
+   const result = finishAnalysis(overview, productAnalysis, customerAnalysis, report, mapping);
+   await stage(100, 'Phân tích hoàn tất!');

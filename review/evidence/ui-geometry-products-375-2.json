@@ -1,0 +1,332 @@
+{
+  "viewport": 375,
+  "scrollWidth": 501,
+  "rects": [
+    {
+      "selector": ".app-header",
+      "x": 0,
+      "y": 41,
+      "width": 375,
+      "height": 140,
+      "top": "41px",
+      "zIndex": "90",
+      "display": "flex",
+      "fontSize": "16px",
+      "padding": "14px 20px",
+      "visibleAtCenter": "<header class=\"app-header\"><button type=\"button\" class=\"brand-wrapper\" title=\"Bấm để quay về trang chính\" aria-label=\"Bấm vào logo để quay về trang chính\"><div class=\"brand-logo\"><svg xmlns=\"http://ww"
+    },
+    {
+      "selector": ".privacy-banner",
+      "x": 0,
+      "y": 140,
+      "width": 375,
+      "height": 81.5,
+      "top": "0px",
+      "zIndex": "100",
+      "display": "flex",
+      "fontSize": "13px",
+      "padding": "11px 20px",
+      "visibleAtCenter": "<strong>KHÔNG</strong>"
+    },
+    {
+      "selector": ".brand-wrapper",
+      "x": 20,
+      "y": 55,
+      "width": 267.234375,
+      "height": 46,
+      "top": "auto",
+      "zIndex": "auto",
+      "display": "flex",
+      "fontSize": "13.3333px",
+      "padding": "0px",
+      "visibleAtCenter": "<p class=\"brand-title\">Bán Hàng <span>Smarter.</span></p>"
+    },
+    {
+      "selector": ".app-header .btn",
+      "x": 195.671875,
+      "y": 123.5,
+      "width": 159.328125,
+      "height": 32,
+      "top": "auto",
+      "zIndex": "auto",
+      "display": "flex",
+      "fontSize": "13px",
+      "padding": "7px 14px",
+      "visibleAtCenter": "<div class=\"privacy-banner\"><span class=\"privacy-pulse\"></span><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" str"
+    },
+    {
+      "selector": ".tabs-container",
+      "x": 16,
+      "y": 545.25,
+      "width": 343,
+      "height": 51,
+      "top": "0px",
+      "zIndex": "auto",
+      "display": "flex",
+      "fontSize": "16px",
+      "padding": "5px",
+      "visibleAtCenter": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"17\" height=\"17\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucid"
+    },
+    null,
+    null,
+    {
+      "selector": ".kpi-value",
+      "x": 41,
+      "y": 691.25,
+      "width": 293,
+      "height": 27.59375,
+      "top": "auto",
+      "zIndex": "auto",
+      "display": "block",
+      "fontSize": "24px",
+      "padding": "0px",
+      "visibleAtCenter": "<div class=\"kpi-value\"><span class=\"animated-number\" aria-label=\"2\"><span aria-hidden=\"true\">2</span></span></div>"
+    },
+    {
+      "selector": ".kpi-title",
+      "x": 41,
+      "y": 649.25,
+      "width": 293,
+      "height": 34,
+      "top": "auto",
+      "zIndex": "auto",
+      "display": "flex",
+      "fontSize": "12.5px",
+      "padding": "0px",
+      "visibleAtCenter": "<div class=\"kpi-title\"><span>Nhóm A · Chủ lực</span><span class=\"icon-tile\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-"
+    },
+    {
+      "selector": "h1",
+      "x": 16,
+      "y": 262.75,
+      "width": 343,
+      "height": 42,
+      "top": "auto",
+      "zIndex": "auto",
+      "display": "block",
+      "fontSize": "28px",
+      "padding": "0px",
+      "visibleAtCenter": "<h1>Mỗi con số, một cơ hội.</h1>"
+    },
+    {
+      "selector": ".data-table td",
+      "x": 44,
+      "y": 3269.859375,
+      "width": 114.515625,
+      "height": 73,
+      "top": "auto",
+      "zIndex": "auto",
+      "display": "table-cell",
+      "fontSize": "13.5px",
+      "padding": "14px 16px"
+    },
+    {
+      "selector": ".data-table small",
+      "x": 60,
+      "y": 3289.109375,
+      "width": 58.890625,
+      "height": 34.25,
+      "top": "auto",
+      "zIndex": "auto",
+      "display": "inline",
+      "fontSize": "12px",
+      "padding": "0px"
+    },
+    {
+      "selector": ".table-pagination",
+      "x": 43,
+      "y": 3733.359375,
+      "width": 289,
+      "height": 55,
+      "top": "auto",
+      "zIndex": "auto",
+      "display": "block",
+      "fontSize": "16px",
+      "padding": "0px"
+    },
+    {
+      "selector": ".theme-trigger",
+      "x": 158.34375,
+      "y": 935,
+      "width": 192.65625,
+      "height": 41,
+      "top": "935px",
+      "zIndex": "95",
+      "display": "flex",
+      "fontSize": "14px",
+      "padding": "10px 18px",
+      "visibleAtCenter": "<span>Tùy chỉnh giao diện</span>"
+    }
+  ],
+  "overflow": [
+    {
+      "tag": "BUTTON",
+      "cls": "tab-btn ",
+      "text": "Khách hàng\n6",
+      "right": 501.03125,
+      "left": 327.984375
+    },
+    {
+      "tag": "SPAN",
+      "cls": "tab-count",
+      "text": "6",
+      "right": 481.03125,
+      "left": 461.109375
+    },
+    {
+      "tag": "TABLE",
+      "cls": "data-table",
+      "text": "Sản phẩm\n\tSố lượng\n\tDoanh thu\n\tABC\tLợi nhuận\n\tXu hướng\tGợi ý",
+      "right": 747.046875,
+      "left": 44
+    },
+    {
+      "tag": "THEAD",
+      "cls": "",
+      "text": "Sản phẩm\n\tSố lượng\n\tDoanh thu\n\tABC\tLợi nhuận\n\tXu hướng\tGợi ý",
+      "right": 747.046875,
+      "left": 44
+    },
+    {
+      "tag": "TR",
+      "cls": "",
+      "text": "Sản phẩm\n\tSố lượng\n\tDoanh thu\n\tABC\tLợi nhuận\n\tXu hướng\tGợi ý",
+      "right": 747.046875,
+      "left": 44
+    },
+    {
+      "tag": "TH",
+      "cls": "numeric",
+      "text": "Doanh thu",
+      "right": 385.890625,
+      "left": 269.140625
+    },
+    {
+      "tag": "TH",
+      "cls": "",
+      "text": "ABC",
+      "right": 450.46875,
+      "left": 385.890625
+    },
+    {
+      "tag": "TH",
+      "cls": "numeric",
+      "text": "Lợi nhuận",
+      "right": 566.3125,
+      "left": 450.46875
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "sort-button",
+      "text": "Lợi nhuận",
+      "right": 550.3125,
+      "left": 466.46875
+    },
+    {
+      "tag": "svg",
+      "cls": {},
+      "right": 550.3125,
+      "left": 538.3125
+    },
+    {
+      "tag": "path",
+      "cls": {},
+      "right": 543.8125,
+      "left": 539.8125
+    },
+    {
+      "tag": "path",
+      "cls": {},
+      "right": 541.8125,
+      "left": 541.8125
+    },
+    {
+      "tag": "path",
+      "cls": {},
+      "right": 548.8125,
+      "left": 543.8125
+    },
+    {
+      "tag": "path",
+      "cls": {},
+      "right": 547.3125,
+      "left": 543.8125
+    },
+    {
+      "tag": "path",
+      "cls": {},
+      "right": 545.8125,
+      "left": 543.8125
+    },
+    {
+      "tag": "TH",
+      "cls": "",
+      "text": "Xu hướng",
+      "right": 663.4375,
+      "left": 566.3125
+    },
+    {
+      "tag": "TH",
+      "cls": "",
+      "text": "Gợi ý",
+      "right": 747.046875,
+      "left": 663.4375
+    },
+    {
+      "tag": "TBODY",
+      "cls": "",
+      "text": "Cà phêĐồ dùng thử\t15\t500.000 đ\tA\t200.000 đ\tTăng trưởng\tĐáng ",
+      "right": 747.046875,
+      "left": 44
+    },
+    {
+      "tag": "TR",
+      "cls": "",
+      "text": "Cà phêĐồ dùng thử\t15\t500.000 đ\tA\t200.000 đ\tTăng trưởng\tĐáng ",
+      "right": 747.046875,
+      "left": 44
+    },
+    {
+      "tag": "TD",
+      "cls": "numeric font-semibold",
+      "text": "500.000 đ",
+      "right": 385.890625,
+      "left": 269.140625
+    },
+    {
+      "tag": "TD",
+      "cls": "",
+      "text": "A",
+      "right": 450.46875,
+      "left": 385.890625
+    },
+    {
+      "tag": "SPAN",
+      "cls": "badge badge-a",
+      "text": "A",
+      "right": 434.46875,
+      "left": 401.890625
+    },
+    {
+      "tag": "TD",
+      "cls": "numeric",
+      "text": "200.000 đ",
+      "right": 566.3125,
+      "left": 450.46875
+    },
+    {
+      "tag": "TD",
+      "cls": "",
+      "text": "Tăng trưởng",
+      "right": 663.4375,
+      "left": 566.3125
+    },
+    {
+      "tag": "SPAN",
+      "cls": "inline-flex items-center gap-1 whitespace-nowrap",
+      "text": "Tăng trưởng",
+      "right": 627.09375,
+      "left": 582.3125
+    }
+  ]
+}

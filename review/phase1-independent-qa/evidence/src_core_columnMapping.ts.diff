@@ -1,0 +1,12 @@
+diff --git "a/D:\\2.TEST_PROJECT\\MODEL data\\review\\project\\src\\core\\columnMapping.ts" "b/D:\\2.TEST_PROJECT\\MODEL data\\src\\core\\columnMapping.ts"
+index 2e3dd2b..f95ba93 100644
+--- "a/D:\\2.TEST_PROJECT\\MODEL data\\review\\project\\src\\core\\columnMapping.ts"	
++++ "b/D:\\2.TEST_PROJECT\\MODEL data\\src\\core\\columnMapping.ts"	
+@@ -1,6 +1,6 @@
+ import type { ColumnMappingConfig } from './types';
+ 
+-const COLUMN_KEYWORDS: Record<keyof ColumnMappingConfig, string[]> = {
++const COLUMN_KEYWORDS: Record<keyof Omit<ColumnMappingConfig, 'deduplicatePolicy'>, string[]> = {
+   dateCol: [
+     'ngày bán', 'ngay ban', 'ngày', 'ngay', 'ngày tạo', 'ngay tao',
+     'thời gian', 'thoi gian', 'ngay_ban', 'order date', 'order_date',

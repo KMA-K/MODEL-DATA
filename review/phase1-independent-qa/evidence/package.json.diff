@@ -1,0 +1,13 @@
+diff --git "a/D:\\2.TEST_PROJECT\\MODEL data\\review\\project\\package.json" "b/D:\\2.TEST_PROJECT\\MODEL data\\package.json"
+index ff67d34..be1b9a9 100644
+--- "a/D:\\2.TEST_PROJECT\\MODEL data\\review\\project\\package.json"	
++++ "b/D:\\2.TEST_PROJECT\\MODEL data\\package.json"	
+@@ -23,7 +23,7 @@
+     "react-dom": "^19.2.8",
+     "recharts": "^3.10.1",
+     "tailwindcss": "^4.3.3",
+-    "xlsx": "^0.18.5"
++    "xlsx": "https://cdn.sheetjs.com/xlsx-0.20.3/xlsx-0.20.3.tgz"
+   },
+   "devDependencies": {
+     "@playwright/test": "^1.64.0",

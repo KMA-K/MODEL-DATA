@@ -1,0 +1,1614 @@
+{
+  "expected": {
+    "rawRows": 28,
+    "validRows": 28,
+    "dropped": 0,
+    "invalid": [],
+    "duplicateRows": [],
+    "suspectedCount": 0,
+    "suspectedRevenue": 0,
+    "keptIndices": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "revenue": 1000000,
+    "quantity": 55,
+    "profit": 400000,
+    "margin": 40,
+    "costCoverage": 100,
+    "orders": 18,
+    "aov": 55556,
+    "products": [
+      {
+        "name": "Cà phê",
+        "revenue": 500000,
+        "quantity": 15,
+        "profit": 200000,
+        "orders": 8,
+        "category": "Đồ dùng thử",
+        "monthly": {
+          "2026-05": 100000,
+          "2026-06": 100000,
+          "2026-08": 100000,
+          "2026-09": 200000
+        },
+        "abc": "A"
+      },
+      {
+        "name": "Sữa đặc",
+        "revenue": 300000,
+        "quantity": 12,
+        "profit": 120000,
+        "orders": 6,
+        "category": "Đồ dùng thử",
+        "monthly": {
+          "2026-05": 100000,
+          "2026-06": 50000,
+          "2026-08": 100000,
+          "2026-09": 50000
+        },
+        "abc": "A"
+      },
+      {
+        "name": "Trà",
+        "revenue": 150000,
+        "quantity": 10,
+        "profit": 60000,
+        "orders": 5,
+        "category": "Đồ dùng thử",
+        "monthly": {
+          "2026-05": 30000,
+          "2026-08": 30000,
+          "2026-09": 90000
+        },
+        "abc": "B"
+      },
+      {
+        "name": "Bánh",
+        "revenue": 30000,
+        "quantity": 8,
+        "profit": 12000,
+        "orders": 4,
+        "category": "Đồ dùng thử",
+        "monthly": {
+          "2026-05": 7500,
+          "2026-08": 15000,
+          "2026-09": 7500
+        },
+        "abc": "C"
+      },
+      {
+        "name": "Nến",
+        "revenue": 15000,
+        "quantity": 6,
+        "profit": 6000,
+        "orders": 3,
+        "category": "Đồ dùng thử",
+        "monthly": {
+          "2026-05": 5000,
+          "2026-08": 5000,
+          "2026-09": 5000
+        },
+        "abc": "C"
+      },
+      {
+        "name": "Kẹo",
+        "revenue": 5000,
+        "quantity": 4,
+        "profit": 2000,
+        "orders": 2,
+        "category": "Đồ dùng thử",
+        "monthly": {
+          "2026-05": 2500,
+          "2026-08": 2500
+        },
+        "abc": "C"
+      }
+    ],
+    "customers": [
+      {
+        "id": "KH-vip",
+        "spend": 350000,
+        "last": "2026-09-30",
+        "frequency": 4,
+        "recency": 0,
+        "segment": "VIP"
+      },
+      {
+        "id": "KH-risk",
+        "spend": 300000,
+        "last": "2026-06-10",
+        "frequency": 4,
+        "recency": 112,
+        "segment": "Có nguy cơ rời đi"
+      },
+      {
+        "id": "KH-normal",
+        "spend": 165000,
+        "last": "2026-08-02",
+        "frequency": 3,
+        "recency": 59,
+        "segment": "Bình thường"
+      },
+      {
+        "id": "KH-loyal",
+        "spend": 162500,
+        "last": "2026-09-30",
+        "frequency": 5,
+        "recency": 0,
+        "segment": "Trung thành"
+      },
+      {
+        "id": "KH-churn",
+        "spend": 15000,
+        "last": "2026-05-01",
+        "frequency": 1,
+        "recency": 152,
+        "segment": "Đã ngừng mua"
+      },
+      {
+        "id": "KH-new",
+        "spend": 7500,
+        "last": "2026-09-30",
+        "frequency": 1,
+        "recency": 0,
+        "segment": "Mới"
+      }
+    ],
+    "identifiedRevenue": 1000000,
+    "coverage": 100,
+    "vipRevenue": 350000,
+    "storeVipShare": 35,
+    "identifiedVipShare": 35,
+    "vipCount": 1,
+    "repeatCount": 4,
+    "repeatRate": 66.7,
+    "pairs": [
+      {
+        "names": [
+          "Cà phê",
+          "Sữa đặc"
+        ],
+        "count": 3,
+        "percentage": 42.9
+      },
+      {
+        "names": [
+          "Bánh",
+          "Kẹo"
+        ],
+        "count": 2,
+        "percentage": 28.6
+      },
+      {
+        "names": [
+          "Bánh",
+          "Nến"
+        ],
+        "count": 2,
+        "percentage": 28.6
+      },
+      {
+        "names": [
+          "Kẹo",
+          "Nến"
+        ],
+        "count": 2,
+        "percentage": 28.6
+      },
+      {
+        "names": [
+          "Bánh",
+          "Sữa đặc"
+        ],
+        "count": 1,
+        "percentage": 14.3
+      },
+      {
+        "names": [
+          "Kẹo",
+          "Sữa đặc"
+        ],
+        "count": 1,
+        "percentage": 14.3
+      },
+      {
+        "names": [
+          "Nến",
+          "Sữa đặc"
+        ],
+        "count": 1,
+        "percentage": 14.3
+      },
+      {
+        "names": [
+          "Bánh",
+          "Trà"
+        ],
+        "count": 1,
+        "percentage": 14.3
+      },
+      {
+        "names": [
+          "Nến",
+          "Trà"
+        ],
+        "count": 1,
+        "percentage": 14.3
+      }
+    ],
+    "uncertain": false,
+    "missingOrders": false
+  },
+  "actual": {
+    "cleaningReport": {
+      "totalRows": 28,
+      "validRows": 28,
+      "droppedTotal": 0,
+      "reasons": []
+    },
+    "overview": {
+      "hasReliableOrderIds": true,
+      "orderIdStatus": "reliable",
+      "hasOrderCollisions": false,
+      "costCoverage": 100,
+      "totalRevenue": 1000000,
+      "totalQuantity": 55,
+      "totalOrders": 18,
+      "averageOrderValue": 55556,
+      "totalProfit": 400000,
+      "profitMargin": 40,
+      "uniqueProducts": 6,
+      "uniqueCustomers": 6,
+      "dateRange": {
+        "start": "2026-05-01",
+        "end": "2026-09-30",
+        "days": 153
+      },
+      "monthlyRevenue": [
+        {
+          "month": "2026-05",
+          "revenue": 245000,
+          "orders": 5,
+          "profit": 98000
+        },
+        {
+          "month": "2026-06",
+          "revenue": 150000,
+          "orders": 2,
+          "profit": 60000
+        },
+        {
+          "month": "2026-08",
+          "revenue": 252500,
+          "orders": 5,
+          "profit": 101000
+        },
+        {
+          "month": "2026-09",
+          "revenue": 352500,
+          "orders": 6,
+          "profit": 141000
+        }
+      ]
+    },
+    "productAnalysis": {
+      "products": [
+        {
+          "id": "Cà phê",
+          "name": "Cà phê",
+          "category": "Đồ dùng thử",
+          "quantity": 15,
+          "revenue": 500000,
+          "revenueShare": 50,
+          "cumulativeShare": 50,
+          "abcGroup": "A",
+          "costPrice": 20000,
+          "profit": 200000,
+          "profitMargin": 40,
+          "ordersCount": 8,
+          "trend": "Tăng trưởng",
+          "monthlyTrendData": [
+            {
+              "month": "2026-05",
+              "quantity": 3,
+              "revenue": 100000
+            },
+            {
+              "month": "2026-06",
+              "quantity": 4,
+              "revenue": 100000
+            },
+            {
+              "month": "2026-08",
+              "quantity": 5,
+              "revenue": 100000
+            },
+            {
+              "month": "2026-09",
+              "quantity": 3,
+              "revenue": 200000
+            }
+          ],
+          "recommendation": "Đáng đầu tư",
+          "reasonText": "Sản phẩm chủ lực (Nhóm A), đóng góp 50.0% doanh thu. Luôn ưu tiên giữ hàng và vị trí trưng bày đẹp."
+        },
+        {
+          "id": "Sữa đặc",
+          "name": "Sữa đặc",
+          "category": "Đồ dùng thử",
+          "quantity": 12,
+          "revenue": 300000,
+          "revenueShare": 30,
+          "cumulativeShare": 80,
+          "abcGroup": "A",
+          "costPrice": 15000,
+          "profit": 120000,
+          "profitMargin": 40,
+          "ordersCount": 6,
+          "trend": "Giảm sút",
+          "monthlyTrendData": [
+            {
+              "month": "2026-05",
+              "quantity": 5,
+              "revenue": 100000
+            },
+            {
+              "month": "2026-06",
+              "quantity": 1,
+              "revenue": 50000
+            },
+            {
+              "month": "2026-08",
+              "quantity": 4,
+              "revenue": 100000
+            },
+            {
+              "month": "2026-09",
+              "quantity": 2,
+              "revenue": 50000
+            }
+          ],
+          "recommendation": "Đáng đầu tư",
+          "reasonText": "Sản phẩm chủ lực (Nhóm A), đóng góp 30.0% doanh thu. Luôn ưu tiên giữ hàng và vị trí trưng bày đẹp."
+        },
+        {
+          "id": "Trà",
+          "name": "Trà",
+          "category": "Đồ dùng thử",
+          "quantity": 10,
+          "revenue": 150000,
+          "revenueShare": 15,
+          "cumulativeShare": 95,
+          "abcGroup": "B",
+          "costPrice": 9000,
+          "profit": 60000,
+          "profitMargin": 40,
+          "ordersCount": 5,
+          "trend": "Tăng trưởng",
+          "monthlyTrendData": [
+            {
+              "month": "2026-05",
+              "quantity": 3,
+              "revenue": 30000
+            },
+            {
+              "month": "2026-06",
+              "quantity": 0,
+              "revenue": 0
+            },
+            {
+              "month": "2026-08",
+              "quantity": 1,
+              "revenue": 30000
+            },
+            {
+              "month": "2026-09",
+              "quantity": 6,
+              "revenue": 90000
+            }
+          ],
+          "recommendation": "Đáng đầu tư",
+          "reasonText": "Tiềm năng trở thành sản phẩm chủ lực với đà tăng trưởng tốt trong tháng gần nhất."
+        },
+        {
+          "id": "Bánh",
+          "name": "Bánh",
+          "category": "Đồ dùng thử",
+          "quantity": 8,
+          "revenue": 30000,
+          "revenueShare": 3,
+          "cumulativeShare": 98,
+          "abcGroup": "C",
+          "costPrice": 2250,
+          "profit": 12000,
+          "profitMargin": 40,
+          "ordersCount": 4,
+          "trend": "Giảm sút",
+          "monthlyTrendData": [
+            {
+              "month": "2026-05",
+              "quantity": 2,
+              "revenue": 7500
+            },
+            {
+              "month": "2026-06",
+              "quantity": 0,
+              "revenue": 0
+            },
+            {
+              "month": "2026-08",
+              "quantity": 4,
+              "revenue": 15000
+            },
+            {
+              "month": "2026-09",
+              "quantity": 2,
+              "revenue": 7500
+            }
+          ],
+          "recommendation": "Cân nhắc loại bỏ",
+          "reasonText": "Doanh thu thấp (<5% toàn tiệm) và sức mua đang giảm. Xem xét xả hàng tồn để giải phóng vốn."
+        },
+        {
+          "id": "Nến",
+          "name": "Nến",
+          "category": "Đồ dùng thử",
+          "quantity": 6,
+          "revenue": 15000,
+          "revenueShare": 1.5,
+          "cumulativeShare": 99.5,
+          "abcGroup": "C",
+          "costPrice": 1500,
+          "profit": 6000,
+          "profitMargin": 40,
+          "ordersCount": 3,
+          "trend": "Ổn định",
+          "monthlyTrendData": [
+            {
+              "month": "2026-05",
+              "quantity": 3,
+              "revenue": 5000
+            },
+            {
+              "month": "2026-06",
+              "quantity": 0,
+              "revenue": 0
+            },
+            {
+              "month": "2026-08",
+              "quantity": 1,
+              "revenue": 5000
+            },
+            {
+              "month": "2026-09",
+              "quantity": 2,
+              "revenue": 5000
+            }
+          ],
+          "recommendation": "Duy trì ổn định",
+          "reasonText": "Sản phẩm nhóm C, doanh thu nhỏ nhưng doanh số đều đặn. Không nên ôm hàng số lượng lớn."
+        },
+        {
+          "id": "Kẹo",
+          "name": "Kẹo",
+          "category": "Đồ dùng thử",
+          "quantity": 4,
+          "revenue": 5000,
+          "revenueShare": 0.5,
+          "cumulativeShare": 100,
+          "abcGroup": "C",
+          "costPrice": 750,
+          "profit": 2000,
+          "profitMargin": 40,
+          "ordersCount": 2,
+          "trend": "Giảm sút",
+          "monthlyTrendData": [
+            {
+              "month": "2026-05",
+              "quantity": 3,
+              "revenue": 2500
+            },
+            {
+              "month": "2026-06",
+              "quantity": 0,
+              "revenue": 0
+            },
+            {
+              "month": "2026-08",
+              "quantity": 1,
+              "revenue": 2500
+            },
+            {
+              "month": "2026-09",
+              "quantity": 0,
+              "revenue": 0
+            }
+          ],
+          "recommendation": "Cân nhắc loại bỏ",
+          "reasonText": "Doanh thu thấp (<5% toàn tiệm) và sức mua đang giảm. Xem xét xả hàng tồn để giải phóng vốn."
+        }
+      ],
+      "abcSummary": {
+        "groupA": {
+          "count": 2,
+          "revenue": 800000,
+          "percentage": 80
+        },
+        "groupB": {
+          "count": 1,
+          "revenue": 150000,
+          "percentage": 15
+        },
+        "groupC": {
+          "count": 3,
+          "revenue": 50000,
+          "percentage": 5
+        }
+      },
+      "topProfitable": [
+        {
+          "id": "Cà phê",
+          "name": "Cà phê",
+          "category": "Đồ dùng thử",
+          "quantity": 15,
+          "revenue": 500000,
+          "revenueShare": 50,
+          "cumulativeShare": 50,
+          "abcGroup": "A",
+          "costPrice": 20000,
+          "profit": 200000,
+          "profitMargin": 40,
+          "ordersCount": 8,
+          "trend": "Tăng trưởng",
+          "monthlyTrendData": [
+            {
+              "month": "2026-05",
+              "quantity": 3,
+              "revenue": 100000
+            },
+            {
+              "month": "2026-06",
+              "quantity": 4,
+              "revenue": 100000
+            },
+            {
+              "month": "2026-08",
+              "quantity": 5,
+              "revenue": 100000
+            },
+            {
+              "month": "2026-09",
+              "quantity": 3,
+              "revenue": 200000
+            }
+          ],
+          "recommendation": "Đáng đầu tư",
+          "reasonText": "Sản phẩm chủ lực (Nhóm A), đóng góp 50.0% doanh thu. Luôn ưu tiên giữ hàng và vị trí trưng bày đẹp."
+        },
+        {
+          "id": "Sữa đặc",
+          "name": "Sữa đặc",
+          "category": "Đồ dùng thử",
+          "quantity": 12,
+          "revenue": 300000,
+          "revenueShare": 30,
+          "cumulativeShare": 80,
+          "abcGroup": "A",
+          "costPrice": 15000,
+          "profit": 120000,
+          "profitMargin": 40,
+          "ordersCount": 6,
+          "trend": "Giảm sút",
+          "monthlyTrendData": [
+            {
+              "month": "2026-05",
+              "quantity": 5,
+              "revenue": 100000
+            },
+            {
+              "month": "2026-06",
+              "quantity": 1,
+              "revenue": 50000
+            },
+            {
+              "month": "2026-08",
+              "quantity": 4,
+              "revenue": 100000
+            },
+            {
+              "month": "2026-09",
+              "quantity": 2,
+              "revenue": 50000
+            }
+          ],
+          "recommendation": "Đáng đầu tư",
+          "reasonText": "Sản phẩm chủ lực (Nhóm A), đóng góp 30.0% doanh thu. Luôn ưu tiên giữ hàng và vị trí trưng bày đẹp."
+        },
+        {
+          "id": "Trà",
+          "name": "Trà",
+          "category": "Đồ dùng thử",
+          "quantity": 10,
+          "revenue": 150000,
+          "revenueShare": 15,
+          "cumulativeShare": 95,
+          "abcGroup": "B",
+          "costPrice": 9000,
+          "profit": 60000,
+          "profitMargin": 40,
+          "ordersCount": 5,
+          "trend": "Tăng trưởng",
+          "monthlyTrendData": [
+            {
+              "month": "2026-05",
+              "quantity": 3,
+              "revenue": 30000
+            },
+            {
+              "month": "2026-06",
+              "quantity": 0,
+              "revenue": 0
+            },
+            {
+              "month": "2026-08",
+              "quantity": 1,
+              "revenue": 30000
+            },
+            {
+              "month": "2026-09",
+              "quantity": 6,
+              "revenue": 90000
+            }
+          ],
+          "recommendation": "Đáng đầu tư",
+          "reasonText": "Tiềm năng trở thành sản phẩm chủ lực với đà tăng trưởng tốt trong tháng gần nhất."
+        },
+        {
+          "id": "Bánh",
+          "name": "Bánh",
+          "category": "Đồ dùng thử",
+          "quantity": 8,
+          "revenue": 30000,
+          "revenueShare": 3,
+          "cumulativeShare": 98,
+          "abcGroup": "C",
+          "costPrice": 2250,
+          "profit": 12000,
+          "profitMargin": 40,
+          "ordersCount": 4,
+          "trend": "Giảm sút",
+          "monthlyTrendData": [
+            {
+              "month": "2026-05",
+              "quantity": 2,
+              "revenue": 7500
+            },
+            {
+              "month": "2026-06",
+              "quantity": 0,
+              "revenue": 0
+            },
+            {
+              "month": "2026-08",
+              "quantity": 4,
+              "revenue": 15000
+            },
+            {
+              "month": "2026-09",
+              "quantity": 2,
+              "revenue": 7500
+            }
+          ],
+          "recommendation": "Cân nhắc loại bỏ",
+          "reasonText": "Doanh thu thấp (<5% toàn tiệm) và sức mua đang giảm. Xem xét xả hàng tồn để giải phóng vốn."
+        },
+        {
+          "id": "Nến",
+          "name": "Nến",
+          "category": "Đồ dùng thử",
+          "quantity": 6,
+          "revenue": 15000,
+          "revenueShare": 1.5,
+          "cumulativeShare": 99.5,
+          "abcGroup": "C",
+          "costPrice": 1500,
+          "profit": 6000,
+          "profitMargin": 40,
+          "ordersCount": 3,
+          "trend": "Ổn định",
+          "monthlyTrendData": [
+            {
+              "month": "2026-05",
+              "quantity": 3,
+              "revenue": 5000
+            },
+            {
+              "month": "2026-06",
+              "quantity": 0,
+              "revenue": 0
+            },
+            {
+              "month": "2026-08",
+              "quantity": 1,
+              "revenue": 5000
+            },
+            {
+              "month": "2026-09",
+              "quantity": 2,
+              "revenue": 5000
+            }
+          ],
+          "recommendation": "Duy trì ổn định",
+          "reasonText": "Sản phẩm nhóm C, doanh thu nhỏ nhưng doanh số đều đặn. Không nên ôm hàng số lượng lớn."
+        },
+        {
+          "id": "Kẹo",
+          "name": "Kẹo",
+          "category": "Đồ dùng thử",
+          "quantity": 4,
+          "revenue": 5000,
+          "revenueShare": 0.5,
+          "cumulativeShare": 100,
+          "abcGroup": "C",
+          "costPrice": 750,
+          "profit": 2000,
+          "profitMargin": 40,
+          "ordersCount": 2,
+          "trend": "Giảm sút",
+          "monthlyTrendData": [
+            {
+              "month": "2026-05",
+              "quantity": 3,
+              "revenue": 2500
+            },
+            {
+              "month": "2026-06",
+              "quantity": 0,
+              "revenue": 0
+            },
+            {
+              "month": "2026-08",
+              "quantity": 1,
+              "revenue": 2500
+            },
+            {
+              "month": "2026-09",
+              "quantity": 0,
+              "revenue": 0
+            }
+          ],
+          "recommendation": "Cân nhắc loại bỏ",
+          "reasonText": "Doanh thu thấp (<5% toàn tiệm) và sức mua đang giảm. Xem xét xả hàng tồn để giải phóng vốn."
+        }
+      ],
+      "topLossMaking": [],
+      "topRevenue": [
+        {
+          "id": "Cà phê",
+          "name": "Cà phê",
+          "category": "Đồ dùng thử",
+          "quantity": 15,
+          "revenue": 500000,
+          "revenueShare": 50,
+          "cumulativeShare": 50,
+          "abcGroup": "A",
+          "costPrice": 20000,
+          "profit": 200000,
+          "profitMargin": 40,
+          "ordersCount": 8,
+          "trend": "Tăng trưởng",
+          "monthlyTrendData": [
+            {
+              "month": "2026-05",
+              "quantity": 3,
+              "revenue": 100000
+            },
+            {
+              "month": "2026-06",
+              "quantity": 4,
+              "revenue": 100000
+            },
+            {
+              "month": "2026-08",
+              "quantity": 5,
+              "revenue": 100000
+            },
+            {
+              "month": "2026-09",
+              "quantity": 3,
+              "revenue": 200000
+            }
+          ],
+          "recommendation": "Đáng đầu tư",
+          "reasonText": "Sản phẩm chủ lực (Nhóm A), đóng góp 50.0% doanh thu. Luôn ưu tiên giữ hàng và vị trí trưng bày đẹp."
+        },
+        {
+          "id": "Sữa đặc",
+          "name": "Sữa đặc",
+          "category": "Đồ dùng thử",
+          "quantity": 12,
+          "revenue": 300000,
+          "revenueShare": 30,
+          "cumulativeShare": 80,
+          "abcGroup": "A",
+          "costPrice": 15000,
+          "profit": 120000,
+          "profitMargin": 40,
+          "ordersCount": 6,
+          "trend": "Giảm sút",
+          "monthlyTrendData": [
+            {
+              "month": "2026-05",
+              "quantity": 5,
+              "revenue": 100000
+            },
+            {
+              "month": "2026-06",
+              "quantity": 1,
+              "revenue": 50000
+            },
+            {
+              "month": "2026-08",
+              "quantity": 4,
+              "revenue": 100000
+            },
+            {
+              "month": "2026-09",
+              "quantity": 2,
+              "revenue": 50000
+            }
+          ],
+          "recommendation": "Đáng đầu tư",
+          "reasonText": "Sản phẩm chủ lực (Nhóm A), đóng góp 30.0% doanh thu. Luôn ưu tiên giữ hàng và vị trí trưng bày đẹp."
+        },
+        {
+          "id": "Trà",
+          "name": "Trà",
+          "category": "Đồ dùng thử",
+          "quantity": 10,
+          "revenue": 150000,
+          "revenueShare": 15,
+          "cumulativeShare": 95,
+          "abcGroup": "B",
+          "costPrice": 9000,
+          "profit": 60000,
+          "profitMargin": 40,
+          "ordersCount": 5,
+          "trend": "Tăng trưởng",
+          "monthlyTrendData": [
+            {
+              "month": "2026-05",
+              "quantity": 3,
+              "revenue": 30000
+            },
+            {
+              "month": "2026-06",
+              "quantity": 0,
+              "revenue": 0
+            },
+            {
+              "month": "2026-08",
+              "quantity": 1,
+              "revenue": 30000
+            },
+            {
+              "month": "2026-09",
+              "quantity": 6,
+              "revenue": 90000
+            }
+          ],
+          "recommendation": "Đáng đầu tư",
+          "reasonText": "Tiềm năng trở thành sản phẩm chủ lực với đà tăng trưởng tốt trong tháng gần nhất."
+        },
+        {
+          "id": "Bánh",
+          "name": "Bánh",
+          "category": "Đồ dùng thử",
+          "quantity": 8,
+          "revenue": 30000,
+          "revenueShare": 3,
+          "cumulativeShare": 98,
+          "abcGroup": "C",
+          "costPrice": 2250,
+          "profit": 12000,
+          "profitMargin": 40,
+          "ordersCount": 4,
+          "trend": "Giảm sút",
+          "monthlyTrendData": [
+            {
+              "month": "2026-05",
+              "quantity": 2,
+              "revenue": 7500
+            },
+            {
+              "month": "2026-06",
+              "quantity": 0,
+              "revenue": 0
+            },
+            {
+              "month": "2026-08",
+              "quantity": 4,
+              "revenue": 15000
+            },
+            {
+              "month": "2026-09",
+              "quantity": 2,
+              "revenue": 7500
+            }
+          ],
+          "recommendation": "Cân nhắc loại bỏ",
+          "reasonText": "Doanh thu thấp (<5% toàn tiệm) và sức mua đang giảm. Xem xét xả hàng tồn để giải phóng vốn."
+        },
+        {
+          "id": "Nến",
+          "name": "Nến",
+          "category": "Đồ dùng thử",
+          "quantity": 6,
+          "revenue": 15000,
+          "revenueShare": 1.5,
+          "cumulativeShare": 99.5,
+          "abcGroup": "C",
+          "costPrice": 1500,
+          "profit": 6000,
+          "profitMargin": 40,
+          "ordersCount": 3,
+          "trend": "Ổn định",
+          "monthlyTrendData": [
+            {
+              "month": "2026-05",
+              "quantity": 3,
+              "revenue": 5000
+            },
+            {
+              "month": "2026-06",
+              "quantity": 0,
+              "revenue": 0
+            },
+            {
+              "month": "2026-08",
+              "quantity": 1,
+              "revenue": 5000
+            },
+            {
+              "month": "2026-09",
+              "quantity": 2,
+              "revenue": 5000
+            }
+          ],
+          "recommendation": "Duy trì ổn định",
+          "reasonText": "Sản phẩm nhóm C, doanh thu nhỏ nhưng doanh số đều đặn. Không nên ôm hàng số lượng lớn."
+        },
+        {
+          "id": "Kẹo",
+          "name": "Kẹo",
+          "category": "Đồ dùng thử",
+          "quantity": 4,
+          "revenue": 5000,
+          "revenueShare": 0.5,
+          "cumulativeShare": 100,
+          "abcGroup": "C",
+          "costPrice": 750,
+          "profit": 2000,
+          "profitMargin": 40,
+          "ordersCount": 2,
+          "trend": "Giảm sút",
+          "monthlyTrendData": [
+            {
+              "month": "2026-05",
+              "quantity": 3,
+              "revenue": 2500
+            },
+            {
+              "month": "2026-06",
+              "quantity": 0,
+              "revenue": 0
+            },
+            {
+              "month": "2026-08",
+              "quantity": 1,
+              "revenue": 2500
+            },
+            {
+              "month": "2026-09",
+              "quantity": 0,
+              "revenue": 0
+            }
+          ],
+          "recommendation": "Cân nhắc loại bỏ",
+          "reasonText": "Doanh thu thấp (<5% toàn tiệm) và sức mua đang giảm. Xem xét xả hàng tồn để giải phóng vốn."
+        }
+      ],
+      "slowMoving": [
+        {
+          "id": "Bánh",
+          "name": "Bánh",
+          "category": "Đồ dùng thử",
+          "quantity": 8,
+          "revenue": 30000,
+          "revenueShare": 3,
+          "cumulativeShare": 98,
+          "abcGroup": "C",
+          "costPrice": 2250,
+          "profit": 12000,
+          "profitMargin": 40,
+          "ordersCount": 4,
+          "trend": "Giảm sút",
+          "monthlyTrendData": [
+            {
+              "month": "2026-05",
+              "quantity": 2,
+              "revenue": 7500
+            },
+            {
+              "month": "2026-06",
+              "quantity": 0,
+              "revenue": 0
+            },
+            {
+              "month": "2026-08",
+              "quantity": 4,
+              "revenue": 15000
+            },
+            {
+              "month": "2026-09",
+              "quantity": 2,
+              "revenue": 7500
+            }
+          ],
+          "recommendation": "Cân nhắc loại bỏ",
+          "reasonText": "Doanh thu thấp (<5% toàn tiệm) và sức mua đang giảm. Xem xét xả hàng tồn để giải phóng vốn."
+        },
+        {
+          "id": "Kẹo",
+          "name": "Kẹo",
+          "category": "Đồ dùng thử",
+          "quantity": 4,
+          "revenue": 5000,
+          "revenueShare": 0.5,
+          "cumulativeShare": 100,
+          "abcGroup": "C",
+          "costPrice": 750,
+          "profit": 2000,
+          "profitMargin": 40,
+          "ordersCount": 2,
+          "trend": "Giảm sút",
+          "monthlyTrendData": [
+            {
+              "month": "2026-05",
+              "quantity": 3,
+              "revenue": 2500
+            },
+            {
+              "month": "2026-06",
+              "quantity": 0,
+              "revenue": 0
+            },
+            {
+              "month": "2026-08",
+              "quantity": 1,
+              "revenue": 2500
+            },
+            {
+              "month": "2026-09",
+              "quantity": 0,
+              "revenue": 0
+            }
+          ],
+          "recommendation": "Cân nhắc loại bỏ",
+          "reasonText": "Doanh thu thấp (<5% toàn tiệm) và sức mua đang giảm. Xem xét xả hàng tồn để giải phóng vốn."
+        }
+      ],
+      "coOccurrences": [
+        {
+          "productA": "Cà phê",
+          "productB": "Sữa đặc",
+          "count": 3,
+          "percentage": 42.9
+        },
+        {
+          "productA": "Bánh",
+          "productB": "Kẹo",
+          "count": 2,
+          "percentage": 28.6
+        },
+        {
+          "productA": "Bánh",
+          "productB": "Nến",
+          "count": 2,
+          "percentage": 28.6
+        },
+        {
+          "productA": "Kẹo",
+          "productB": "Nến",
+          "count": 2,
+          "percentage": 28.6
+        },
+        {
+          "productA": "Bánh",
+          "productB": "Sữa đặc",
+          "count": 1,
+          "percentage": 14.3
+        },
+        {
+          "productA": "Kẹo",
+          "productB": "Sữa đặc",
+          "count": 1,
+          "percentage": 14.3
+        },
+        {
+          "productA": "Nến",
+          "productB": "Sữa đặc",
+          "count": 1,
+          "percentage": 14.3
+        },
+        {
+          "productA": "Bánh",
+          "productB": "Trà",
+          "count": 1,
+          "percentage": 14.3
+        },
+        {
+          "productA": "Nến",
+          "productB": "Trà",
+          "count": 1,
+          "percentage": 14.3
+        }
+      ],
+      "hasCostPrice": true,
+      "hasOrderId": true
+    },
+    "customerAnalysis": {
+      "hasCustomerData": true,
+      "customers": [
+        {
+          "customerId": "KH-vip",
+          "customerName": "KH-vip",
+          "ordersCount": 4,
+          "totalSpend": 350000,
+          "averageOrderValue": 87500,
+          "lastOrderDate": "2026-09-30",
+          "daysSinceLastOrder": 0,
+          "firstOrderDate": "2026-08-01",
+          "rfmScore": {
+            "r": 5,
+            "f": 3,
+            "m": 5,
+            "total": 13
+          },
+          "segment": "VIP",
+          "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+        },
+        {
+          "customerId": "KH-risk",
+          "customerName": "KH-risk",
+          "ordersCount": 4,
+          "totalSpend": 300000,
+          "averageOrderValue": 75000,
+          "lastOrderDate": "2026-06-10",
+          "daysSinceLastOrder": 112,
+          "firstOrderDate": "2026-05-01",
+          "rfmScore": {
+            "r": 2,
+            "f": 3,
+            "m": 5,
+            "total": 10
+          },
+          "segment": "Có nguy cơ rời đi",
+          "actionAdvice": "Từng chi tiêu nhiều nhưng quá 60 ngày chưa quay lại. Cần liên hệ ngay!"
+        },
+        {
+          "customerId": "KH-normal",
+          "customerName": "KH-normal",
+          "ordersCount": 3,
+          "totalSpend": 165000,
+          "averageOrderValue": 55000,
+          "lastOrderDate": "2026-08-02",
+          "daysSinceLastOrder": 59,
+          "firstOrderDate": "2026-05-01",
+          "rfmScore": {
+            "r": 4,
+            "f": 3,
+            "m": 4,
+            "total": 11
+          },
+          "segment": "Bình thường",
+          "actionAdvice": "Duy trì chăm sóc tiêu chuẩn."
+        },
+        {
+          "customerId": "KH-loyal",
+          "customerName": "KH-loyal",
+          "ordersCount": 5,
+          "totalSpend": 162500,
+          "averageOrderValue": 32500,
+          "lastOrderDate": "2026-09-30",
+          "daysSinceLastOrder": 0,
+          "firstOrderDate": "2026-05-15",
+          "rfmScore": {
+            "r": 5,
+            "f": 4,
+            "m": 4,
+            "total": 13
+          },
+          "segment": "Trung thành",
+          "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+        },
+        {
+          "customerId": "KH-churn",
+          "customerName": "KH-churn",
+          "ordersCount": 1,
+          "totalSpend": 15000,
+          "averageOrderValue": 15000,
+          "lastOrderDate": "2026-05-01",
+          "daysSinceLastOrder": 152,
+          "firstOrderDate": "2026-05-01",
+          "rfmScore": {
+            "r": 2,
+            "f": 1,
+            "m": 2,
+            "total": 5
+          },
+          "segment": "Đã ngừng mua",
+          "actionAdvice": "Khách chỉ mua 1 lần từ lâu. Không cần tốn quá nhiều chi phí tiếp thị."
+        },
+        {
+          "customerId": "KH-new",
+          "customerName": "KH-new",
+          "ordersCount": 1,
+          "totalSpend": 7500,
+          "averageOrderValue": 7500,
+          "lastOrderDate": "2026-09-30",
+          "daysSinceLastOrder": 0,
+          "firstOrderDate": "2026-09-30",
+          "rfmScore": {
+            "r": 5,
+            "f": 1,
+            "m": 2,
+            "total": 8
+          },
+          "segment": "Mới",
+          "actionAdvice": "Khách hàng mới phát sinh đơn đầu tiên. Gửi ưu đãi cho lần mua tiếp theo."
+        }
+      ],
+      "totalCustomers": 6,
+      "totalStoreRevenue": 1000000,
+      "identifiedCustomerRevenue": 1000000,
+      "customerRevenueCoverage": 100,
+      "repeatCustomersCount": 4,
+      "repeatCustomerRate": 66.7,
+      "segmentsSummary": [
+        {
+          "segment": "VIP",
+          "count": 1,
+          "percentage": 16.7,
+          "totalRevenue": 350000,
+          "revenuePercentage": 35,
+          "storeRevenuePercentage": 35
+        },
+        {
+          "segment": "Trung thành",
+          "count": 1,
+          "percentage": 16.7,
+          "totalRevenue": 162500,
+          "revenuePercentage": 16.3,
+          "storeRevenuePercentage": 16.3
+        },
+        {
+          "segment": "Mới",
+          "count": 1,
+          "percentage": 16.7,
+          "totalRevenue": 7500,
+          "revenuePercentage": 0.8,
+          "storeRevenuePercentage": 0.8
+        },
+        {
+          "segment": "Có nguy cơ rời đi",
+          "count": 1,
+          "percentage": 16.7,
+          "totalRevenue": 300000,
+          "revenuePercentage": 30,
+          "storeRevenuePercentage": 30
+        },
+        {
+          "segment": "Đã ngừng mua",
+          "count": 1,
+          "percentage": 16.7,
+          "totalRevenue": 15000,
+          "revenuePercentage": 1.5,
+          "storeRevenuePercentage": 1.5
+        },
+        {
+          "segment": "Bình thường",
+          "count": 1,
+          "percentage": 16.7,
+          "totalRevenue": 165000,
+          "revenuePercentage": 16.5,
+          "storeRevenuePercentage": 16.5
+        }
+      ],
+      "topCustomers": [
+        {
+          "customerId": "KH-vip",
+          "customerName": "KH-vip",
+          "ordersCount": 4,
+          "totalSpend": 350000,
+          "averageOrderValue": 87500,
+          "lastOrderDate": "2026-09-30",
+          "daysSinceLastOrder": 0,
+          "firstOrderDate": "2026-08-01",
+          "rfmScore": {
+            "r": 5,
+            "f": 3,
+            "m": 5,
+            "total": 13
+          },
+          "segment": "VIP",
+          "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+        },
+        {
+          "customerId": "KH-risk",
+          "customerName": "KH-risk",
+          "ordersCount": 4,
+          "totalSpend": 300000,
+          "averageOrderValue": 75000,
+          "lastOrderDate": "2026-06-10",
+          "daysSinceLastOrder": 112,
+          "firstOrderDate": "2026-05-01",
+          "rfmScore": {
+            "r": 2,
+            "f": 3,
+            "m": 5,
+            "total": 10
+          },
+          "segment": "Có nguy cơ rời đi",
+          "actionAdvice": "Từng chi tiêu nhiều nhưng quá 60 ngày chưa quay lại. Cần liên hệ ngay!"
+        },
+        {
+          "customerId": "KH-normal",
+          "customerName": "KH-normal",
+          "ordersCount": 3,
+          "totalSpend": 165000,
+          "averageOrderValue": 55000,
+          "lastOrderDate": "2026-08-02",
+          "daysSinceLastOrder": 59,
+          "firstOrderDate": "2026-05-01",
+          "rfmScore": {
+            "r": 4,
+            "f": 3,
+            "m": 4,
+            "total": 11
+          },
+          "segment": "Bình thường",
+          "actionAdvice": "Duy trì chăm sóc tiêu chuẩn."
+        },
+        {
+          "customerId": "KH-loyal",
+          "customerName": "KH-loyal",
+          "ordersCount": 5,
+          "totalSpend": 162500,
+          "averageOrderValue": 32500,
+          "lastOrderDate": "2026-09-30",
+          "daysSinceLastOrder": 0,
+          "firstOrderDate": "2026-05-15",
+          "rfmScore": {
+            "r": 5,
+            "f": 4,
+            "m": 4,
+            "total": 13
+          },
+          "segment": "Trung thành",
+          "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+        },
+        {
+          "customerId": "KH-churn",
+          "customerName": "KH-churn",
+          "ordersCount": 1,
+          "totalSpend": 15000,
+          "averageOrderValue": 15000,
+          "lastOrderDate": "2026-05-01",
+          "daysSinceLastOrder": 152,
+          "firstOrderDate": "2026-05-01",
+          "rfmScore": {
+            "r": 2,
+            "f": 1,
+            "m": 2,
+            "total": 5
+          },
+          "segment": "Đã ngừng mua",
+          "actionAdvice": "Khách chỉ mua 1 lần từ lâu. Không cần tốn quá nhiều chi phí tiếp thị."
+        },
+        {
+          "customerId": "KH-new",
+          "customerName": "KH-new",
+          "ordersCount": 1,
+          "totalSpend": 7500,
+          "averageOrderValue": 7500,
+          "lastOrderDate": "2026-09-30",
+          "daysSinceLastOrder": 0,
+          "firstOrderDate": "2026-09-30",
+          "rfmScore": {
+            "r": 5,
+            "f": 1,
+            "m": 2,
+            "total": 8
+          },
+          "segment": "Mới",
+          "actionAdvice": "Khách hàng mới phát sinh đơn đầu tiên. Gửi ưu đãi cho lần mua tiếp theo."
+        }
+      ],
+      "vipCustomers": [
+        {
+          "customerId": "KH-vip",
+          "customerName": "KH-vip",
+          "ordersCount": 4,
+          "totalSpend": 350000,
+          "averageOrderValue": 87500,
+          "lastOrderDate": "2026-09-30",
+          "daysSinceLastOrder": 0,
+          "firstOrderDate": "2026-08-01",
+          "rfmScore": {
+            "r": 5,
+            "f": 3,
+            "m": 5,
+            "total": 13
+          },
+          "segment": "VIP",
+          "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+        }
+      ],
+      "atRiskCustomers": [
+        {
+          "customerId": "KH-risk",
+          "customerName": "KH-risk",
+          "ordersCount": 4,
+          "totalSpend": 300000,
+          "averageOrderValue": 75000,
+          "lastOrderDate": "2026-06-10",
+          "daysSinceLastOrder": 112,
+          "firstOrderDate": "2026-05-01",
+          "rfmScore": {
+            "r": 2,
+            "f": 3,
+            "m": 5,
+            "total": 10
+          },
+          "segment": "Có nguy cơ rời đi",
+          "actionAdvice": "Từng chi tiêu nhiều nhưng quá 60 ngày chưa quay lại. Cần liên hệ ngay!"
+        }
+      ],
+      "churnedCustomers": [
+        {
+          "customerId": "KH-churn",
+          "customerName": "KH-churn",
+          "ordersCount": 1,
+          "totalSpend": 15000,
+          "averageOrderValue": 15000,
+          "lastOrderDate": "2026-05-01",
+          "daysSinceLastOrder": 152,
+          "firstOrderDate": "2026-05-01",
+          "rfmScore": {
+            "r": 2,
+            "f": 1,
+            "m": 2,
+            "total": 5
+          },
+          "segment": "Đã ngừng mua",
+          "actionAdvice": "Khách chỉ mua 1 lần từ lâu. Không cần tốn quá nhiều chi phí tiếp thị."
+        }
+      ],
+      "newCustomers": [
+        {
+          "customerId": "KH-new",
+          "customerName": "KH-new",
+          "ordersCount": 1,
+          "totalSpend": 7500,
+          "averageOrderValue": 7500,
+          "lastOrderDate": "2026-09-30",
+          "daysSinceLastOrder": 0,
+          "firstOrderDate": "2026-09-30",
+          "rfmScore": {
+            "r": 5,
+            "f": 1,
+            "m": 2,
+            "total": 8
+          },
+          "segment": "Mới",
+          "actionAdvice": "Khách hàng mới phát sinh đơn đầu tiên. Gửi ưu đãi cho lần mua tiếp theo."
+        }
+      ]
+    },
+    "actionSuggestions": [
+      {
+        "id": "cust-at-risk",
+        "type": "customer",
+        "severity": "high",
+        "title": "Chăm sóc 1 khách hàng đang có nguy cơ rời đi",
+        "description": "Nhóm này từng chi tiêu tổng cộng 300.000 đ nhưng đã hơn 60 ngày không mua hàng. Nên gửi tin nhắn Zalo/SMS thăm hỏi, tặng mã giảm giá tri ân hoặc giới thiệu mặt hàng họ từng yêu thích.",
+        "metricBadge": "1 khách cần liên hệ"
+      },
+      {
+        "id": "prod-abc-stock",
+        "type": "inventory",
+        "severity": "high",
+        "title": "Đảm bảo nguồn hàng cho 2 sản phẩm chủ lực (Nhóm A)",
+        "description": "Chỉ 2 mặt hàng này mang về 80% doanh thu toàn tiệm (800.000 đ), dẫn đầu là \"Cà phê\". Hãy luôn kiểm kê và đặt hàng nhà cung cấp sớm để tránh đứt hàng vào giờ cao điểm.",
+        "metricBadge": "80% doanh thu"
+      },
+      {
+        "id": "prod-slow-moving",
+        "type": "product",
+        "severity": "medium",
+        "title": "Thanh lý hoặc ngừng nhập 2 sản phẩm bán chậm",
+        "description": "Các mặt hàng như \"Bánh\", \"Kẹo\"... có doanh thu rất thấp và sức mua đang giảm sút. Bạn nên gom làm quà tặng kèm, bán thanh lý thu hồi vốn và không nên tiếp tục nhập thêm số lượng lớn.",
+        "metricBadge": "2 mã hàng bán chậm"
+      },
+      {
+        "id": "prod-cross-sell",
+        "type": "pricing",
+        "severity": "medium",
+        "title": "Tạo combo bán chéo \"Cà phê\" & \"Sữa đặc\"",
+        "description": "Khách hàng đã mua cùng 2 món này trong 3 hóa đơn (42.9% các đơn từ 2 món). Bạn nên đặt 2 món cạnh nhau trên kệ trưng bày hoặc tạo gói khuyến mãi mua kèm để gia tăng giá trị giỏ hàng.",
+        "metricBadge": "3 đơn mua chung"
+      },
+      {
+        "id": "overview-aov",
+        "type": "pricing",
+        "severity": "info",
+        "title": "Gia tăng giá trị đơn hàng trung bình (hiện tại 55.556 đ)",
+        "description": "Để tăng thêm doanh thu mà không cần tìm thêm khách mới, hãy áp dụng chương trình \"Hóa đơn trên 70.000 đ được tặng thêm quà nhỏ hoặc miễn phí giao hàng\".",
+        "metricBadge": "AOV: 55.556 đ"
+      }
+    ],
+    "conclusions": {
+      "overview": "Cửa hàng ghi nhận **18 đơn** với tổng doanh thu **1 triệu đ** trong 153 ngày, ghi nhận lợi nhuận gộp **400.000 đ** trên phần dữ liệu có giá vốn (100% doanh thu; biên lãi **40%**). Giá trị trung bình mỗi đơn đạt **55.556 đ**.",
+      "monthlyTrend": "Tháng cao điểm nhất là **2026-09** (352.500 đ). Doanh thu tháng gần nhất (2026-09) có xu hướng **tăng 39.6%** so với tháng trước.",
+      "productABC": "Chỉ **2 sản phẩm nhóm A** (chiếm 33% số lượng mặt hàng) đã đóng góp tới **80% doanh thu** (800.000 đ). Trong khi đó, **3 sản phẩm nhóm C** chỉ đóng góp 5%.",
+      "productProfit": "Mặt hàng mang lại nhiều tiền lãi nhất là **Cà phê** với lợi nhuận gộp **200.000 đ** (biên lãi **40%**).",
+      "customerRFM": "**1 khách VIP** đóng góp **35% doanh thu** (350.000 đ). Có **4/6 khách hàng** (66.7%) đã quay lại mua sắm từ 2 lần trở lên. Đáng chú ý có **1 khách hàng tiềm năng/VIP** đang có nguy cơ rời đi vì chưa mua lại trong hơn 60 ngày.",
+      "crossSelling": "Cặp đôi mua cùng nhiều nhất là \"Cà phê\" & \"Sữa đặc\" (3 đơn)."
+    },
+    "columnMapping": {
+      "dateCol": "Ngày bán",
+      "productCol": "Tên sản phẩm",
+      "quantityCol": "Số lượng",
+      "revenueCol": "Doanh thu",
+      "unitPriceCol": "Đơn giá",
+      "costPriceCol": "Giá vốn",
+      "orderIdCol": "Mã đơn hàng",
+      "customerIdCol": "Mã khách hàng",
+      "categoryCol": "Danh mục"
+    }
+  },
+  "comparison": {
+    "id": "oracle-28.csv",
+    "checks": 67,
+    "failures": [],
+    "status": "PASS"
+  }
+}

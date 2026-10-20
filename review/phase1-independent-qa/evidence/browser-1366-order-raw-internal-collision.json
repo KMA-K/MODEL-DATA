@@ -1,0 +1,1277 @@
+{
+  "id": "order-raw-internal-collision",
+  "width": 1366,
+  "fixture": "fixtures/order-raw-internal-collision.csv",
+  "mapping": [
+    {
+      "id": "map-dateCol",
+      "label": "Ngày bán *",
+      "value": "Ngày bán",
+      "options": [
+        {
+          "label": "Chọn cột tương ứng",
+          "value": ""
+        },
+        {
+          "label": "Ngày bán",
+          "value": "Ngày bán"
+        },
+        {
+          "label": "Tên sản phẩm",
+          "value": "Tên sản phẩm"
+        },
+        {
+          "label": "Mã sản phẩm",
+          "value": "Mã sản phẩm"
+        },
+        {
+          "label": "Danh mục",
+          "value": "Danh mục"
+        },
+        {
+          "label": "Số lượng",
+          "value": "Số lượng"
+        },
+        {
+          "label": "Doanh thu",
+          "value": "Doanh thu"
+        },
+        {
+          "label": "Đơn giá",
+          "value": "Đơn giá"
+        },
+        {
+          "label": "Giá vốn",
+          "value": "Giá vốn"
+        },
+        {
+          "label": "Mã đơn hàng",
+          "value": "Mã đơn hàng"
+        },
+        {
+          "label": "Mã khách hàng",
+          "value": "Mã khách hàng"
+        }
+      ]
+    },
+    {
+      "id": "map-productCol",
+      "label": "Tên / mã sản phẩm *",
+      "value": "Tên sản phẩm",
+      "options": [
+        {
+          "label": "Chọn cột tương ứng",
+          "value": ""
+        },
+        {
+          "label": "Ngày bán",
+          "value": "Ngày bán"
+        },
+        {
+          "label": "Tên sản phẩm",
+          "value": "Tên sản phẩm"
+        },
+        {
+          "label": "Mã sản phẩm",
+          "value": "Mã sản phẩm"
+        },
+        {
+          "label": "Danh mục",
+          "value": "Danh mục"
+        },
+        {
+          "label": "Số lượng",
+          "value": "Số lượng"
+        },
+        {
+          "label": "Doanh thu",
+          "value": "Doanh thu"
+        },
+        {
+          "label": "Đơn giá",
+          "value": "Đơn giá"
+        },
+        {
+          "label": "Giá vốn",
+          "value": "Giá vốn"
+        },
+        {
+          "label": "Mã đơn hàng",
+          "value": "Mã đơn hàng"
+        },
+        {
+          "label": "Mã khách hàng",
+          "value": "Mã khách hàng"
+        }
+      ]
+    },
+    {
+      "id": "map-quantityCol",
+      "label": "Số lượng *",
+      "value": "Số lượng",
+      "options": [
+        {
+          "label": "Chọn cột tương ứng",
+          "value": ""
+        },
+        {
+          "label": "Ngày bán",
+          "value": "Ngày bán"
+        },
+        {
+          "label": "Tên sản phẩm",
+          "value": "Tên sản phẩm"
+        },
+        {
+          "label": "Mã sản phẩm",
+          "value": "Mã sản phẩm"
+        },
+        {
+          "label": "Danh mục",
+          "value": "Danh mục"
+        },
+        {
+          "label": "Số lượng",
+          "value": "Số lượng"
+        },
+        {
+          "label": "Doanh thu",
+          "value": "Doanh thu"
+        },
+        {
+          "label": "Đơn giá",
+          "value": "Đơn giá"
+        },
+        {
+          "label": "Giá vốn",
+          "value": "Giá vốn"
+        },
+        {
+          "label": "Mã đơn hàng",
+          "value": "Mã đơn hàng"
+        },
+        {
+          "label": "Mã khách hàng",
+          "value": "Mã khách hàng"
+        }
+      ]
+    },
+    {
+      "id": "map-revenueCol",
+      "label": "Doanh thu",
+      "value": "Doanh thu",
+      "options": [
+        {
+          "label": "Không có / bỏ qua",
+          "value": ""
+        },
+        {
+          "label": "Ngày bán",
+          "value": "Ngày bán"
+        },
+        {
+          "label": "Tên sản phẩm",
+          "value": "Tên sản phẩm"
+        },
+        {
+          "label": "Mã sản phẩm",
+          "value": "Mã sản phẩm"
+        },
+        {
+          "label": "Danh mục",
+          "value": "Danh mục"
+        },
+        {
+          "label": "Số lượng",
+          "value": "Số lượng"
+        },
+        {
+          "label": "Doanh thu",
+          "value": "Doanh thu"
+        },
+        {
+          "label": "Đơn giá",
+          "value": "Đơn giá"
+        },
+        {
+          "label": "Giá vốn",
+          "value": "Giá vốn"
+        },
+        {
+          "label": "Mã đơn hàng",
+          "value": "Mã đơn hàng"
+        },
+        {
+          "label": "Mã khách hàng",
+          "value": "Mã khách hàng"
+        }
+      ]
+    },
+    {
+      "id": "map-unitPriceCol",
+      "label": "Đơn giá bán",
+      "value": "Đơn giá",
+      "options": [
+        {
+          "label": "Không có / bỏ qua",
+          "value": ""
+        },
+        {
+          "label": "Ngày bán",
+          "value": "Ngày bán"
+        },
+        {
+          "label": "Tên sản phẩm",
+          "value": "Tên sản phẩm"
+        },
+        {
+          "label": "Mã sản phẩm",
+          "value": "Mã sản phẩm"
+        },
+        {
+          "label": "Danh mục",
+          "value": "Danh mục"
+        },
+        {
+          "label": "Số lượng",
+          "value": "Số lượng"
+        },
+        {
+          "label": "Doanh thu",
+          "value": "Doanh thu"
+        },
+        {
+          "label": "Đơn giá",
+          "value": "Đơn giá"
+        },
+        {
+          "label": "Giá vốn",
+          "value": "Giá vốn"
+        },
+        {
+          "label": "Mã đơn hàng",
+          "value": "Mã đơn hàng"
+        },
+        {
+          "label": "Mã khách hàng",
+          "value": "Mã khách hàng"
+        }
+      ]
+    },
+    {
+      "id": "map-costPriceCol",
+      "label": "Giá vốn đơn vị",
+      "value": "Giá vốn",
+      "options": [
+        {
+          "label": "Không có / bỏ qua",
+          "value": ""
+        },
+        {
+          "label": "Ngày bán",
+          "value": "Ngày bán"
+        },
+        {
+          "label": "Tên sản phẩm",
+          "value": "Tên sản phẩm"
+        },
+        {
+          "label": "Mã sản phẩm",
+          "value": "Mã sản phẩm"
+        },
+        {
+          "label": "Danh mục",
+          "value": "Danh mục"
+        },
+        {
+          "label": "Số lượng",
+          "value": "Số lượng"
+        },
+        {
+          "label": "Doanh thu",
+          "value": "Doanh thu"
+        },
+        {
+          "label": "Đơn giá",
+          "value": "Đơn giá"
+        },
+        {
+          "label": "Giá vốn",
+          "value": "Giá vốn"
+        },
+        {
+          "label": "Mã đơn hàng",
+          "value": "Mã đơn hàng"
+        },
+        {
+          "label": "Mã khách hàng",
+          "value": "Mã khách hàng"
+        }
+      ]
+    },
+    {
+      "id": "map-orderIdCol",
+      "label": "Mã đơn / hóa đơn",
+      "value": "Mã đơn hàng",
+      "options": [
+        {
+          "label": "Không có / bỏ qua",
+          "value": ""
+        },
+        {
+          "label": "Ngày bán",
+          "value": "Ngày bán"
+        },
+        {
+          "label": "Tên sản phẩm",
+          "value": "Tên sản phẩm"
+        },
+        {
+          "label": "Mã sản phẩm",
+          "value": "Mã sản phẩm"
+        },
+        {
+          "label": "Danh mục",
+          "value": "Danh mục"
+        },
+        {
+          "label": "Số lượng",
+          "value": "Số lượng"
+        },
+        {
+          "label": "Doanh thu",
+          "value": "Doanh thu"
+        },
+        {
+          "label": "Đơn giá",
+          "value": "Đơn giá"
+        },
+        {
+          "label": "Giá vốn",
+          "value": "Giá vốn"
+        },
+        {
+          "label": "Mã đơn hàng",
+          "value": "Mã đơn hàng"
+        },
+        {
+          "label": "Mã khách hàng",
+          "value": "Mã khách hàng"
+        }
+      ]
+    },
+    {
+      "id": "map-customerIdCol",
+      "label": "Mã / tên khách hàng",
+      "value": "Mã khách hàng",
+      "options": [
+        {
+          "label": "Không có / bỏ qua",
+          "value": ""
+        },
+        {
+          "label": "Ngày bán",
+          "value": "Ngày bán"
+        },
+        {
+          "label": "Tên sản phẩm",
+          "value": "Tên sản phẩm"
+        },
+        {
+          "label": "Mã sản phẩm",
+          "value": "Mã sản phẩm"
+        },
+        {
+          "label": "Danh mục",
+          "value": "Danh mục"
+        },
+        {
+          "label": "Số lượng",
+          "value": "Số lượng"
+        },
+        {
+          "label": "Doanh thu",
+          "value": "Doanh thu"
+        },
+        {
+          "label": "Đơn giá",
+          "value": "Đơn giá"
+        },
+        {
+          "label": "Giá vốn",
+          "value": "Giá vốn"
+        },
+        {
+          "label": "Mã đơn hàng",
+          "value": "Mã đơn hàng"
+        },
+        {
+          "label": "Mã khách hàng",
+          "value": "Mã khách hàng"
+        }
+      ]
+    },
+    {
+      "id": "map-categoryCol",
+      "label": "Danh mục sản phẩm",
+      "value": "Danh mục",
+      "options": [
+        {
+          "label": "Không có / bỏ qua",
+          "value": ""
+        },
+        {
+          "label": "Ngày bán",
+          "value": "Ngày bán"
+        },
+        {
+          "label": "Tên sản phẩm",
+          "value": "Tên sản phẩm"
+        },
+        {
+          "label": "Mã sản phẩm",
+          "value": "Mã sản phẩm"
+        },
+        {
+          "label": "Danh mục",
+          "value": "Danh mục"
+        },
+        {
+          "label": "Số lượng",
+          "value": "Số lượng"
+        },
+        {
+          "label": "Doanh thu",
+          "value": "Doanh thu"
+        },
+        {
+          "label": "Đơn giá",
+          "value": "Đơn giá"
+        },
+        {
+          "label": "Giá vốn",
+          "value": "Giá vốn"
+        },
+        {
+          "label": "Mã đơn hàng",
+          "value": "Mã đơn hàng"
+        },
+        {
+          "label": "Mã khách hàng",
+          "value": "Mã khách hàng"
+        }
+      ]
+    }
+  ],
+  "policyControls": [
+    "Bán Hàng Smarter.Dữ liệu nhỏ. Góc nhìn lớn.",
+    "Phân tích file mới",
+    "Xem trước dữ liệu",
+    "Chọn file khác",
+    "Khám phá dữ liệu",
+    "Tùy chỉnh giao diện"
+  ],
+  "overview": {
+    "text": "Bán Hàng Smarter.\n\nDữ liệu nhỏ. Góc nhìn lớn.\n\nKhông gian riêng của bạn\nPhân tích file mới\nDữ liệu được xử lý 100% trên thiết bị của bạn, bảo mật tuyệt đối và KHÔNG gửi lên bất kỳ máy chủ nào.\n\nKHÔNG GIAN KINH DOANH\n\nMỗi con số, một cơ hội.\n\nHiểu cửa hàng hôm nay. Quyết định tự tin hơn ngày mai.\n\n2026-09-01 — 2026-09-02\norder-raw-internal-collision.csv\n3 dòng hợp lệ\nBáo cáo làm sạch\nTổng quan\nSản phẩm\n3\nKhách hàng\n2\nTỔNG DOANH THU\n150.000 đ\n\n2 ngày kinh doanh được ghi nhận\n\nLỢI NHUẬN GỘP\n-30.000 đ\n\nBiên lợi nhuận -20% · 100% doanh thu có giá vốn\n\nTỔNG ĐƠN HÀNG\n2\n\n3 SP · Tách 2 đơn từ mã trùng\n\nGIÁ TRỊ ĐƠN TRUNG BÌNH\n75.000 đ\n\nDoanh thu bình quân mỗi hóa đơn\n\nĐIỂM TIN KINH DOANH\n\nCửa hàng ghi nhận 2 đơn với tổng doanh thu 150.000 đ trong 2 ngày, ghi nhận lợi nhuận gộp -30.000 đ trên phần dữ liệu có giá vốn (100% doanh thu; biên lãi -20%). Giá trị trung bình mỗi đơn đạt 75.000 đ.\n\nNhịp kinh doanh của cửa hàng\n\nDoanh thu và lợi nhuận theo tháng\n\n1 tháng\nDoanh thu\nLợi nhuận gộp\n09\n0tr\n0tr\n0tr\n0tr\n0tr\n\nDữ liệu phát sinh trong 1 tháng duy nhất.\n\nNhững mặt hàng dẫn đầu\n\nTop 5 theo doanh thu\n\n01\n\nB\n\n70.000 đ\n02\n\nA\n\n50.000 đ\n03\n\nC\n\n30.000 đ\n\nMẶT HÀNG\n\n3\n\nKHÁCH HÀNG\n\n2\n\nTỪ DỮ LIỆU ĐẾN HÀNH ĐỘNG\n\nCơ hội tiếp theo của bạn\n3 gợi ý\nĐảm bảo nguồn hàng cho 2 sản phẩm chủ lực (Nhóm A)\n\nChỉ 2 mặt hàng này mang về 80% doanh thu toàn tiệm (120.000 đ), dẫn đầu là \"B\". Hãy luôn kiểm kê và đặt hàng nhà cung cấp sớm để tránh đứt hàng vào giờ cao điểm.\n\n80% doanh thu\nTạo combo bán chéo \"A\" & \"C\"\n\nKhách hàng đã mua cùng 2 món này trong 1 hóa đơn (100% các đơn từ 2 món). Bạn nên đặt 2 món cạnh nhau trên kệ trưng bày hoặc tạo gói khuyến mãi mua kèm để gia tăng giá trị giỏ hàng.\n\n1 đơn mua chung\nGia tăng giá trị đơn hàng trung bình (hiện tại 75.000 đ)\n\nĐể tăng thêm doanh thu mà không cần tìm thêm khách mới, hãy áp dụng chương trình \"Hóa đơn trên 100.000 đ được tặng thêm quà nhỏ hoặc miễn phí giao hàng\".\n\nAOV: 75.000 đ\nKHÁCH VIP\n1\n\nKhách chi tiêu cao và còn gắn bó\n\nSẢN PHẨM CHỦ LỰC\n2\n\nĐóng góp 80% doanh thu\n\nBán Hàng Smarter · Những quyết định tốt bắt đầu từ dữ liệu rõ ràng.\nTùy chỉnh giao diện\n0tr",
+    "kpis": [
+      {
+        "title": "TỔNG DOANH THU",
+        "value": "150.000 đ",
+        "subtitle": "2 ngày kinh doanh được ghi nhận"
+      },
+      {
+        "title": "LỢI NHUẬN GỘP",
+        "value": "-30.000 đ",
+        "subtitle": "Biên lợi nhuận -20% · 100% doanh thu có giá vốn"
+      },
+      {
+        "title": "TỔNG ĐƠN HÀNG",
+        "value": "2",
+        "subtitle": "3 SP · Tách 2 đơn từ mã trùng"
+      },
+      {
+        "title": "GIÁ TRỊ ĐƠN TRUNG BÌNH",
+        "value": "75.000 đ",
+        "subtitle": "Doanh thu bình quân mỗi hóa đơn"
+      },
+      {
+        "title": "KHÁCH VIP",
+        "value": "1",
+        "subtitle": "Khách chi tiêu cao và còn gắn bó"
+      },
+      {
+        "title": "SẢN PHẨM CHỦ LỰC",
+        "value": "2",
+        "subtitle": "Đóng góp 80% doanh thu"
+      }
+    ],
+    "rows": [],
+    "insights": [
+      "ĐIỂM TIN KINH DOANH\n\nCửa hàng ghi nhận 2 đơn với tổng doanh thu 150.000 đ trong 2 ngày, ghi nhận lợi nhuận gộp -30.000 đ trên phần dữ liệu có giá vốn (100% doanh thu; biên lãi -20%). Giá trị trung bình mỗi đơn đạt 75.000 đ."
+    ],
+    "geometry": {
+      "width": 1366,
+      "scrollWidth": 1366,
+      "scrollX": 0,
+      "headingLeft": 71
+    },
+    "theme": {
+      "theme": "light",
+      "accent": "emerald",
+      "density": "comfortable",
+      "motion": "reduced"
+    }
+  },
+  "worker": {
+    "analysis": {
+      "cleaningReport": {
+        "totalRows": 3,
+        "validRows": 3,
+        "droppedTotal": 0,
+        "reasons": []
+      },
+      "overview": {
+        "hasReliableOrderIds": true,
+        "orderIdStatus": "reused_disambiguated",
+        "hasOrderCollisions": true,
+        "orderIdWarning": "Phát hiện mã hóa đơn bị tái sử dụng qua nhiều ngày hoặc nhiều khách hàng. Hệ thống đã phân tách thành các giao dịch riêng biệt.",
+        "costCoverage": 100,
+        "totalRevenue": 150000,
+        "totalQuantity": 3,
+        "totalOrders": 2,
+        "averageOrderValue": 75000,
+        "totalProfit": -30000,
+        "profitMargin": -20,
+        "uniqueProducts": 3,
+        "uniqueCustomers": 2,
+        "dateRange": {
+          "start": "2026-09-01",
+          "end": "2026-09-02",
+          "days": 2
+        },
+        "monthlyRevenue": [
+          {
+            "month": "2026-09",
+            "revenue": 150000,
+            "orders": 2,
+            "profit": -30000
+          }
+        ]
+      },
+      "productAnalysis": {
+        "products": [
+          {
+            "id": "B",
+            "name": "B",
+            "category": "Đồ uống",
+            "quantity": 1,
+            "revenue": 70000,
+            "revenueShare": 46.7,
+            "cumulativeShare": 46.7,
+            "abcGroup": "A",
+            "costPrice": 60000,
+            "profit": 10000,
+            "profitMargin": 14.3,
+            "ordersCount": 1,
+            "trend": "Ổn định",
+            "monthlyTrendData": [
+              {
+                "month": "2026-09",
+                "quantity": 1,
+                "revenue": 70000
+              }
+            ],
+            "recommendation": "Đáng đầu tư",
+            "reasonText": "Sản phẩm chủ lực (Nhóm A), đóng góp 46.7% doanh thu. Luôn ưu tiên giữ hàng và vị trí trưng bày đẹp."
+          },
+          {
+            "id": "A",
+            "name": "A",
+            "category": "Đồ uống",
+            "quantity": 1,
+            "revenue": 50000,
+            "revenueShare": 33.3,
+            "cumulativeShare": 80,
+            "abcGroup": "A",
+            "costPrice": 60000,
+            "profit": -10000,
+            "profitMargin": -20,
+            "ordersCount": 1,
+            "trend": "Ổn định",
+            "monthlyTrendData": [
+              {
+                "month": "2026-09",
+                "quantity": 1,
+                "revenue": 50000
+              }
+            ],
+            "recommendation": "Đáng đầu tư",
+            "reasonText": "Sản phẩm chủ lực (Nhóm A), đóng góp 33.3% doanh thu. Luôn ưu tiên giữ hàng và vị trí trưng bày đẹp."
+          },
+          {
+            "id": "C",
+            "name": "C",
+            "category": "Đồ uống",
+            "quantity": 1,
+            "revenue": 30000,
+            "revenueShare": 20,
+            "cumulativeShare": 100,
+            "abcGroup": "B",
+            "costPrice": 60000,
+            "profit": -30000,
+            "profitMargin": -100,
+            "ordersCount": 1,
+            "trend": "Ổn định",
+            "monthlyTrendData": [
+              {
+                "month": "2026-09",
+                "quantity": 1,
+                "revenue": 30000
+              }
+            ],
+            "recommendation": "Duy trì ổn định",
+            "reasonText": "Sản phẩm bán ổn định ở mức trung bình, phục vụ nhu cầu thường ngày của khách."
+          }
+        ],
+        "abcSummary": {
+          "groupA": {
+            "count": 2,
+            "revenue": 120000,
+            "percentage": 80
+          },
+          "groupB": {
+            "count": 1,
+            "revenue": 30000,
+            "percentage": 20
+          },
+          "groupC": {
+            "count": 0,
+            "revenue": 0,
+            "percentage": 0
+          }
+        },
+        "topProfitable": [
+          {
+            "id": "B",
+            "name": "B",
+            "category": "Đồ uống",
+            "quantity": 1,
+            "revenue": 70000,
+            "revenueShare": 46.7,
+            "cumulativeShare": 46.7,
+            "abcGroup": "A",
+            "costPrice": 60000,
+            "profit": 10000,
+            "profitMargin": 14.3,
+            "ordersCount": 1,
+            "trend": "Ổn định",
+            "monthlyTrendData": [
+              {
+                "month": "2026-09",
+                "quantity": 1,
+                "revenue": 70000
+              }
+            ],
+            "recommendation": "Đáng đầu tư",
+            "reasonText": "Sản phẩm chủ lực (Nhóm A), đóng góp 46.7% doanh thu. Luôn ưu tiên giữ hàng và vị trí trưng bày đẹp."
+          }
+        ],
+        "topLossMaking": [
+          {
+            "id": "C",
+            "name": "C",
+            "category": "Đồ uống",
+            "quantity": 1,
+            "revenue": 30000,
+            "revenueShare": 20,
+            "cumulativeShare": 100,
+            "abcGroup": "B",
+            "costPrice": 60000,
+            "profit": -30000,
+            "profitMargin": -100,
+            "ordersCount": 1,
+            "trend": "Ổn định",
+            "monthlyTrendData": [
+              {
+                "month": "2026-09",
+                "quantity": 1,
+                "revenue": 30000
+              }
+            ],
+            "recommendation": "Duy trì ổn định",
+            "reasonText": "Sản phẩm bán ổn định ở mức trung bình, phục vụ nhu cầu thường ngày của khách."
+          },
+          {
+            "id": "A",
+            "name": "A",
+            "category": "Đồ uống",
+            "quantity": 1,
+            "revenue": 50000,
+            "revenueShare": 33.3,
+            "cumulativeShare": 80,
+            "abcGroup": "A",
+            "costPrice": 60000,
+            "profit": -10000,
+            "profitMargin": -20,
+            "ordersCount": 1,
+            "trend": "Ổn định",
+            "monthlyTrendData": [
+              {
+                "month": "2026-09",
+                "quantity": 1,
+                "revenue": 50000
+              }
+            ],
+            "recommendation": "Đáng đầu tư",
+            "reasonText": "Sản phẩm chủ lực (Nhóm A), đóng góp 33.3% doanh thu. Luôn ưu tiên giữ hàng và vị trí trưng bày đẹp."
+          }
+        ],
+        "topRevenue": [
+          {
+            "id": "B",
+            "name": "B",
+            "category": "Đồ uống",
+            "quantity": 1,
+            "revenue": 70000,
+            "revenueShare": 46.7,
+            "cumulativeShare": 46.7,
+            "abcGroup": "A",
+            "costPrice": 60000,
+            "profit": 10000,
+            "profitMargin": 14.3,
+            "ordersCount": 1,
+            "trend": "Ổn định",
+            "monthlyTrendData": [
+              {
+                "month": "2026-09",
+                "quantity": 1,
+                "revenue": 70000
+              }
+            ],
+            "recommendation": "Đáng đầu tư",
+            "reasonText": "Sản phẩm chủ lực (Nhóm A), đóng góp 46.7% doanh thu. Luôn ưu tiên giữ hàng và vị trí trưng bày đẹp."
+          },
+          {
+            "id": "A",
+            "name": "A",
+            "category": "Đồ uống",
+            "quantity": 1,
+            "revenue": 50000,
+            "revenueShare": 33.3,
+            "cumulativeShare": 80,
+            "abcGroup": "A",
+            "costPrice": 60000,
+            "profit": -10000,
+            "profitMargin": -20,
+            "ordersCount": 1,
+            "trend": "Ổn định",
+            "monthlyTrendData": [
+              {
+                "month": "2026-09",
+                "quantity": 1,
+                "revenue": 50000
+              }
+            ],
+            "recommendation": "Đáng đầu tư",
+            "reasonText": "Sản phẩm chủ lực (Nhóm A), đóng góp 33.3% doanh thu. Luôn ưu tiên giữ hàng và vị trí trưng bày đẹp."
+          },
+          {
+            "id": "C",
+            "name": "C",
+            "category": "Đồ uống",
+            "quantity": 1,
+            "revenue": 30000,
+            "revenueShare": 20,
+            "cumulativeShare": 100,
+            "abcGroup": "B",
+            "costPrice": 60000,
+            "profit": -30000,
+            "profitMargin": -100,
+            "ordersCount": 1,
+            "trend": "Ổn định",
+            "monthlyTrendData": [
+              {
+                "month": "2026-09",
+                "quantity": 1,
+                "revenue": 30000
+              }
+            ],
+            "recommendation": "Duy trì ổn định",
+            "reasonText": "Sản phẩm bán ổn định ở mức trung bình, phục vụ nhu cầu thường ngày của khách."
+          }
+        ],
+        "slowMoving": [],
+        "coOccurrences": [
+          {
+            "productA": "A",
+            "productB": "C",
+            "count": 1,
+            "percentage": 100
+          }
+        ],
+        "hasCostPrice": true,
+        "hasOrderId": true
+      },
+      "customerAnalysis": {
+        "hasCustomerData": true,
+        "customers": [
+          {
+            "customerId": "KH1",
+            "customerName": "KH1",
+            "ordersCount": 1,
+            "totalSpend": 80000,
+            "averageOrderValue": 80000,
+            "lastOrderDate": "2026-09-01",
+            "daysSinceLastOrder": 1,
+            "firstOrderDate": "2026-09-01",
+            "rfmScore": {
+              "r": 5,
+              "f": 1,
+              "m": 5,
+              "total": 11
+            },
+            "segment": "VIP",
+            "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+          },
+          {
+            "customerId": "KH2",
+            "customerName": "KH2",
+            "ordersCount": 1,
+            "totalSpend": 70000,
+            "averageOrderValue": 70000,
+            "lastOrderDate": "2026-09-02",
+            "daysSinceLastOrder": 0,
+            "firstOrderDate": "2026-09-02",
+            "rfmScore": {
+              "r": 5,
+              "f": 1,
+              "m": 4,
+              "total": 10
+            },
+            "segment": "Mới",
+            "actionAdvice": "Khách hàng mới phát sinh đơn đầu tiên. Gửi ưu đãi cho lần mua tiếp theo."
+          }
+        ],
+        "totalCustomers": 2,
+        "totalStoreRevenue": 150000,
+        "identifiedCustomerRevenue": 150000,
+        "customerRevenueCoverage": 100,
+        "repeatCustomersCount": 0,
+        "repeatCustomerRate": 0,
+        "segmentsSummary": [
+          {
+            "segment": "VIP",
+            "count": 1,
+            "percentage": 50,
+            "totalRevenue": 80000,
+            "revenuePercentage": 53.3,
+            "storeRevenuePercentage": 53.3
+          },
+          {
+            "segment": "Trung thành",
+            "count": 0,
+            "percentage": 0,
+            "totalRevenue": 0,
+            "revenuePercentage": 0,
+            "storeRevenuePercentage": 0
+          },
+          {
+            "segment": "Mới",
+            "count": 1,
+            "percentage": 50,
+            "totalRevenue": 70000,
+            "revenuePercentage": 46.7,
+            "storeRevenuePercentage": 46.7
+          },
+          {
+            "segment": "Có nguy cơ rời đi",
+            "count": 0,
+            "percentage": 0,
+            "totalRevenue": 0,
+            "revenuePercentage": 0,
+            "storeRevenuePercentage": 0
+          },
+          {
+            "segment": "Đã ngừng mua",
+            "count": 0,
+            "percentage": 0,
+            "totalRevenue": 0,
+            "revenuePercentage": 0,
+            "storeRevenuePercentage": 0
+          },
+          {
+            "segment": "Bình thường",
+            "count": 0,
+            "percentage": 0,
+            "totalRevenue": 0,
+            "revenuePercentage": 0,
+            "storeRevenuePercentage": 0
+          }
+        ],
+        "topCustomers": [
+          {
+            "customerId": "KH1",
+            "customerName": "KH1",
+            "ordersCount": 1,
+            "totalSpend": 80000,
+            "averageOrderValue": 80000,
+            "lastOrderDate": "2026-09-01",
+            "daysSinceLastOrder": 1,
+            "firstOrderDate": "2026-09-01",
+            "rfmScore": {
+              "r": 5,
+              "f": 1,
+              "m": 5,
+              "total": 11
+            },
+            "segment": "VIP",
+            "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+          },
+          {
+            "customerId": "KH2",
+            "customerName": "KH2",
+            "ordersCount": 1,
+            "totalSpend": 70000,
+            "averageOrderValue": 70000,
+            "lastOrderDate": "2026-09-02",
+            "daysSinceLastOrder": 0,
+            "firstOrderDate": "2026-09-02",
+            "rfmScore": {
+              "r": 5,
+              "f": 1,
+              "m": 4,
+              "total": 10
+            },
+            "segment": "Mới",
+            "actionAdvice": "Khách hàng mới phát sinh đơn đầu tiên. Gửi ưu đãi cho lần mua tiếp theo."
+          }
+        ],
+        "vipCustomers": [
+          {
+            "customerId": "KH1",
+            "customerName": "KH1",
+            "ordersCount": 1,
+            "totalSpend": 80000,
+            "averageOrderValue": 80000,
+            "lastOrderDate": "2026-09-01",
+            "daysSinceLastOrder": 1,
+            "firstOrderDate": "2026-09-01",
+            "rfmScore": {
+              "r": 5,
+              "f": 1,
+              "m": 5,
+              "total": 11
+            },
+            "segment": "VIP",
+            "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+          }
+        ],
+        "atRiskCustomers": [],
+        "churnedCustomers": [],
+        "newCustomers": [
+          {
+            "customerId": "KH2",
+            "customerName": "KH2",
+            "ordersCount": 1,
+            "totalSpend": 70000,
+            "averageOrderValue": 70000,
+            "lastOrderDate": "2026-09-02",
+            "daysSinceLastOrder": 0,
+            "firstOrderDate": "2026-09-02",
+            "rfmScore": {
+              "r": 5,
+              "f": 1,
+              "m": 4,
+              "total": 10
+            },
+            "segment": "Mới",
+            "actionAdvice": "Khách hàng mới phát sinh đơn đầu tiên. Gửi ưu đãi cho lần mua tiếp theo."
+          }
+        ]
+      },
+      "actionSuggestions": [
+        {
+          "id": "prod-abc-stock",
+          "type": "inventory",
+          "severity": "high",
+          "title": "Đảm bảo nguồn hàng cho 2 sản phẩm chủ lực (Nhóm A)",
+          "description": "Chỉ 2 mặt hàng này mang về 80% doanh thu toàn tiệm (120.000 đ), dẫn đầu là \"B\". Hãy luôn kiểm kê và đặt hàng nhà cung cấp sớm để tránh đứt hàng vào giờ cao điểm.",
+          "metricBadge": "80% doanh thu"
+        },
+        {
+          "id": "prod-cross-sell",
+          "type": "pricing",
+          "severity": "medium",
+          "title": "Tạo combo bán chéo \"A\" & \"C\"",
+          "description": "Khách hàng đã mua cùng 2 món này trong 1 hóa đơn (100% các đơn từ 2 món). Bạn nên đặt 2 món cạnh nhau trên kệ trưng bày hoặc tạo gói khuyến mãi mua kèm để gia tăng giá trị giỏ hàng.",
+          "metricBadge": "1 đơn mua chung"
+        },
+        {
+          "id": "overview-aov",
+          "type": "pricing",
+          "severity": "info",
+          "title": "Gia tăng giá trị đơn hàng trung bình (hiện tại 75.000 đ)",
+          "description": "Để tăng thêm doanh thu mà không cần tìm thêm khách mới, hãy áp dụng chương trình \"Hóa đơn trên 100.000 đ được tặng thêm quà nhỏ hoặc miễn phí giao hàng\".",
+          "metricBadge": "AOV: 75.000 đ"
+        }
+      ],
+      "conclusions": {
+        "overview": "Cửa hàng ghi nhận **2 đơn** với tổng doanh thu **150.000 đ** trong 2 ngày, ghi nhận lợi nhuận gộp **-30.000 đ** trên phần dữ liệu có giá vốn (100% doanh thu; biên lãi **-20%**). Giá trị trung bình mỗi đơn đạt **75.000 đ**.",
+        "monthlyTrend": "Dữ liệu phát sinh trong 1 tháng duy nhất.",
+        "productABC": "Chỉ **2 sản phẩm nhóm A** (chiếm 67% số lượng mặt hàng) đã đóng góp tới **80% doanh thu** (120.000 đ). Trong khi đó, **0 sản phẩm nhóm C** chỉ đóng góp 0%.",
+        "productProfit": "Mặt hàng mang lại nhiều tiền lãi nhất là **B** với lợi nhuận gộp **10.000 đ** (biên lãi **14.3%**). Cửa hàng có 2 mặt hàng đang bán thấp hơn giá vốn.",
+        "customerRFM": "**1 khách VIP** đóng góp **53.3% doanh thu** (80.000 đ). Toàn bộ **2 khách hàng** đều mới phát sinh 1 đơn hàng trong kỳ dữ liệu (chưa có lượt mua lặp lại).",
+        "crossSelling": "Cặp đôi mua cùng nhiều nhất là \"A\" & \"C\" (1 đơn)."
+      },
+      "columnMapping": {
+        "dateCol": "Ngày bán",
+        "productCol": "Tên sản phẩm",
+        "quantityCol": "Số lượng",
+        "revenueCol": "Doanh thu",
+        "unitPriceCol": "Đơn giá",
+        "customerIdCol": "Mã khách hàng",
+        "costPriceCol": "Giá vốn",
+        "orderIdCol": "Mã đơn hàng",
+        "categoryCol": "Danh mục"
+      }
+    },
+    "parse": {
+      "totalRows": 3,
+      "headers": [
+        "Ngày bán",
+        "Tên sản phẩm",
+        "Mã sản phẩm",
+        "Danh mục",
+        "Số lượng",
+        "Doanh thu",
+        "Đơn giá",
+        "Giá vốn",
+        "Mã đơn hàng",
+        "Mã khách hàng"
+      ],
+      "fileName": "order-raw-internal-collision.csv"
+    },
+    "active": 0,
+    "posts": [
+      {
+        "at": 109.69999999925494,
+        "type": "parse"
+      },
+      {
+        "at": 214.30000000074506,
+        "type": "analyze",
+        "rows": 3,
+        "mapping": {
+          "dateCol": "Ngày bán",
+          "productCol": "Tên sản phẩm",
+          "quantityCol": "Số lượng",
+          "revenueCol": "Doanh thu",
+          "unitPriceCol": "Đơn giá",
+          "customerIdCol": "Mã khách hàng",
+          "costPriceCol": "Giá vốn",
+          "orderIdCol": "Mã đơn hàng",
+          "categoryCol": "Danh mục"
+        }
+      }
+    ]
+  },
+  "expected": {
+    "revenue": 150000,
+    "orders": 3,
+    "aov": 50000,
+    "repeatRate": 50,
+    "uncertain": false
+  },
+  "status": "FAIL",
+  "overviewScreenshot": "screenshots/order-raw-internal-collision-1366-overview.png",
+  "report": "CHẤT LƯỢNG DỮ LIỆU\n\nBáo cáo làm sạch\n\nDòng đầu vào\n\n3\n\nHợp lệ\n\n3\n\nBị loại\n\n0\nTất cả các dòng đều hợp lệ.\n\nSố thứ tự tính từ bản ghi dữ liệu đầu tiên, không bao gồm tiêu đề. Báo cáo giữ tối đa 5 bản ghi mẫu cho mỗi lý do.\n\n×",
+  "reportControls": [
+    "×"
+  ],
+  "products": {
+    "text": "Bán Hàng Smarter.\n\nDữ liệu nhỏ. Góc nhìn lớn.\n\nKhông gian riêng của bạn\nPhân tích file mới\nDữ liệu được xử lý 100% trên thiết bị của bạn, bảo mật tuyệt đối và KHÔNG gửi lên bất kỳ máy chủ nào.\n\nKHÔNG GIAN KINH DOANH\n\nMỗi con số, một cơ hội.\n\nHiểu cửa hàng hôm nay. Quyết định tự tin hơn ngày mai.\n\n2026-09-01 — 2026-09-02\norder-raw-internal-collision.csv\n3 dòng hợp lệ\nBáo cáo làm sạch\nTổng quan\nSản phẩm\n3\nKhách hàng\n2\nNHÓM A · CHỦ LỰC\n2\n\n80% doanh thu · 120.000 đ\n\nNHÓM B · ĐỀU ĐẶN\n1\n\n20% doanh thu · 30.000 đ\n\nNHÓM C · ĐÓNG GÓP THẤP\n0\n\n0% doanh thu · 0 đ\n\nGÓC NHÌN SẢN PHẨM · ABC\n\nChỉ 2 sản phẩm nhóm A (chiếm 67% số lượng mặt hàng) đã đóng góp tới 80% doanh thu (120.000 đ). Trong khi đó, 0 sản phẩm nhóm C chỉ đóng góp 0%.\n\nTop 10 mặt hàng tạo doanh thu\n\nSản phẩm nổi bật trong kỳ dữ liệu\n\n0tr\n0tr\n0tr\n0tr\n0tr\nB\nA\nC\nSức khỏe danh mục\n\nNhững điểm cần lưu ý trước khi nhập hàng\n\nMặt hàng mang lại nhiều tiền lãi nhất là B với lợi nhuận gộp 10.000 đ (biên lãi 14.3%). Cửa hàng có 2 mặt hàng đang bán thấp hơn giá vốn.\n\n01\n\nB\n\n10.000 đ\n\nLợi nhuận chỉ tính trên các dòng có giá vốn hợp lệ.\n\n0 mặt hàng có doanh thu thấp và xu hướng giảm. Kiểm tra tồn kho và mùa vụ trước khi quyết định.\n\nNhững cặp thường đi cùng nhau\n\nGợi ý trưng bày hoặc thử nghiệm combo\n\nA + C1 đơn · 100% đơn mua từ hai mặt hàng trở lên\nDanh mục sản phẩm\n\nTìm kiếm, lọc và sắp xếp để xem điều bạn quan tâm.\n\nXuất CSV\nTất cả nhóm ABC\nNhóm A\nNhóm B\nNhóm C\nTất cả khuyến nghị\nĐáng đầu tư\nDuy trì ổn định\nCân nhắc loại bỏ\nSản phẩm\n\tSố lượng\n\tDoanh thu\n\tABC\tLợi nhuận\n\tXu hướng\tGợi ý\nBĐồ uống\t1\t70.000 đ\tA\t10.000 đ\tỔn định\tĐáng đầu tư\nAĐồ uống\t1\t50.000 đ\tA\t-10.000 đ\tỔn định\tĐáng đầu tư\nCĐồ uống\t1\t30.000 đ\tB\t-30.000 đ\tỔn định\tDuy trì ổn định\n1–3 / 3 kết quả\n1 / 1\nBán Hàng Smarter · Những quyết định tốt bắt đầu từ dữ liệu rõ ràng.\nTùy chỉnh giao diện\nB",
+    "kpis": [
+      {
+        "title": "NHÓM A · CHỦ LỰC",
+        "value": "2",
+        "subtitle": "80% doanh thu · 120.000 đ"
+      },
+      {
+        "title": "NHÓM B · ĐỀU ĐẶN",
+        "value": "1",
+        "subtitle": "20% doanh thu · 30.000 đ"
+      },
+      {
+        "title": "NHÓM C · ĐÓNG GÓP THẤP",
+        "value": "0",
+        "subtitle": "0% doanh thu · 0 đ"
+      }
+    ],
+    "rows": [
+      [
+        "BĐồ uống",
+        "1",
+        "70.000 đ",
+        "A",
+        "10.000 đ",
+        "Ổn định",
+        "Đáng đầu tư"
+      ],
+      [
+        "AĐồ uống",
+        "1",
+        "50.000 đ",
+        "A",
+        "-10.000 đ",
+        "Ổn định",
+        "Đáng đầu tư"
+      ],
+      [
+        "CĐồ uống",
+        "1",
+        "30.000 đ",
+        "B",
+        "-30.000 đ",
+        "Ổn định",
+        "Duy trì ổn định"
+      ]
+    ],
+    "insights": [
+      "GÓC NHÌN SẢN PHẨM · ABC\n\nChỉ 2 sản phẩm nhóm A (chiếm 67% số lượng mặt hàng) đã đóng góp tới 80% doanh thu (120.000 đ). Trong khi đó, 0 sản phẩm nhóm C chỉ đóng góp 0%."
+    ],
+    "geometry": {
+      "width": 1366,
+      "scrollWidth": 1366,
+      "scrollX": 0,
+      "headingLeft": 71
+    },
+    "theme": {
+      "theme": "light",
+      "accent": "emerald",
+      "density": "comfortable",
+      "motion": "reduced"
+    }
+  },
+  "productScreenshot": "screenshots/order-raw-internal-collision-1366-products.png",
+  "productExport": {
+    "file": "downloads/order-raw-internal-collision-products.csv",
+    "name": "bao_cao_san_pham.csv",
+    "bom": true,
+    "rows": [
+      {
+        "Mã sản phẩm": "B",
+        "Tên sản phẩm": "B",
+        "Danh mục": "Đồ uống",
+        "Nhóm ABC": "A",
+        "Số lượng": "1",
+        "Doanh thu": "70000",
+        "Lợi nhuận trên dữ liệu đủ giá vốn": "10000",
+        "Khuyến nghị": "Đáng đầu tư"
+      },
+      {
+        "Mã sản phẩm": "A",
+        "Tên sản phẩm": "A",
+        "Danh mục": "Đồ uống",
+        "Nhóm ABC": "A",
+        "Số lượng": "1",
+        "Doanh thu": "50000",
+        "Lợi nhuận trên dữ liệu đủ giá vốn": "-10000",
+        "Khuyến nghị": "Đáng đầu tư"
+      },
+      {
+        "Mã sản phẩm": "C",
+        "Tên sản phẩm": "C",
+        "Danh mục": "Đồ uống",
+        "Nhóm ABC": "B",
+        "Số lượng": "1",
+        "Doanh thu": "30000",
+        "Lợi nhuận trên dữ liệu đủ giá vốn": "-30000",
+        "Khuyến nghị": "Duy trì ổn định"
+      }
+    ]
+  },
+  "customers": {
+    "text": "Bán Hàng Smarter.\n\nDữ liệu nhỏ. Góc nhìn lớn.\n\nKhông gian riêng của bạn\nPhân tích file mới\nDữ liệu được xử lý 100% trên thiết bị của bạn, bảo mật tuyệt đối và KHÔNG gửi lên bất kỳ máy chủ nào.\n\nKHÔNG GIAN KINH DOANH\n\nMỗi con số, một cơ hội.\n\nHiểu cửa hàng hôm nay. Quyết định tự tin hơn ngày mai.\n\n2026-09-01 — 2026-09-02\norder-raw-internal-collision.csv\n3 dòng hợp lệ\nBáo cáo làm sạch\nTổng quan\nSản phẩm\n3\nKhách hàng\n2\nKHÁCH HÀNG\n2\n\nCó giao dịch trong kỳ dữ liệu\n\nKHÁCH VIP\n1\n\nChi tiêu cao và mua gần đây\n\nCẦN CHĂM SÓC\n0\n\nKhách thân thiết lâu chưa quay lại\n\nKHÁCH MỚI\n1\n\nMột lần mua và còn gần đây\n\nGÓC NHÌN KHÁCH HÀNG · RFM\n\n1 khách VIP đóng góp 53.3% doanh thu (80.000 đ). Toàn bộ 2 khách hàng đều mới phát sinh 1 đơn hàng trong kỳ dữ liệu (chưa có lượt mua lặp lại).\n\nKhách hàng đang ở đâu trong hành trình?\n\nQuy mô từng nhóm · Mốc tính: 2026-09-02\n\nVIP\nTrung thành\nMới\nNguy cơ\nNgừng mua\nBình thường\n0\n0.25\n0.5\n0.75\n1\nƯu tiên một lời hỏi thăm\n\nKhách thân thiết đang có nguy cơ rời đi\n\nChưa có khách thuộc nhóm nguy cơ\n\nTheo quy tắc hiện tại, chưa có khách chi tiêu cao hoặc thường xuyên mua đã vắng hơn 60 ngày.\n\nHiểu từng khách hàng\n\nToàn bộ 2 khách hàng · Phân nhóm theo dữ liệu trong file.\n\nXuất CSV\nTất cả phân khúc\nVIP\nTrung thành\nMới\nCó nguy cơ rời đi\nĐã ngừng mua\nBình thường\nKhách hàng\n\tTổng chi tiêu\n\tSố đơn\n\tGần nhất\n\tPhân khúc\tGợi ý chăm sóc\nKH1\t80.000 đ\t1\t2026-09-011 ngày trước mốc\tVIP\tKhách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền.\nKH2\t70.000 đ\t1\t2026-09-020 ngày trước mốc\tMới\tKhách hàng mới phát sinh đơn đầu tiên. Gửi ưu đãi cho lần mua tiếp theo.\n1–2 / 2 kết quả\n1 / 1\nBán Hàng Smarter · Những quyết định tốt bắt đầu từ dữ liệu rõ ràng.\nTùy chỉnh giao diện\n0",
+    "kpis": [
+      {
+        "title": "KHÁCH HÀNG",
+        "value": "2",
+        "subtitle": "Có giao dịch trong kỳ dữ liệu"
+      },
+      {
+        "title": "KHÁCH VIP",
+        "value": "1",
+        "subtitle": "Chi tiêu cao và mua gần đây"
+      },
+      {
+        "title": "CẦN CHĂM SÓC",
+        "value": "0",
+        "subtitle": "Khách thân thiết lâu chưa quay lại"
+      },
+      {
+        "title": "KHÁCH MỚI",
+        "value": "1",
+        "subtitle": "Một lần mua và còn gần đây"
+      }
+    ],
+    "rows": [
+      [
+        "KH1",
+        "80.000 đ",
+        "1",
+        "2026-09-011 ngày trước mốc",
+        "VIP",
+        "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+      ],
+      [
+        "KH2",
+        "70.000 đ",
+        "1",
+        "2026-09-020 ngày trước mốc",
+        "Mới",
+        "Khách hàng mới phát sinh đơn đầu tiên. Gửi ưu đãi cho lần mua tiếp theo."
+      ]
+    ],
+    "insights": [
+      "GÓC NHÌN KHÁCH HÀNG · RFM\n\n1 khách VIP đóng góp 53.3% doanh thu (80.000 đ). Toàn bộ 2 khách hàng đều mới phát sinh 1 đơn hàng trong kỳ dữ liệu (chưa có lượt mua lặp lại)."
+    ],
+    "geometry": {
+      "width": 1366,
+      "scrollWidth": 1366,
+      "scrollX": 0,
+      "headingLeft": 71
+    },
+    "theme": {
+      "theme": "light",
+      "accent": "emerald",
+      "density": "comfortable",
+      "motion": "reduced"
+    }
+  },
+  "customerScreenshot": "screenshots/order-raw-internal-collision-1366-customers.png",
+  "customerExport": {
+    "file": "downloads/order-raw-internal-collision-customers.csv",
+    "name": "bao_cao_khach_hang.csv",
+    "bom": true,
+    "rows": [
+      {
+        "Mã khách": "KH1",
+        "Tên khách": "KH1",
+        "Phân khúc": "VIP",
+        "Tổng chi tiêu": "80000",
+        "Số đơn": "1",
+        "Số ngày chưa mua": "1",
+        "Gợi ý chăm sóc": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+      },
+      {
+        "Mã khách": "KH2",
+        "Tên khách": "KH2",
+        "Phân khúc": "Mới",
+        "Tổng chi tiêu": "70000",
+        "Số đơn": "1",
+        "Số ngày chưa mua": "0",
+        "Gợi ý chăm sóc": "Khách hàng mới phát sinh đơn đầu tiên. Gửi ưu đãi cho lần mua tiếp theo."
+      }
+    ]
+  }
+}

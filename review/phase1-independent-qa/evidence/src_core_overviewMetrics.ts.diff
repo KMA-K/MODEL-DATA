@@ -1,0 +1,57 @@
+diff --git "a/D:\\2.TEST_PROJECT\\MODEL data\\review\\project\\src\\core\\overviewMetrics.ts" "b/D:\\2.TEST_PROJECT\\MODEL data\\src\\core\\overviewMetrics.ts"
+index 5f1f585..dfacfc8 100644
+--- "a/D:\\2.TEST_PROJECT\\MODEL data\\review\\project\\src\\core\\overviewMetrics.ts"	
++++ "b/D:\\2.TEST_PROJECT\\MODEL data\\src\\core\\overviewMetrics.ts"	
+@@ -1,10 +1,12 @@
+ // src/core/overviewMetrics.ts
+-import { CleanRow, OverviewMetrics } from './types';
++import { CleanRow, OrderIdStatus, OverviewMetrics } from './types';
+ 
+ export function calculateOverviewMetrics(cleanRows: CleanRow[]): OverviewMetrics {
+   if (cleanRows.length === 0) {
+     return {
+       hasReliableOrderIds: false,
++      orderIdStatus: 'missing',
++      hasOrderCollisions: false,
+       costCoverage: 0,
+       totalRevenue: 0,
+       totalQuantity: 0,
+@@ -24,7 +26,27 @@ export function calculateOverviewMetrics(cleanRows: CleanRow[]): OverviewMetrics
+   let totalProfitSum: number | null = 0;
+   let hasAnyCost = false;
+   let coveredRevenue = 0;
+-  const hasReliableOrderIds = cleanRows.every(row => row.orderId && !row.orderId.startsWith('AUTO-'));
++
++  // Đánh giá tính tin cậy của mã hóa đơn (UI-14)
++  const hasRawOrderIds = cleanRows.every(row => !!row.rawOrderId);
++  const someRawOrderIds = cleanRows.some(row => !!row.rawOrderId);
++  const hasOrderCollisions = cleanRows.some(row => !!row.rawOrderId && row.orderId !== row.rawOrderId);
++
++  let orderIdStatus: OrderIdStatus = 'reliable';
++  let orderIdWarning: string | undefined = undefined;
++
++  if (!someRawOrderIds) {
++    orderIdStatus = 'missing';
++  } else if (!hasRawOrderIds) {
++    orderIdStatus = 'missing'; // Thiếu mã đơn ở một số dòng -> không đủ tin cậy cho toàn bộ
++  } else if (hasOrderCollisions) {
++    orderIdStatus = 'reused_disambiguated';
++    orderIdWarning = 'Phát hiện mã hóa đơn bị tái sử dụng qua nhiều ngày hoặc nhiều khách hàng. Hệ thống đã phân tách thành các giao dịch riêng biệt.';
++  } else {
++    orderIdStatus = 'reliable';
++  }
++
++  const hasReliableOrderIds = orderIdStatus === 'reliable' || orderIdStatus === 'reused_disambiguated';
+ 
+   const orderSet = new Set<string>();
+   const productSet = new Set<string>();
+@@ -104,6 +126,9 @@ export function calculateOverviewMetrics(cleanRows: CleanRow[]): OverviewMetrics
+ 
+   return {
+     hasReliableOrderIds,
++    orderIdStatus,
++    hasOrderCollisions,
++    orderIdWarning,
+     costCoverage: totalRevenue ? Math.round(coveredRevenue / totalRevenue * 100) : 0,
+     totalRevenue: Math.round(totalRevenue),
+     totalQuantity,

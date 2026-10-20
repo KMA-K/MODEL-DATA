@@ -1,0 +1,270 @@
+{
+  "rawRows": 28,
+  "validRows": 28,
+  "dropped": {},
+  "samples": {},
+  "revenue": 1000000,
+  "orders": 18,
+  "aov": 55556,
+  "profit": 400000,
+  "margin": 40,
+  "products": [
+    {
+      "name": "Cà phê",
+      "revenue": 500000,
+      "quantity": 15,
+      "profit": 200000,
+      "monthly": {
+        "2026-05": 100000,
+        "2026-06": 100000,
+        "2026-08": 100000,
+        "2026-09": 200000
+      },
+      "abc": "A",
+      "share": 50,
+      "trend": "Tăng trưởng",
+      "recommendation": "Đáng đầu tư"
+    },
+    {
+      "name": "Sữa đặc",
+      "revenue": 300000,
+      "quantity": 12,
+      "profit": 120000,
+      "monthly": {
+        "2026-05": 100000,
+        "2026-06": 50000,
+        "2026-08": 100000,
+        "2026-09": 50000
+      },
+      "abc": "A",
+      "share": 30,
+      "trend": "Giảm sút",
+      "recommendation": "Đáng đầu tư"
+    },
+    {
+      "name": "Trà",
+      "revenue": 150000,
+      "quantity": 10,
+      "profit": 60000,
+      "monthly": {
+        "2026-05": 30000,
+        "2026-06": 0,
+        "2026-08": 30000,
+        "2026-09": 90000
+      },
+      "abc": "B",
+      "share": 15,
+      "trend": "Tăng trưởng",
+      "recommendation": "Đáng đầu tư"
+    },
+    {
+      "name": "Bánh",
+      "revenue": 30000,
+      "quantity": 8,
+      "profit": 12000,
+      "monthly": {
+        "2026-05": 7500,
+        "2026-06": 0,
+        "2026-08": 15000,
+        "2026-09": 7500
+      },
+      "abc": "C",
+      "share": 3,
+      "trend": "Giảm sút",
+      "recommendation": "Cân nhắc loại bỏ"
+    },
+    {
+      "name": "Nến",
+      "revenue": 15000,
+      "quantity": 6,
+      "profit": 6000,
+      "monthly": {
+        "2026-05": 5000,
+        "2026-06": 0,
+        "2026-08": 5000,
+        "2026-09": 5000
+      },
+      "abc": "C",
+      "share": 1.5,
+      "trend": "Ổn định",
+      "recommendation": "Duy trì ổn định"
+    },
+    {
+      "name": "Kẹo",
+      "revenue": 5000,
+      "quantity": 4,
+      "profit": 2000,
+      "monthly": {
+        "2026-05": 2500,
+        "2026-06": 0,
+        "2026-08": 2500,
+        "2026-09": 0
+      },
+      "abc": "C",
+      "share": 0.5,
+      "trend": "Giảm sút",
+      "recommendation": "Cân nhắc loại bỏ"
+    }
+  ],
+  "pairs": [
+    {
+      "names": [
+        "Cà phê",
+        "Sữa đặc"
+      ],
+      "count": 3,
+      "percentage": 42.9
+    },
+    {
+      "names": [
+        "Bánh",
+        "Kẹo"
+      ],
+      "count": 2,
+      "percentage": 28.6
+    },
+    {
+      "names": [
+        "Bánh",
+        "Nến"
+      ],
+      "count": 2,
+      "percentage": 28.6
+    },
+    {
+      "names": [
+        "Kẹo",
+        "Nến"
+      ],
+      "count": 2,
+      "percentage": 28.6
+    },
+    {
+      "names": [
+        "Bánh",
+        "Sữa đặc"
+      ],
+      "count": 1,
+      "percentage": 14.3
+    },
+    {
+      "names": [
+        "Kẹo",
+        "Sữa đặc"
+      ],
+      "count": 1,
+      "percentage": 14.3
+    },
+    {
+      "names": [
+        "Nến",
+        "Sữa đặc"
+      ],
+      "count": 1,
+      "percentage": 14.3
+    },
+    {
+      "names": [
+        "Bánh",
+        "Trà"
+      ],
+      "count": 1,
+      "percentage": 14.3
+    },
+    {
+      "names": [
+        "Nến",
+        "Trà"
+      ],
+      "count": 1,
+      "percentage": 14.3
+    }
+  ],
+  "customers": [
+    {
+      "id": "KH-vip",
+      "spend": 350000,
+      "frequency": 4,
+      "last": "2026-09-30",
+      "recency": 0,
+      "segment": "VIP",
+      "r": 5,
+      "f": 3,
+      "m": 5
+    },
+    {
+      "id": "KH-risk",
+      "spend": 300000,
+      "frequency": 4,
+      "last": "2026-06-10",
+      "recency": 112,
+      "segment": "Có nguy cơ rời đi",
+      "r": 2,
+      "f": 3,
+      "m": 5
+    },
+    {
+      "id": "KH-normal",
+      "spend": 165000,
+      "frequency": 3,
+      "last": "2026-08-02",
+      "recency": 59,
+      "segment": "Bình thường",
+      "r": 4,
+      "f": 3,
+      "m": 4
+    },
+    {
+      "id": "KH-loyal",
+      "spend": 162500,
+      "frequency": 5,
+      "last": "2026-09-30",
+      "recency": 0,
+      "segment": "Trung thành",
+      "r": 5,
+      "f": 4,
+      "m": 4
+    },
+    {
+      "id": "KH-churn",
+      "spend": 15000,
+      "frequency": 1,
+      "last": "2026-05-01",
+      "recency": 152,
+      "segment": "Đã ngừng mua",
+      "r": 2,
+      "f": 1,
+      "m": 2
+    },
+    {
+      "id": "KH-new",
+      "spend": 7500,
+      "frequency": 1,
+      "last": "2026-09-30",
+      "recency": 0,
+      "segment": "Mới",
+      "r": 5,
+      "f": 1,
+      "m": 2
+    }
+  ],
+  "vipThreshold": 199999.99999999997,
+  "monthly": [
+    {
+      "month": "2026-05",
+      "revenue": 245000
+    },
+    {
+      "month": "2026-06",
+      "revenue": 150000
+    },
+    {
+      "month": "2026-08",
+      "revenue": 252500
+    },
+    {
+      "month": "2026-09",
+      "revenue": 352500
+    }
+  ]
+}

@@ -1,0 +1,739 @@
+[
+  {
+    "n": 1000,
+    "run": 1,
+    "parseMs": 118,
+    "analyzeMs": 111,
+    "mainHeartbeatMaxMs": 39.20000000298023,
+    "mainHeapMiB": [
+      14.3,
+      15.3,
+      16
+    ],
+    "totals": {
+      "revenue": 100000,
+      "orders": 180,
+      "quantity": 1000,
+      "profit": 40000,
+      "candidates": 100
+    },
+    "expectedTotals": {
+      "revenue": 100000,
+      "orders": 180,
+      "quantity": 1000,
+      "profit": 40000,
+      "candidates": 100
+    },
+    "status": "PASS",
+    "ui": {
+      "text": "Bán Hàng Smarter.\n\nDữ liệu nhỏ. Góc nhìn lớn.\n\nKhông gian riêng của bạn\nPhân tích file mới\nDữ liệu được xử lý 100% trên thiết bị của bạn, bảo mật tuyệt đối và KHÔNG gửi lên bất kỳ máy chủ nào.\n\nKHÔNG GIAN KINH DOANH\n\nMỗi con số, một cơ hội.\n\nHiểu cửa hàng hôm nay. Quyết định tự tin hơn ngày mai.\n\n2026-09-01 — 2026-09-02\nscale-1000.csv\n1.000 dòng hợp lệ\nBáo cáo làm sạch\nTổng quan\nSản phẩm\n25\nKhách hàng\n180\nTỔNG DOANH THU\n100.000 đ\n\n2 ngày kinh doanh được ghi nhận\n\nLỢI NHUẬN GỘP\n40.000 đ\n\nBiên lợi nhuận 40% · 100% doanh thu có giá vốn\n\nTỔNG ĐƠN HÀNG\n180\n\n1.000 SP · Tách 180 đơn từ mã trùng\n\nGIÁ TRỊ ĐƠN TRUNG BÌNH\n556 đ\n\nDoanh thu bình quân mỗi hóa đơn\n\nĐIỂM TIN KINH DOANH\n\nCửa hàng ghi nhận 180 đơn với tổng doanh thu 100.000 đ trong 2 ngày, ghi nhận lợi nhuận gộp 40.000 đ trên phần dữ liệu có giá vốn (100% doanh thu; biên lãi 40%). Giá trị trung bình mỗi đơn đạt 556 đ.\n\nNhịp kinh doanh của cửa hàng\n\nDoanh thu và lợi nhuận theo tháng\n\n1 tháng\nDoanh thu\nLợi nhuận gộp\n09\n0tr\n0tr\n0tr\n0tr\n0tr\n\nDữ liệu phát sinh trong 1 tháng duy nhất.\n\nNhững mặt hàng dẫn đầu\n\nTop 5 theo doanh thu\n\n01\n\nP15\n\n6.000 đ\n02\n\nP16\n\n6.000 đ\n03\n\nP17\n\n6.000 đ\n04\n\nP18\n\n6.000 đ\n05\n\nP19\n\n6.000 đ\n\nMẶT HÀNG\n\n25\n\nKHÁCH HÀNG\n\n180\n\nTỪ DỮ LIỆU ĐẾN HÀNH ĐỘNG\n\nCơ hội tiếp theo của bạn\n3 gợi ý\nĐảm bảo nguồn hàng cho 18 sản phẩm chủ lực (Nhóm A)\n\nChỉ 18 mặt hàng này mang về 82% doanh thu toàn tiệm (82.000 đ), dẫn đầu là \"P15\". Hãy luôn kiểm kê và đặt hàng nhà cung cấp sớm để tránh đứt hàng vào giờ cao điểm.\n\n82% doanh thu\nTạo combo bán chéo \"P0\" & \"P1\"\n\nKhách hàng đã mua cùng 2 món này trong 40 hóa đơn (22.2% các đơn từ 2 món). Bạn nên đặt 2 món cạnh nhau trên kệ trưng bày hoặc tạo gói khuyến mãi mua kèm để gia tăng giá trị giỏ hàng.\n\n40 đơn mua chung\nGia tăng giá trị đơn hàng trung bình (hiện tại 556 đ)\n\nĐể tăng thêm doanh thu mà không cần tìm thêm khách mới, hãy áp dụng chương trình \"Hóa đơn trên 0 đ được tặng thêm quà nhỏ hoặc miễn phí giao hàng\".\n\nAOV: 556 đ\nKHÁCH VIP\n180\n\nKhách chi tiêu cao và còn gắn bó\n\nSẢN PHẨM CHỦ LỰC\n18\n\nĐóng góp 82% doanh thu\n\nBán Hàng Smarter · Những quyết định tốt bắt đầu từ dữ liệu rõ ràng.\nTùy chỉnh giao diện\n0tr",
+      "kpis": [
+        {
+          "title": "TỔNG DOANH THU",
+          "value": "100.000 đ",
+          "subtitle": "2 ngày kinh doanh được ghi nhận"
+        },
+        {
+          "title": "LỢI NHUẬN GỘP",
+          "value": "40.000 đ",
+          "subtitle": "Biên lợi nhuận 40% · 100% doanh thu có giá vốn"
+        },
+        {
+          "title": "TỔNG ĐƠN HÀNG",
+          "value": "180",
+          "subtitle": "1.000 SP · Tách 180 đơn từ mã trùng"
+        },
+        {
+          "title": "GIÁ TRỊ ĐƠN TRUNG BÌNH",
+          "value": "556 đ",
+          "subtitle": "Doanh thu bình quân mỗi hóa đơn"
+        },
+        {
+          "title": "KHÁCH VIP",
+          "value": "180",
+          "subtitle": "Khách chi tiêu cao và còn gắn bó"
+        },
+        {
+          "title": "SẢN PHẨM CHỦ LỰC",
+          "value": "18",
+          "subtitle": "Đóng góp 82% doanh thu"
+        }
+      ],
+      "rows": [],
+      "insights": [
+        "ĐIỂM TIN KINH DOANH\n\nCửa hàng ghi nhận 180 đơn với tổng doanh thu 100.000 đ trong 2 ngày, ghi nhận lợi nhuận gộp 40.000 đ trên phần dữ liệu có giá vốn (100% doanh thu; biên lãi 40%). Giá trị trung bình mỗi đơn đạt 556 đ."
+      ],
+      "geometry": {
+        "width": 1366,
+        "scrollWidth": 1366,
+        "scrollX": 0,
+        "headingLeft": 71
+      },
+      "theme": {
+        "theme": "light",
+        "accent": "emerald",
+        "density": "comfortable",
+        "motion": "reduced"
+      }
+    },
+    "activeWorker": 0
+  },
+  {
+    "n": 1000,
+    "run": 2,
+    "parseMs": 118,
+    "analyzeMs": 114,
+    "mainHeartbeatMaxMs": 30.699999999254942,
+    "mainHeapMiB": [
+      14.2,
+      15.3,
+      16
+    ],
+    "totals": {
+      "revenue": 100000,
+      "orders": 180,
+      "quantity": 1000,
+      "profit": 40000,
+      "candidates": 100
+    },
+    "expectedTotals": {
+      "revenue": 100000,
+      "orders": 180,
+      "quantity": 1000,
+      "profit": 40000,
+      "candidates": 100
+    },
+    "status": "PASS",
+    "ui": {
+      "text": "Bán Hàng Smarter.\n\nDữ liệu nhỏ. Góc nhìn lớn.\n\nKhông gian riêng của bạn\nPhân tích file mới\nDữ liệu được xử lý 100% trên thiết bị của bạn, bảo mật tuyệt đối và KHÔNG gửi lên bất kỳ máy chủ nào.\n\nKHÔNG GIAN KINH DOANH\n\nMỗi con số, một cơ hội.\n\nHiểu cửa hàng hôm nay. Quyết định tự tin hơn ngày mai.\n\n2026-09-01 — 2026-09-02\nscale-1000.csv\n1.000 dòng hợp lệ\nBáo cáo làm sạch\nTổng quan\nSản phẩm\n25\nKhách hàng\n180\nTỔNG DOANH THU\n100.000 đ\n\n2 ngày kinh doanh được ghi nhận\n\nLỢI NHUẬN GỘP\n40.000 đ\n\nBiên lợi nhuận 40% · 100% doanh thu có giá vốn\n\nTỔNG ĐƠN HÀNG\n180\n\n1.000 SP · Tách 180 đơn từ mã trùng\n\nGIÁ TRỊ ĐƠN TRUNG BÌNH\n556 đ\n\nDoanh thu bình quân mỗi hóa đơn\n\nĐIỂM TIN KINH DOANH\n\nCửa hàng ghi nhận 180 đơn với tổng doanh thu 100.000 đ trong 2 ngày, ghi nhận lợi nhuận gộp 40.000 đ trên phần dữ liệu có giá vốn (100% doanh thu; biên lãi 40%). Giá trị trung bình mỗi đơn đạt 556 đ.\n\nNhịp kinh doanh của cửa hàng\n\nDoanh thu và lợi nhuận theo tháng\n\n1 tháng\nDoanh thu\nLợi nhuận gộp\n09\n0tr\n0tr\n0tr\n0tr\n0tr\n\nDữ liệu phát sinh trong 1 tháng duy nhất.\n\nNhững mặt hàng dẫn đầu\n\nTop 5 theo doanh thu\n\n01\n\nP15\n\n6.000 đ\n02\n\nP16\n\n6.000 đ\n03\n\nP17\n\n6.000 đ\n04\n\nP18\n\n6.000 đ\n05\n\nP19\n\n6.000 đ\n\nMẶT HÀNG\n\n25\n\nKHÁCH HÀNG\n\n180\n\nTỪ DỮ LIỆU ĐẾN HÀNH ĐỘNG\n\nCơ hội tiếp theo của bạn\n3 gợi ý\nĐảm bảo nguồn hàng cho 18 sản phẩm chủ lực (Nhóm A)\n\nChỉ 18 mặt hàng này mang về 82% doanh thu toàn tiệm (82.000 đ), dẫn đầu là \"P15\". Hãy luôn kiểm kê và đặt hàng nhà cung cấp sớm để tránh đứt hàng vào giờ cao điểm.\n\n82% doanh thu\nTạo combo bán chéo \"P0\" & \"P1\"\n\nKhách hàng đã mua cùng 2 món này trong 40 hóa đơn (22.2% các đơn từ 2 món). Bạn nên đặt 2 món cạnh nhau trên kệ trưng bày hoặc tạo gói khuyến mãi mua kèm để gia tăng giá trị giỏ hàng.\n\n40 đơn mua chung\nGia tăng giá trị đơn hàng trung bình (hiện tại 556 đ)\n\nĐể tăng thêm doanh thu mà không cần tìm thêm khách mới, hãy áp dụng chương trình \"Hóa đơn trên 0 đ được tặng thêm quà nhỏ hoặc miễn phí giao hàng\".\n\nAOV: 556 đ\nKHÁCH VIP\n180\n\nKhách chi tiêu cao và còn gắn bó\n\nSẢN PHẨM CHỦ LỰC\n18\n\nĐóng góp 82% doanh thu\n\nBán Hàng Smarter · Những quyết định tốt bắt đầu từ dữ liệu rõ ràng.\nTùy chỉnh giao diện\n0tr",
+      "kpis": [
+        {
+          "title": "TỔNG DOANH THU",
+          "value": "100.000 đ",
+          "subtitle": "2 ngày kinh doanh được ghi nhận"
+        },
+        {
+          "title": "LỢI NHUẬN GỘP",
+          "value": "40.000 đ",
+          "subtitle": "Biên lợi nhuận 40% · 100% doanh thu có giá vốn"
+        },
+        {
+          "title": "TỔNG ĐƠN HÀNG",
+          "value": "180",
+          "subtitle": "1.000 SP · Tách 180 đơn từ mã trùng"
+        },
+        {
+          "title": "GIÁ TRỊ ĐƠN TRUNG BÌNH",
+          "value": "556 đ",
+          "subtitle": "Doanh thu bình quân mỗi hóa đơn"
+        },
+        {
+          "title": "KHÁCH VIP",
+          "value": "180",
+          "subtitle": "Khách chi tiêu cao và còn gắn bó"
+        },
+        {
+          "title": "SẢN PHẨM CHỦ LỰC",
+          "value": "18",
+          "subtitle": "Đóng góp 82% doanh thu"
+        }
+      ],
+      "rows": [],
+      "insights": [
+        "ĐIỂM TIN KINH DOANH\n\nCửa hàng ghi nhận 180 đơn với tổng doanh thu 100.000 đ trong 2 ngày, ghi nhận lợi nhuận gộp 40.000 đ trên phần dữ liệu có giá vốn (100% doanh thu; biên lãi 40%). Giá trị trung bình mỗi đơn đạt 556 đ."
+      ],
+      "geometry": {
+        "width": 1366,
+        "scrollWidth": 1366,
+        "scrollX": 0,
+        "headingLeft": 71
+      },
+      "theme": {
+        "theme": "light",
+        "accent": "emerald",
+        "density": "comfortable",
+        "motion": "reduced"
+      }
+    },
+    "activeWorker": 0
+  },
+  {
+    "n": 10000,
+    "run": 1,
+    "parseMs": 151,
+    "analyzeMs": 145,
+    "mainHeartbeatMaxMs": 32.30000000074506,
+    "mainHeapMiB": [
+      14.3,
+      17.3,
+      22
+    ],
+    "totals": {
+      "revenue": 1000000,
+      "orders": 1800,
+      "quantity": 10000,
+      "profit": 400000,
+      "candidates": 1000
+    },
+    "expectedTotals": {
+      "revenue": 1000000,
+      "orders": 1800,
+      "quantity": 10000,
+      "profit": 400000,
+      "candidates": 1000
+    },
+    "status": "PASS",
+    "ui": {
+      "text": "Bán Hàng Smarter.\n\nDữ liệu nhỏ. Góc nhìn lớn.\n\nKhông gian riêng của bạn\nPhân tích file mới\nDữ liệu được xử lý 100% trên thiết bị của bạn, bảo mật tuyệt đối và KHÔNG gửi lên bất kỳ máy chủ nào.\n\nKHÔNG GIAN KINH DOANH\n\nMỗi con số, một cơ hội.\n\nHiểu cửa hàng hôm nay. Quyết định tự tin hơn ngày mai.\n\n2026-09-01 — 2026-09-02\nscale-10000.csv\n10.000 dòng hợp lệ\nBáo cáo làm sạch\nTổng quan\nSản phẩm\n25\nKhách hàng\n270\nTỔNG DOANH THU\n1 triệu đ\n\n2 ngày kinh doanh được ghi nhận\n\nLỢI NHUẬN GỘP\n400.000 đ\n\nBiên lợi nhuận 40% · 100% doanh thu có giá vốn\n\nTỔNG ĐƠN HÀNG\n1.800\n\n10.000 SP · Tách 1800 đơn từ mã trùng\n\nGIÁ TRỊ ĐƠN TRUNG BÌNH\n556 đ\n\nDoanh thu bình quân mỗi hóa đơn\n\nĐIỂM TIN KINH DOANH\n\nCửa hàng ghi nhận 1.800 đơn với tổng doanh thu 1 triệu đ trong 2 ngày, ghi nhận lợi nhuận gộp 400.000 đ trên phần dữ liệu có giá vốn (100% doanh thu; biên lãi 40%). Giá trị trung bình mỗi đơn đạt 556 đ.\n\nNhịp kinh doanh của cửa hàng\n\nDoanh thu và lợi nhuận theo tháng\n\n1 tháng\nDoanh thu\nLợi nhuận gộp\n09\n0tr\n0tr\n1tr\n1tr\n1tr\n\nDữ liệu phát sinh trong 1 tháng duy nhất.\n\nNhững mặt hàng dẫn đầu\n\nTop 5 theo doanh thu\n\n01\n\nP15\n\n60.000 đ\n02\n\nP16\n\n60.000 đ\n03\n\nP17\n\n60.000 đ\n04\n\nP18\n\n60.000 đ\n05\n\nP19\n\n60.000 đ\n\nMẶT HÀNG\n\n25\n\nKHÁCH HÀNG\n\n270\n\nTỪ DỮ LIỆU ĐẾN HÀNH ĐỘNG\n\nCơ hội tiếp theo của bạn\n3 gợi ý\nĐảm bảo nguồn hàng cho 18 sản phẩm chủ lực (Nhóm A)\n\nChỉ 18 mặt hàng này mang về 82% doanh thu toàn tiệm (820.000 đ), dẫn đầu là \"P15\". Hãy luôn kiểm kê và đặt hàng nhà cung cấp sớm để tránh đứt hàng vào giờ cao điểm.\n\n82% doanh thu\nTạo combo bán chéo \"P0\" & \"P1\"\n\nKhách hàng đã mua cùng 2 món này trong 400 hóa đơn (22.2% các đơn từ 2 món). Bạn nên đặt 2 món cạnh nhau trên kệ trưng bày hoặc tạo gói khuyến mãi mua kèm để gia tăng giá trị giỏ hàng.\n\n400 đơn mua chung\nGia tăng giá trị đơn hàng trung bình (hiện tại 556 đ)\n\nĐể tăng thêm doanh thu mà không cần tìm thêm khách mới, hãy áp dụng chương trình \"Hóa đơn trên 0 đ được tặng thêm quà nhỏ hoặc miễn phí giao hàng\".\n\nAOV: 556 đ\nKHÁCH VIP\n190\n\nKhách chi tiêu cao và còn gắn bó\n\nSẢN PHẨM CHỦ LỰC\n18\n\nĐóng góp 82% doanh thu\n\nBán Hàng Smarter · Những quyết định tốt bắt đầu từ dữ liệu rõ ràng.\nTùy chỉnh giao diện\n0tr",
+      "kpis": [
+        {
+          "title": "TỔNG DOANH THU",
+          "value": "1 triệu đ",
+          "subtitle": "2 ngày kinh doanh được ghi nhận"
+        },
+        {
+          "title": "LỢI NHUẬN GỘP",
+          "value": "400.000 đ",
+          "subtitle": "Biên lợi nhuận 40% · 100% doanh thu có giá vốn"
+        },
+        {
+          "title": "TỔNG ĐƠN HÀNG",
+          "value": "1.800",
+          "subtitle": "10.000 SP · Tách 1800 đơn từ mã trùng"
+        },
+        {
+          "title": "GIÁ TRỊ ĐƠN TRUNG BÌNH",
+          "value": "556 đ",
+          "subtitle": "Doanh thu bình quân mỗi hóa đơn"
+        },
+        {
+          "title": "KHÁCH VIP",
+          "value": "190",
+          "subtitle": "Khách chi tiêu cao và còn gắn bó"
+        },
+        {
+          "title": "SẢN PHẨM CHỦ LỰC",
+          "value": "18",
+          "subtitle": "Đóng góp 82% doanh thu"
+        }
+      ],
+      "rows": [],
+      "insights": [
+        "ĐIỂM TIN KINH DOANH\n\nCửa hàng ghi nhận 1.800 đơn với tổng doanh thu 1 triệu đ trong 2 ngày, ghi nhận lợi nhuận gộp 400.000 đ trên phần dữ liệu có giá vốn (100% doanh thu; biên lãi 40%). Giá trị trung bình mỗi đơn đạt 556 đ."
+      ],
+      "geometry": {
+        "width": 1366,
+        "scrollWidth": 1366,
+        "scrollX": 0,
+        "headingLeft": 71
+      },
+      "theme": {
+        "theme": "light",
+        "accent": "emerald",
+        "density": "comfortable",
+        "motion": "reduced"
+      }
+    },
+    "activeWorker": 0
+  },
+  {
+    "n": 10000,
+    "run": 2,
+    "parseMs": 170,
+    "analyzeMs": 160,
+    "mainHeartbeatMaxMs": 35.600000001490116,
+    "mainHeapMiB": [
+      14.3,
+      17.3,
+      21.5
+    ],
+    "totals": {
+      "revenue": 1000000,
+      "orders": 1800,
+      "quantity": 10000,
+      "profit": 400000,
+      "candidates": 1000
+    },
+    "expectedTotals": {
+      "revenue": 1000000,
+      "orders": 1800,
+      "quantity": 10000,
+      "profit": 400000,
+      "candidates": 1000
+    },
+    "status": "PASS",
+    "ui": {
+      "text": "Bán Hàng Smarter.\n\nDữ liệu nhỏ. Góc nhìn lớn.\n\nKhông gian riêng của bạn\nPhân tích file mới\nDữ liệu được xử lý 100% trên thiết bị của bạn, bảo mật tuyệt đối và KHÔNG gửi lên bất kỳ máy chủ nào.\n\nKHÔNG GIAN KINH DOANH\n\nMỗi con số, một cơ hội.\n\nHiểu cửa hàng hôm nay. Quyết định tự tin hơn ngày mai.\n\n2026-09-01 — 2026-09-02\nscale-10000.csv\n10.000 dòng hợp lệ\nBáo cáo làm sạch\nTổng quan\nSản phẩm\n25\nKhách hàng\n270\nTỔNG DOANH THU\n1 triệu đ\n\n2 ngày kinh doanh được ghi nhận\n\nLỢI NHUẬN GỘP\n400.000 đ\n\nBiên lợi nhuận 40% · 100% doanh thu có giá vốn\n\nTỔNG ĐƠN HÀNG\n1.800\n\n10.000 SP · Tách 1800 đơn từ mã trùng\n\nGIÁ TRỊ ĐƠN TRUNG BÌNH\n556 đ\n\nDoanh thu bình quân mỗi hóa đơn\n\nĐIỂM TIN KINH DOANH\n\nCửa hàng ghi nhận 1.800 đơn với tổng doanh thu 1 triệu đ trong 2 ngày, ghi nhận lợi nhuận gộp 400.000 đ trên phần dữ liệu có giá vốn (100% doanh thu; biên lãi 40%). Giá trị trung bình mỗi đơn đạt 556 đ.\n\nNhịp kinh doanh của cửa hàng\n\nDoanh thu và lợi nhuận theo tháng\n\n1 tháng\nDoanh thu\nLợi nhuận gộp\n09\n0tr\n0tr\n1tr\n1tr\n1tr\n\nDữ liệu phát sinh trong 1 tháng duy nhất.\n\nNhững mặt hàng dẫn đầu\n\nTop 5 theo doanh thu\n\n01\n\nP15\n\n60.000 đ\n02\n\nP16\n\n60.000 đ\n03\n\nP17\n\n60.000 đ\n04\n\nP18\n\n60.000 đ\n05\n\nP19\n\n60.000 đ\n\nMẶT HÀNG\n\n25\n\nKHÁCH HÀNG\n\n270\n\nTỪ DỮ LIỆU ĐẾN HÀNH ĐỘNG\n\nCơ hội tiếp theo của bạn\n3 gợi ý\nĐảm bảo nguồn hàng cho 18 sản phẩm chủ lực (Nhóm A)\n\nChỉ 18 mặt hàng này mang về 82% doanh thu toàn tiệm (820.000 đ), dẫn đầu là \"P15\". Hãy luôn kiểm kê và đặt hàng nhà cung cấp sớm để tránh đứt hàng vào giờ cao điểm.\n\n82% doanh thu\nTạo combo bán chéo \"P0\" & \"P1\"\n\nKhách hàng đã mua cùng 2 món này trong 400 hóa đơn (22.2% các đơn từ 2 món). Bạn nên đặt 2 món cạnh nhau trên kệ trưng bày hoặc tạo gói khuyến mãi mua kèm để gia tăng giá trị giỏ hàng.\n\n400 đơn mua chung\nGia tăng giá trị đơn hàng trung bình (hiện tại 556 đ)\n\nĐể tăng thêm doanh thu mà không cần tìm thêm khách mới, hãy áp dụng chương trình \"Hóa đơn trên 0 đ được tặng thêm quà nhỏ hoặc miễn phí giao hàng\".\n\nAOV: 556 đ\nKHÁCH VIP\n190\n\nKhách chi tiêu cao và còn gắn bó\n\nSẢN PHẨM CHỦ LỰC\n18\n\nĐóng góp 82% doanh thu\n\nBán Hàng Smarter · Những quyết định tốt bắt đầu từ dữ liệu rõ ràng.\nTùy chỉnh giao diện\n0tr",
+      "kpis": [
+        {
+          "title": "TỔNG DOANH THU",
+          "value": "1 triệu đ",
+          "subtitle": "2 ngày kinh doanh được ghi nhận"
+        },
+        {
+          "title": "LỢI NHUẬN GỘP",
+          "value": "400.000 đ",
+          "subtitle": "Biên lợi nhuận 40% · 100% doanh thu có giá vốn"
+        },
+        {
+          "title": "TỔNG ĐƠN HÀNG",
+          "value": "1.800",
+          "subtitle": "10.000 SP · Tách 1800 đơn từ mã trùng"
+        },
+        {
+          "title": "GIÁ TRỊ ĐƠN TRUNG BÌNH",
+          "value": "556 đ",
+          "subtitle": "Doanh thu bình quân mỗi hóa đơn"
+        },
+        {
+          "title": "KHÁCH VIP",
+          "value": "190",
+          "subtitle": "Khách chi tiêu cao và còn gắn bó"
+        },
+        {
+          "title": "SẢN PHẨM CHỦ LỰC",
+          "value": "18",
+          "subtitle": "Đóng góp 82% doanh thu"
+        }
+      ],
+      "rows": [],
+      "insights": [
+        "ĐIỂM TIN KINH DOANH\n\nCửa hàng ghi nhận 1.800 đơn với tổng doanh thu 1 triệu đ trong 2 ngày, ghi nhận lợi nhuận gộp 400.000 đ trên phần dữ liệu có giá vốn (100% doanh thu; biên lãi 40%). Giá trị trung bình mỗi đơn đạt 556 đ."
+      ],
+      "geometry": {
+        "width": 1366,
+        "scrollWidth": 1366,
+        "scrollX": 0,
+        "headingLeft": 71
+      },
+      "theme": {
+        "theme": "light",
+        "accent": "emerald",
+        "density": "comfortable",
+        "motion": "reduced"
+      }
+    },
+    "activeWorker": 0
+  },
+  {
+    "n": 50000,
+    "run": 1,
+    "parseMs": 300,
+    "analyzeMs": 272,
+    "mainHeartbeatMaxMs": 42.100000001490116,
+    "mainHeapMiB": [
+      14.3,
+      26.5,
+      29.1
+    ],
+    "totals": {
+      "revenue": 5000000,
+      "orders": 9000,
+      "quantity": 50000,
+      "profit": 2000000,
+      "candidates": 5000
+    },
+    "expectedTotals": {
+      "revenue": 5000000,
+      "orders": 9000,
+      "quantity": 50000,
+      "profit": 2000000,
+      "candidates": 5000
+    },
+    "status": "PASS",
+    "ui": {
+      "text": "Bán Hàng Smarter.\n\nDữ liệu nhỏ. Góc nhìn lớn.\n\nKhông gian riêng của bạn\nPhân tích file mới\nDữ liệu được xử lý 100% trên thiết bị của bạn, bảo mật tuyệt đối và KHÔNG gửi lên bất kỳ máy chủ nào.\n\nKHÔNG GIAN KINH DOANH\n\nMỗi con số, một cơ hội.\n\nHiểu cửa hàng hôm nay. Quyết định tự tin hơn ngày mai.\n\n2026-09-01 — 2026-09-02\nscale-50000.csv\n50.000 dòng hợp lệ\nBáo cáo làm sạch\nTổng quan\nSản phẩm\n25\nKhách hàng\n270\nTỔNG DOANH THU\n5 triệu đ\n\n2 ngày kinh doanh được ghi nhận\n\nLỢI NHUẬN GỘP\n2 triệu đ\n\nBiên lợi nhuận 40% · 100% doanh thu có giá vốn\n\nTỔNG ĐƠN HÀNG\n9.000\n\n50.000 SP · Tách 9000 đơn từ mã trùng\n\nGIÁ TRỊ ĐƠN TRUNG BÌNH\n556 đ\n\nDoanh thu bình quân mỗi hóa đơn\n\nĐIỂM TIN KINH DOANH\n\nCửa hàng ghi nhận 9.000 đơn với tổng doanh thu 5 triệu đ trong 2 ngày, ghi nhận lợi nhuận gộp 2 triệu đ trên phần dữ liệu có giá vốn (100% doanh thu; biên lãi 40%). Giá trị trung bình mỗi đơn đạt 556 đ.\n\nNhịp kinh doanh của cửa hàng\n\nDoanh thu và lợi nhuận theo tháng\n\n1 tháng\nDoanh thu\nLợi nhuận gộp\n09\n0tr\n2tr\n3tr\n5tr\n6tr\n\nDữ liệu phát sinh trong 1 tháng duy nhất.\n\nNhững mặt hàng dẫn đầu\n\nTop 5 theo doanh thu\n\n01\n\nP15\n\n300.000 đ\n02\n\nP16\n\n300.000 đ\n03\n\nP17\n\n300.000 đ\n04\n\nP18\n\n300.000 đ\n05\n\nP19\n\n300.000 đ\n\nMẶT HÀNG\n\n25\n\nKHÁCH HÀNG\n\n270\n\nTỪ DỮ LIỆU ĐẾN HÀNH ĐỘNG\n\nCơ hội tiếp theo của bạn\n3 gợi ý\nĐảm bảo nguồn hàng cho 18 sản phẩm chủ lực (Nhóm A)\n\nChỉ 18 mặt hàng này mang về 82% doanh thu toàn tiệm (4,1 triệu đ), dẫn đầu là \"P15\". Hãy luôn kiểm kê và đặt hàng nhà cung cấp sớm để tránh đứt hàng vào giờ cao điểm.\n\n82% doanh thu\nTạo combo bán chéo \"P0\" & \"P1\"\n\nKhách hàng đã mua cùng 2 món này trong 2000 hóa đơn (22.2% các đơn từ 2 món). Bạn nên đặt 2 món cạnh nhau trên kệ trưng bày hoặc tạo gói khuyến mãi mua kèm để gia tăng giá trị giỏ hàng.\n\n2000 đơn mua chung\nGia tăng giá trị đơn hàng trung bình (hiện tại 556 đ)\n\nĐể tăng thêm doanh thu mà không cần tìm thêm khách mới, hãy áp dụng chương trình \"Hóa đơn trên 0 đ được tặng thêm quà nhỏ hoặc miễn phí giao hàng\".\n\nAOV: 556 đ\nKHÁCH VIP\n110\n\nKhách chi tiêu cao và còn gắn bó\n\nSẢN PHẨM CHỦ LỰC\n18\n\nĐóng góp 82% doanh thu\n\nBán Hàng Smarter · Những quyết định tốt bắt đầu từ dữ liệu rõ ràng.\nTùy chỉnh giao diện\n0tr",
+      "kpis": [
+        {
+          "title": "TỔNG DOANH THU",
+          "value": "5 triệu đ",
+          "subtitle": "2 ngày kinh doanh được ghi nhận"
+        },
+        {
+          "title": "LỢI NHUẬN GỘP",
+          "value": "2 triệu đ",
+          "subtitle": "Biên lợi nhuận 40% · 100% doanh thu có giá vốn"
+        },
+        {
+          "title": "TỔNG ĐƠN HÀNG",
+          "value": "9.000",
+          "subtitle": "50.000 SP · Tách 9000 đơn từ mã trùng"
+        },
+        {
+          "title": "GIÁ TRỊ ĐƠN TRUNG BÌNH",
+          "value": "556 đ",
+          "subtitle": "Doanh thu bình quân mỗi hóa đơn"
+        },
+        {
+          "title": "KHÁCH VIP",
+          "value": "110",
+          "subtitle": "Khách chi tiêu cao và còn gắn bó"
+        },
+        {
+          "title": "SẢN PHẨM CHỦ LỰC",
+          "value": "18",
+          "subtitle": "Đóng góp 82% doanh thu"
+        }
+      ],
+      "rows": [],
+      "insights": [
+        "ĐIỂM TIN KINH DOANH\n\nCửa hàng ghi nhận 9.000 đơn với tổng doanh thu 5 triệu đ trong 2 ngày, ghi nhận lợi nhuận gộp 2 triệu đ trên phần dữ liệu có giá vốn (100% doanh thu; biên lãi 40%). Giá trị trung bình mỗi đơn đạt 556 đ."
+      ],
+      "geometry": {
+        "width": 1366,
+        "scrollWidth": 1366,
+        "scrollX": 0,
+        "headingLeft": 71
+      },
+      "theme": {
+        "theme": "light",
+        "accent": "emerald",
+        "density": "comfortable",
+        "motion": "reduced"
+      }
+    },
+    "activeWorker": 0
+  },
+  {
+    "n": 50000,
+    "run": 2,
+    "parseMs": 307,
+    "analyzeMs": 272,
+    "mainHeartbeatMaxMs": 40.80000000074506,
+    "mainHeapMiB": [
+      14.3,
+      26.6,
+      29.1
+    ],
+    "totals": {
+      "revenue": 5000000,
+      "orders": 9000,
+      "quantity": 50000,
+      "profit": 2000000,
+      "candidates": 5000
+    },
+    "expectedTotals": {
+      "revenue": 5000000,
+      "orders": 9000,
+      "quantity": 50000,
+      "profit": 2000000,
+      "candidates": 5000
+    },
+    "status": "PASS",
+    "ui": {
+      "text": "Bán Hàng Smarter.\n\nDữ liệu nhỏ. Góc nhìn lớn.\n\nKhông gian riêng của bạn\nPhân tích file mới\nDữ liệu được xử lý 100% trên thiết bị của bạn, bảo mật tuyệt đối và KHÔNG gửi lên bất kỳ máy chủ nào.\n\nKHÔNG GIAN KINH DOANH\n\nMỗi con số, một cơ hội.\n\nHiểu cửa hàng hôm nay. Quyết định tự tin hơn ngày mai.\n\n2026-09-01 — 2026-09-02\nscale-50000.csv\n50.000 dòng hợp lệ\nBáo cáo làm sạch\nTổng quan\nSản phẩm\n25\nKhách hàng\n270\nTỔNG DOANH THU\n5 triệu đ\n\n2 ngày kinh doanh được ghi nhận\n\nLỢI NHUẬN GỘP\n2 triệu đ\n\nBiên lợi nhuận 40% · 100% doanh thu có giá vốn\n\nTỔNG ĐƠN HÀNG\n9.000\n\n50.000 SP · Tách 9000 đơn từ mã trùng\n\nGIÁ TRỊ ĐƠN TRUNG BÌNH\n556 đ\n\nDoanh thu bình quân mỗi hóa đơn\n\nĐIỂM TIN KINH DOANH\n\nCửa hàng ghi nhận 9.000 đơn với tổng doanh thu 5 triệu đ trong 2 ngày, ghi nhận lợi nhuận gộp 2 triệu đ trên phần dữ liệu có giá vốn (100% doanh thu; biên lãi 40%). Giá trị trung bình mỗi đơn đạt 556 đ.\n\nNhịp kinh doanh của cửa hàng\n\nDoanh thu và lợi nhuận theo tháng\n\n1 tháng\nDoanh thu\nLợi nhuận gộp\n09\n0tr\n2tr\n3tr\n5tr\n6tr\n\nDữ liệu phát sinh trong 1 tháng duy nhất.\n\nNhững mặt hàng dẫn đầu\n\nTop 5 theo doanh thu\n\n01\n\nP15\n\n300.000 đ\n02\n\nP16\n\n300.000 đ\n03\n\nP17\n\n300.000 đ\n04\n\nP18\n\n300.000 đ\n05\n\nP19\n\n300.000 đ\n\nMẶT HÀNG\n\n25\n\nKHÁCH HÀNG\n\n270\n\nTỪ DỮ LIỆU ĐẾN HÀNH ĐỘNG\n\nCơ hội tiếp theo của bạn\n3 gợi ý\nĐảm bảo nguồn hàng cho 18 sản phẩm chủ lực (Nhóm A)\n\nChỉ 18 mặt hàng này mang về 82% doanh thu toàn tiệm (4,1 triệu đ), dẫn đầu là \"P15\". Hãy luôn kiểm kê và đặt hàng nhà cung cấp sớm để tránh đứt hàng vào giờ cao điểm.\n\n82% doanh thu\nTạo combo bán chéo \"P0\" & \"P1\"\n\nKhách hàng đã mua cùng 2 món này trong 2000 hóa đơn (22.2% các đơn từ 2 món). Bạn nên đặt 2 món cạnh nhau trên kệ trưng bày hoặc tạo gói khuyến mãi mua kèm để gia tăng giá trị giỏ hàng.\n\n2000 đơn mua chung\nGia tăng giá trị đơn hàng trung bình (hiện tại 556 đ)\n\nĐể tăng thêm doanh thu mà không cần tìm thêm khách mới, hãy áp dụng chương trình \"Hóa đơn trên 0 đ được tặng thêm quà nhỏ hoặc miễn phí giao hàng\".\n\nAOV: 556 đ\nKHÁCH VIP\n110\n\nKhách chi tiêu cao và còn gắn bó\n\nSẢN PHẨM CHỦ LỰC\n18\n\nĐóng góp 82% doanh thu\n\nBán Hàng Smarter · Những quyết định tốt bắt đầu từ dữ liệu rõ ràng.\nTùy chỉnh giao diện\n0tr",
+      "kpis": [
+        {
+          "title": "TỔNG DOANH THU",
+          "value": "5 triệu đ",
+          "subtitle": "2 ngày kinh doanh được ghi nhận"
+        },
+        {
+          "title": "LỢI NHUẬN GỘP",
+          "value": "2 triệu đ",
+          "subtitle": "Biên lợi nhuận 40% · 100% doanh thu có giá vốn"
+        },
+        {
+          "title": "TỔNG ĐƠN HÀNG",
+          "value": "9.000",
+          "subtitle": "50.000 SP · Tách 9000 đơn từ mã trùng"
+        },
+        {
+          "title": "GIÁ TRỊ ĐƠN TRUNG BÌNH",
+          "value": "556 đ",
+          "subtitle": "Doanh thu bình quân mỗi hóa đơn"
+        },
+        {
+          "title": "KHÁCH VIP",
+          "value": "110",
+          "subtitle": "Khách chi tiêu cao và còn gắn bó"
+        },
+        {
+          "title": "SẢN PHẨM CHỦ LỰC",
+          "value": "18",
+          "subtitle": "Đóng góp 82% doanh thu"
+        }
+      ],
+      "rows": [],
+      "insights": [
+        "ĐIỂM TIN KINH DOANH\n\nCửa hàng ghi nhận 9.000 đơn với tổng doanh thu 5 triệu đ trong 2 ngày, ghi nhận lợi nhuận gộp 2 triệu đ trên phần dữ liệu có giá vốn (100% doanh thu; biên lãi 40%). Giá trị trung bình mỗi đơn đạt 556 đ."
+      ],
+      "geometry": {
+        "width": 1366,
+        "scrollWidth": 1366,
+        "scrollX": 0,
+        "headingLeft": 71
+      },
+      "theme": {
+        "theme": "light",
+        "accent": "emerald",
+        "density": "comfortable",
+        "motion": "reduced"
+      }
+    },
+    "activeWorker": 0
+  },
+  {
+    "n": 200000,
+    "run": 1,
+    "parseMs": 885,
+    "analyzeMs": 986,
+    "mainHeartbeatMaxMs": 188.90000000223517,
+    "mainHeapMiB": [
+      14.3,
+      58.3,
+      58.8
+    ],
+    "totals": {
+      "revenue": 20000000,
+      "orders": 36000,
+      "quantity": 200000,
+      "profit": 8000000,
+      "candidates": 20000
+    },
+    "expectedTotals": {
+      "revenue": 20000000,
+      "orders": 36000,
+      "quantity": 200000,
+      "profit": 8000000,
+      "candidates": 20000
+    },
+    "status": "PASS",
+    "ui": {
+      "text": "Bán Hàng Smarter.\n\nDữ liệu nhỏ. Góc nhìn lớn.\n\nKhông gian riêng của bạn\nPhân tích file mới\nDữ liệu được xử lý 100% trên thiết bị của bạn, bảo mật tuyệt đối và KHÔNG gửi lên bất kỳ máy chủ nào.\n\nKHÔNG GIAN KINH DOANH\n\nMỗi con số, một cơ hội.\n\nHiểu cửa hàng hôm nay. Quyết định tự tin hơn ngày mai.\n\n2026-09-01 — 2026-09-02\nscale-200000.csv\n200.000 dòng hợp lệ\nBáo cáo làm sạch\nTổng quan\nSản phẩm\n25\nKhách hàng\n270\nTỔNG DOANH THU\n20 triệu đ\n\n2 ngày kinh doanh được ghi nhận\n\nLỢI NHUẬN GỘP\n8 triệu đ\n\nBiên lợi nhuận 40% · 100% doanh thu có giá vốn\n\nTỔNG ĐƠN HÀNG\n36.000\n\n200.000 SP · Tách 36000 đơn từ mã trùng\n\nGIÁ TRỊ ĐƠN TRUNG BÌNH\n556 đ\n\nDoanh thu bình quân mỗi hóa đơn\n\nĐIỂM TIN KINH DOANH\n\nCửa hàng ghi nhận 36.000 đơn với tổng doanh thu 20 triệu đ trong 2 ngày, ghi nhận lợi nhuận gộp 8 triệu đ trên phần dữ liệu có giá vốn (100% doanh thu; biên lãi 40%). Giá trị trung bình mỗi đơn đạt 556 đ.\n\nNhịp kinh doanh của cửa hàng\n\nDoanh thu và lợi nhuận theo tháng\n\n1 tháng\nDoanh thu\nLợi nhuận gộp\n09\n0tr\n5tr\n10tr\n15tr\n20tr\n\nDữ liệu phát sinh trong 1 tháng duy nhất.\n\nNhững mặt hàng dẫn đầu\n\nTop 5 theo doanh thu\n\n01\n\nP15\n\n1,2 triệu đ\n02\n\nP16\n\n1,2 triệu đ\n03\n\nP17\n\n1,2 triệu đ\n04\n\nP18\n\n1,2 triệu đ\n05\n\nP19\n\n1,2 triệu đ\n\nMẶT HÀNG\n\n25\n\nKHÁCH HÀNG\n\n270\n\nTỪ DỮ LIỆU ĐẾN HÀNH ĐỘNG\n\nCơ hội tiếp theo của bạn\n3 gợi ý\nĐảm bảo nguồn hàng cho 18 sản phẩm chủ lực (Nhóm A)\n\nChỉ 18 mặt hàng này mang về 82% doanh thu toàn tiệm (16,4 triệu đ), dẫn đầu là \"P15\". Hãy luôn kiểm kê và đặt hàng nhà cung cấp sớm để tránh đứt hàng vào giờ cao điểm.\n\n82% doanh thu\nTạo combo bán chéo \"P0\" & \"P1\"\n\nKhách hàng đã mua cùng 2 món này trong 8000 hóa đơn (22.2% các đơn từ 2 món). Bạn nên đặt 2 món cạnh nhau trên kệ trưng bày hoặc tạo gói khuyến mãi mua kèm để gia tăng giá trị giỏ hàng.\n\n8000 đơn mua chung\nGia tăng giá trị đơn hàng trung bình (hiện tại 556 đ)\n\nĐể tăng thêm doanh thu mà không cần tìm thêm khách mới, hãy áp dụng chương trình \"Hóa đơn trên 0 đ được tặng thêm quà nhỏ hoặc miễn phí giao hàng\".\n\nAOV: 556 đ\nKHÁCH VIP\n110\n\nKhách chi tiêu cao và còn gắn bó\n\nSẢN PHẨM CHỦ LỰC\n18\n\nĐóng góp 82% doanh thu\n\nBán Hàng Smarter · Những quyết định tốt bắt đầu từ dữ liệu rõ ràng.\nTùy chỉnh giao diện\n0tr",
+      "kpis": [
+        {
+          "title": "TỔNG DOANH THU",
+          "value": "20 triệu đ",
+          "subtitle": "2 ngày kinh doanh được ghi nhận"
+        },
+        {
+          "title": "LỢI NHUẬN GỘP",
+          "value": "8 triệu đ",
+          "subtitle": "Biên lợi nhuận 40% · 100% doanh thu có giá vốn"
+        },
+        {
+          "title": "TỔNG ĐƠN HÀNG",
+          "value": "36.000",
+          "subtitle": "200.000 SP · Tách 36000 đơn từ mã trùng"
+        },
+        {
+          "title": "GIÁ TRỊ ĐƠN TRUNG BÌNH",
+          "value": "556 đ",
+          "subtitle": "Doanh thu bình quân mỗi hóa đơn"
+        },
+        {
+          "title": "KHÁCH VIP",
+          "value": "110",
+          "subtitle": "Khách chi tiêu cao và còn gắn bó"
+        },
+        {
+          "title": "SẢN PHẨM CHỦ LỰC",
+          "value": "18",
+          "subtitle": "Đóng góp 82% doanh thu"
+        }
+      ],
+      "rows": [],
+      "insights": [
+        "ĐIỂM TIN KINH DOANH\n\nCửa hàng ghi nhận 36.000 đơn với tổng doanh thu 20 triệu đ trong 2 ngày, ghi nhận lợi nhuận gộp 8 triệu đ trên phần dữ liệu có giá vốn (100% doanh thu; biên lãi 40%). Giá trị trung bình mỗi đơn đạt 556 đ."
+      ],
+      "geometry": {
+        "width": 1366,
+        "scrollWidth": 1366,
+        "scrollX": 0,
+        "headingLeft": 71
+      },
+      "theme": {
+        "theme": "light",
+        "accent": "emerald",
+        "density": "comfortable",
+        "motion": "reduced"
+      }
+    },
+    "activeWorker": 0
+  },
+  {
+    "n": 200000,
+    "run": 2,
+    "parseMs": 919,
+    "analyzeMs": 1059,
+    "mainHeartbeatMaxMs": 151.80000000074506,
+    "mainHeapMiB": [
+      14.4,
+      58.4,
+      59
+    ],
+    "totals": {
+      "revenue": 20000000,
+      "orders": 36000,
+      "quantity": 200000,
+      "profit": 8000000,
+      "candidates": 20000
+    },
+    "expectedTotals": {
+      "revenue": 20000000,
+      "orders": 36000,
+      "quantity": 200000,
+      "profit": 8000000,
+      "candidates": 20000
+    },
+    "status": "PASS",
+    "ui": {
+      "text": "Bán Hàng Smarter.\n\nDữ liệu nhỏ. Góc nhìn lớn.\n\nKhông gian riêng của bạn\nPhân tích file mới\nDữ liệu được xử lý 100% trên thiết bị của bạn, bảo mật tuyệt đối và KHÔNG gửi lên bất kỳ máy chủ nào.\n\nKHÔNG GIAN KINH DOANH\n\nMỗi con số, một cơ hội.\n\nHiểu cửa hàng hôm nay. Quyết định tự tin hơn ngày mai.\n\n2026-09-01 — 2026-09-02\nscale-200000.csv\n200.000 dòng hợp lệ\nBáo cáo làm sạch\nTổng quan\nSản phẩm\n25\nKhách hàng\n270\nTỔNG DOANH THU\n20 triệu đ\n\n2 ngày kinh doanh được ghi nhận\n\nLỢI NHUẬN GỘP\n8 triệu đ\n\nBiên lợi nhuận 40% · 100% doanh thu có giá vốn\n\nTỔNG ĐƠN HÀNG\n36.000\n\n200.000 SP · Tách 36000 đơn từ mã trùng\n\nGIÁ TRỊ ĐƠN TRUNG BÌNH\n556 đ\n\nDoanh thu bình quân mỗi hóa đơn\n\nĐIỂM TIN KINH DOANH\n\nCửa hàng ghi nhận 36.000 đơn với tổng doanh thu 20 triệu đ trong 2 ngày, ghi nhận lợi nhuận gộp 8 triệu đ trên phần dữ liệu có giá vốn (100% doanh thu; biên lãi 40%). Giá trị trung bình mỗi đơn đạt 556 đ.\n\nNhịp kinh doanh của cửa hàng\n\nDoanh thu và lợi nhuận theo tháng\n\n1 tháng\nDoanh thu\nLợi nhuận gộp\n09\n0tr\n5tr\n10tr\n15tr\n20tr\n\nDữ liệu phát sinh trong 1 tháng duy nhất.\n\nNhững mặt hàng dẫn đầu\n\nTop 5 theo doanh thu\n\n01\n\nP15\n\n1,2 triệu đ\n02\n\nP16\n\n1,2 triệu đ\n03\n\nP17\n\n1,2 triệu đ\n04\n\nP18\n\n1,2 triệu đ\n05\n\nP19\n\n1,2 triệu đ\n\nMẶT HÀNG\n\n25\n\nKHÁCH HÀNG\n\n270\n\nTỪ DỮ LIỆU ĐẾN HÀNH ĐỘNG\n\nCơ hội tiếp theo của bạn\n3 gợi ý\nĐảm bảo nguồn hàng cho 18 sản phẩm chủ lực (Nhóm A)\n\nChỉ 18 mặt hàng này mang về 82% doanh thu toàn tiệm (16,4 triệu đ), dẫn đầu là \"P15\". Hãy luôn kiểm kê và đặt hàng nhà cung cấp sớm để tránh đứt hàng vào giờ cao điểm.\n\n82% doanh thu\nTạo combo bán chéo \"P0\" & \"P1\"\n\nKhách hàng đã mua cùng 2 món này trong 8000 hóa đơn (22.2% các đơn từ 2 món). Bạn nên đặt 2 món cạnh nhau trên kệ trưng bày hoặc tạo gói khuyến mãi mua kèm để gia tăng giá trị giỏ hàng.\n\n8000 đơn mua chung\nGia tăng giá trị đơn hàng trung bình (hiện tại 556 đ)\n\nĐể tăng thêm doanh thu mà không cần tìm thêm khách mới, hãy áp dụng chương trình \"Hóa đơn trên 0 đ được tặng thêm quà nhỏ hoặc miễn phí giao hàng\".\n\nAOV: 556 đ\nKHÁCH VIP\n110\n\nKhách chi tiêu cao và còn gắn bó\n\nSẢN PHẨM CHỦ LỰC\n18\n\nĐóng góp 82% doanh thu\n\nBán Hàng Smarter · Những quyết định tốt bắt đầu từ dữ liệu rõ ràng.\nTùy chỉnh giao diện\n0tr",
+      "kpis": [
+        {
+          "title": "TỔNG DOANH THU",
+          "value": "20 triệu đ",
+          "subtitle": "2 ngày kinh doanh được ghi nhận"
+        },
+        {
+          "title": "LỢI NHUẬN GỘP",
+          "value": "8 triệu đ",
+          "subtitle": "Biên lợi nhuận 40% · 100% doanh thu có giá vốn"
+        },
+        {
+          "title": "TỔNG ĐƠN HÀNG",
+          "value": "36.000",
+          "subtitle": "200.000 SP · Tách 36000 đơn từ mã trùng"
+        },
+        {
+          "title": "GIÁ TRỊ ĐƠN TRUNG BÌNH",
+          "value": "556 đ",
+          "subtitle": "Doanh thu bình quân mỗi hóa đơn"
+        },
+        {
+          "title": "KHÁCH VIP",
+          "value": "110",
+          "subtitle": "Khách chi tiêu cao và còn gắn bó"
+        },
+        {
+          "title": "SẢN PHẨM CHỦ LỰC",
+          "value": "18",
+          "subtitle": "Đóng góp 82% doanh thu"
+        }
+      ],
+      "rows": [],
+      "insights": [
+        "ĐIỂM TIN KINH DOANH\n\nCửa hàng ghi nhận 36.000 đơn với tổng doanh thu 20 triệu đ trong 2 ngày, ghi nhận lợi nhuận gộp 8 triệu đ trên phần dữ liệu có giá vốn (100% doanh thu; biên lãi 40%). Giá trị trung bình mỗi đơn đạt 556 đ."
+      ],
+      "geometry": {
+        "width": 1366,
+        "scrollWidth": 1366,
+        "scrollX": 0,
+        "headingLeft": 71
+      },
+      "theme": {
+        "theme": "light",
+        "accent": "emerald",
+        "density": "comfortable",
+        "motion": "reduced"
+      }
+    },
+    "activeWorker": 0
+  },
+  {
+    "n": 50000,
+    "format": "xlsx",
+    "parseMs": 1445,
+    "analyzeMs": 332,
+    "ui": {
+      "text": "Bán Hàng Smarter.\n\nDữ liệu nhỏ. Góc nhìn lớn.\n\nKhông gian riêng của bạn\nPhân tích file mới\nDữ liệu được xử lý 100% trên thiết bị của bạn, bảo mật tuyệt đối và KHÔNG gửi lên bất kỳ máy chủ nào.\n\nKHÔNG GIAN KINH DOANH\n\nMỗi con số, một cơ hội.\n\nHiểu cửa hàng hôm nay. Quyết định tự tin hơn ngày mai.\n\n2026-09-01 — 2026-09-02\nscale-50000.xlsx\n50.000 dòng hợp lệ\nBáo cáo làm sạch\nTổng quan\nSản phẩm\n25\nKhách hàng\n270\nTỔNG DOANH THU\n5 triệu đ\n\n2 ngày kinh doanh được ghi nhận\n\nLỢI NHUẬN GỘP\n2 triệu đ\n\nBiên lợi nhuận 40% · 100% doanh thu có giá vốn\n\nTỔNG ĐƠN HÀNG\n9.000\n\n50.000 SP · Tách 9000 đơn từ mã trùng\n\nGIÁ TRỊ ĐƠN TRUNG BÌNH\n556 đ\n\nDoanh thu bình quân mỗi hóa đơn\n\nĐIỂM TIN KINH DOANH\n\nCửa hàng ghi nhận 9.000 đơn với tổng doanh thu 5 triệu đ trong 2 ngày, ghi nhận lợi nhuận gộp 2 triệu đ trên phần dữ liệu có giá vốn (100% doanh thu; biên lãi 40%). Giá trị trung bình mỗi đơn đạt 556 đ.\n\nNhịp kinh doanh của cửa hàng\n\nDoanh thu và lợi nhuận theo tháng\n\n1 tháng\nDoanh thu\nLợi nhuận gộp\n09\n0tr\n2tr\n3tr\n5tr\n6tr\n\nDữ liệu phát sinh trong 1 tháng duy nhất.\n\nNhững mặt hàng dẫn đầu\n\nTop 5 theo doanh thu\n\n01\n\nP15\n\n300.000 đ\n02\n\nP16\n\n300.000 đ\n03\n\nP17\n\n300.000 đ\n04\n\nP18\n\n300.000 đ\n05\n\nP19\n\n300.000 đ\n\nMẶT HÀNG\n\n25\n\nKHÁCH HÀNG\n\n270\n\nTỪ DỮ LIỆU ĐẾN HÀNH ĐỘNG\n\nCơ hội tiếp theo của bạn\n3 gợi ý\nĐảm bảo nguồn hàng cho 18 sản phẩm chủ lực (Nhóm A)\n\nChỉ 18 mặt hàng này mang về 82% doanh thu toàn tiệm (4,1 triệu đ), dẫn đầu là \"P15\". Hãy luôn kiểm kê và đặt hàng nhà cung cấp sớm để tránh đứt hàng vào giờ cao điểm.\n\n82% doanh thu\nTạo combo bán chéo \"P0\" & \"P1\"\n\nKhách hàng đã mua cùng 2 món này trong 2000 hóa đơn (22.2% các đơn từ 2 món). Bạn nên đặt 2 món cạnh nhau trên kệ trưng bày hoặc tạo gói khuyến mãi mua kèm để gia tăng giá trị giỏ hàng.\n\n2000 đơn mua chung\nGia tăng giá trị đơn hàng trung bình (hiện tại 556 đ)\n\nĐể tăng thêm doanh thu mà không cần tìm thêm khách mới, hãy áp dụng chương trình \"Hóa đơn trên 0 đ được tặng thêm quà nhỏ hoặc miễn phí giao hàng\".\n\nAOV: 556 đ\nKHÁCH VIP\n110\n\nKhách chi tiêu cao và còn gắn bó\n\nSẢN PHẨM CHỦ LỰC\n18\n\nĐóng góp 82% doanh thu\n\nBán Hàng Smarter · Những quyết định tốt bắt đầu từ dữ liệu rõ ràng.\nTùy chỉnh giao diện\n0tr",
+      "kpis": [
+        {
+          "title": "TỔNG DOANH THU",
+          "value": "5 triệu đ",
+          "subtitle": "2 ngày kinh doanh được ghi nhận"
+        },
+        {
+          "title": "LỢI NHUẬN GỘP",
+          "value": "2 triệu đ",
+          "subtitle": "Biên lợi nhuận 40% · 100% doanh thu có giá vốn"
+        },
+        {
+          "title": "TỔNG ĐƠN HÀNG",
+          "value": "9.000",
+          "subtitle": "50.000 SP · Tách 9000 đơn từ mã trùng"
+        },
+        {
+          "title": "GIÁ TRỊ ĐƠN TRUNG BÌNH",
+          "value": "556 đ",
+          "subtitle": "Doanh thu bình quân mỗi hóa đơn"
+        },
+        {
+          "title": "KHÁCH VIP",
+          "value": "110",
+          "subtitle": "Khách chi tiêu cao và còn gắn bó"
+        },
+        {
+          "title": "SẢN PHẨM CHỦ LỰC",
+          "value": "18",
+          "subtitle": "Đóng góp 82% doanh thu"
+        }
+      ],
+      "rows": [],
+      "insights": [
+        "ĐIỂM TIN KINH DOANH\n\nCửa hàng ghi nhận 9.000 đơn với tổng doanh thu 5 triệu đ trong 2 ngày, ghi nhận lợi nhuận gộp 2 triệu đ trên phần dữ liệu có giá vốn (100% doanh thu; biên lãi 40%). Giá trị trung bình mỗi đơn đạt 556 đ."
+      ],
+      "geometry": {
+        "width": 1366,
+        "scrollWidth": 1366,
+        "scrollX": 0,
+        "headingLeft": 71
+      },
+      "theme": {
+        "theme": "light",
+        "accent": "emerald",
+        "density": "comfortable",
+        "motion": "reduced"
+      }
+    },
+    "observed": {
+      "overview": {
+        "hasReliableOrderIds": true,
+        "orderIdStatus": "reused_disambiguated",
+        "hasOrderCollisions": true,
+        "orderIdWarning": "Phát hiện mã hóa đơn bị tái sử dụng qua nhiều ngày hoặc nhiều khách hàng. Hệ thống đã phân tách thành các giao dịch riêng biệt.",
+        "costCoverage": 100,
+        "totalRevenue": 5000000,
+        "totalQuantity": 50000,
+        "totalOrders": 9000,
+        "averageOrderValue": 556,
+        "totalProfit": 2000000,
+        "profitMargin": 40,
+        "uniqueProducts": 25,
+        "uniqueCustomers": 270,
+        "dateRange": {
+          "start": "2026-09-01",
+          "end": "2026-09-02",
+          "days": 2
+        },
+        "monthlyRevenue": [
+          {
+            "month": "2026-09",
+            "revenue": 5000000,
+            "orders": 9000,
+            "profit": 2000000
+          }
+        ]
+      },
+      "report": {
+        "totalRows": 50000,
+        "validRows": 50000,
+        "droppedTotal": 0,
+        "reasons": [],
+        "suspectedDuplicates": {
+          "count": 5000,
+          "sampleRows": [
+            46,
+            47,
+            48,
+            49,
+            50
+          ],
+          "totalRevenue": 500000,
+          "policyApplied": "keep_all"
+        }
+      }
+    }
+  }
+]

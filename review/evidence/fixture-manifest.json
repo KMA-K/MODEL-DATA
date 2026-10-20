@@ -1,0 +1,332 @@
+[
+  {
+    "name": "oracle-28",
+    "file": "oracle-28.csv",
+    "note": "",
+    "rows": 28
+  },
+  {
+    "name": "csv-comma",
+    "file": "csv-comma.csv",
+    "note": "",
+    "rows": 1
+  },
+  {
+    "name": "csv-semicolon",
+    "file": "csv-semicolon.csv",
+    "note": "",
+    "rows": 1
+  },
+  {
+    "name": "csv-tab",
+    "file": "csv-tab.csv",
+    "note": "",
+    "rows": 1
+  },
+  {
+    "name": "csv-bom",
+    "file": "csv-bom.csv",
+    "note": "",
+    "rows": 1
+  },
+  {
+    "name": "quoted-multiline",
+    "file": "quoted-multiline.csv",
+    "note": "",
+    "rows": 1
+  },
+  {
+    "name": "duplicate-header",
+    "file": "duplicate-header.csv",
+    "note": "",
+    "rows": 1
+  },
+  {
+    "name": "empty",
+    "file": "empty.csv",
+    "note": "",
+    "rows": 0
+  },
+  {
+    "name": "header-only",
+    "file": "header-only.csv",
+    "note": "",
+    "rows": 0
+  },
+  {
+    "name": "fake-jpeg",
+    "file": "fake-jpeg.csv",
+    "note": "",
+    "rows": 0
+  },
+  {
+    "name": "missing-required",
+    "file": "missing-required.csv",
+    "note": "",
+    "rows": 1
+  },
+  {
+    "name": "unusual-headers",
+    "file": "unusual-headers.csv",
+    "note": "",
+    "rows": 1
+  },
+  {
+    "name": "date-iso",
+    "file": "date-iso.csv",
+    "note": "",
+    "rows": 1
+  },
+  {
+    "name": "date-dmy",
+    "file": "date-dmy.csv",
+    "note": "",
+    "rows": 1
+  },
+  {
+    "name": "date-us",
+    "file": "date-us.csv",
+    "note": "",
+    "rows": 1
+  },
+  {
+    "name": "date-serial-csv",
+    "file": "date-serial-csv.csv",
+    "note": "",
+    "rows": 1
+  },
+  {
+    "name": "date-invalid",
+    "file": "date-invalid.csv",
+    "note": "",
+    "rows": 1
+  },
+  {
+    "name": "date-ambiguous",
+    "file": "date-ambiguous.csv",
+    "note": "",
+    "rows": 1
+  },
+  {
+    "name": "date-1999",
+    "file": "date-1999.csv",
+    "note": "",
+    "rows": 1
+  },
+  {
+    "name": "date-2101",
+    "file": "date-2101.csv",
+    "note": "",
+    "rows": 1
+  },
+  {
+    "name": "number-million-vn",
+    "file": "number-million-vn.csv",
+    "note": "",
+    "rows": 1
+  },
+  {
+    "name": "number-million-us",
+    "file": "number-million-us.csv",
+    "note": "",
+    "rows": 1
+  },
+  {
+    "name": "number-currency",
+    "file": "number-currency.csv",
+    "note": "",
+    "rows": 1
+  },
+  {
+    "name": "number-k",
+    "file": "number-k.csv",
+    "note": "",
+    "rows": 1
+  },
+  {
+    "name": "number-tr",
+    "file": "number-tr.csv",
+    "note": "",
+    "rows": 1
+  },
+  {
+    "name": "number-ambiguous",
+    "file": "number-ambiguous.csv",
+    "note": "",
+    "rows": 1
+  },
+  {
+    "name": "number-junk",
+    "file": "number-junk.csv",
+    "note": "",
+    "rows": 1
+  },
+  {
+    "name": "number-empty",
+    "file": "number-empty.csv",
+    "note": "",
+    "rows": 1
+  },
+  {
+    "name": "number-negative",
+    "file": "number-negative.csv",
+    "note": "",
+    "rows": 1
+  },
+  {
+    "name": "duplicate-real-order",
+    "file": "duplicate-real-order.csv",
+    "note": "",
+    "rows": 2
+  },
+  {
+    "name": "duplicate-no-order",
+    "file": "duplicate-no-order.csv",
+    "note": "",
+    "rows": 2
+  },
+  {
+    "name": "bad-revenue-valid-price",
+    "file": "bad-revenue-valid-price.csv",
+    "note": "",
+    "rows": 2
+  },
+  {
+    "name": "negative-profit",
+    "file": "negative-profit.csv",
+    "note": "",
+    "rows": 1
+  },
+  {
+    "name": "total-cost-as-unit",
+    "file": "total-cost-as-unit.csv",
+    "note": "",
+    "rows": 1
+  },
+  {
+    "name": "single-product",
+    "file": "single-product.csv",
+    "note": "",
+    "rows": 2
+  },
+  {
+    "name": "single-customer",
+    "file": "single-customer.csv",
+    "note": "",
+    "rows": 2
+  },
+  {
+    "name": "same-day-customers",
+    "file": "same-day-customers.csv",
+    "note": "",
+    "rows": 6
+  },
+  {
+    "name": "single-month",
+    "file": "single-month.csv",
+    "note": "",
+    "rows": 2
+  },
+  {
+    "name": "order-partial",
+    "file": "order-partial.csv",
+    "note": "",
+    "rows": 2
+  },
+  {
+    "name": "order-none",
+    "file": "order-none.csv",
+    "note": "",
+    "rows": 2
+  },
+  {
+    "name": "order-reused-days",
+    "file": "order-reused-days.csv",
+    "note": "",
+    "rows": 2
+  },
+  {
+    "name": "cost-partial",
+    "file": "cost-partial.csv",
+    "note": "",
+    "rows": 2
+  },
+  {
+    "name": "cleaning-reasons",
+    "file": "cleaning-reasons.csv",
+    "note": "",
+    "rows": 9
+  },
+  {
+    "name": "special-names",
+    "file": "special-names.csv",
+    "note": "",
+    "rows": 7
+  },
+  {
+    "name": "whitespace-order",
+    "file": "whitespace-order.csv",
+    "note": "",
+    "rows": 1
+  },
+  {
+    "name": "boundary-rfm",
+    "file": "boundary-rfm.csv",
+    "note": "",
+    "rows": 7
+  },
+  {
+    "name": "boundary-abc",
+    "file": "boundary-abc.csv",
+    "note": "",
+    "rows": 3
+  },
+  {
+    "name": "scale-50000",
+    "file": "scale-50000.csv",
+    "note": "",
+    "rows": 50000
+  },
+  {
+    "name": "scale-200000",
+    "file": "scale-200000.csv",
+    "note": "",
+    "rows": 200000
+  },
+  {
+    "name": "excel-first-normal",
+    "file": "excel-first-normal.xlsx",
+    "note": "Excel",
+    "rows": null
+  },
+  {
+    "name": "excel-data-second",
+    "file": "excel-data-second.xlsx",
+    "note": "Excel",
+    "rows": null
+  },
+  {
+    "name": "excel-header-row3",
+    "file": "excel-header-row3.xlsx",
+    "note": "Excel",
+    "rows": null
+  },
+  {
+    "name": "excel-merged",
+    "file": "excel-merged.xlsx",
+    "note": "Excel",
+    "rows": null
+  },
+  {
+    "name": "excel-blanks",
+    "file": "excel-blanks.xlsx",
+    "note": "Excel",
+    "rows": null
+  },
+  {
+    "name": "excel-date-serial",
+    "file": "excel-date-serial.xlsx",
+    "note": "Excel",
+    "rows": null
+  }
+]

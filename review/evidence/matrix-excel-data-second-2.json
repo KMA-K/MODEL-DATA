@@ -1,0 +1,288 @@
+{
+  "status": "error",
+  "mapping": null,
+  "view": {
+    "text": "Bán Hàng Smarter.\n\nDữ liệu nhỏ. Góc nhìn lớn.\n\nKhông gian riêng của bạn\nKhám phá dữ liệu mẫu\nDữ liệu được xử lý 100% trên thiết bị của bạn, bảo mật tuyệt đối và KHÔNG gửi lên bất kỳ máy chủ nào.\nTrang tính Excel không chứa dòng dữ liệu nào.×\n\nTRỢ LÝ DỮ LIỆU CHO CỬA HÀNG\n\nBán hàng mỗi ngày.\nThấu hiểu từng con số.\n\nBiến file bán hàng thành góc nhìn rõ ràng về doanh thu, sản phẩm và khách hàng. Không cần giỏi Excel để tìm ra cơ hội tiếp theo.\n\nMột bức tranh kinh doanh.\nNhiều quyết định sáng suốt.\n\nĐưa dữ liệu của bạn vào đây\n\nKéo thả file bán hàng hoặc chọn từ thiết bị.\n\nChọn file bán hàng\nCSV, XLSX, XLS · Số dòng xử lý tùy bộ nhớ thiết bị\nFile của bạn luôn ở trên thiết bị của bạn.\nChưa có file? Cứ thử trước.\n\nDữ liệu mẫu với 5.030 dòng và 50 mặt hàng.\n\nKhám phá\nTải CSV mẫu\nTải Excel mẫu\nNhìn rõ bức tranh kinh doanh\n\nDoanh thu, lợi nhuận và xu hướng được trình bày dễ hiểu.\n\nTừ con số đến hành động\n\nTìm mặt hàng chủ lực và nhóm khách cần chăm sóc.\n\nRiêng tư ngay từ đầu\n\nPhân tích tại thiết bị, không cần tài khoản hay tải dữ liệu lên.\n\nBán Hàng Smarter · Những quyết định tốt bắt đầu từ dữ liệu rõ ràng.\nTùy chỉnh giao diện",
+    "kpis": [],
+    "tables": [],
+    "overflow": {
+      "width": 1366,
+      "scrollWidth": 1366
+    },
+    "theme": {
+      "theme": "light",
+      "accent": "emerald",
+      "density": "comfortable",
+      "motion": "reduced"
+    }
+  },
+  "screenshot": "screenshots/matrix-excel-data-second-2-input.png",
+  "durationMs": 1163,
+  "console": [
+    {
+      "type": "error",
+      "text": "Failed to load resource: net::ERR_NETWORK_ACCESS_DENIED"
+    }
+  ],
+  "pageErrors": [],
+  "requests": [
+    {
+      "url": "http://127.0.0.1:5181/",
+      "method": "GET",
+      "resource": "document",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/@vite/client",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/main.tsx",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/@react-refresh",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/node_modules/vite/dist/client/env.mjs",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/node_modules/.vite/deps/react.js?v=b72af8a4",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/node_modules/.vite/deps/react-dom_client.js?v=b72af8a4",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/index.css",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/App.tsx",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/theme/ThemeProvider.tsx",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=b72af8a4",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/node_modules/.vite/deps/rolldown-runtime-DC62tzP2.js?v=b72af8a4",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/node_modules/.vite/deps/react-dom.js?v=b72af8a4",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/node_modules/.vite/deps/lucide-react.js?v=b72af8a4",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/components/common/Header.tsx",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/components/upload/FileUploadZone.tsx",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/components/upload/ColumnMapper.tsx",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/components/upload/CleaningReportModal.tsx",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/components/common/ThemeCustomizer.tsx",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/components/common/AnalysisLoader.tsx",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/hooks/useSalesWorker.ts",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/theme/useTheme.ts",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/theme/settings.ts",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/components/common/Visuals.tsx",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/core/columnMapping.ts",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/components/common/Dialog.tsx",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/components/common/AnimatedNumber.tsx",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap",
+      "method": "GET",
+      "resource": "stylesheet",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/favicon.svg",
+      "method": "GET",
+      "resource": "other",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/workers/sales.worker.ts?worker_file&type=module",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/node_modules/vite/dist/client/env.mjs",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/core/parser.ts",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/core/analyzer.ts",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/node_modules/.vite/deps/papaparse.js?v=b72af8a4",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/node_modules/.vite/deps/xlsx.js?v=b72af8a4",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/core/columnMapping.ts",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/core/actionSuggestions.ts",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/core/cleaner.ts",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/core/customerMetrics.ts",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/core/overviewMetrics.ts",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/core/productMetrics.ts",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/core/textConclusions.ts",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/node_modules/.vite/deps/rolldown-runtime-DC62tzP2.js?v=b72af8a4",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    }
+  ]
+}

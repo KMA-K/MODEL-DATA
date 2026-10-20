@@ -1,0 +1,6528 @@
+{
+  "status": "dashboard",
+  "mapping": {
+    "map-dateCol": "Ngày bán",
+    "map-productCol": "Tên sản phẩm",
+    "map-quantityCol": "Số lượng",
+    "map-revenueCol": "Doanh thu",
+    "map-unitPriceCol": "Đơn giá",
+    "map-costPriceCol": "Giá vốn",
+    "map-orderIdCol": "Mã đơn hàng",
+    "map-customerIdCol": "Mã khách hàng",
+    "map-categoryCol": "Danh mục"
+  },
+  "overview": {
+    "hasReliableOrderIds": true,
+    "costCoverage": 100,
+    "totalRevenue": 20000000,
+    "totalQuantity": 200000,
+    "totalOrders": 40000,
+    "averageOrderValue": 500,
+    "totalProfit": 8000000,
+    "profitMargin": 40,
+    "uniqueProducts": 25,
+    "uniqueCustomers": 300,
+    "dateRange": {
+      "start": "2026-09-30",
+      "end": "2026-09-30",
+      "days": 1
+    },
+    "monthlyRevenue": [
+      {
+        "month": "2026-09",
+        "revenue": 20000000,
+        "orders": 40000,
+        "profit": 8000000
+      }
+    ]
+  },
+  "cleaning": {
+    "totalRows": 200000,
+    "validRows": 200000,
+    "droppedTotal": 0,
+    "reasons": []
+  },
+  "products": [
+    {
+      "id": "SP0",
+      "name": "SP0",
+      "category": "Đồ dùng thử",
+      "quantity": 8000,
+      "revenue": 800000,
+      "revenueShare": 4,
+      "cumulativeShare": 4,
+      "abcGroup": "A",
+      "costPrice": 60,
+      "profit": 320000,
+      "profitMargin": 40,
+      "ordersCount": 8000,
+      "trend": "Ổn định",
+      "monthlyTrendData": [
+        {
+          "month": "2026-09",
+          "quantity": 8000,
+          "revenue": 800000
+        }
+      ],
+      "recommendation": "Đáng đầu tư",
+      "reasonText": "Sản phẩm chủ lực (Nhóm A), đóng góp 4.0% doanh thu. Luôn ưu tiên giữ hàng và vị trí trưng bày đẹp."
+    },
+    {
+      "id": "SP1",
+      "name": "SP1",
+      "category": "Đồ dùng thử",
+      "quantity": 8000,
+      "revenue": 800000,
+      "revenueShare": 4,
+      "cumulativeShare": 8,
+      "abcGroup": "A",
+      "costPrice": 60,
+      "profit": 320000,
+      "profitMargin": 40,
+      "ordersCount": 8000,
+      "trend": "Ổn định",
+      "monthlyTrendData": [
+        {
+          "month": "2026-09",
+          "quantity": 8000,
+          "revenue": 800000
+        }
+      ],
+      "recommendation": "Đáng đầu tư",
+      "reasonText": "Sản phẩm chủ lực (Nhóm A), đóng góp 4.0% doanh thu. Luôn ưu tiên giữ hàng và vị trí trưng bày đẹp."
+    },
+    {
+      "id": "SP2",
+      "name": "SP2",
+      "category": "Đồ dùng thử",
+      "quantity": 8000,
+      "revenue": 800000,
+      "revenueShare": 4,
+      "cumulativeShare": 12,
+      "abcGroup": "A",
+      "costPrice": 60,
+      "profit": 320000,
+      "profitMargin": 40,
+      "ordersCount": 8000,
+      "trend": "Ổn định",
+      "monthlyTrendData": [
+        {
+          "month": "2026-09",
+          "quantity": 8000,
+          "revenue": 800000
+        }
+      ],
+      "recommendation": "Đáng đầu tư",
+      "reasonText": "Sản phẩm chủ lực (Nhóm A), đóng góp 4.0% doanh thu. Luôn ưu tiên giữ hàng và vị trí trưng bày đẹp."
+    },
+    {
+      "id": "SP3",
+      "name": "SP3",
+      "category": "Đồ dùng thử",
+      "quantity": 8000,
+      "revenue": 800000,
+      "revenueShare": 4,
+      "cumulativeShare": 16,
+      "abcGroup": "A",
+      "costPrice": 60,
+      "profit": 320000,
+      "profitMargin": 40,
+      "ordersCount": 8000,
+      "trend": "Ổn định",
+      "monthlyTrendData": [
+        {
+          "month": "2026-09",
+          "quantity": 8000,
+          "revenue": 800000
+        }
+      ],
+      "recommendation": "Đáng đầu tư",
+      "reasonText": "Sản phẩm chủ lực (Nhóm A), đóng góp 4.0% doanh thu. Luôn ưu tiên giữ hàng và vị trí trưng bày đẹp."
+    },
+    {
+      "id": "SP4",
+      "name": "SP4",
+      "category": "Đồ dùng thử",
+      "quantity": 8000,
+      "revenue": 800000,
+      "revenueShare": 4,
+      "cumulativeShare": 20,
+      "abcGroup": "A",
+      "costPrice": 60,
+      "profit": 320000,
+      "profitMargin": 40,
+      "ordersCount": 8000,
+      "trend": "Ổn định",
+      "monthlyTrendData": [
+        {
+          "month": "2026-09",
+          "quantity": 8000,
+          "revenue": 800000
+        }
+      ],
+      "recommendation": "Đáng đầu tư",
+      "reasonText": "Sản phẩm chủ lực (Nhóm A), đóng góp 4.0% doanh thu. Luôn ưu tiên giữ hàng và vị trí trưng bày đẹp."
+    },
+    {
+      "id": "SP5",
+      "name": "SP5",
+      "category": "Đồ dùng thử",
+      "quantity": 8000,
+      "revenue": 800000,
+      "revenueShare": 4,
+      "cumulativeShare": 24,
+      "abcGroup": "A",
+      "costPrice": 60,
+      "profit": 320000,
+      "profitMargin": 40,
+      "ordersCount": 8000,
+      "trend": "Ổn định",
+      "monthlyTrendData": [
+        {
+          "month": "2026-09",
+          "quantity": 8000,
+          "revenue": 800000
+        }
+      ],
+      "recommendation": "Đáng đầu tư",
+      "reasonText": "Sản phẩm chủ lực (Nhóm A), đóng góp 4.0% doanh thu. Luôn ưu tiên giữ hàng và vị trí trưng bày đẹp."
+    },
+    {
+      "id": "SP6",
+      "name": "SP6",
+      "category": "Đồ dùng thử",
+      "quantity": 8000,
+      "revenue": 800000,
+      "revenueShare": 4,
+      "cumulativeShare": 28,
+      "abcGroup": "A",
+      "costPrice": 60,
+      "profit": 320000,
+      "profitMargin": 40,
+      "ordersCount": 8000,
+      "trend": "Ổn định",
+      "monthlyTrendData": [
+        {
+          "month": "2026-09",
+          "quantity": 8000,
+          "revenue": 800000
+        }
+      ],
+      "recommendation": "Đáng đầu tư",
+      "reasonText": "Sản phẩm chủ lực (Nhóm A), đóng góp 4.0% doanh thu. Luôn ưu tiên giữ hàng và vị trí trưng bày đẹp."
+    },
+    {
+      "id": "SP7",
+      "name": "SP7",
+      "category": "Đồ dùng thử",
+      "quantity": 8000,
+      "revenue": 800000,
+      "revenueShare": 4,
+      "cumulativeShare": 32,
+      "abcGroup": "A",
+      "costPrice": 60,
+      "profit": 320000,
+      "profitMargin": 40,
+      "ordersCount": 8000,
+      "trend": "Ổn định",
+      "monthlyTrendData": [
+        {
+          "month": "2026-09",
+          "quantity": 8000,
+          "revenue": 800000
+        }
+      ],
+      "recommendation": "Đáng đầu tư",
+      "reasonText": "Sản phẩm chủ lực (Nhóm A), đóng góp 4.0% doanh thu. Luôn ưu tiên giữ hàng và vị trí trưng bày đẹp."
+    },
+    {
+      "id": "SP8",
+      "name": "SP8",
+      "category": "Đồ dùng thử",
+      "quantity": 8000,
+      "revenue": 800000,
+      "revenueShare": 4,
+      "cumulativeShare": 36,
+      "abcGroup": "A",
+      "costPrice": 60,
+      "profit": 320000,
+      "profitMargin": 40,
+      "ordersCount": 8000,
+      "trend": "Ổn định",
+      "monthlyTrendData": [
+        {
+          "month": "2026-09",
+          "quantity": 8000,
+          "revenue": 800000
+        }
+      ],
+      "recommendation": "Đáng đầu tư",
+      "reasonText": "Sản phẩm chủ lực (Nhóm A), đóng góp 4.0% doanh thu. Luôn ưu tiên giữ hàng và vị trí trưng bày đẹp."
+    },
+    {
+      "id": "SP9",
+      "name": "SP9",
+      "category": "Đồ dùng thử",
+      "quantity": 8000,
+      "revenue": 800000,
+      "revenueShare": 4,
+      "cumulativeShare": 40,
+      "abcGroup": "A",
+      "costPrice": 60,
+      "profit": 320000,
+      "profitMargin": 40,
+      "ordersCount": 8000,
+      "trend": "Ổn định",
+      "monthlyTrendData": [
+        {
+          "month": "2026-09",
+          "quantity": 8000,
+          "revenue": 800000
+        }
+      ],
+      "recommendation": "Đáng đầu tư",
+      "reasonText": "Sản phẩm chủ lực (Nhóm A), đóng góp 4.0% doanh thu. Luôn ưu tiên giữ hàng và vị trí trưng bày đẹp."
+    },
+    {
+      "id": "SP10",
+      "name": "SP10",
+      "category": "Đồ dùng thử",
+      "quantity": 8000,
+      "revenue": 800000,
+      "revenueShare": 4,
+      "cumulativeShare": 44,
+      "abcGroup": "A",
+      "costPrice": 60,
+      "profit": 320000,
+      "profitMargin": 40,
+      "ordersCount": 8000,
+      "trend": "Ổn định",
+      "monthlyTrendData": [
+        {
+          "month": "2026-09",
+          "quantity": 8000,
+          "revenue": 800000
+        }
+      ],
+      "recommendation": "Đáng đầu tư",
+      "reasonText": "Sản phẩm chủ lực (Nhóm A), đóng góp 4.0% doanh thu. Luôn ưu tiên giữ hàng và vị trí trưng bày đẹp."
+    },
+    {
+      "id": "SP11",
+      "name": "SP11",
+      "category": "Đồ dùng thử",
+      "quantity": 8000,
+      "revenue": 800000,
+      "revenueShare": 4,
+      "cumulativeShare": 48,
+      "abcGroup": "A",
+      "costPrice": 60,
+      "profit": 320000,
+      "profitMargin": 40,
+      "ordersCount": 8000,
+      "trend": "Ổn định",
+      "monthlyTrendData": [
+        {
+          "month": "2026-09",
+          "quantity": 8000,
+          "revenue": 800000
+        }
+      ],
+      "recommendation": "Đáng đầu tư",
+      "reasonText": "Sản phẩm chủ lực (Nhóm A), đóng góp 4.0% doanh thu. Luôn ưu tiên giữ hàng và vị trí trưng bày đẹp."
+    },
+    {
+      "id": "SP12",
+      "name": "SP12",
+      "category": "Đồ dùng thử",
+      "quantity": 8000,
+      "revenue": 800000,
+      "revenueShare": 4,
+      "cumulativeShare": 52,
+      "abcGroup": "A",
+      "costPrice": 60,
+      "profit": 320000,
+      "profitMargin": 40,
+      "ordersCount": 8000,
+      "trend": "Ổn định",
+      "monthlyTrendData": [
+        {
+          "month": "2026-09",
+          "quantity": 8000,
+          "revenue": 800000
+        }
+      ],
+      "recommendation": "Đáng đầu tư",
+      "reasonText": "Sản phẩm chủ lực (Nhóm A), đóng góp 4.0% doanh thu. Luôn ưu tiên giữ hàng và vị trí trưng bày đẹp."
+    },
+    {
+      "id": "SP13",
+      "name": "SP13",
+      "category": "Đồ dùng thử",
+      "quantity": 8000,
+      "revenue": 800000,
+      "revenueShare": 4,
+      "cumulativeShare": 56,
+      "abcGroup": "A",
+      "costPrice": 60,
+      "profit": 320000,
+      "profitMargin": 40,
+      "ordersCount": 8000,
+      "trend": "Ổn định",
+      "monthlyTrendData": [
+        {
+          "month": "2026-09",
+          "quantity": 8000,
+          "revenue": 800000
+        }
+      ],
+      "recommendation": "Đáng đầu tư",
+      "reasonText": "Sản phẩm chủ lực (Nhóm A), đóng góp 4.0% doanh thu. Luôn ưu tiên giữ hàng và vị trí trưng bày đẹp."
+    },
+    {
+      "id": "SP14",
+      "name": "SP14",
+      "category": "Đồ dùng thử",
+      "quantity": 8000,
+      "revenue": 800000,
+      "revenueShare": 4,
+      "cumulativeShare": 60,
+      "abcGroup": "A",
+      "costPrice": 60,
+      "profit": 320000,
+      "profitMargin": 40,
+      "ordersCount": 8000,
+      "trend": "Ổn định",
+      "monthlyTrendData": [
+        {
+          "month": "2026-09",
+          "quantity": 8000,
+          "revenue": 800000
+        }
+      ],
+      "recommendation": "Đáng đầu tư",
+      "reasonText": "Sản phẩm chủ lực (Nhóm A), đóng góp 4.0% doanh thu. Luôn ưu tiên giữ hàng và vị trí trưng bày đẹp."
+    },
+    {
+      "id": "SP15",
+      "name": "SP15",
+      "category": "Đồ dùng thử",
+      "quantity": 8000,
+      "revenue": 800000,
+      "revenueShare": 4,
+      "cumulativeShare": 64,
+      "abcGroup": "A",
+      "costPrice": 60,
+      "profit": 320000,
+      "profitMargin": 40,
+      "ordersCount": 8000,
+      "trend": "Ổn định",
+      "monthlyTrendData": [
+        {
+          "month": "2026-09",
+          "quantity": 8000,
+          "revenue": 800000
+        }
+      ],
+      "recommendation": "Đáng đầu tư",
+      "reasonText": "Sản phẩm chủ lực (Nhóm A), đóng góp 4.0% doanh thu. Luôn ưu tiên giữ hàng và vị trí trưng bày đẹp."
+    },
+    {
+      "id": "SP16",
+      "name": "SP16",
+      "category": "Đồ dùng thử",
+      "quantity": 8000,
+      "revenue": 800000,
+      "revenueShare": 4,
+      "cumulativeShare": 68,
+      "abcGroup": "A",
+      "costPrice": 60,
+      "profit": 320000,
+      "profitMargin": 40,
+      "ordersCount": 8000,
+      "trend": "Ổn định",
+      "monthlyTrendData": [
+        {
+          "month": "2026-09",
+          "quantity": 8000,
+          "revenue": 800000
+        }
+      ],
+      "recommendation": "Đáng đầu tư",
+      "reasonText": "Sản phẩm chủ lực (Nhóm A), đóng góp 4.0% doanh thu. Luôn ưu tiên giữ hàng và vị trí trưng bày đẹp."
+    },
+    {
+      "id": "SP17",
+      "name": "SP17",
+      "category": "Đồ dùng thử",
+      "quantity": 8000,
+      "revenue": 800000,
+      "revenueShare": 4,
+      "cumulativeShare": 72,
+      "abcGroup": "A",
+      "costPrice": 60,
+      "profit": 320000,
+      "profitMargin": 40,
+      "ordersCount": 8000,
+      "trend": "Ổn định",
+      "monthlyTrendData": [
+        {
+          "month": "2026-09",
+          "quantity": 8000,
+          "revenue": 800000
+        }
+      ],
+      "recommendation": "Đáng đầu tư",
+      "reasonText": "Sản phẩm chủ lực (Nhóm A), đóng góp 4.0% doanh thu. Luôn ưu tiên giữ hàng và vị trí trưng bày đẹp."
+    },
+    {
+      "id": "SP18",
+      "name": "SP18",
+      "category": "Đồ dùng thử",
+      "quantity": 8000,
+      "revenue": 800000,
+      "revenueShare": 4,
+      "cumulativeShare": 76,
+      "abcGroup": "A",
+      "costPrice": 60,
+      "profit": 320000,
+      "profitMargin": 40,
+      "ordersCount": 8000,
+      "trend": "Ổn định",
+      "monthlyTrendData": [
+        {
+          "month": "2026-09",
+          "quantity": 8000,
+          "revenue": 800000
+        }
+      ],
+      "recommendation": "Đáng đầu tư",
+      "reasonText": "Sản phẩm chủ lực (Nhóm A), đóng góp 4.0% doanh thu. Luôn ưu tiên giữ hàng và vị trí trưng bày đẹp."
+    },
+    {
+      "id": "SP19",
+      "name": "SP19",
+      "category": "Đồ dùng thử",
+      "quantity": 8000,
+      "revenue": 800000,
+      "revenueShare": 4,
+      "cumulativeShare": 80,
+      "abcGroup": "A",
+      "costPrice": 60,
+      "profit": 320000,
+      "profitMargin": 40,
+      "ordersCount": 8000,
+      "trend": "Ổn định",
+      "monthlyTrendData": [
+        {
+          "month": "2026-09",
+          "quantity": 8000,
+          "revenue": 800000
+        }
+      ],
+      "recommendation": "Đáng đầu tư",
+      "reasonText": "Sản phẩm chủ lực (Nhóm A), đóng góp 4.0% doanh thu. Luôn ưu tiên giữ hàng và vị trí trưng bày đẹp."
+    },
+    {
+      "id": "SP20",
+      "name": "SP20",
+      "category": "Đồ dùng thử",
+      "quantity": 8000,
+      "revenue": 800000,
+      "revenueShare": 4,
+      "cumulativeShare": 84,
+      "abcGroup": "B",
+      "costPrice": 60,
+      "profit": 320000,
+      "profitMargin": 40,
+      "ordersCount": 8000,
+      "trend": "Ổn định",
+      "monthlyTrendData": [
+        {
+          "month": "2026-09",
+          "quantity": 8000,
+          "revenue": 800000
+        }
+      ],
+      "recommendation": "Duy trì ổn định",
+      "reasonText": "Sản phẩm bán ổn định ở mức trung bình, phục vụ nhu cầu thường ngày của khách."
+    },
+    {
+      "id": "SP21",
+      "name": "SP21",
+      "category": "Đồ dùng thử",
+      "quantity": 8000,
+      "revenue": 800000,
+      "revenueShare": 4,
+      "cumulativeShare": 88,
+      "abcGroup": "B",
+      "costPrice": 60,
+      "profit": 320000,
+      "profitMargin": 40,
+      "ordersCount": 8000,
+      "trend": "Ổn định",
+      "monthlyTrendData": [
+        {
+          "month": "2026-09",
+          "quantity": 8000,
+          "revenue": 800000
+        }
+      ],
+      "recommendation": "Duy trì ổn định",
+      "reasonText": "Sản phẩm bán ổn định ở mức trung bình, phục vụ nhu cầu thường ngày của khách."
+    },
+    {
+      "id": "SP22",
+      "name": "SP22",
+      "category": "Đồ dùng thử",
+      "quantity": 8000,
+      "revenue": 800000,
+      "revenueShare": 4,
+      "cumulativeShare": 92,
+      "abcGroup": "B",
+      "costPrice": 60,
+      "profit": 320000,
+      "profitMargin": 40,
+      "ordersCount": 8000,
+      "trend": "Ổn định",
+      "monthlyTrendData": [
+        {
+          "month": "2026-09",
+          "quantity": 8000,
+          "revenue": 800000
+        }
+      ],
+      "recommendation": "Duy trì ổn định",
+      "reasonText": "Sản phẩm bán ổn định ở mức trung bình, phục vụ nhu cầu thường ngày của khách."
+    },
+    {
+      "id": "SP23",
+      "name": "SP23",
+      "category": "Đồ dùng thử",
+      "quantity": 8000,
+      "revenue": 800000,
+      "revenueShare": 4,
+      "cumulativeShare": 96,
+      "abcGroup": "B",
+      "costPrice": 60,
+      "profit": 320000,
+      "profitMargin": 40,
+      "ordersCount": 8000,
+      "trend": "Ổn định",
+      "monthlyTrendData": [
+        {
+          "month": "2026-09",
+          "quantity": 8000,
+          "revenue": 800000
+        }
+      ],
+      "recommendation": "Duy trì ổn định",
+      "reasonText": "Sản phẩm bán ổn định ở mức trung bình, phục vụ nhu cầu thường ngày của khách."
+    },
+    {
+      "id": "SP24",
+      "name": "SP24",
+      "category": "Đồ dùng thử",
+      "quantity": 8000,
+      "revenue": 800000,
+      "revenueShare": 4,
+      "cumulativeShare": 100,
+      "abcGroup": "C",
+      "costPrice": 60,
+      "profit": 320000,
+      "profitMargin": 40,
+      "ordersCount": 8000,
+      "trend": "Ổn định",
+      "monthlyTrendData": [
+        {
+          "month": "2026-09",
+          "quantity": 8000,
+          "revenue": 800000
+        }
+      ],
+      "recommendation": "Duy trì ổn định",
+      "reasonText": "Sản phẩm nhóm C, doanh thu nhỏ nhưng doanh số đều đặn. Không nên ôm hàng số lượng lớn."
+    }
+  ],
+  "customers": [
+    {
+      "customerId": "KH0",
+      "customerName": "KH0",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH1",
+      "customerName": "KH1",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH2",
+      "customerName": "KH2",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH3",
+      "customerName": "KH3",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH4",
+      "customerName": "KH4",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH5",
+      "customerName": "KH5",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH6",
+      "customerName": "KH6",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH7",
+      "customerName": "KH7",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH8",
+      "customerName": "KH8",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH9",
+      "customerName": "KH9",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH10",
+      "customerName": "KH10",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH11",
+      "customerName": "KH11",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH12",
+      "customerName": "KH12",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH13",
+      "customerName": "KH13",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH14",
+      "customerName": "KH14",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH15",
+      "customerName": "KH15",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH16",
+      "customerName": "KH16",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH17",
+      "customerName": "KH17",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH18",
+      "customerName": "KH18",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH19",
+      "customerName": "KH19",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH20",
+      "customerName": "KH20",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH21",
+      "customerName": "KH21",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH22",
+      "customerName": "KH22",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH23",
+      "customerName": "KH23",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH24",
+      "customerName": "KH24",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH25",
+      "customerName": "KH25",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH26",
+      "customerName": "KH26",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH27",
+      "customerName": "KH27",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH28",
+      "customerName": "KH28",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH29",
+      "customerName": "KH29",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH30",
+      "customerName": "KH30",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH31",
+      "customerName": "KH31",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH32",
+      "customerName": "KH32",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH33",
+      "customerName": "KH33",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH34",
+      "customerName": "KH34",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH35",
+      "customerName": "KH35",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH36",
+      "customerName": "KH36",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH37",
+      "customerName": "KH37",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH38",
+      "customerName": "KH38",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH39",
+      "customerName": "KH39",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH40",
+      "customerName": "KH40",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH41",
+      "customerName": "KH41",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH42",
+      "customerName": "KH42",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH43",
+      "customerName": "KH43",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH44",
+      "customerName": "KH44",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH45",
+      "customerName": "KH45",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH46",
+      "customerName": "KH46",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH47",
+      "customerName": "KH47",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH48",
+      "customerName": "KH48",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH49",
+      "customerName": "KH49",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH50",
+      "customerName": "KH50",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH51",
+      "customerName": "KH51",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH52",
+      "customerName": "KH52",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH53",
+      "customerName": "KH53",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH54",
+      "customerName": "KH54",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH55",
+      "customerName": "KH55",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH56",
+      "customerName": "KH56",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH57",
+      "customerName": "KH57",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH58",
+      "customerName": "KH58",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH59",
+      "customerName": "KH59",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH60",
+      "customerName": "KH60",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH61",
+      "customerName": "KH61",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH62",
+      "customerName": "KH62",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH63",
+      "customerName": "KH63",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH64",
+      "customerName": "KH64",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH65",
+      "customerName": "KH65",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH66",
+      "customerName": "KH66",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH67",
+      "customerName": "KH67",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH68",
+      "customerName": "KH68",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH69",
+      "customerName": "KH69",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH70",
+      "customerName": "KH70",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH71",
+      "customerName": "KH71",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH72",
+      "customerName": "KH72",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH73",
+      "customerName": "KH73",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH74",
+      "customerName": "KH74",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH75",
+      "customerName": "KH75",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH76",
+      "customerName": "KH76",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH77",
+      "customerName": "KH77",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH78",
+      "customerName": "KH78",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH79",
+      "customerName": "KH79",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH80",
+      "customerName": "KH80",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH81",
+      "customerName": "KH81",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH82",
+      "customerName": "KH82",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH83",
+      "customerName": "KH83",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH84",
+      "customerName": "KH84",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH85",
+      "customerName": "KH85",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH86",
+      "customerName": "KH86",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH87",
+      "customerName": "KH87",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH88",
+      "customerName": "KH88",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH89",
+      "customerName": "KH89",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH90",
+      "customerName": "KH90",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH91",
+      "customerName": "KH91",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH92",
+      "customerName": "KH92",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH93",
+      "customerName": "KH93",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH94",
+      "customerName": "KH94",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH95",
+      "customerName": "KH95",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH96",
+      "customerName": "KH96",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH97",
+      "customerName": "KH97",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH98",
+      "customerName": "KH98",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH99",
+      "customerName": "KH99",
+      "ordersCount": 134,
+      "totalSpend": 67000,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 5,
+        "total": 15
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH100",
+      "customerName": "KH100",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH101",
+      "customerName": "KH101",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH102",
+      "customerName": "KH102",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH103",
+      "customerName": "KH103",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH104",
+      "customerName": "KH104",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH105",
+      "customerName": "KH105",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH106",
+      "customerName": "KH106",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH107",
+      "customerName": "KH107",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH108",
+      "customerName": "KH108",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH109",
+      "customerName": "KH109",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH110",
+      "customerName": "KH110",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH111",
+      "customerName": "KH111",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH112",
+      "customerName": "KH112",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH113",
+      "customerName": "KH113",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH114",
+      "customerName": "KH114",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH115",
+      "customerName": "KH115",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH116",
+      "customerName": "KH116",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH117",
+      "customerName": "KH117",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH118",
+      "customerName": "KH118",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH119",
+      "customerName": "KH119",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH120",
+      "customerName": "KH120",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH121",
+      "customerName": "KH121",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH122",
+      "customerName": "KH122",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH123",
+      "customerName": "KH123",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH124",
+      "customerName": "KH124",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH125",
+      "customerName": "KH125",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH126",
+      "customerName": "KH126",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH127",
+      "customerName": "KH127",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH128",
+      "customerName": "KH128",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH129",
+      "customerName": "KH129",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH130",
+      "customerName": "KH130",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH131",
+      "customerName": "KH131",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH132",
+      "customerName": "KH132",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH133",
+      "customerName": "KH133",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH134",
+      "customerName": "KH134",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH135",
+      "customerName": "KH135",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH136",
+      "customerName": "KH136",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH137",
+      "customerName": "KH137",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH138",
+      "customerName": "KH138",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH139",
+      "customerName": "KH139",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH140",
+      "customerName": "KH140",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH141",
+      "customerName": "KH141",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH142",
+      "customerName": "KH142",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH143",
+      "customerName": "KH143",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH144",
+      "customerName": "KH144",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH145",
+      "customerName": "KH145",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH146",
+      "customerName": "KH146",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH147",
+      "customerName": "KH147",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH148",
+      "customerName": "KH148",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH149",
+      "customerName": "KH149",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH150",
+      "customerName": "KH150",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH151",
+      "customerName": "KH151",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH152",
+      "customerName": "KH152",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH153",
+      "customerName": "KH153",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH154",
+      "customerName": "KH154",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH155",
+      "customerName": "KH155",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH156",
+      "customerName": "KH156",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH157",
+      "customerName": "KH157",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH158",
+      "customerName": "KH158",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH159",
+      "customerName": "KH159",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH160",
+      "customerName": "KH160",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH161",
+      "customerName": "KH161",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH162",
+      "customerName": "KH162",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH163",
+      "customerName": "KH163",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH164",
+      "customerName": "KH164",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH165",
+      "customerName": "KH165",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH166",
+      "customerName": "KH166",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH167",
+      "customerName": "KH167",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH168",
+      "customerName": "KH168",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH169",
+      "customerName": "KH169",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH170",
+      "customerName": "KH170",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH171",
+      "customerName": "KH171",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH172",
+      "customerName": "KH172",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH173",
+      "customerName": "KH173",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH174",
+      "customerName": "KH174",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH175",
+      "customerName": "KH175",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH176",
+      "customerName": "KH176",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH177",
+      "customerName": "KH177",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH178",
+      "customerName": "KH178",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH179",
+      "customerName": "KH179",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH180",
+      "customerName": "KH180",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH181",
+      "customerName": "KH181",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH182",
+      "customerName": "KH182",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH183",
+      "customerName": "KH183",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH184",
+      "customerName": "KH184",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH185",
+      "customerName": "KH185",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH186",
+      "customerName": "KH186",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH187",
+      "customerName": "KH187",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH188",
+      "customerName": "KH188",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH189",
+      "customerName": "KH189",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH190",
+      "customerName": "KH190",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH191",
+      "customerName": "KH191",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH192",
+      "customerName": "KH192",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH193",
+      "customerName": "KH193",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH194",
+      "customerName": "KH194",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH195",
+      "customerName": "KH195",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH196",
+      "customerName": "KH196",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH197",
+      "customerName": "KH197",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH198",
+      "customerName": "KH198",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH199",
+      "customerName": "KH199",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH200",
+      "customerName": "KH200",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH201",
+      "customerName": "KH201",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH202",
+      "customerName": "KH202",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH203",
+      "customerName": "KH203",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH204",
+      "customerName": "KH204",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH205",
+      "customerName": "KH205",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH206",
+      "customerName": "KH206",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH207",
+      "customerName": "KH207",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH208",
+      "customerName": "KH208",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH209",
+      "customerName": "KH209",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH210",
+      "customerName": "KH210",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH211",
+      "customerName": "KH211",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH212",
+      "customerName": "KH212",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH213",
+      "customerName": "KH213",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH214",
+      "customerName": "KH214",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH215",
+      "customerName": "KH215",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH216",
+      "customerName": "KH216",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH217",
+      "customerName": "KH217",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH218",
+      "customerName": "KH218",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH219",
+      "customerName": "KH219",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH220",
+      "customerName": "KH220",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH221",
+      "customerName": "KH221",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH222",
+      "customerName": "KH222",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH223",
+      "customerName": "KH223",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH224",
+      "customerName": "KH224",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH225",
+      "customerName": "KH225",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH226",
+      "customerName": "KH226",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH227",
+      "customerName": "KH227",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH228",
+      "customerName": "KH228",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH229",
+      "customerName": "KH229",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH230",
+      "customerName": "KH230",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH231",
+      "customerName": "KH231",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH232",
+      "customerName": "KH232",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH233",
+      "customerName": "KH233",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH234",
+      "customerName": "KH234",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH235",
+      "customerName": "KH235",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH236",
+      "customerName": "KH236",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH237",
+      "customerName": "KH237",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH238",
+      "customerName": "KH238",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH239",
+      "customerName": "KH239",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH240",
+      "customerName": "KH240",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH241",
+      "customerName": "KH241",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH242",
+      "customerName": "KH242",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH243",
+      "customerName": "KH243",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH244",
+      "customerName": "KH244",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH245",
+      "customerName": "KH245",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH246",
+      "customerName": "KH246",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH247",
+      "customerName": "KH247",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH248",
+      "customerName": "KH248",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH249",
+      "customerName": "KH249",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH250",
+      "customerName": "KH250",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH251",
+      "customerName": "KH251",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH252",
+      "customerName": "KH252",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH253",
+      "customerName": "KH253",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH254",
+      "customerName": "KH254",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH255",
+      "customerName": "KH255",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH256",
+      "customerName": "KH256",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH257",
+      "customerName": "KH257",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH258",
+      "customerName": "KH258",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH259",
+      "customerName": "KH259",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH260",
+      "customerName": "KH260",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH261",
+      "customerName": "KH261",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH262",
+      "customerName": "KH262",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH263",
+      "customerName": "KH263",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH264",
+      "customerName": "KH264",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH265",
+      "customerName": "KH265",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH266",
+      "customerName": "KH266",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH267",
+      "customerName": "KH267",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH268",
+      "customerName": "KH268",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH269",
+      "customerName": "KH269",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH270",
+      "customerName": "KH270",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH271",
+      "customerName": "KH271",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH272",
+      "customerName": "KH272",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH273",
+      "customerName": "KH273",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH274",
+      "customerName": "KH274",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH275",
+      "customerName": "KH275",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH276",
+      "customerName": "KH276",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH277",
+      "customerName": "KH277",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH278",
+      "customerName": "KH278",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH279",
+      "customerName": "KH279",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH280",
+      "customerName": "KH280",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH281",
+      "customerName": "KH281",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH282",
+      "customerName": "KH282",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH283",
+      "customerName": "KH283",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH284",
+      "customerName": "KH284",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH285",
+      "customerName": "KH285",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH286",
+      "customerName": "KH286",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH287",
+      "customerName": "KH287",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH288",
+      "customerName": "KH288",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH289",
+      "customerName": "KH289",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH290",
+      "customerName": "KH290",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH291",
+      "customerName": "KH291",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH292",
+      "customerName": "KH292",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH293",
+      "customerName": "KH293",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH294",
+      "customerName": "KH294",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH295",
+      "customerName": "KH295",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH296",
+      "customerName": "KH296",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH297",
+      "customerName": "KH297",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH298",
+      "customerName": "KH298",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    },
+    {
+      "customerId": "KH299",
+      "customerName": "KH299",
+      "ordersCount": 133,
+      "totalSpend": 66500,
+      "averageOrderValue": 500,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 5,
+        "m": 4,
+        "total": 14
+      },
+      "segment": "Trung thành",
+      "actionAdvice": "Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+    }
+  ],
+  "conclusions": {
+    "overview": "Cửa hàng ghi nhận **40.000 đơn** với tổng doanh thu **20 triệu đ** trong 1 ngày, ghi nhận lợi nhuận gộp **8 triệu đ** trên phần dữ liệu có giá vốn (100% doanh thu; biên lãi **40%**). Giá trị trung bình mỗi đơn đạt **500 đ**.",
+    "monthlyTrend": "Dữ liệu phát sinh trong 1 tháng duy nhất.",
+    "productABC": "Chỉ **20 sản phẩm nhóm A** (chiếm 80% số lượng mặt hàng) đã đóng góp tới **80% doanh thu** (16 triệu đ). Trong khi đó, **1 sản phẩm nhóm C** chỉ đóng góp 4%.",
+    "productProfit": "Mặt hàng mang lại nhiều tiền lãi nhất là **SP0** với lợi nhuận gộp **320.000 đ** (biên lãi **40%**).",
+    "customerRFM": "**100 khách VIP** đóng góp **33.5% doanh thu** (6,7 triệu đ). Cửa hàng đang duy trì tỷ lệ khách quay lại mua sắm rất tích cực.",
+    "crossSelling": "Cặp đôi mua cùng nhiều nhất là \"SP0\" & \"SP1\" (8000 đơn)."
+  },
+  "kpis": [
+    {
+      "title": "TỔNG DOANH THU",
+      "value": "20 triệu đ",
+      "subtitle": "1 ngày kinh doanh được ghi nhận"
+    },
+    {
+      "title": "LỢI NHUẬN GỘP",
+      "value": "8 triệu đ",
+      "subtitle": "Biên lợi nhuận 40% · 100% doanh thu có giá vốn"
+    },
+    {
+      "title": "TỔNG ĐƠN HÀNG",
+      "value": "40.000",
+      "subtitle": "200.000 sản phẩm đã bán"
+    },
+    {
+      "title": "GIÁ TRỊ ĐƠN TRUNG BÌNH",
+      "value": "500 đ",
+      "subtitle": "Doanh thu bình quân mỗi hóa đơn"
+    },
+    {
+      "title": "KHÁCH VIP",
+      "value": "100",
+      "subtitle": "Khách chi tiêu cao và còn gắn bó"
+    },
+    {
+      "title": "SẢN PHẨM CHỦ LỰC",
+      "value": "20",
+      "subtitle": "Đóng góp 80% doanh thu"
+    }
+  ],
+  "text": "Bán Hàng Smarter.\n\nDữ liệu nhỏ. Góc nhìn lớn.\n\nKhông gian riêng của bạn\nPhân tích file mới\nDữ liệu được xử lý 100% trên thiết bị của bạn, bảo mật tuyệt đối và KHÔNG gửi lên bất kỳ máy chủ nào.\n\nKHÔNG GIAN KINH DOANH\n\nMỗi con số, một cơ hội.\n\nHiểu cửa hàng hôm nay. Quyết định tự tin hơn ngày mai.\n\n2026-09-30 — 2026-09-30\nscale-200000.csv\n200.000 dòng hợp lệ\nBáo cáo làm sạch\nTổng quan\nSản phẩm\n25\nKhách hàng\n300\nTỔNG DOANH THU\n20 triệu đ\n\n1 ngày kinh doanh được ghi nhận\n\nLỢI NHUẬN GỘP\n8 triệu đ\n\nBiên lợi nhuận 40% · 100% doanh thu có giá vốn\n\nTỔNG ĐƠN HÀNG\n40.000\n\n200.000 sản phẩm đã bán\n\nGIÁ TRỊ ĐƠN TRUNG BÌNH\n500 đ\n\nDoanh thu bình quân mỗi hóa đơn\n\nĐIỂM TIN KINH DOANH\n\nCửa hàng ghi nhận 40.000 đơn với tổng doanh thu 20 triệu đ trong 1 ngày, ghi nhận lợi nhuận gộp 8 triệu đ trên phần dữ liệu có giá vốn (100% doanh thu; biên lãi 40%). Giá trị trung bình mỗi đơn đạt 500 đ.\n\nNhịp kinh doanh của cửa hàng\n\nDoanh thu và lợi nhuận theo tháng\n\n1 tháng\nDoanh thu\nLợi nhuận gộp\n09\n0tr\n5tr\n10tr\n15tr\n20tr\n\nDữ liệu phát sinh trong 1 tháng duy nhất.\n\nNhững mặt hàng dẫn đầu\n\nTop 5 theo doanh thu\n\n01\n\nSP0\n\n800.000 đ\n02\n\nSP1\n\n800.000 đ\n03\n\nSP2\n\n800.000 đ\n04\n\nSP3\n\n800.000 đ\n05\n\nSP4\n\n800.000 đ\n\nMẶT HÀNG\n\n25\n\nKHÁCH HÀNG\n\n300\n\nTỪ DỮ LIỆU ĐẾN HÀNH ĐỘNG\n\nCơ hội tiếp theo của bạn\n3 gợi ý\nĐảm bảo nguồn hàng cho 20 sản phẩm chủ lực (Nhóm A)\n\nChỉ 20 mặt hàng này mang về 80% doanh thu toàn tiệm (16 triệu đ), dẫn đầu là \"SP0\". Hãy luôn kiểm kê và đặt hàng nhà cung cấp sớm để tránh đứt hàng vào giờ cao điểm.\n\n80% doanh thu\nTạo combo bán chéo \"SP0\" & \"SP1\"\n\nKhách hàng đã mua cùng 2 món này trong 8000 hóa đơn (20% các đơn từ 2 món). Bạn nên đặt 2 món cạnh nhau trên kệ trưng bày hoặc tạo gói khuyến mãi mua kèm để gia tăng giá trị giỏ hàng.\n\n8000 đơn mua chung\nGia tăng giá trị đơn hàng trung bình (hiện tại 500 đ)\n\nĐể tăng thêm doanh thu mà không cần tìm thêm khách mới, hãy áp dụng chương trình \"Hóa đơn trên 0 đ được tặng thêm quà nhỏ hoặc miễn phí giao hàng\".\n\nAOV: 500 đ\nKHÁCH VIP\n100\n\nKhách chi tiêu cao và còn gắn bó\n\nSẢN PHẨM CHỦ LỰC\n20\n\nĐóng góp 80% doanh thu\n\nBán Hàng Smarter · Những quyết định tốt bắt đầu từ dữ liệu rõ ràng.\nTùy chỉnh giao diện\n0tr",
+  "reportText": "CHẤT LƯỢNG DỮ LIỆU\n\nBáo cáo làm sạch\n\nDòng đầu vào\n\n200.000\n\nHợp lệ\n\n200.000\n\nBị loại\n\n0\nTất cả các dòng đều hợp lệ.\n\nSố thứ tự tính từ bản ghi dữ liệu đầu tiên, không bao gồm tiêu đề. Báo cáo giữ tối đa 5 bản ghi mẫu cho mỗi lý do.\n\n×",
+  "progress": [
+    {
+      "at": 136.39999999850988,
+      "percent": 10,
+      "label": "Đang đọc dữ liệu..."
+    },
+    {
+      "at": 1431.8999999985099,
+      "percent": 15,
+      "label": "Đang chuẩn hóa và kiểm tra dữ liệu...",
+      "rows": 200000
+    },
+    {
+      "at": 1740.2999999988824,
+      "percent": 35,
+      "label": "Đang tính doanh thu và lợi nhuận...",
+      "rows": 200000
+    },
+    {
+      "at": 1793.7999999988824,
+      "percent": 55,
+      "label": "Đang tìm sản phẩm bán chạy và các cặp mua cùng...",
+      "rows": 200000
+    },
+    {
+      "at": 1878.5,
+      "percent": 75,
+      "label": "Đang phân nhóm khách hàng RFM...",
+      "rows": 200000
+    },
+    {
+      "at": 1891.5,
+      "percent": 92,
+      "label": "Đang tổng hợp nhận xét và gợi ý hành động...",
+      "rows": 200000
+    },
+    {
+      "at": 1894.8999999985099,
+      "percent": 100,
+      "label": "Phân tích hoàn tất!",
+      "rows": 200000
+    }
+  ],
+  "screenshot": "screenshots/matrix-scale-200000-2-result.png",
+  "reportPicture": "screenshots/matrix-scale-200000-2-report.png",
+  "overflow": {
+    "width": 1366,
+    "scrollWidth": 1366
+  },
+  "durationMs": 3159,
+  "console": [
+    {
+      "type": "error",
+      "text": "Failed to load resource: net::ERR_NETWORK_ACCESS_DENIED"
+    }
+  ],
+  "pageErrors": [],
+  "requests": [
+    {
+      "url": "http://127.0.0.1:5181/",
+      "method": "GET",
+      "resource": "document",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/@vite/client",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/main.tsx",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/@react-refresh",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/node_modules/vite/dist/client/env.mjs",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/node_modules/.vite/deps/react.js?v=b72af8a4",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/node_modules/.vite/deps/react-dom_client.js?v=b72af8a4",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/index.css",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/App.tsx",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/theme/ThemeProvider.tsx",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=b72af8a4",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/node_modules/.vite/deps/rolldown-runtime-DC62tzP2.js?v=b72af8a4",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/node_modules/.vite/deps/react-dom.js?v=b72af8a4",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/node_modules/.vite/deps/lucide-react.js?v=b72af8a4",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/components/common/Header.tsx",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/components/upload/FileUploadZone.tsx",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/components/upload/ColumnMapper.tsx",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/components/upload/CleaningReportModal.tsx",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/components/common/ThemeCustomizer.tsx",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/components/common/AnalysisLoader.tsx",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/hooks/useSalesWorker.ts",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/theme/useTheme.ts",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/theme/settings.ts",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/components/common/Visuals.tsx",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/core/columnMapping.ts",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/components/common/Dialog.tsx",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/components/common/AnimatedNumber.tsx",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap",
+      "method": "GET",
+      "resource": "stylesheet",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/workers/sales.worker.ts?worker_file&type=module",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/node_modules/vite/dist/client/env.mjs",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/core/parser.ts",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/core/analyzer.ts",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/node_modules/.vite/deps/papaparse.js?v=b72af8a4",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/node_modules/.vite/deps/xlsx.js?v=b72af8a4",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/core/columnMapping.ts",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/core/actionSuggestions.ts",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/core/cleaner.ts",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/core/customerMetrics.ts",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/core/overviewMetrics.ts",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/core/productMetrics.ts",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/core/textConclusions.ts",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/node_modules/.vite/deps/rolldown-runtime-DC62tzP2.js?v=b72af8a4",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/workers/sales.worker.ts?worker_file&type=module",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/node_modules/vite/dist/client/env.mjs",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/core/parser.ts",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/core/analyzer.ts",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/node_modules/.vite/deps/papaparse.js?v=b72af8a4",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/node_modules/.vite/deps/xlsx.js?v=b72af8a4",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/core/columnMapping.ts",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/core/actionSuggestions.ts",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/core/cleaner.ts",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/core/customerMetrics.ts",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/core/overviewMetrics.ts",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/core/productMetrics.ts",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/core/textConclusions.ts",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/node_modules/.vite/deps/rolldown-runtime-DC62tzP2.js?v=b72af8a4",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/favicon.svg",
+      "method": "GET",
+      "resource": "other",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/components/dashboard/OverviewTab.tsx",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/node_modules/.vite/deps/recharts.js?v=b72af8a4",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/core/textConclusions.ts",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/components/common/ChartKit.tsx",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/components/common/chartGradients.tsx",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/components/dashboard/KpiCard.tsx",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    }
+  ]
+}

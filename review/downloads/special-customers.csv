@@ -1,0 +1,8 @@
+﻿"Mã khách","Tên khách","Phân khúc","Tổng chi tiêu","Số đơn","Số ngày chưa mua","Gợi ý chăm sóc"
+"Tên ""nháy""","Tên ""nháy""","VIP","10006","1","0","Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+"**in đậm**","**in đậm**","VIP","10005","1","0","Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+"<script>alert(1)</script>","<script>alert(1)</script>","Mới","10004","1","0","Khách hàng mới phát sinh đơn đầu tiên. Gửi ưu đãi cho lần mua tiếp theo."
+"'@cmd","'@cmd","Mới","10003","1","0","Khách hàng mới phát sinh đơn đầu tiên. Gửi ưu đãi cho lần mua tiếp theo."
+"'-cmd","'-cmd","Mới","10002","1","0","Khách hàng mới phát sinh đơn đầu tiên. Gửi ưu đãi cho lần mua tiếp theo."
+"'+cmd","'+cmd","Mới","10001","1","0","Khách hàng mới phát sinh đơn đầu tiên. Gửi ưu đãi cho lần mua tiếp theo."
+"'=SUM(1,1)","'=SUM(1,1)","Mới","10000","1","0","Khách hàng mới phát sinh đơn đầu tiên. Gửi ưu đãi cho lần mua tiếp theo."

@@ -1,0 +1,5 @@
+import { StoreIllustration } from './Visuals';
+export interface AnalysisProgress { percent: number; label: string; rows?: number }
+export function AnalysisLoader({ progress, onCancel }: { progress: AnalysisProgress; onCancel: () => void }) {
+  return <section className="analysis-loader" aria-busy="true" aria-labelledby="analysis-title"><StoreIllustration /><p className="eyebrow">MỘT CHÚT NỮA THÔI</p><h2 id="analysis-title">Đang tìm câu chuyện trong dữ liệu</h2><p className="loader-status" role="status" aria-live="polite">{progress.label}</p>{progress.rows !== undefined && <p className="muted">{progress.rows.toLocaleString('vi-VN')} dòng bán hàng</p>}<div className="progress-track" role="progressbar" aria-label="Tiến trình phân tích" aria-valuemin={0} aria-valuemax={100} aria-valuenow={progress.percent}><div style={{ width: `${progress.percent}%` }} /></div><div className="loader-skeletons grid grid-cols-3 gap-3" aria-hidden="true"><div className="skeleton" /><div className="skeleton" /><div className="skeleton" /></div><button type="button" className="btn btn-outline" onClick={onCancel}>Hủy xử lý</button></section>;
+}

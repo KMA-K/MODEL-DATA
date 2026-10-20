@@ -1,0 +1,331 @@
+{
+  "viewport": 375,
+  "scrollWidth": 502,
+  "rects": [
+    {
+      "selector": ".app-header",
+      "x": -126,
+      "y": 41,
+      "width": 375,
+      "height": 140,
+      "top": "41px",
+      "zIndex": "90",
+      "display": "flex",
+      "fontSize": "16px",
+      "padding": "14px 20px",
+      "visibleAtCenter": "<header class=\"app-header\"><button type=\"button\" class=\"brand-wrapper\" title=\"Bấm để quay về trang chính\" aria-label=\"Bấm vào logo để quay về trang chính\"><div class=\"brand-logo\"><svg xmlns=\"http://ww"
+    },
+    {
+      "selector": ".privacy-banner",
+      "x": -126,
+      "y": 140,
+      "width": 375,
+      "height": 81.5,
+      "top": "0px",
+      "zIndex": "100",
+      "display": "flex",
+      "fontSize": "13px",
+      "padding": "11px 20px",
+      "visibleAtCenter": "<strong>KHÔNG</strong>"
+    },
+    {
+      "selector": ".brand-wrapper",
+      "x": -106,
+      "y": 55,
+      "width": 267.234375,
+      "height": 46,
+      "top": "auto",
+      "zIndex": "auto",
+      "display": "flex",
+      "fontSize": "13.3333px",
+      "padding": "0px",
+      "visibleAtCenter": "<p class=\"brand-title\">Bán Hàng <span>Smarter.</span></p>"
+    },
+    {
+      "selector": ".app-header .btn",
+      "x": 69.671875,
+      "y": 123.5,
+      "width": 159.328125,
+      "height": 32,
+      "top": "auto",
+      "zIndex": "auto",
+      "display": "flex",
+      "fontSize": "13px",
+      "padding": "7px 14px",
+      "visibleAtCenter": "<div class=\"privacy-banner\"><span class=\"privacy-pulse\"></span><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" str"
+    },
+    {
+      "selector": ".tabs-container",
+      "x": -110,
+      "y": 545.25,
+      "width": 343,
+      "height": 51,
+      "top": "0px",
+      "zIndex": "auto",
+      "display": "flex",
+      "fontSize": "16px",
+      "padding": "5px",
+      "visibleAtCenter": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"17\" height=\"17\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucid"
+    },
+    null,
+    null,
+    {
+      "selector": ".kpi-value",
+      "x": -85,
+      "y": 691.25,
+      "width": 293,
+      "height": 27.59375,
+      "top": "auto",
+      "zIndex": "auto",
+      "display": "block",
+      "fontSize": "24px",
+      "padding": "0px",
+      "visibleAtCenter": "<div class=\"kpi-value\"><span class=\"animated-number\" aria-label=\"6\"><span aria-hidden=\"true\">6</span></span></div>"
+    },
+    {
+      "selector": ".kpi-title",
+      "x": -85,
+      "y": 649.25,
+      "width": 293,
+      "height": 34,
+      "top": "auto",
+      "zIndex": "auto",
+      "display": "flex",
+      "fontSize": "12.5px",
+      "padding": "0px",
+      "visibleAtCenter": "<div class=\"kpi-title\"><span>Khách hàng</span><span class=\"icon-tile\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width="
+    },
+    {
+      "selector": "h1",
+      "x": -110,
+      "y": 262.75,
+      "width": 343,
+      "height": 42,
+      "top": "auto",
+      "zIndex": "auto",
+      "display": "block",
+      "fontSize": "28px",
+      "padding": "0px",
+      "visibleAtCenter": "<h1>Mỗi con số, một cơ hội.</h1>"
+    },
+    {
+      "selector": ".data-table td",
+      "x": -82,
+      "y": 2568.953125,
+      "width": 127.265625,
+      "height": 130.25,
+      "top": "auto",
+      "zIndex": "auto",
+      "display": "table-cell",
+      "fontSize": "13.5px",
+      "padding": "14px 16px"
+    },
+    {
+      "selector": ".data-table small",
+      "x": 310.28125,
+      "y": 2606.703125,
+      "width": 58.59375,
+      "height": 54.5,
+      "top": "auto",
+      "zIndex": "auto",
+      "display": "inline",
+      "fontSize": "12px",
+      "padding": "0px"
+    },
+    {
+      "selector": ".table-pagination",
+      "x": -83,
+      "y": 3351.953125,
+      "width": 289,
+      "height": 55,
+      "top": "auto",
+      "zIndex": "auto",
+      "display": "block",
+      "fontSize": "16px",
+      "padding": "0px"
+    },
+    {
+      "selector": ".theme-trigger",
+      "x": 158.34375,
+      "y": 935,
+      "width": 192.65625,
+      "height": 41,
+      "top": "935px",
+      "zIndex": "95",
+      "display": "flex",
+      "fontSize": "14px",
+      "padding": "10px 18px",
+      "visibleAtCenter": "<span>Tùy chỉnh giao diện</span>"
+    }
+  ],
+  "overflow": [
+    {
+      "tag": "DIV",
+      "cls": "",
+      "text": "Bán Hàng Smarter.\n\nDữ liệu nhỏ. Góc nhìn lớn.\n\nKhông gian ri",
+      "right": 249,
+      "left": -126
+    },
+    {
+      "tag": "HEADER",
+      "cls": "app-header",
+      "text": "Bán Hàng Smarter.\n\nDữ liệu nhỏ. Góc nhìn lớn.\n\nKhông gian ri",
+      "right": 249,
+      "left": -126
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "brand-wrapper",
+      "text": "Bán Hàng Smarter.\n\nDữ liệu nhỏ. Góc nhìn lớn.",
+      "right": 161.234375,
+      "left": -106
+    },
+    {
+      "tag": "DIV",
+      "cls": "brand-logo",
+      "text": "",
+      "right": -60,
+      "left": -106
+    },
+    {
+      "tag": "svg",
+      "cls": {},
+      "right": -71,
+      "left": -95
+    },
+    {
+      "tag": "path",
+      "cls": {},
+      "right": -80,
+      "left": -86
+    },
+    {
+      "tag": "path",
+      "cls": {},
+      "right": -72.99644470214844,
+      "left": -93.00092315673828
+    },
+    {
+      "tag": "path",
+      "cls": {},
+      "right": -75,
+      "left": -91
+    },
+    {
+      "tag": "DIV",
+      "cls": "",
+      "text": "Bán Hàng Smarter.\n\nDữ liệu nhỏ. Góc nhìn lớn.",
+      "right": 161.234375,
+      "left": -45
+    },
+    {
+      "tag": "P",
+      "cls": "brand-title",
+      "text": "Bán Hàng Smarter.",
+      "right": 161.234375,
+      "left": -45
+    },
+    {
+      "tag": "P",
+      "cls": "brand-subtitle",
+      "text": "Dữ liệu nhỏ. Góc nhìn lớn.",
+      "right": 161.234375,
+      "left": -45
+    },
+    {
+      "tag": "DIV",
+      "cls": "flex items-center gap-5",
+      "text": "Không gian riêng của bạn\nPhân tích file mới",
+      "right": 229,
+      "left": -106
+    },
+    {
+      "tag": "SPAN",
+      "cls": "header-status",
+      "text": "Không gian riêng của bạn",
+      "right": 49.671875,
+      "left": -106
+    },
+    {
+      "tag": "SPAN",
+      "cls": "status-dot",
+      "text": "",
+      "right": -85.421875,
+      "left": -91
+    },
+    {
+      "tag": "DIV",
+      "cls": "privacy-banner",
+      "text": "Dữ liệu được xử lý 100% trên thiết bị của bạn, bảo mật tuyệt",
+      "right": 249,
+      "left": -126
+    },
+    {
+      "tag": "SPAN",
+      "cls": "privacy-pulse",
+      "text": "",
+      "right": -102.359375,
+      "left": -106
+    },
+    {
+      "tag": "svg",
+      "cls": {},
+      "right": -73.359375,
+      "left": -88.359375
+    },
+    {
+      "tag": "path",
+      "cls": {},
+      "right": -75.859375,
+      "left": -85.859375
+    },
+    {
+      "tag": "path",
+      "cls": {},
+      "right": -78.984375,
+      "left": -82.734375
+    },
+    {
+      "tag": "SPAN",
+      "cls": "",
+      "text": "Dữ liệu được xử lý 100% trên thiết bị của bạn, bảo mật tuyệt",
+      "right": 229,
+      "left": -63.359375
+    },
+    {
+      "tag": "MAIN",
+      "cls": "container",
+      "text": "KHÔNG GIAN KINH DOANH\n\nMỗi con số, một cơ hội.\n\nHiểu cửa hàn",
+      "right": 249,
+      "left": -126
+    },
+    {
+      "tag": "DIV",
+      "cls": "motion-page",
+      "text": "KHÔNG GIAN KINH DOANH\n\nMỗi con số, một cơ hội.\n\nHiểu cửa hàn",
+      "right": 233,
+      "left": -110
+    },
+    {
+      "tag": "DIV",
+      "cls": "page-heading",
+      "text": "KHÔNG GIAN KINH DOANH\n\nMỗi con số, một cơ hội.\n\nHiểu cửa hàn",
+      "right": 233,
+      "left": -110
+    },
+    {
+      "tag": "DIV",
+      "cls": "",
+      "text": "KHÔNG GIAN KINH DOANH\n\nMỗi con số, một cơ hội.\n\nHiểu cửa hàn",
+      "right": 233,
+      "left": -110
+    },
+    {
+      "tag": "P",
+      "cls": "eyebrow",
+      "text": "KHÔNG GIAN KINH DOANH",
+      "right": 233,
+      "left": -110
+    }
+  ]
+}

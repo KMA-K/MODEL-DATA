@@ -1,0 +1,2326 @@
+[
+  {
+    "id": "duplicate-real-keep_all",
+    "checks": 27,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 14,
+    "fixture": "fixtures/duplicate-real.csv",
+    "uncertain": false
+  },
+  {
+    "id": "duplicate-real-drop_exact_duplicates",
+    "checks": 27,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/duplicate-real.csv",
+    "uncertain": false
+  },
+  {
+    "id": "duplicate-real-sync-async",
+    "status": "PASS",
+    "checks": 1,
+    "failures": [],
+    "fixture": "fixtures/duplicate-real.csv"
+  },
+  {
+    "id": "duplicate-copy-keep_all",
+    "checks": 27,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/duplicate-copy.csv",
+    "uncertain": false
+  },
+  {
+    "id": "duplicate-copy-drop_exact_duplicates",
+    "checks": 27,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/duplicate-copy.csv",
+    "uncertain": false
+  },
+  {
+    "id": "duplicate-copy-sync-async",
+    "status": "PASS",
+    "checks": 1,
+    "failures": [],
+    "fixture": "fixtures/duplicate-copy.csv"
+  },
+  {
+    "id": "duplicate-three-keep_all",
+    "checks": 27,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/duplicate-three.csv",
+    "uncertain": false
+  },
+  {
+    "id": "duplicate-three-drop_exact_duplicates",
+    "checks": 27,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/duplicate-three.csv",
+    "uncertain": false
+  },
+  {
+    "id": "duplicate-three-sync-async",
+    "status": "PASS",
+    "checks": 1,
+    "failures": [],
+    "fixture": "fixtures/duplicate-three.csv"
+  },
+  {
+    "id": "duplicate-nonadjacent-keep_all",
+    "checks": 32,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 1,
+    "fixture": "fixtures/duplicate-nonadjacent.csv",
+    "uncertain": false
+  },
+  {
+    "id": "duplicate-nonadjacent-drop_exact_duplicates",
+    "checks": 32,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 1,
+    "fixture": "fixtures/duplicate-nonadjacent.csv",
+    "uncertain": false
+  },
+  {
+    "id": "duplicate-nonadjacent-sync-async",
+    "status": "PASS",
+    "checks": 1,
+    "failures": [],
+    "fixture": "fixtures/duplicate-nonadjacent.csv"
+  },
+  {
+    "id": "duplicate-no-order-keep_all",
+    "checks": 27,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/duplicate-no-order.csv",
+    "uncertain": false
+  },
+  {
+    "id": "duplicate-no-order-drop_exact_duplicates",
+    "checks": 27,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/duplicate-no-order.csv",
+    "uncertain": false
+  },
+  {
+    "id": "duplicate-no-order-sync-async",
+    "status": "PASS",
+    "checks": 1,
+    "failures": [],
+    "fixture": "fixtures/duplicate-no-order.csv"
+  },
+  {
+    "id": "duplicate-whitespace-keep_all",
+    "checks": 27,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/duplicate-whitespace.csv",
+    "uncertain": false
+  },
+  {
+    "id": "duplicate-whitespace-drop_exact_duplicates",
+    "checks": 27,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/duplicate-whitespace.csv",
+    "uncertain": false
+  },
+  {
+    "id": "duplicate-whitespace-sync-async",
+    "status": "PASS",
+    "checks": 1,
+    "failures": [],
+    "fixture": "fixtures/duplicate-whitespace.csv"
+  },
+  {
+    "id": "duplicate-case-keep_all",
+    "checks": 32,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/duplicate-case.csv",
+    "uncertain": false
+  },
+  {
+    "id": "duplicate-case-drop_exact_duplicates",
+    "checks": 32,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/duplicate-case.csv",
+    "uncertain": false
+  },
+  {
+    "id": "duplicate-case-sync-async",
+    "status": "PASS",
+    "checks": 1,
+    "failures": [],
+    "fixture": "fixtures/duplicate-case.csv"
+  },
+  {
+    "id": "duplicate-normalized-keep_all",
+    "checks": 27,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/duplicate-normalized.csv",
+    "uncertain": false
+  },
+  {
+    "id": "duplicate-normalized-drop_exact_duplicates",
+    "checks": 27,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/duplicate-normalized.csv",
+    "uncertain": false
+  },
+  {
+    "id": "duplicate-normalized-sync-async",
+    "status": "PASS",
+    "checks": 1,
+    "failures": [],
+    "fixture": "fixtures/duplicate-normalized.csv"
+  },
+  {
+    "id": "duplicate-different-sku-keep_all",
+    "checks": 27,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/duplicate-different-sku.csv",
+    "uncertain": false
+  },
+  {
+    "id": "duplicate-different-sku-drop_exact_duplicates",
+    "checks": 27,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/duplicate-different-sku.csv",
+    "uncertain": false
+  },
+  {
+    "id": "duplicate-different-sku-sync-async",
+    "status": "PASS",
+    "checks": 1,
+    "failures": [],
+    "fixture": "fixtures/duplicate-different-sku.csv"
+  },
+  {
+    "id": "duplicate-different-cost-keep_all",
+    "checks": 27,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/duplicate-different-cost.csv",
+    "uncertain": false
+  },
+  {
+    "id": "duplicate-different-cost-drop_exact_duplicates",
+    "checks": 27,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/duplicate-different-cost.csv",
+    "uncertain": false
+  },
+  {
+    "id": "duplicate-different-cost-sync-async",
+    "status": "PASS",
+    "checks": 1,
+    "failures": [],
+    "fixture": "fixtures/duplicate-different-cost.csv"
+  },
+  {
+    "id": "duplicate-pipe-collision-keep_all",
+    "checks": 32,
+    "failures": [
+      {
+        "field": "suspectedCount",
+        "expected": 0,
+        "actual": 1,
+        "pass": false
+      },
+      {
+        "field": "suspectedRevenue",
+        "expected": 0,
+        "actual": 100000,
+        "pass": false
+      }
+    ],
+    "status": "FAIL",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/duplicate-pipe-collision.csv",
+    "uncertain": false
+  },
+  {
+    "id": "duplicate-pipe-collision-drop_exact_duplicates",
+    "checks": 32,
+    "failures": [
+      {
+        "field": "revenue",
+        "expected": 200000,
+        "actual": 100000,
+        "pass": false
+      },
+      {
+        "field": "quantity",
+        "expected": 2,
+        "actual": 1,
+        "pass": false
+      },
+      {
+        "field": "profit",
+        "expected": 80000,
+        "actual": 40000,
+        "pass": false
+      },
+      {
+        "field": "valid",
+        "expected": 2,
+        "actual": 1,
+        "pass": false
+      },
+      {
+        "field": "dropped",
+        "expected": 0,
+        "actual": 1,
+        "pass": false
+      },
+      {
+        "field": "orders",
+        "expected": 2,
+        "actual": 1,
+        "pass": false
+      },
+      {
+        "field": "identifiedRevenue",
+        "expected": 200000,
+        "actual": 100000,
+        "pass": false
+      },
+      {
+        "field": "repeatCount",
+        "expected": 1,
+        "actual": 0,
+        "pass": false
+      },
+      {
+        "field": "repeatRate",
+        "expected": 100,
+        "actual": 0,
+        "pass": false
+      },
+      {
+        "field": "product.P|Q.revenue",
+        "expected": 100000,
+        "pass": false
+      },
+      {
+        "field": "product.P|Q.quantity",
+        "expected": 1,
+        "pass": false
+      },
+      {
+        "field": "product.P|Q.profit",
+        "expected": 40000,
+        "pass": false
+      },
+      {
+        "field": "product.P|Q.abc",
+        "expected": "A",
+        "pass": false
+      },
+      {
+        "field": "product.P|Q.orders",
+        "expected": 1,
+        "pass": false
+      },
+      {
+        "field": "customer.KH1.frequency",
+        "expected": 2,
+        "actual": 1,
+        "pass": false
+      },
+      {
+        "field": "customer.KH1.spend",
+        "expected": 200000,
+        "actual": 100000,
+        "pass": false
+      }
+    ],
+    "status": "FAIL",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/duplicate-pipe-collision.csv",
+    "uncertain": false
+  },
+  {
+    "id": "duplicate-pipe-collision-sync-async",
+    "status": "PASS",
+    "checks": 1,
+    "failures": [],
+    "fixture": "fixtures/duplicate-pipe-collision.csv"
+  },
+  {
+    "id": "duplicate-placeholder-keep_all",
+    "checks": 27,
+    "failures": [
+      {
+        "field": "suspectedCount",
+        "expected": 0,
+        "actual": 1,
+        "pass": false
+      },
+      {
+        "field": "suspectedRevenue",
+        "expected": 0,
+        "actual": 100000,
+        "pass": false
+      }
+    ],
+    "status": "FAIL",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/duplicate-placeholder.csv",
+    "uncertain": false
+  },
+  {
+    "id": "duplicate-placeholder-drop_exact_duplicates",
+    "checks": 27,
+    "failures": [
+      {
+        "field": "revenue",
+        "expected": 200000,
+        "actual": 100000,
+        "pass": false
+      },
+      {
+        "field": "quantity",
+        "expected": 2,
+        "actual": 1,
+        "pass": false
+      },
+      {
+        "field": "profit",
+        "expected": 80000,
+        "actual": 40000,
+        "pass": false
+      },
+      {
+        "field": "valid",
+        "expected": 2,
+        "actual": 1,
+        "pass": false
+      },
+      {
+        "field": "dropped",
+        "expected": 0,
+        "actual": 1,
+        "pass": false
+      },
+      {
+        "field": "orders",
+        "expected": 2,
+        "actual": 1,
+        "pass": false
+      },
+      {
+        "field": "identifiedRevenue",
+        "expected": 200000,
+        "actual": 100000,
+        "pass": false
+      },
+      {
+        "field": "repeatCount",
+        "expected": 1,
+        "actual": 0,
+        "pass": false
+      },
+      {
+        "field": "repeatRate",
+        "expected": 100,
+        "actual": 0,
+        "pass": false
+      },
+      {
+        "field": "product.Trà.revenue",
+        "expected": 200000,
+        "actual": 100000,
+        "pass": false
+      },
+      {
+        "field": "product.Trà.quantity",
+        "expected": 2,
+        "actual": 1,
+        "pass": false
+      },
+      {
+        "field": "product.Trà.profit",
+        "expected": 80000,
+        "actual": 40000,
+        "pass": false
+      },
+      {
+        "field": "product.Trà.orders",
+        "expected": 2,
+        "actual": 1,
+        "pass": false
+      },
+      {
+        "field": "customer.KH1.frequency",
+        "expected": 2,
+        "actual": 1,
+        "pass": false
+      },
+      {
+        "field": "customer.KH1.spend",
+        "expected": 200000,
+        "actual": 100000,
+        "pass": false
+      }
+    ],
+    "status": "FAIL",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/duplicate-placeholder.csv",
+    "uncertain": false
+  },
+  {
+    "id": "duplicate-placeholder-sync-async",
+    "status": "PASS",
+    "checks": 1,
+    "failures": [],
+    "fixture": "fixtures/duplicate-placeholder.csv"
+  },
+  {
+    "id": "order-reused-days-keep_all",
+    "checks": 35,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/order-reused-days.csv",
+    "uncertain": false
+  },
+  {
+    "id": "order-reused-days-drop_exact_duplicates",
+    "checks": 35,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/order-reused-days.csv",
+    "uncertain": false
+  },
+  {
+    "id": "order-reused-days-sync-async",
+    "status": "PASS",
+    "checks": 1,
+    "failures": [],
+    "fixture": "fixtures/order-reused-days.csv"
+  },
+  {
+    "id": "order-same-day-customers-keep_all",
+    "checks": 35,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/order-same-day-customers.csv",
+    "uncertain": false
+  },
+  {
+    "id": "order-same-day-customers-drop_exact_duplicates",
+    "checks": 35,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/order-same-day-customers.csv",
+    "uncertain": false
+  },
+  {
+    "id": "order-same-day-customers-sync-async",
+    "status": "PASS",
+    "checks": 1,
+    "failures": [],
+    "fixture": "fixtures/order-same-day-customers.csv"
+  },
+  {
+    "id": "order-same-day-uncertain-keep_all",
+    "checks": 32,
+    "failures": [
+      {
+        "field": "orders",
+        "expected": 2,
+        "actual": 1,
+        "pass": false
+      },
+      {
+        "field": "aov",
+        "expected": 75000,
+        "actual": 150000,
+        "pass": false
+      },
+      {
+        "field": "repeatCount",
+        "expected": 1,
+        "actual": 0,
+        "pass": false
+      },
+      {
+        "field": "repeatRate",
+        "expected": 100,
+        "actual": 0,
+        "pass": false
+      },
+      {
+        "field": "customer.KH1.frequency",
+        "expected": 2,
+        "actual": 1,
+        "pass": false
+      },
+      {
+        "field": "pairs",
+        "expected": [],
+        "actual": [
+          {
+            "key": "[\"Bánh\",\"Trà\"]",
+            "count": 1,
+            "percentage": 100
+          }
+        ],
+        "pass": false
+      }
+    ],
+    "status": "FAIL",
+    "deterministic": true,
+    "elapsedMs": 1,
+    "fixture": "fixtures/order-same-day-uncertain.csv",
+    "uncertain": true
+  },
+  {
+    "id": "order-same-day-uncertain-drop_exact_duplicates",
+    "checks": 32,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/order-same-day-uncertain.csv",
+    "uncertain": true
+  },
+  {
+    "id": "order-same-day-uncertain-sync-async",
+    "status": "PASS",
+    "checks": 1,
+    "failures": [],
+    "fixture": "fixtures/order-same-day-uncertain.csv"
+  },
+  {
+    "id": "order-multi-items-keep_all",
+    "checks": 37,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 1,
+    "fixture": "fixtures/order-multi-items.csv",
+    "uncertain": false
+  },
+  {
+    "id": "order-multi-items-drop_exact_duplicates",
+    "checks": 37,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/order-multi-items.csv",
+    "uncertain": false
+  },
+  {
+    "id": "order-multi-items-sync-async",
+    "status": "PASS",
+    "checks": 1,
+    "failures": [],
+    "fixture": "fixtures/order-multi-items.csv"
+  },
+  {
+    "id": "order-guests-uncertain-keep_all",
+    "checks": 29,
+    "failures": [
+      {
+        "field": "orders",
+        "expected": 2,
+        "actual": 1,
+        "pass": false
+      },
+      {
+        "field": "aov",
+        "expected": 100000,
+        "actual": 200000,
+        "pass": false
+      },
+      {
+        "field": "pairs",
+        "expected": [],
+        "actual": [
+          {
+            "key": "[\"Bánh\",\"Trà\"]",
+            "count": 1,
+            "percentage": 100
+          }
+        ],
+        "pass": false
+      }
+    ],
+    "status": "FAIL",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/order-guests-uncertain.csv",
+    "uncertain": true
+  },
+  {
+    "id": "order-guests-uncertain-drop_exact_duplicates",
+    "checks": 29,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/order-guests-uncertain.csv",
+    "uncertain": true
+  },
+  {
+    "id": "order-guests-uncertain-sync-async",
+    "status": "PASS",
+    "checks": 1,
+    "failures": [],
+    "fixture": "fixtures/order-guests-uncertain.csv"
+  },
+  {
+    "id": "order-guest-placeholder-collision-keep_all",
+    "checks": 40,
+    "failures": [
+      {
+        "field": "orders",
+        "expected": 3,
+        "actual": 2,
+        "pass": false
+      },
+      {
+        "field": "aov",
+        "expected": 50000,
+        "actual": 75000,
+        "pass": false
+      },
+      {
+        "field": "pairs",
+        "expected": [],
+        "actual": [
+          {
+            "key": "[\"A\",\"B\"]",
+            "count": 1,
+            "percentage": 100
+          }
+        ],
+        "pass": false
+      }
+    ],
+    "status": "FAIL",
+    "deterministic": true,
+    "elapsedMs": 1,
+    "fixture": "fixtures/order-guest-placeholder-collision.csv",
+    "uncertain": false
+  },
+  {
+    "id": "order-guest-placeholder-collision-drop_exact_duplicates",
+    "checks": 40,
+    "failures": [
+      {
+        "field": "orders",
+        "expected": 3,
+        "actual": 2,
+        "pass": false
+      },
+      {
+        "field": "aov",
+        "expected": 50000,
+        "actual": 75000,
+        "pass": false
+      },
+      {
+        "field": "pairs",
+        "expected": [],
+        "actual": [
+          {
+            "key": "[\"A\",\"B\"]",
+            "count": 1,
+            "percentage": 100
+          }
+        ],
+        "pass": false
+      }
+    ],
+    "status": "FAIL",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/order-guest-placeholder-collision.csv",
+    "uncertain": false
+  },
+  {
+    "id": "order-guest-placeholder-collision-sync-async",
+    "status": "PASS",
+    "checks": 1,
+    "failures": [],
+    "fixture": "fixtures/order-guest-placeholder-collision.csv"
+  },
+  {
+    "id": "order-raw-internal-collision-keep_all",
+    "checks": 40,
+    "failures": [
+      {
+        "field": "orders",
+        "expected": 3,
+        "actual": 2,
+        "pass": false
+      },
+      {
+        "field": "aov",
+        "expected": 50000,
+        "actual": 75000,
+        "pass": false
+      },
+      {
+        "field": "repeatCount",
+        "expected": 1,
+        "actual": 0,
+        "pass": false
+      },
+      {
+        "field": "repeatRate",
+        "expected": 50,
+        "actual": 0,
+        "pass": false
+      },
+      {
+        "field": "customer.KH1.frequency",
+        "expected": 2,
+        "actual": 1,
+        "pass": false
+      },
+      {
+        "field": "pairs",
+        "expected": [],
+        "actual": [
+          {
+            "key": "[\"A\",\"C\"]",
+            "count": 1,
+            "percentage": 100
+          }
+        ],
+        "pass": false
+      }
+    ],
+    "status": "FAIL",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/order-raw-internal-collision.csv",
+    "uncertain": false
+  },
+  {
+    "id": "order-raw-internal-collision-drop_exact_duplicates",
+    "checks": 40,
+    "failures": [
+      {
+        "field": "orders",
+        "expected": 3,
+        "actual": 2,
+        "pass": false
+      },
+      {
+        "field": "aov",
+        "expected": 50000,
+        "actual": 75000,
+        "pass": false
+      },
+      {
+        "field": "repeatCount",
+        "expected": 1,
+        "actual": 0,
+        "pass": false
+      },
+      {
+        "field": "repeatRate",
+        "expected": 50,
+        "actual": 0,
+        "pass": false
+      },
+      {
+        "field": "customer.KH1.frequency",
+        "expected": 2,
+        "actual": 1,
+        "pass": false
+      },
+      {
+        "field": "pairs",
+        "expected": [],
+        "actual": [
+          {
+            "key": "[\"A\",\"C\"]",
+            "count": 1,
+            "percentage": 100
+          }
+        ],
+        "pass": false
+      }
+    ],
+    "status": "FAIL",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/order-raw-internal-collision.csv",
+    "uncertain": false
+  },
+  {
+    "id": "order-raw-internal-collision-sync-async",
+    "status": "PASS",
+    "checks": 1,
+    "failures": [],
+    "fixture": "fixtures/order-raw-internal-collision.csv"
+  },
+  {
+    "id": "order-hash-ids-keep_all",
+    "checks": 35,
+    "failures": [
+      {
+        "field": "orders",
+        "expected": 3,
+        "actual": 2,
+        "pass": false
+      },
+      {
+        "field": "aov",
+        "expected": 100000,
+        "actual": 150000,
+        "pass": false
+      },
+      {
+        "field": "repeatCount",
+        "expected": 1,
+        "actual": 0,
+        "pass": false
+      },
+      {
+        "field": "repeatRate",
+        "expected": 50,
+        "actual": 0,
+        "pass": false
+      },
+      {
+        "field": "customer.KH#1.frequency",
+        "expected": 2,
+        "actual": 1,
+        "pass": false
+      },
+      {
+        "field": "pairs",
+        "expected": [],
+        "actual": [
+          {
+            "key": "[\"Bánh\",\"Trà\"]",
+            "count": 1,
+            "percentage": 100
+          }
+        ],
+        "pass": false
+      }
+    ],
+    "status": "FAIL",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/order-hash-ids.csv",
+    "uncertain": false
+  },
+  {
+    "id": "order-hash-ids-drop_exact_duplicates",
+    "checks": 35,
+    "failures": [
+      {
+        "field": "orders",
+        "expected": 3,
+        "actual": 2,
+        "pass": false
+      },
+      {
+        "field": "aov",
+        "expected": 100000,
+        "actual": 150000,
+        "pass": false
+      },
+      {
+        "field": "repeatCount",
+        "expected": 1,
+        "actual": 0,
+        "pass": false
+      },
+      {
+        "field": "repeatRate",
+        "expected": 50,
+        "actual": 0,
+        "pass": false
+      },
+      {
+        "field": "customer.KH#1.frequency",
+        "expected": 2,
+        "actual": 1,
+        "pass": false
+      },
+      {
+        "field": "pairs",
+        "expected": [],
+        "actual": [
+          {
+            "key": "[\"Bánh\",\"Trà\"]",
+            "count": 1,
+            "percentage": 100
+          }
+        ],
+        "pass": false
+      }
+    ],
+    "status": "FAIL",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/order-hash-ids.csv",
+    "uncertain": false
+  },
+  {
+    "id": "order-hash-ids-sync-async",
+    "status": "PASS",
+    "checks": 1,
+    "failures": [],
+    "fixture": "fixtures/order-hash-ids.csv"
+  },
+  {
+    "id": "order-whitespace-keep_all",
+    "checks": 32,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/order-whitespace.csv",
+    "uncertain": false
+  },
+  {
+    "id": "order-whitespace-drop_exact_duplicates",
+    "checks": 32,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/order-whitespace.csv",
+    "uncertain": false
+  },
+  {
+    "id": "order-whitespace-sync-async",
+    "status": "PASS",
+    "checks": 1,
+    "failures": [],
+    "fixture": "fixtures/order-whitespace.csv"
+  },
+  {
+    "id": "order-case-keep_all",
+    "checks": 27,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/order-case.csv",
+    "uncertain": false
+  },
+  {
+    "id": "order-case-drop_exact_duplicates",
+    "checks": 27,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/order-case.csv",
+    "uncertain": false
+  },
+  {
+    "id": "order-case-sync-async",
+    "status": "PASS",
+    "checks": 1,
+    "failures": [],
+    "fixture": "fixtures/order-case.csv"
+  },
+  {
+    "id": "order-long-keep_all",
+    "checks": 27,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/order-long.csv",
+    "uncertain": false
+  },
+  {
+    "id": "order-long-drop_exact_duplicates",
+    "checks": 27,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/order-long.csv",
+    "uncertain": false
+  },
+  {
+    "id": "order-long-sync-async",
+    "status": "PASS",
+    "checks": 1,
+    "failures": [],
+    "fixture": "fixtures/order-long.csv"
+  },
+  {
+    "id": "order-times-uncertain-keep_all",
+    "checks": 32,
+    "failures": [
+      {
+        "field": "orders",
+        "expected": 2,
+        "actual": 1,
+        "pass": false
+      },
+      {
+        "field": "aov",
+        "expected": 100000,
+        "actual": 200000,
+        "pass": false
+      },
+      {
+        "field": "repeatCount",
+        "expected": 1,
+        "actual": 0,
+        "pass": false
+      },
+      {
+        "field": "repeatRate",
+        "expected": 100,
+        "actual": 0,
+        "pass": false
+      },
+      {
+        "field": "customer.KH1.frequency",
+        "expected": 2,
+        "actual": 1,
+        "pass": false
+      },
+      {
+        "field": "pairs",
+        "expected": [],
+        "actual": [
+          {
+            "key": "[\"Bánh\",\"Trà\"]",
+            "count": 1,
+            "percentage": 100
+          }
+        ],
+        "pass": false
+      }
+    ],
+    "status": "FAIL",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/order-times-uncertain.csv",
+    "uncertain": true
+  },
+  {
+    "id": "order-times-uncertain-drop_exact_duplicates",
+    "checks": 32,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/order-times-uncertain.csv",
+    "uncertain": true
+  },
+  {
+    "id": "order-times-uncertain-sync-async",
+    "status": "PASS",
+    "checks": 1,
+    "failures": [],
+    "fixture": "fixtures/order-times-uncertain.csv"
+  },
+  {
+    "id": "order-auto-prefix-keep_all",
+    "checks": 27,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/order-auto-prefix.csv",
+    "uncertain": false
+  },
+  {
+    "id": "order-auto-prefix-drop_exact_duplicates",
+    "checks": 27,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/order-auto-prefix.csv",
+    "uncertain": false
+  },
+  {
+    "id": "order-auto-prefix-sync-async",
+    "status": "PASS",
+    "checks": 1,
+    "failures": [],
+    "fixture": "fixtures/order-auto-prefix.csv"
+  },
+  {
+    "id": "order-none-keep_all",
+    "checks": 32,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/order-none.csv",
+    "uncertain": false
+  },
+  {
+    "id": "order-none-drop_exact_duplicates",
+    "checks": 32,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 1,
+    "fixture": "fixtures/order-none.csv",
+    "uncertain": false
+  },
+  {
+    "id": "order-none-sync-async",
+    "status": "PASS",
+    "checks": 1,
+    "failures": [],
+    "fixture": "fixtures/order-none.csv"
+  },
+  {
+    "id": "order-partial-keep_all",
+    "checks": 32,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/order-partial.csv",
+    "uncertain": false
+  },
+  {
+    "id": "order-partial-drop_exact_duplicates",
+    "checks": 32,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/order-partial.csv",
+    "uncertain": false
+  },
+  {
+    "id": "order-partial-sync-async",
+    "status": "PASS",
+    "checks": 1,
+    "failures": [],
+    "fixture": "fixtures/order-partial.csv"
+  },
+  {
+    "id": "order-partial-pairs-keep_all",
+    "checks": 37,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/order-partial-pairs.csv",
+    "uncertain": false
+  },
+  {
+    "id": "order-partial-pairs-drop_exact_duplicates",
+    "checks": 37,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/order-partial-pairs.csv",
+    "uncertain": false
+  },
+  {
+    "id": "order-partial-pairs-sync-async",
+    "status": "PASS",
+    "checks": 1,
+    "failures": [],
+    "fixture": "fixtures/order-partial-pairs.csv"
+  },
+  {
+    "id": "customer-coverage-100-keep_all",
+    "checks": 27,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 1,
+    "fixture": "fixtures/customer-coverage-100.csv",
+    "uncertain": false
+  },
+  {
+    "id": "customer-coverage-100-drop_exact_duplicates",
+    "checks": 27,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 1,
+    "fixture": "fixtures/customer-coverage-100.csv",
+    "uncertain": false
+  },
+  {
+    "id": "customer-coverage-100-sync-async",
+    "status": "PASS",
+    "checks": 1,
+    "failures": [],
+    "fixture": "fixtures/customer-coverage-100.csv"
+  },
+  {
+    "id": "customer-coverage-50-keep_all",
+    "checks": 27,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/customer-coverage-50.csv",
+    "uncertain": false
+  },
+  {
+    "id": "customer-coverage-50-drop_exact_duplicates",
+    "checks": 27,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/customer-coverage-50.csv",
+    "uncertain": false
+  },
+  {
+    "id": "customer-coverage-50-sync-async",
+    "status": "PASS",
+    "checks": 1,
+    "failures": [],
+    "fixture": "fixtures/customer-coverage-50.csv"
+  },
+  {
+    "id": "customer-coverage-10-keep_all",
+    "checks": 27,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 1,
+    "fixture": "fixtures/customer-coverage-10.csv",
+    "uncertain": false
+  },
+  {
+    "id": "customer-coverage-10-drop_exact_duplicates",
+    "checks": 27,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/customer-coverage-10.csv",
+    "uncertain": false
+  },
+  {
+    "id": "customer-coverage-10-sync-async",
+    "status": "PASS",
+    "checks": 1,
+    "failures": [],
+    "fixture": "fixtures/customer-coverage-10.csv"
+  },
+  {
+    "id": "customer-coverage-0_01-keep_all",
+    "checks": 27,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 1,
+    "fixture": "fixtures/customer-coverage-0_01.csv",
+    "uncertain": false
+  },
+  {
+    "id": "customer-coverage-0_01-drop_exact_duplicates",
+    "checks": 27,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/customer-coverage-0_01.csv",
+    "uncertain": false
+  },
+  {
+    "id": "customer-coverage-0_01-sync-async",
+    "status": "PASS",
+    "checks": 1,
+    "failures": [],
+    "fixture": "fixtures/customer-coverage-0_01.csv"
+  },
+  {
+    "id": "customer-coverage-0-keep_all",
+    "checks": 24,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 1,
+    "fixture": "fixtures/customer-coverage-0.csv",
+    "uncertain": false
+  },
+  {
+    "id": "customer-coverage-0-drop_exact_duplicates",
+    "checks": 24,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 1,
+    "fixture": "fixtures/customer-coverage-0.csv",
+    "uncertain": false
+  },
+  {
+    "id": "customer-coverage-0-sync-async",
+    "status": "PASS",
+    "checks": 1,
+    "failures": [],
+    "fixture": "fixtures/customer-coverage-0.csv"
+  },
+  {
+    "id": "customer-no-vip-keep_all",
+    "checks": 27,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/customer-no-vip.csv",
+    "uncertain": false
+  },
+  {
+    "id": "customer-no-vip-drop_exact_duplicates",
+    "checks": 27,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/customer-no-vip.csv",
+    "uncertain": false
+  },
+  {
+    "id": "customer-no-vip-sync-async",
+    "status": "PASS",
+    "checks": 1,
+    "failures": [],
+    "fixture": "fixtures/customer-no-vip.csv"
+  },
+  {
+    "id": "customer-multiple-vip-keep_all",
+    "checks": 30,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/customer-multiple-vip.csv",
+    "uncertain": false
+  },
+  {
+    "id": "customer-multiple-vip-drop_exact_duplicates",
+    "checks": 30,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/customer-multiple-vip.csv",
+    "uncertain": false
+  },
+  {
+    "id": "customer-multiple-vip-sync-async",
+    "status": "PASS",
+    "checks": 1,
+    "failures": [],
+    "fixture": "fixtures/customer-multiple-vip.csv"
+  },
+  {
+    "id": "customer-unreliable-coverage-keep_all",
+    "checks": 27,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 1,
+    "fixture": "fixtures/customer-unreliable-coverage.csv",
+    "uncertain": false
+  },
+  {
+    "id": "customer-unreliable-coverage-drop_exact_duplicates",
+    "checks": 27,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/customer-unreliable-coverage.csv",
+    "uncertain": false
+  },
+  {
+    "id": "customer-unreliable-coverage-sync-async",
+    "status": "PASS",
+    "checks": 1,
+    "failures": [],
+    "fixture": "fixtures/customer-unreliable-coverage.csv"
+  },
+  {
+    "id": "profit-none-keep_all",
+    "checks": 27,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/profit-none.csv",
+    "uncertain": false
+  },
+  {
+    "id": "profit-none-drop_exact_duplicates",
+    "checks": 27,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/profit-none.csv",
+    "uncertain": false
+  },
+  {
+    "id": "profit-none-sync-async",
+    "status": "PASS",
+    "checks": 1,
+    "failures": [],
+    "fixture": "fixtures/profit-none.csv"
+  },
+  {
+    "id": "profit-partial-keep_all",
+    "checks": 32,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/profit-partial.csv",
+    "uncertain": false
+  },
+  {
+    "id": "profit-partial-drop_exact_duplicates",
+    "checks": 32,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/profit-partial.csv",
+    "uncertain": false
+  },
+  {
+    "id": "profit-partial-sync-async",
+    "status": "PASS",
+    "checks": 1,
+    "failures": [],
+    "fixture": "fixtures/profit-partial.csv"
+  },
+  {
+    "id": "profit-positive-keep_all",
+    "checks": 27,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/profit-positive.csv",
+    "uncertain": false
+  },
+  {
+    "id": "profit-positive-drop_exact_duplicates",
+    "checks": 27,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/profit-positive.csv",
+    "uncertain": false
+  },
+  {
+    "id": "profit-positive-sync-async",
+    "status": "PASS",
+    "checks": 1,
+    "failures": [],
+    "fixture": "fixtures/profit-positive.csv"
+  },
+  {
+    "id": "profit-negative-keep_all",
+    "checks": 27,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/profit-negative.csv",
+    "uncertain": false
+  },
+  {
+    "id": "profit-negative-drop_exact_duplicates",
+    "checks": 27,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/profit-negative.csv",
+    "uncertain": false
+  },
+  {
+    "id": "profit-negative-sync-async",
+    "status": "PASS",
+    "checks": 1,
+    "failures": [],
+    "fixture": "fixtures/profit-negative.csv"
+  },
+  {
+    "id": "profit-zero-keep_all",
+    "checks": 27,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/profit-zero.csv",
+    "uncertain": false
+  },
+  {
+    "id": "profit-zero-drop_exact_duplicates",
+    "checks": 27,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/profit-zero.csv",
+    "uncertain": false
+  },
+  {
+    "id": "profit-zero-sync-async",
+    "status": "PASS",
+    "checks": 1,
+    "failures": [],
+    "fixture": "fixtures/profit-zero.csv"
+  },
+  {
+    "id": "profit-mixed-keep_all",
+    "checks": 32,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/profit-mixed.csv",
+    "uncertain": false
+  },
+  {
+    "id": "profit-mixed-drop_exact_duplicates",
+    "checks": 32,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/profit-mixed.csv",
+    "uncertain": false
+  },
+  {
+    "id": "profit-mixed-sync-async",
+    "status": "PASS",
+    "checks": 1,
+    "failures": [],
+    "fixture": "fixtures/profit-mixed.csv"
+  },
+  {
+    "id": "profit-loss-break-even-keep_all",
+    "checks": 32,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/profit-loss-break-even.csv",
+    "uncertain": false
+  },
+  {
+    "id": "profit-loss-break-even-drop_exact_duplicates",
+    "checks": 32,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/profit-loss-break-even.csv",
+    "uncertain": false
+  },
+  {
+    "id": "profit-loss-break-even-sync-async",
+    "status": "PASS",
+    "checks": 1,
+    "failures": [],
+    "fixture": "fixtures/profit-loss-break-even.csv"
+  },
+  {
+    "id": "profit-same-product-partial-keep_all",
+    "checks": 27,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 1,
+    "fixture": "fixtures/profit-same-product-partial.csv",
+    "uncertain": false
+  },
+  {
+    "id": "profit-same-product-partial-drop_exact_duplicates",
+    "checks": 27,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 1,
+    "fixture": "fixtures/profit-same-product-partial.csv",
+    "uncertain": false
+  },
+  {
+    "id": "profit-same-product-partial-sync-async",
+    "status": "PASS",
+    "checks": 1,
+    "failures": [],
+    "fixture": "fixtures/profit-same-product-partial.csv"
+  },
+  {
+    "id": "profit-free-cost-keep_all",
+    "checks": 27,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/profit-free-cost.csv",
+    "uncertain": false
+  },
+  {
+    "id": "profit-free-cost-drop_exact_duplicates",
+    "checks": 27,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/profit-free-cost.csv",
+    "uncertain": false
+  },
+  {
+    "id": "profit-free-cost-sync-async",
+    "status": "PASS",
+    "checks": 1,
+    "failures": [],
+    "fixture": "fixtures/profit-free-cost.csv"
+  },
+  {
+    "id": "repeat-six-0-keep_all",
+    "checks": 42,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/repeat-six-0.csv",
+    "uncertain": false
+  },
+  {
+    "id": "repeat-six-0-drop_exact_duplicates",
+    "checks": 42,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/repeat-six-0.csv",
+    "uncertain": false
+  },
+  {
+    "id": "repeat-six-0-sync-async",
+    "status": "PASS",
+    "checks": 1,
+    "failures": [],
+    "fixture": "fixtures/repeat-six-0.csv"
+  },
+  {
+    "id": "repeat-six-3-keep_all",
+    "checks": 42,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/repeat-six-3.csv",
+    "uncertain": false
+  },
+  {
+    "id": "repeat-six-3-drop_exact_duplicates",
+    "checks": 42,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/repeat-six-3.csv",
+    "uncertain": false
+  },
+  {
+    "id": "repeat-six-3-sync-async",
+    "status": "PASS",
+    "checks": 1,
+    "failures": [],
+    "fixture": "fixtures/repeat-six-3.csv"
+  },
+  {
+    "id": "repeat-six-6-keep_all",
+    "checks": 42,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 1,
+    "fixture": "fixtures/repeat-six-6.csv",
+    "uncertain": false
+  },
+  {
+    "id": "repeat-six-6-drop_exact_duplicates",
+    "checks": 42,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/repeat-six-6.csv",
+    "uncertain": false
+  },
+  {
+    "id": "repeat-six-6-sync-async",
+    "status": "PASS",
+    "checks": 1,
+    "failures": [],
+    "fixture": "fixtures/repeat-six-6.csv"
+  },
+  {
+    "id": "repeat-months-keep_all",
+    "checks": 27,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/repeat-months.csv",
+    "uncertain": false
+  },
+  {
+    "id": "repeat-months-drop_exact_duplicates",
+    "checks": 27,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/repeat-months.csv",
+    "uncertain": false
+  },
+  {
+    "id": "repeat-months-sync-async",
+    "status": "PASS",
+    "checks": 1,
+    "failures": [],
+    "fixture": "fixtures/repeat-months.csv"
+  },
+  {
+    "id": "combo-a-keep_all",
+    "checks": 32,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 1,
+    "fixture": "fixtures/combo-a.csv",
+    "uncertain": false
+  },
+  {
+    "id": "combo-a-drop_exact_duplicates",
+    "checks": 32,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/combo-a.csv",
+    "uncertain": false
+  },
+  {
+    "id": "combo-a-sync-async",
+    "status": "PASS",
+    "checks": 1,
+    "failures": [],
+    "fixture": "fixtures/combo-a.csv"
+  },
+  {
+    "id": "combo-b-keep_all",
+    "checks": 30,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/combo-b.csv",
+    "uncertain": false
+  },
+  {
+    "id": "combo-b-drop_exact_duplicates",
+    "checks": 30,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/combo-b.csv",
+    "uncertain": false
+  },
+  {
+    "id": "combo-b-sync-async",
+    "status": "PASS",
+    "checks": 1,
+    "failures": [],
+    "fixture": "fixtures/combo-b.csv"
+  },
+  {
+    "id": "scale-1000-keep_all",
+    "checks": 683,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 8,
+    "fixture": "fixtures/scale-1000.csv",
+    "uncertain": false
+  },
+  {
+    "id": "scale-1000-drop_exact_duplicates",
+    "checks": 683,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 10,
+    "fixture": "fixtures/scale-1000.csv",
+    "uncertain": false
+  },
+  {
+    "id": "scale-10000-keep_all",
+    "checks": 953,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 66,
+    "fixture": "fixtures/scale-10000.csv",
+    "uncertain": false
+  },
+  {
+    "id": "scale-10000-drop_exact_duplicates",
+    "checks": 953,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 55,
+    "fixture": "fixtures/scale-10000.csv",
+    "uncertain": false
+  },
+  {
+    "id": "scale-50000-keep_all",
+    "checks": 953,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 344,
+    "fixture": "fixtures/scale-50000.csv",
+    "uncertain": false
+  },
+  {
+    "id": "scale-50000-drop_exact_duplicates",
+    "checks": 953,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 276,
+    "fixture": "fixtures/scale-50000.csv",
+    "uncertain": false
+  },
+  {
+    "id": "scale-200000-keep_all",
+    "checks": 953,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 1523,
+    "fixture": "fixtures/scale-200000.csv",
+    "uncertain": false
+  },
+  {
+    "id": "scale-200000-drop_exact_duplicates",
+    "checks": 953,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 1334,
+    "fixture": "fixtures/scale-200000.csv",
+    "uncertain": false
+  },
+  {
+    "id": "duplicate-three-reversed-keep_all",
+    "checks": 27,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/duplicate-three-reversed.csv",
+    "uncertain": false
+  },
+  {
+    "id": "duplicate-three-reversed-drop_exact_duplicates",
+    "checks": 27,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/duplicate-three-reversed.csv",
+    "uncertain": false
+  },
+  {
+    "id": "duplicate-three-reversed-sync-async",
+    "status": "PASS",
+    "checks": 1,
+    "failures": [],
+    "fixture": "fixtures/duplicate-three-reversed.csv"
+  },
+  {
+    "id": "duplicate-different-cost-reversed-keep_all",
+    "checks": 27,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/duplicate-different-cost-reversed.csv",
+    "uncertain": false
+  },
+  {
+    "id": "duplicate-different-cost-reversed-drop_exact_duplicates",
+    "checks": 27,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/duplicate-different-cost-reversed.csv",
+    "uncertain": false
+  },
+  {
+    "id": "duplicate-different-cost-reversed-sync-async",
+    "status": "PASS",
+    "checks": 1,
+    "failures": [],
+    "fixture": "fixtures/duplicate-different-cost-reversed.csv"
+  },
+  {
+    "id": "order-guest-placeholder-collision-reversed-keep_all",
+    "checks": 40,
+    "failures": [
+      {
+        "field": "orders",
+        "expected": 3,
+        "actual": 2,
+        "pass": false
+      },
+      {
+        "field": "aov",
+        "expected": 50000,
+        "actual": 75000,
+        "pass": false
+      },
+      {
+        "field": "pairs",
+        "expected": [],
+        "actual": [
+          {
+            "key": "[\"A\",\"B\"]",
+            "count": 1,
+            "percentage": 100
+          }
+        ],
+        "pass": false
+      }
+    ],
+    "status": "FAIL",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/order-guest-placeholder-collision-reversed.csv",
+    "uncertain": false
+  },
+  {
+    "id": "order-guest-placeholder-collision-reversed-drop_exact_duplicates",
+    "checks": 40,
+    "failures": [
+      {
+        "field": "orders",
+        "expected": 3,
+        "actual": 2,
+        "pass": false
+      },
+      {
+        "field": "aov",
+        "expected": 50000,
+        "actual": 75000,
+        "pass": false
+      },
+      {
+        "field": "pairs",
+        "expected": [],
+        "actual": [
+          {
+            "key": "[\"A\",\"B\"]",
+            "count": 1,
+            "percentage": 100
+          }
+        ],
+        "pass": false
+      }
+    ],
+    "status": "FAIL",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/order-guest-placeholder-collision-reversed.csv",
+    "uncertain": false
+  },
+  {
+    "id": "order-guest-placeholder-collision-reversed-sync-async",
+    "status": "PASS",
+    "checks": 1,
+    "failures": [],
+    "fixture": "fixtures/order-guest-placeholder-collision-reversed.csv"
+  },
+  {
+    "id": "order-raw-internal-collision-reversed-keep_all",
+    "checks": 40,
+    "failures": [
+      {
+        "field": "orders",
+        "expected": 3,
+        "actual": 2,
+        "pass": false
+      },
+      {
+        "field": "aov",
+        "expected": 50000,
+        "actual": 75000,
+        "pass": false
+      },
+      {
+        "field": "repeatCount",
+        "expected": 1,
+        "actual": 0,
+        "pass": false
+      },
+      {
+        "field": "repeatRate",
+        "expected": 50,
+        "actual": 0,
+        "pass": false
+      },
+      {
+        "field": "customer.KH1.frequency",
+        "expected": 2,
+        "actual": 1,
+        "pass": false
+      },
+      {
+        "field": "pairs",
+        "expected": [],
+        "actual": [
+          {
+            "key": "[\"A\",\"C\"]",
+            "count": 1,
+            "percentage": 100
+          }
+        ],
+        "pass": false
+      }
+    ],
+    "status": "FAIL",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/order-raw-internal-collision-reversed.csv",
+    "uncertain": false
+  },
+  {
+    "id": "order-raw-internal-collision-reversed-drop_exact_duplicates",
+    "checks": 40,
+    "failures": [
+      {
+        "field": "orders",
+        "expected": 3,
+        "actual": 2,
+        "pass": false
+      },
+      {
+        "field": "aov",
+        "expected": 50000,
+        "actual": 75000,
+        "pass": false
+      },
+      {
+        "field": "repeatCount",
+        "expected": 1,
+        "actual": 0,
+        "pass": false
+      },
+      {
+        "field": "repeatRate",
+        "expected": 50,
+        "actual": 0,
+        "pass": false
+      },
+      {
+        "field": "customer.KH1.frequency",
+        "expected": 2,
+        "actual": 1,
+        "pass": false
+      },
+      {
+        "field": "pairs",
+        "expected": [],
+        "actual": [
+          {
+            "key": "[\"A\",\"C\"]",
+            "count": 1,
+            "percentage": 100
+          }
+        ],
+        "pass": false
+      }
+    ],
+    "status": "FAIL",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/order-raw-internal-collision-reversed.csv",
+    "uncertain": false
+  },
+  {
+    "id": "order-raw-internal-collision-reversed-sync-async",
+    "status": "PASS",
+    "checks": 1,
+    "failures": [],
+    "fixture": "fixtures/order-raw-internal-collision-reversed.csv"
+  },
+  {
+    "id": "combo-a-reversed-keep_all",
+    "checks": 32,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/combo-a-reversed.csv",
+    "uncertain": false
+  },
+  {
+    "id": "combo-a-reversed-drop_exact_duplicates",
+    "checks": 32,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/combo-a-reversed.csv",
+    "uncertain": false
+  },
+  {
+    "id": "combo-a-reversed-sync-async",
+    "status": "PASS",
+    "checks": 1,
+    "failures": [],
+    "fixture": "fixtures/combo-a-reversed.csv"
+  },
+  {
+    "id": "csv-semicolon-keep_all",
+    "checks": 27,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/csv-semicolon.csv",
+    "uncertain": false
+  },
+  {
+    "id": "csv-semicolon-drop_exact_duplicates",
+    "checks": 27,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/csv-semicolon.csv",
+    "uncertain": false
+  },
+  {
+    "id": "csv-semicolon-sync-async",
+    "status": "PASS",
+    "checks": 1,
+    "failures": [],
+    "fixture": "fixtures/csv-semicolon.csv"
+  },
+  {
+    "id": "csv-tab-keep_all",
+    "checks": 27,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/csv-tab.csv",
+    "uncertain": false
+  },
+  {
+    "id": "csv-tab-drop_exact_duplicates",
+    "checks": 27,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/csv-tab.csv",
+    "uncertain": false
+  },
+  {
+    "id": "csv-tab-sync-async",
+    "status": "PASS",
+    "checks": 1,
+    "failures": [],
+    "fixture": "fixtures/csv-tab.csv"
+  }
+]

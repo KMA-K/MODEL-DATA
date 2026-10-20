@@ -1,0 +1,35 @@
+diff --git "a/D:\\2.TEST_PROJECT\\MODEL data\\review\\project\\src\\test\\cleaner.test.ts" "b/D:\\2.TEST_PROJECT\\MODEL data\\src\\test\\cleaner.test.ts"
+index 8084129..26a59f4 100644
+--- "a/D:\\2.TEST_PROJECT\\MODEL data\\review\\project\\src\\test\\cleaner.test.ts"	
++++ "b/D:\\2.TEST_PROJECT\\MODEL data\\src\\test\\cleaner.test.ts"	
+@@ -49,15 +49,25 @@ describe('Bộ làm sạch dữ liệu (Data Cleaner)', () => {
+       orderIdCol: 'Mã đơn'
+     };
+ 
++    // Mặc định: Chính sách an toàn giữ lại dòng trùng nghi vấn (UI-06 Case A)
+     const { cleanRows, report } = cleanSalesData(rawRows, mapping);
+-
+-    expect(cleanRows.length).toBe(2);
++    expect(cleanRows.length).toBe(3);
+     expect(report.totalRows).toBe(7);
+-    expect(report.validRows).toBe(2);
+-    expect(report.droppedTotal).toBe(5);
++    expect(report.validRows).toBe(3);
++    expect(report.droppedTotal).toBe(4);
++    expect(report.suspectedDuplicates?.count).toBe(1);
++
++    // Khi người dùng chủ động chọn loại dòng trùng lặp (UI-06 Case B)
++    const { cleanRows: strictCleanRows, report: strictReport } = cleanSalesData(rawRows, {
++      ...mapping,
++      deduplicatePolicy: 'drop_exact_duplicates'
++    });
++    expect(strictCleanRows.length).toBe(2);
++    expect(strictReport.validRows).toBe(2);
++    expect(strictReport.droppedTotal).toBe(5);
+ 
+     // Kiểm tra có đầy đủ báo cáo lý do bị loại
+-    const reasonsMap = new Map(report.reasons.map(r => [r.reason, r.count]));
++    const reasonsMap = new Map(strictReport.reasons.map(r => [r.reason, r.count]));
+     expect(reasonsMap.get('duplicate')).toBe(1);
+     expect(reasonsMap.get('missing_date')).toBe(1);
+     expect(reasonsMap.get('missing_product')).toBe(1);

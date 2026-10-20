@@ -1,0 +1,124 @@
+[
+  {
+    "name": "artifacts\\mobile-missing-data.png",
+    "status": "changed-relative-to-old-QA-snapshot",
+    "beforeHash": "6eaeb17a6646b317fefacf66a21c10a2f1647d1f55e5699e9617ec3d84647824",
+    "afterHash": "d17a620a1a13856008cdcc8dee8ebcd7cdb1acf0a4c90783bc03d3bcc6d74ab9"
+  },
+  {
+    "name": "artifacts\\welcome.png",
+    "status": "changed-relative-to-old-QA-snapshot",
+    "beforeHash": "52e1add4f3cea46614278d2460401501ac07cb3f3a1646397074b166df36c7bf",
+    "afterHash": "889a62aba0621e6ac7a5ff50a670a94e350a26dc92469e6cef0a3defded991fc"
+  },
+  {
+    "name": "dist\\index.html",
+    "status": "changed-relative-to-old-QA-snapshot",
+    "beforeHash": "d9c5b9845f282710b10a3ee6694912fae32a5b7c8abf7605b559292ef77a0804",
+    "afterHash": "482642cc89f58f4813862358b8e0b4994ff71423ff693be202a84a351592eb3d"
+  },
+  {
+    "name": "package-lock.json",
+    "status": "changed-relative-to-old-QA-snapshot",
+    "beforeHash": "c714420294f70267de0773679beea4f7ffb6acfd563969926be693efc18a260c",
+    "afterHash": "154c276b4d3931c0aa27199cf5fc8258bf6f1b5e2c1e3a65fe0a3a8645402584"
+  },
+  {
+    "name": "package.json",
+    "status": "changed-relative-to-old-QA-snapshot",
+    "beforeHash": "f24921001c63077432d72124f47264526707f8d348d0dc84be682c401160bea0",
+    "afterHash": "155048d65e1acc1bb77ad09662af7f49338eafb1c072c1fcd5deb0ea39a3fa0a"
+  },
+  {
+    "name": "src\\components\\dashboard\\CustomerTab.tsx",
+    "status": "changed-relative-to-old-QA-snapshot",
+    "beforeHash": "8ba702de90ecd81f98708cf5a2e2df1496bd0550e8052c67290af683566e6afb",
+    "afterHash": "ae6c41436f30e01477174b0437f38cbd289954be990338d4190e5d858a99bf47"
+  },
+  {
+    "name": "src\\components\\dashboard\\OverviewTab.tsx",
+    "status": "changed-relative-to-old-QA-snapshot",
+    "beforeHash": "acf898ee3ea02768fb169c3c0ee2f32c505916714235f642ba1c942f26731ada",
+    "afterHash": "ed943293b4a789ce8c9df7e53a5257998f9240bacd873f8ae0a0bae47f76777f"
+  },
+  {
+    "name": "src\\components\\upload\\CleaningReportModal.tsx",
+    "status": "changed-relative-to-old-QA-snapshot",
+    "beforeHash": "8dfc19f79b5873027a2363c60d5999f1db0deed68495eb6954021f95fffad025",
+    "afterHash": "ae861302afc8af41a58773229beedc0594e5cc6c93c7d3ab34cca282f76a4beb"
+  },
+  {
+    "name": "src\\core\\analyzer.ts",
+    "status": "changed-relative-to-old-QA-snapshot",
+    "beforeHash": "e2688593bd36c13701f190d114585ee949a2dfc2ad1393bdfc08e512b892fe24",
+    "afterHash": "797c45e072f3ad0b6d354666db2e519f83816f418fc958e5585800522d0c0acc"
+  },
+  {
+    "name": "src\\core\\cleaner.ts",
+    "status": "changed-relative-to-old-QA-snapshot",
+    "beforeHash": "14f1293aeeb4cb5f60708e461d058d88701913e39c88364b905765bcc679d789",
+    "afterHash": "df23cdf20d303272956c0d5852b293c4c538276776f051d715e47ab3b5aa5867"
+  },
+  {
+    "name": "src\\core\\columnMapping.ts",
+    "status": "changed-relative-to-old-QA-snapshot",
+    "beforeHash": "3b69ae5192fb1709f208b6eb1b0444fe6f9626306c84af5c339c6e36a809a3ad",
+    "afterHash": "14ea39b3d7807030d8e1cea1d95da75b99e9aec48c18057f86289a5c93b70eb4"
+  },
+  {
+    "name": "src\\core\\customerMetrics.ts",
+    "status": "changed-relative-to-old-QA-snapshot",
+    "beforeHash": "340eaef580414e45fd29a9842e4de8fd5378d0729b4241e07666ba5b6aa3db0b",
+    "afterHash": "10326024d982fe33dbb4f59f16eca7928cdb84727952d584583cff835c19a2fb"
+  },
+  {
+    "name": "src\\core\\overviewMetrics.ts",
+    "status": "changed-relative-to-old-QA-snapshot",
+    "beforeHash": "6c2283d5b44eb4f4e715ea8f3f0b9ceef00e280b145d6d7881ac2eaef5c6d3e9",
+    "afterHash": "3783221bb3dd4ad76e0018b00af880ea52faa5877860e5794752f0ee867a3078"
+  },
+  {
+    "name": "src\\core\\productMetrics.ts",
+    "status": "changed-relative-to-old-QA-snapshot",
+    "beforeHash": "bd377cbb2d46cfed00bdf623fb3a27e028e9e7ebc6b1aa53e906bb565a26f639",
+    "afterHash": "9544111e8b6afe331ee86917092d353732b5875842510492b78afa9c1d33b66e"
+  },
+  {
+    "name": "src\\core\\textConclusions.ts",
+    "status": "changed-relative-to-old-QA-snapshot",
+    "beforeHash": "4a38cbd02ca276ce29a8a6bfbf7fbe1cbaa1460aca95011583ad407d1d821737",
+    "afterHash": "7bc0f00829ebf571fa1a3a498b887fa26318df1d1d39ccfeb1936f5af5407cf6"
+  },
+  {
+    "name": "src\\core\\types.ts",
+    "status": "changed-relative-to-old-QA-snapshot",
+    "beforeHash": "c39914e627177497b4f0b30d4795d2313580d96602245a8620a42ff38d1b9847",
+    "afterHash": "2a8f21d68ec4c270e03c627f2a1290d1f6193e65703dec4461f049b5852d7821"
+  },
+  {
+    "name": "src\\test\\cleaner.test.ts",
+    "status": "changed-relative-to-old-QA-snapshot",
+    "beforeHash": "1d158b88485eecf06b3d6d092544b66da58ef150aeab6ed0030984ecd1555900",
+    "afterHash": "13c81a2b2a661d9eeefa0a29809935eb20654044d53df8d15ab07225630dacce"
+  },
+  {
+    "name": "src\\test\\phase1IntegrityRegression.test.ts",
+    "status": "new-relative-to-old-QA-snapshot"
+  },
+  {
+    "name": "src\\test\\sampleDataset.test.ts",
+    "status": "changed-relative-to-old-QA-snapshot",
+    "beforeHash": "a92d6b6e0fe9d34a072c051610ad3d3f89299ac5d68f3ff886369b732d880641",
+    "afterHash": "ed80dd59e308471be061428926aa26dc94c8a717fc05f9b0a7057077165f64f2"
+  },
+  {
+    "name": "test-results\\.last-run.json",
+    "status": "changed-relative-to-old-QA-snapshot",
+    "beforeHash": "27481b87554eabce827bdb3525288f635c75633192af4668846fdede802a302a",
+    "afterHash": "91d1c43004802cd49950d78eb11c8fa7d05da8ffffe219a8b13b2f561bc00903"
+  },
+  {
+    "name": "tests\\browser\\phase1_integrity.pw.ts",
+    "status": "new-relative-to-old-QA-snapshot"
+  }
+]

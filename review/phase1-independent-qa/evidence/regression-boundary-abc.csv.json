@@ -1,0 +1,580 @@
+{
+  "expected": {
+    "rawRows": 3,
+    "validRows": 3,
+    "dropped": 0,
+    "invalid": [],
+    "duplicateRows": [],
+    "suspectedCount": 0,
+    "suspectedRevenue": 0,
+    "keptIndices": [
+      1,
+      2,
+      3
+    ],
+    "revenue": 100000,
+    "quantity": 6,
+    "profit": 40000,
+    "margin": 40,
+    "costCoverage": 100,
+    "orders": 1,
+    "aov": 100000,
+    "products": [
+      {
+        "name": "A",
+        "revenue": 80000,
+        "quantity": 2,
+        "profit": 32000,
+        "orders": 1,
+        "category": "Đồ dùng thử",
+        "monthly": {
+          "2026-09": 80000
+        },
+        "abc": "A"
+      },
+      {
+        "name": "B",
+        "revenue": 15000,
+        "quantity": 2,
+        "profit": 6000,
+        "orders": 1,
+        "category": "Đồ dùng thử",
+        "monthly": {
+          "2026-09": 15000
+        },
+        "abc": "B"
+      },
+      {
+        "name": "C",
+        "revenue": 5000,
+        "quantity": 2,
+        "profit": 2000,
+        "orders": 1,
+        "category": "Đồ dùng thử",
+        "monthly": {
+          "2026-09": 5000
+        },
+        "abc": "C"
+      }
+    ],
+    "customers": [
+      {
+        "id": "KH1",
+        "spend": 100000,
+        "last": "2026-09-30",
+        "frequency": 1,
+        "recency": 0,
+        "segment": "VIP"
+      }
+    ],
+    "identifiedRevenue": 100000,
+    "coverage": 100,
+    "vipRevenue": 100000,
+    "storeVipShare": 100,
+    "identifiedVipShare": 100,
+    "vipCount": 1,
+    "repeatCount": 0,
+    "repeatRate": 0,
+    "pairs": [
+      {
+        "names": [
+          "A",
+          "B"
+        ],
+        "count": 1,
+        "percentage": 100
+      },
+      {
+        "names": [
+          "A",
+          "C"
+        ],
+        "count": 1,
+        "percentage": 100
+      },
+      {
+        "names": [
+          "B",
+          "C"
+        ],
+        "count": 1,
+        "percentage": 100
+      }
+    ],
+    "uncertain": false,
+    "missingOrders": false
+  },
+  "actual": {
+    "cleaningReport": {
+      "totalRows": 3,
+      "validRows": 3,
+      "droppedTotal": 0,
+      "reasons": []
+    },
+    "overview": {
+      "hasReliableOrderIds": true,
+      "orderIdStatus": "reliable",
+      "hasOrderCollisions": false,
+      "costCoverage": 100,
+      "totalRevenue": 100000,
+      "totalQuantity": 6,
+      "totalOrders": 1,
+      "averageOrderValue": 100000,
+      "totalProfit": 40000,
+      "profitMargin": 40,
+      "uniqueProducts": 3,
+      "uniqueCustomers": 1,
+      "dateRange": {
+        "start": "2026-09-30",
+        "end": "2026-09-30",
+        "days": 1
+      },
+      "monthlyRevenue": [
+        {
+          "month": "2026-09",
+          "revenue": 100000,
+          "orders": 1,
+          "profit": 40000
+        }
+      ]
+    },
+    "productAnalysis": {
+      "products": [
+        {
+          "id": "A",
+          "name": "A",
+          "category": "Đồ dùng thử",
+          "quantity": 2,
+          "revenue": 80000,
+          "revenueShare": 80,
+          "cumulativeShare": 80,
+          "abcGroup": "A",
+          "costPrice": 24000,
+          "profit": 32000,
+          "profitMargin": 40,
+          "ordersCount": 1,
+          "trend": "Ổn định",
+          "monthlyTrendData": [
+            {
+              "month": "2026-09",
+              "quantity": 2,
+              "revenue": 80000
+            }
+          ],
+          "recommendation": "Đáng đầu tư",
+          "reasonText": "Sản phẩm chủ lực (Nhóm A), đóng góp 80.0% doanh thu. Luôn ưu tiên giữ hàng và vị trí trưng bày đẹp."
+        },
+        {
+          "id": "B",
+          "name": "B",
+          "category": "Đồ dùng thử",
+          "quantity": 2,
+          "revenue": 15000,
+          "revenueShare": 15,
+          "cumulativeShare": 95,
+          "abcGroup": "B",
+          "costPrice": 4500,
+          "profit": 6000,
+          "profitMargin": 40,
+          "ordersCount": 1,
+          "trend": "Ổn định",
+          "monthlyTrendData": [
+            {
+              "month": "2026-09",
+              "quantity": 2,
+              "revenue": 15000
+            }
+          ],
+          "recommendation": "Duy trì ổn định",
+          "reasonText": "Sản phẩm bán ổn định ở mức trung bình, phục vụ nhu cầu thường ngày của khách."
+        },
+        {
+          "id": "C",
+          "name": "C",
+          "category": "Đồ dùng thử",
+          "quantity": 2,
+          "revenue": 5000,
+          "revenueShare": 5,
+          "cumulativeShare": 100,
+          "abcGroup": "C",
+          "costPrice": 1500,
+          "profit": 2000,
+          "profitMargin": 40,
+          "ordersCount": 1,
+          "trend": "Ổn định",
+          "monthlyTrendData": [
+            {
+              "month": "2026-09",
+              "quantity": 2,
+              "revenue": 5000
+            }
+          ],
+          "recommendation": "Duy trì ổn định",
+          "reasonText": "Sản phẩm nhóm C, doanh thu nhỏ nhưng doanh số đều đặn. Không nên ôm hàng số lượng lớn."
+        }
+      ],
+      "abcSummary": {
+        "groupA": {
+          "count": 1,
+          "revenue": 80000,
+          "percentage": 80
+        },
+        "groupB": {
+          "count": 1,
+          "revenue": 15000,
+          "percentage": 15
+        },
+        "groupC": {
+          "count": 1,
+          "revenue": 5000,
+          "percentage": 5
+        }
+      },
+      "topProfitable": [
+        {
+          "id": "A",
+          "name": "A",
+          "category": "Đồ dùng thử",
+          "quantity": 2,
+          "revenue": 80000,
+          "revenueShare": 80,
+          "cumulativeShare": 80,
+          "abcGroup": "A",
+          "costPrice": 24000,
+          "profit": 32000,
+          "profitMargin": 40,
+          "ordersCount": 1,
+          "trend": "Ổn định",
+          "monthlyTrendData": [
+            {
+              "month": "2026-09",
+              "quantity": 2,
+              "revenue": 80000
+            }
+          ],
+          "recommendation": "Đáng đầu tư",
+          "reasonText": "Sản phẩm chủ lực (Nhóm A), đóng góp 80.0% doanh thu. Luôn ưu tiên giữ hàng và vị trí trưng bày đẹp."
+        },
+        {
+          "id": "B",
+          "name": "B",
+          "category": "Đồ dùng thử",
+          "quantity": 2,
+          "revenue": 15000,
+          "revenueShare": 15,
+          "cumulativeShare": 95,
+          "abcGroup": "B",
+          "costPrice": 4500,
+          "profit": 6000,
+          "profitMargin": 40,
+          "ordersCount": 1,
+          "trend": "Ổn định",
+          "monthlyTrendData": [
+            {
+              "month": "2026-09",
+              "quantity": 2,
+              "revenue": 15000
+            }
+          ],
+          "recommendation": "Duy trì ổn định",
+          "reasonText": "Sản phẩm bán ổn định ở mức trung bình, phục vụ nhu cầu thường ngày của khách."
+        },
+        {
+          "id": "C",
+          "name": "C",
+          "category": "Đồ dùng thử",
+          "quantity": 2,
+          "revenue": 5000,
+          "revenueShare": 5,
+          "cumulativeShare": 100,
+          "abcGroup": "C",
+          "costPrice": 1500,
+          "profit": 2000,
+          "profitMargin": 40,
+          "ordersCount": 1,
+          "trend": "Ổn định",
+          "monthlyTrendData": [
+            {
+              "month": "2026-09",
+              "quantity": 2,
+              "revenue": 5000
+            }
+          ],
+          "recommendation": "Duy trì ổn định",
+          "reasonText": "Sản phẩm nhóm C, doanh thu nhỏ nhưng doanh số đều đặn. Không nên ôm hàng số lượng lớn."
+        }
+      ],
+      "topLossMaking": [],
+      "topRevenue": [
+        {
+          "id": "A",
+          "name": "A",
+          "category": "Đồ dùng thử",
+          "quantity": 2,
+          "revenue": 80000,
+          "revenueShare": 80,
+          "cumulativeShare": 80,
+          "abcGroup": "A",
+          "costPrice": 24000,
+          "profit": 32000,
+          "profitMargin": 40,
+          "ordersCount": 1,
+          "trend": "Ổn định",
+          "monthlyTrendData": [
+            {
+              "month": "2026-09",
+              "quantity": 2,
+              "revenue": 80000
+            }
+          ],
+          "recommendation": "Đáng đầu tư",
+          "reasonText": "Sản phẩm chủ lực (Nhóm A), đóng góp 80.0% doanh thu. Luôn ưu tiên giữ hàng và vị trí trưng bày đẹp."
+        },
+        {
+          "id": "B",
+          "name": "B",
+          "category": "Đồ dùng thử",
+          "quantity": 2,
+          "revenue": 15000,
+          "revenueShare": 15,
+          "cumulativeShare": 95,
+          "abcGroup": "B",
+          "costPrice": 4500,
+          "profit": 6000,
+          "profitMargin": 40,
+          "ordersCount": 1,
+          "trend": "Ổn định",
+          "monthlyTrendData": [
+            {
+              "month": "2026-09",
+              "quantity": 2,
+              "revenue": 15000
+            }
+          ],
+          "recommendation": "Duy trì ổn định",
+          "reasonText": "Sản phẩm bán ổn định ở mức trung bình, phục vụ nhu cầu thường ngày của khách."
+        },
+        {
+          "id": "C",
+          "name": "C",
+          "category": "Đồ dùng thử",
+          "quantity": 2,
+          "revenue": 5000,
+          "revenueShare": 5,
+          "cumulativeShare": 100,
+          "abcGroup": "C",
+          "costPrice": 1500,
+          "profit": 2000,
+          "profitMargin": 40,
+          "ordersCount": 1,
+          "trend": "Ổn định",
+          "monthlyTrendData": [
+            {
+              "month": "2026-09",
+              "quantity": 2,
+              "revenue": 5000
+            }
+          ],
+          "recommendation": "Duy trì ổn định",
+          "reasonText": "Sản phẩm nhóm C, doanh thu nhỏ nhưng doanh số đều đặn. Không nên ôm hàng số lượng lớn."
+        }
+      ],
+      "slowMoving": [],
+      "coOccurrences": [
+        {
+          "productA": "A",
+          "productB": "B",
+          "count": 1,
+          "percentage": 100
+        },
+        {
+          "productA": "A",
+          "productB": "C",
+          "count": 1,
+          "percentage": 100
+        },
+        {
+          "productA": "B",
+          "productB": "C",
+          "count": 1,
+          "percentage": 100
+        }
+      ],
+      "hasCostPrice": true,
+      "hasOrderId": true
+    },
+    "customerAnalysis": {
+      "hasCustomerData": true,
+      "customers": [
+        {
+          "customerId": "KH1",
+          "customerName": "KH1",
+          "ordersCount": 1,
+          "totalSpend": 100000,
+          "averageOrderValue": 100000,
+          "lastOrderDate": "2026-09-30",
+          "daysSinceLastOrder": 0,
+          "firstOrderDate": "2026-09-30",
+          "rfmScore": {
+            "r": 5,
+            "f": 1,
+            "m": 5,
+            "total": 11
+          },
+          "segment": "VIP",
+          "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+        }
+      ],
+      "totalCustomers": 1,
+      "totalStoreRevenue": 100000,
+      "identifiedCustomerRevenue": 100000,
+      "customerRevenueCoverage": 100,
+      "repeatCustomersCount": 0,
+      "repeatCustomerRate": 0,
+      "segmentsSummary": [
+        {
+          "segment": "VIP",
+          "count": 1,
+          "percentage": 100,
+          "totalRevenue": 100000,
+          "revenuePercentage": 100,
+          "storeRevenuePercentage": 100
+        },
+        {
+          "segment": "Trung thành",
+          "count": 0,
+          "percentage": 0,
+          "totalRevenue": 0,
+          "revenuePercentage": 0,
+          "storeRevenuePercentage": 0
+        },
+        {
+          "segment": "Mới",
+          "count": 0,
+          "percentage": 0,
+          "totalRevenue": 0,
+          "revenuePercentage": 0,
+          "storeRevenuePercentage": 0
+        },
+        {
+          "segment": "Có nguy cơ rời đi",
+          "count": 0,
+          "percentage": 0,
+          "totalRevenue": 0,
+          "revenuePercentage": 0,
+          "storeRevenuePercentage": 0
+        },
+        {
+          "segment": "Đã ngừng mua",
+          "count": 0,
+          "percentage": 0,
+          "totalRevenue": 0,
+          "revenuePercentage": 0,
+          "storeRevenuePercentage": 0
+        },
+        {
+          "segment": "Bình thường",
+          "count": 0,
+          "percentage": 0,
+          "totalRevenue": 0,
+          "revenuePercentage": 0,
+          "storeRevenuePercentage": 0
+        }
+      ],
+      "topCustomers": [
+        {
+          "customerId": "KH1",
+          "customerName": "KH1",
+          "ordersCount": 1,
+          "totalSpend": 100000,
+          "averageOrderValue": 100000,
+          "lastOrderDate": "2026-09-30",
+          "daysSinceLastOrder": 0,
+          "firstOrderDate": "2026-09-30",
+          "rfmScore": {
+            "r": 5,
+            "f": 1,
+            "m": 5,
+            "total": 11
+          },
+          "segment": "VIP",
+          "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+        }
+      ],
+      "vipCustomers": [
+        {
+          "customerId": "KH1",
+          "customerName": "KH1",
+          "ordersCount": 1,
+          "totalSpend": 100000,
+          "averageOrderValue": 100000,
+          "lastOrderDate": "2026-09-30",
+          "daysSinceLastOrder": 0,
+          "firstOrderDate": "2026-09-30",
+          "rfmScore": {
+            "r": 5,
+            "f": 1,
+            "m": 5,
+            "total": 11
+          },
+          "segment": "VIP",
+          "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+        }
+      ],
+      "atRiskCustomers": [],
+      "churnedCustomers": [],
+      "newCustomers": []
+    },
+    "actionSuggestions": [
+      {
+        "id": "prod-abc-stock",
+        "type": "inventory",
+        "severity": "high",
+        "title": "Đảm bảo nguồn hàng cho 1 sản phẩm chủ lực (Nhóm A)",
+        "description": "Chỉ 1 mặt hàng này mang về 80% doanh thu toàn tiệm (80.000 đ), dẫn đầu là \"A\". Hãy luôn kiểm kê và đặt hàng nhà cung cấp sớm để tránh đứt hàng vào giờ cao điểm.",
+        "metricBadge": "80% doanh thu"
+      },
+      {
+        "id": "prod-cross-sell",
+        "type": "pricing",
+        "severity": "medium",
+        "title": "Tạo combo bán chéo \"A\" & \"B\"",
+        "description": "Khách hàng đã mua cùng 2 món này trong 1 hóa đơn (100% các đơn từ 2 món). Bạn nên đặt 2 món cạnh nhau trên kệ trưng bày hoặc tạo gói khuyến mãi mua kèm để gia tăng giá trị giỏ hàng.",
+        "metricBadge": "1 đơn mua chung"
+      },
+      {
+        "id": "overview-aov",
+        "type": "pricing",
+        "severity": "info",
+        "title": "Gia tăng giá trị đơn hàng trung bình (hiện tại 100.000 đ)",
+        "description": "Để tăng thêm doanh thu mà không cần tìm thêm khách mới, hãy áp dụng chương trình \"Hóa đơn trên 130.000 đ được tặng thêm quà nhỏ hoặc miễn phí giao hàng\".",
+        "metricBadge": "AOV: 100.000 đ"
+      }
+    ],
+    "conclusions": {
+      "overview": "Cửa hàng ghi nhận **1 đơn** với tổng doanh thu **100.000 đ** trong 1 ngày, ghi nhận lợi nhuận gộp **40.000 đ** trên phần dữ liệu có giá vốn (100% doanh thu; biên lãi **40%**). Giá trị trung bình mỗi đơn đạt **100.000 đ**.",
+      "monthlyTrend": "Dữ liệu phát sinh trong 1 tháng duy nhất.",
+      "productABC": "Chỉ **1 sản phẩm nhóm A** (chiếm 33% số lượng mặt hàng) đã đóng góp tới **80% doanh thu** (80.000 đ). Trong khi đó, **1 sản phẩm nhóm C** chỉ đóng góp 5%.",
+      "productProfit": "Mặt hàng mang lại nhiều tiền lãi nhất là **A** với lợi nhuận gộp **32.000 đ** (biên lãi **40%**).",
+      "customerRFM": "**1 khách VIP** đóng góp **100% doanh thu** (100.000 đ). Toàn bộ **1 khách hàng** đều mới phát sinh 1 đơn hàng trong kỳ dữ liệu (chưa có lượt mua lặp lại).",
+      "crossSelling": "Cặp đôi mua cùng nhiều nhất là \"A\" & \"B\" (1 đơn)."
+    },
+    "columnMapping": {
+      "dateCol": "Ngày bán",
+      "productCol": "Tên sản phẩm",
+      "quantityCol": "Số lượng",
+      "revenueCol": "Doanh thu",
+      "unitPriceCol": "Đơn giá",
+      "costPriceCol": "Giá vốn",
+      "orderIdCol": "Mã đơn hàng",
+      "customerIdCol": "Mã khách hàng",
+      "categoryCol": "Danh mục"
+    }
+  },
+  "comparison": {
+    "id": "boundary-abc.csv",
+    "checks": 37,
+    "failures": [],
+    "status": "PASS"
+  }
+}

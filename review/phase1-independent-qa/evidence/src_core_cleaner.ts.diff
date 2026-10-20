@@ -1,0 +1,153 @@
+diff --git "a/D:\\2.TEST_PROJECT\\MODEL data\\review\\project\\src\\core\\cleaner.ts" "b/D:\\2.TEST_PROJECT\\MODEL data\\src\\core\\cleaner.ts"
+index 23948d8..1862811 100644
+--- "a/D:\\2.TEST_PROJECT\\MODEL data\\review\\project\\src\\core\\cleaner.ts"	
++++ "b/D:\\2.TEST_PROJECT\\MODEL data\\src\\core\\cleaner.ts"	
+@@ -238,7 +238,29 @@ export function cleanSalesData(
+   }
+ 
+   // Dùng Set lưu hash dòng để phát hiện trùng lặp
+-  const seenRowSignatures = new Set<string>();
++  const deduplicatePolicy = mapping.deduplicatePolicy || 'keep_all';
++  const seenSignatures = new Set<string>();
++  const suspectedDuplicateRows: { rowIndex: number; revenue: number }[] = [];
++
++  interface CandidateRow {
++    rowIndex: number;
++    rawOrderId: string | null;
++    date: string;
++    monthStr: string;
++    timestamp: number;
++    productId: string;
++    productName: string;
++    category: string;
++    quantity: number;
++    unitPrice: number;
++    revenue: number;
++    costPrice: number | null;
++    totalCost: number | null;
++    profit: number | null;
++    customerId: string | null;
++  }
++
++  const candidateRows: CandidateRow[] = [];
+ 
+   for (let i = 0; i < rawRows.length; i++) {
+     const raw = rawRows[i];
+@@ -290,20 +312,27 @@ export function cleanSalesData(
+     }
+ 
+     // 5. Kiểm tra trùng lặp (Dựa trên ngày, sản phẩm, số lượng, doanh thu, đơn hàng, khách hàng)
+-    const orderId = mapping.orderIdCol && raw[mapping.orderIdCol]
++    const rawOrderId = mapping.orderIdCol && raw[mapping.orderIdCol]
+       ? String(raw[mapping.orderIdCol]).trim()
+-      : `AUTO-${parsedDate.dateStr}-${rowIndex}`;
++      : null;
+ 
+     const customerId = mapping.customerIdCol && raw[mapping.customerIdCol]
+       ? String(raw[mapping.customerIdCol]).trim()
+       : null;
+ 
+-    const signature = `${parsedDate.dateStr}|${orderId}|${productName}|${quantity}|${revenue}|${customerId || ''}`;
+-    if (seenRowSignatures.has(signature)) {
+-      recordDrop('duplicate', rowIndex);
+-      continue;
++    const signature = `${parsedDate.dateStr}|${rawOrderId || 'NO_ORDER'}|${productName}|${quantity}|${revenue}|${customerId || ''}`;
++    
++    if (seenSignatures.has(signature)) {
++      if (deduplicatePolicy === 'drop_exact_duplicates') {
++        recordDrop('duplicate', rowIndex);
++        continue;
++      } else {
++        // Mặc định: giữ lại dòng bán hợp lệ và cảnh báo nghi ngờ trùng lặp
++        suspectedDuplicateRows.push({ rowIndex, revenue });
++      }
++    } else {
++      seenSignatures.add(signature);
+     }
+-    seenRowSignatures.add(signature);
+ 
+     // 6. Xử lý các trường tùy chọn: Giá vốn & Lợi nhuận
+     let costPrice: number | null = null;
+@@ -323,9 +352,9 @@ export function cleanSalesData(
+       ? String(raw[mapping.categoryCol]).trim()
+       : 'Chung';
+ 
+-    cleanRows.push({
++    candidateRows.push({
+       rowIndex,
+-      orderId,
++      rawOrderId,
+       date: parsedDate.dateStr,
+       monthStr: parsedDate.monthStr,
+       timestamp: parsedDate.timestamp,
+@@ -342,6 +371,45 @@ export function cleanSalesData(
+     });
+   }
+ 
++  // 7. Kiểm tra tính nhất quán của mã đơn (UI-14):
++  // Thu thập các ngày và khách hàng xuất hiện với từng mã đơn nguồn
++  const orderIdStats = new Map<string, { dates: Set<string>; customers: Set<string> }>();
++  for (const r of candidateRows) {
++    if (r.rawOrderId) {
++      let stat = orderIdStats.get(r.rawOrderId);
++      if (!stat) {
++        stat = { dates: new Set(), customers: new Set() };
++        orderIdStats.set(r.rawOrderId, stat);
++      }
++      stat.dates.add(r.date);
++      if (r.customerId) {
++        stat.customers.add(r.customerId);
++      }
++    }
++  }
++
++  // Gán khóa nhóm giao dịch nội bộ (orderId) cho từng dòng
++  for (const r of candidateRows) {
++    let orderId: string;
++    if (r.rawOrderId) {
++      const stat = orderIdStats.get(r.rawOrderId);
++      const isReused = (stat?.dates.size ?? 0) > 1 || (stat?.customers.size ?? 0) > 1;
++      if (isReused) {
++        // Tách giao dịch theo mã đơn + ngày + khách hàng
++        orderId = `${r.rawOrderId}#${r.date}#${r.customerId || 'KH-LE'}`;
++      } else {
++        orderId = r.rawOrderId;
++      }
++    } else {
++      orderId = `AUTO-${r.date}-${r.rowIndex}`;
++    }
++
++    cleanRows.push({
++      ...r,
++      orderId
++    });
++  }
++
+   // Tổng hợp báo cáo lý do bị loại
+   const reasons: DropReasonCount[] = Object.keys(reasonStats)
+     .filter(k => reasonStats[k].count > 0)
+@@ -354,13 +422,23 @@ export function cleanSalesData(
+ 
+   const droppedTotal = reasons.reduce((sum, r) => sum + r.count, 0);
+ 
++  const suspectedDuplicates = suspectedDuplicateRows.length > 0
++    ? {
++        count: suspectedDuplicateRows.length,
++        sampleRows: suspectedDuplicateRows.map(r => r.rowIndex).slice(0, 5),
++        totalRevenue: suspectedDuplicateRows.reduce((sum, r) => sum + r.revenue, 0),
++        policyApplied: deduplicatePolicy
++      }
++    : undefined;
++
+   return {
+     cleanRows,
+     report: {
+       totalRows: rawRows.length,
+       validRows: cleanRows.length,
+       droppedTotal,
+-      reasons
++      reasons,
++      suspectedDuplicates
+     }
+   };
+ }

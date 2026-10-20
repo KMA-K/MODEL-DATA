@@ -1,0 +1,622 @@
+{
+  "checks": [
+    {
+      "name": "table-Sản phẩm Sản phẩm descending",
+      "pass": true,
+      "detail": {
+        "wrongIndex": -1,
+        "rows": 50
+      }
+    },
+    {
+      "name": "Visible table agrees with export: Sản phẩm descending",
+      "pass": true,
+      "detail": {
+        "visibleRows": 20
+      }
+    },
+    {
+      "name": "table-Sản phẩm Sản phẩm ascending",
+      "pass": true,
+      "detail": {
+        "wrongIndex": -1,
+        "rows": 50
+      }
+    },
+    {
+      "name": "Visible table agrees with export: Sản phẩm ascending",
+      "pass": true,
+      "detail": {
+        "visibleRows": 20
+      }
+    },
+    {
+      "name": "table-Sản phẩm Số lượng descending",
+      "pass": true,
+      "detail": {
+        "wrongIndex": -1,
+        "rows": 50
+      }
+    },
+    {
+      "name": "Visible table agrees with export: Số lượng descending",
+      "pass": true,
+      "detail": {
+        "visibleRows": 20
+      }
+    },
+    {
+      "name": "table-Sản phẩm Số lượng ascending",
+      "pass": true,
+      "detail": {
+        "wrongIndex": -1,
+        "rows": 50
+      }
+    },
+    {
+      "name": "Visible table agrees with export: Số lượng ascending",
+      "pass": true,
+      "detail": {
+        "visibleRows": 20
+      }
+    },
+    {
+      "name": "table-Sản phẩm Doanh thu descending",
+      "pass": true,
+      "detail": {
+        "wrongIndex": -1,
+        "rows": 50
+      }
+    },
+    {
+      "name": "Visible table agrees with export: Doanh thu descending",
+      "pass": true,
+      "detail": {
+        "visibleRows": 20
+      }
+    },
+    {
+      "name": "table-Sản phẩm Doanh thu ascending",
+      "pass": true,
+      "detail": {
+        "wrongIndex": -1,
+        "rows": 50
+      }
+    },
+    {
+      "name": "Visible table agrees with export: Doanh thu ascending",
+      "pass": true,
+      "detail": {
+        "visibleRows": 20
+      }
+    },
+    {
+      "name": "table-Sản phẩm Lợi nhuận descending",
+      "pass": true,
+      "detail": {
+        "wrongIndex": -1,
+        "rows": 50
+      }
+    },
+    {
+      "name": "Visible table agrees with export: Lợi nhuận descending",
+      "pass": true,
+      "detail": {
+        "visibleRows": 20
+      }
+    },
+    {
+      "name": "table-Sản phẩm Lợi nhuận ascending",
+      "pass": true,
+      "detail": {
+        "wrongIndex": -1,
+        "rows": 50
+      }
+    },
+    {
+      "name": "Visible table agrees with export: Lợi nhuận ascending",
+      "pass": true,
+      "detail": {
+        "visibleRows": 20
+      }
+    },
+    {
+      "name": "table-Sản phẩm page size",
+      "pass": true,
+      "detail": "21–40 / 50 kết quả\n2 / 3"
+    },
+    {
+      "name": "table-Sản phẩm export all",
+      "pass": true,
+      "detail": 50
+    },
+    {
+      "name": "table-Khách hàng Khách hàng descending",
+      "pass": true,
+      "detail": {
+        "wrongIndex": -1,
+        "rows": 300
+      }
+    },
+    {
+      "name": "Visible table agrees with export: Khách hàng descending",
+      "pass": true,
+      "detail": {
+        "visibleRows": 20
+      }
+    },
+    {
+      "name": "table-Khách hàng Khách hàng ascending",
+      "pass": true,
+      "detail": {
+        "wrongIndex": -1,
+        "rows": 300
+      }
+    },
+    {
+      "name": "Visible table agrees with export: Khách hàng ascending",
+      "pass": true,
+      "detail": {
+        "visibleRows": 20
+      }
+    },
+    {
+      "name": "table-Khách hàng Tổng chi tiêu descending",
+      "pass": true,
+      "detail": {
+        "wrongIndex": -1,
+        "rows": 300
+      }
+    },
+    {
+      "name": "Visible table agrees with export: Tổng chi tiêu descending",
+      "pass": true,
+      "detail": {
+        "visibleRows": 20
+      }
+    },
+    {
+      "name": "table-Khách hàng Tổng chi tiêu ascending",
+      "pass": true,
+      "detail": {
+        "wrongIndex": -1,
+        "rows": 300
+      }
+    },
+    {
+      "name": "Visible table agrees with export: Tổng chi tiêu ascending",
+      "pass": true,
+      "detail": {
+        "visibleRows": 20
+      }
+    },
+    {
+      "name": "table-Khách hàng Số đơn descending",
+      "pass": true,
+      "detail": {
+        "wrongIndex": -1,
+        "rows": 300
+      }
+    },
+    {
+      "name": "Visible table agrees with export: Số đơn descending",
+      "pass": true,
+      "detail": {
+        "visibleRows": 20
+      }
+    },
+    {
+      "name": "table-Khách hàng Số đơn ascending",
+      "pass": true,
+      "detail": {
+        "wrongIndex": -1,
+        "rows": 300
+      }
+    },
+    {
+      "name": "Visible table agrees with export: Số đơn ascending",
+      "pass": true,
+      "detail": {
+        "visibleRows": 20
+      }
+    },
+    {
+      "name": "table-Khách hàng Gần nhất descending",
+      "pass": true,
+      "detail": {
+        "wrongIndex": -1,
+        "rows": 300
+      }
+    },
+    {
+      "name": "Visible table agrees with export: Gần nhất descending",
+      "pass": true,
+      "detail": {
+        "visibleRows": 20
+      }
+    },
+    {
+      "name": "table-Khách hàng Gần nhất ascending",
+      "pass": true,
+      "detail": {
+        "wrongIndex": -1,
+        "rows": 300
+      }
+    },
+    {
+      "name": "Visible table agrees with export: Gần nhất ascending",
+      "pass": true,
+      "detail": {
+        "visibleRows": 20
+      }
+    },
+    {
+      "name": "table-Khách hàng page size",
+      "pass": true,
+      "detail": "21–40 / 300 kết quả\n2 / 15"
+    },
+    {
+      "name": "table-Khách hàng export all",
+      "pass": true,
+      "detail": 300
+    },
+    {
+      "name": "Two reproductions: oracle-28",
+      "pass": true,
+      "detail": "dashboard"
+    },
+    {
+      "name": "Two reproductions: csv-comma",
+      "pass": true,
+      "detail": "dashboard"
+    },
+    {
+      "name": "Two reproductions: csv-semicolon",
+      "pass": true,
+      "detail": "dashboard"
+    },
+    {
+      "name": "Two reproductions: csv-tab",
+      "pass": true,
+      "detail": "dashboard"
+    },
+    {
+      "name": "Two reproductions: csv-bom",
+      "pass": true,
+      "detail": "dashboard"
+    },
+    {
+      "name": "Two reproductions: quoted-multiline",
+      "pass": true,
+      "detail": "dashboard"
+    },
+    {
+      "name": "Two reproductions: duplicate-header",
+      "pass": true,
+      "detail": "dashboard"
+    },
+    {
+      "name": "Two reproductions: empty",
+      "pass": true,
+      "detail": "error"
+    },
+    {
+      "name": "Two reproductions: header-only",
+      "pass": true,
+      "detail": "error"
+    },
+    {
+      "name": "Two reproductions: fake-jpeg",
+      "pass": true,
+      "detail": "error"
+    },
+    {
+      "name": "Two reproductions: missing-required",
+      "pass": true,
+      "detail": "mapping-blocked"
+    },
+    {
+      "name": "Two reproductions: unusual-headers",
+      "pass": true,
+      "detail": "dashboard"
+    },
+    {
+      "name": "Two reproductions: date-iso",
+      "pass": true,
+      "detail": "dashboard"
+    },
+    {
+      "name": "Two reproductions: date-dmy",
+      "pass": true,
+      "detail": "dashboard"
+    },
+    {
+      "name": "Two reproductions: date-us",
+      "pass": true,
+      "detail": "dashboard"
+    },
+    {
+      "name": "Two reproductions: date-serial-csv",
+      "pass": true,
+      "detail": "error"
+    },
+    {
+      "name": "Two reproductions: date-invalid",
+      "pass": true,
+      "detail": "error"
+    },
+    {
+      "name": "Two reproductions: date-ambiguous",
+      "pass": true,
+      "detail": "dashboard"
+    },
+    {
+      "name": "Two reproductions: date-1999",
+      "pass": true,
+      "detail": "dashboard"
+    },
+    {
+      "name": "Two reproductions: date-2101",
+      "pass": true,
+      "detail": "dashboard"
+    },
+    {
+      "name": "Two reproductions: number-million-vn",
+      "pass": true,
+      "detail": "dashboard"
+    },
+    {
+      "name": "Two reproductions: number-million-us",
+      "pass": true,
+      "detail": "dashboard"
+    },
+    {
+      "name": "Two reproductions: number-currency",
+      "pass": true,
+      "detail": "dashboard"
+    },
+    {
+      "name": "Two reproductions: number-k",
+      "pass": true,
+      "detail": "dashboard"
+    },
+    {
+      "name": "Two reproductions: number-tr",
+      "pass": true,
+      "detail": "dashboard"
+    },
+    {
+      "name": "Two reproductions: number-ambiguous",
+      "pass": true,
+      "detail": "dashboard"
+    },
+    {
+      "name": "Two reproductions: number-junk",
+      "pass": true,
+      "detail": "error"
+    },
+    {
+      "name": "Two reproductions: number-empty",
+      "pass": true,
+      "detail": "error"
+    },
+    {
+      "name": "Two reproductions: number-negative",
+      "pass": true,
+      "detail": "error"
+    },
+    {
+      "name": "Two reproductions: duplicate-real-order",
+      "pass": true,
+      "detail": "dashboard"
+    },
+    {
+      "name": "Two reproductions: duplicate-no-order",
+      "pass": true,
+      "detail": "dashboard"
+    },
+    {
+      "name": "Two reproductions: bad-revenue-valid-price",
+      "pass": true,
+      "detail": "dashboard"
+    },
+    {
+      "name": "Two reproductions: negative-profit",
+      "pass": true,
+      "detail": "dashboard"
+    },
+    {
+      "name": "Two reproductions: total-cost-as-unit",
+      "pass": true,
+      "detail": "dashboard"
+    },
+    {
+      "name": "Two reproductions: single-product",
+      "pass": true,
+      "detail": "dashboard"
+    },
+    {
+      "name": "Two reproductions: single-customer",
+      "pass": true,
+      "detail": "dashboard"
+    },
+    {
+      "name": "Two reproductions: same-day-customers",
+      "pass": true,
+      "detail": "dashboard"
+    },
+    {
+      "name": "Two reproductions: single-month",
+      "pass": true,
+      "detail": "dashboard"
+    },
+    {
+      "name": "Two reproductions: order-partial",
+      "pass": true,
+      "detail": "dashboard"
+    },
+    {
+      "name": "Two reproductions: order-none",
+      "pass": true,
+      "detail": "dashboard"
+    },
+    {
+      "name": "Two reproductions: order-reused-days",
+      "pass": true,
+      "detail": "dashboard"
+    },
+    {
+      "name": "Two reproductions: cost-partial",
+      "pass": true,
+      "detail": "dashboard"
+    },
+    {
+      "name": "Two reproductions: cleaning-reasons",
+      "pass": true,
+      "detail": "dashboard"
+    },
+    {
+      "name": "Two reproductions: special-names",
+      "pass": true,
+      "detail": "dashboard"
+    },
+    {
+      "name": "Two reproductions: whitespace-order",
+      "pass": true,
+      "detail": "dashboard"
+    },
+    {
+      "name": "Two reproductions: boundary-rfm",
+      "pass": true,
+      "detail": "dashboard"
+    },
+    {
+      "name": "Two reproductions: boundary-abc",
+      "pass": true,
+      "detail": "dashboard"
+    },
+    {
+      "name": "Two reproductions: scale-50000",
+      "pass": true,
+      "detail": "dashboard"
+    },
+    {
+      "name": "Two reproductions: scale-200000",
+      "pass": true,
+      "detail": "dashboard"
+    },
+    {
+      "name": "Two reproductions: excel-first-normal",
+      "pass": true,
+      "detail": "dashboard"
+    },
+    {
+      "name": "Two reproductions: excel-data-second",
+      "pass": true,
+      "detail": "error"
+    },
+    {
+      "name": "Two reproductions: excel-header-row3",
+      "pass": true,
+      "detail": "mapping-blocked"
+    },
+    {
+      "name": "Two reproductions: excel-merged",
+      "pass": true,
+      "detail": "mapping-blocked"
+    },
+    {
+      "name": "Two reproductions: excel-blanks",
+      "pass": true,
+      "detail": "dashboard"
+    },
+    {
+      "name": "Two reproductions: excel-date-serial",
+      "pass": true,
+      "detail": "dashboard"
+    },
+    {
+      "name": "Cleaning report exact counts and record indexes",
+      "pass": true,
+      "detail": {
+        "totalRows": 9,
+        "validRows": 1,
+        "droppedTotal": 8,
+        "reasons": [
+          {
+            "reason": "duplicate",
+            "description": "Dòng trùng lặp hoàn toàn với dòng trước đó",
+            "count": 1,
+            "sampleRows": [
+              2
+            ]
+          },
+          {
+            "reason": "missing_date",
+            "description": "Ngày bán bị trống hoặc không đúng định dạng ngày tháng",
+            "count": 3,
+            "sampleRows": [
+              3,
+              8,
+              9
+            ]
+          },
+          {
+            "reason": "missing_product",
+            "description": "Thiếu tên hoặc mã sản phẩm",
+            "count": 1,
+            "sampleRows": [
+              4
+            ]
+          },
+          {
+            "reason": "invalid_quantity",
+            "description": "Số lượng bán nhỏ hơn hoặc bằng 0, hoặc không phải số",
+            "count": 2,
+            "sampleRows": [
+              5,
+              6
+            ]
+          },
+          {
+            "reason": "invalid_revenue",
+            "description": "Doanh thu hoặc đơn giá nhỏ hơn hoặc bằng 0",
+            "count": 1,
+            "sampleRows": [
+              7
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Oracle full comparisons oracle-28",
+      "pass": true,
+      "detail": {
+        "count": 52
+      }
+    },
+    {
+      "name": "Oracle full comparisons sample",
+      "pass": true,
+      "detail": {
+        "count": 1360
+      }
+    },
+    {
+      "name": "Oracle full comparisons boundary-rfm",
+      "pass": true,
+      "detail": {
+        "count": 31
+      }
+    },
+    {
+      "name": "Oracle full comparisons boundary-abc",
+      "pass": true,
+      "detail": {
+        "count": 22
+      }
+    }
+  ],
+  "failures": []
+}

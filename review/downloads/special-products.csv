@@ -1,0 +1,8 @@
+﻿"Mã sản phẩm","Tên sản phẩm","Danh mục","Nhóm ABC","Số lượng","Doanh thu","Lợi nhuận trên dữ liệu đủ giá vốn","Khuyến nghị"
+"Tên ""nháy""","Tên ""nháy""","Đồ dùng thử","A","2","10006","4002","Đáng đầu tư"
+"**in đậm**","**in đậm**","Đồ dùng thử","A","2","10005","4002","Đáng đầu tư"
+"<script>alert(1)</script>","<script>alert(1)</script>","Đồ dùng thử","A","2","10004","4002","Đáng đầu tư"
+"'@cmd","'@cmd","Đồ dùng thử","A","2","10003","4001","Đáng đầu tư"
+"'-cmd","'-cmd","Đồ dùng thử","A","2","10002","4001","Đáng đầu tư"
+"'+cmd","'+cmd","Đồ dùng thử","A","2","10001","4000","Đáng đầu tư"
+"'=SUM(1,1)","'=SUM(1,1)","Đồ dùng thử","B","2","10000","4000","Duy trì ổn định"

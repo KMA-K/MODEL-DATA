@@ -1,0 +1,5 @@
+const fs=require('node:fs'),path=require('node:path'),crypto=require('node:crypto');
+const root=path.resolve(__dirname,'..'),baseline=JSON.parse(fs.readFileSync(path.join(__dirname,'evidence','original-hashes.json'))),changed=[],missing=[],added=[];
+function visit(dir,relative=''){for(const item of fs.readdirSync(dir,{withFileTypes:true})){if(!relative&&['review','node_modules'].includes(item.name))continue;const rel=path.join(relative,item.name),full=path.join(dir,item.name);if(item.isDirectory())visit(full,rel);else if(item.isFile()){if(!(rel in baseline))added.push(rel);else if(crypto.createHash('sha256').update(fs.readFileSync(full)).digest('hex')!==baseline[rel])changed.push(rel);}}}
+visit(root);for(const rel of Object.keys(baseline))if(!fs.existsSync(path.join(root,rel)))missing.push(rel);
+const result={files:Object.keys(baseline).length,changed,missing,added,pass:!(changed.length||missing.length||added.length)};fs.writeFileSync(path.join(__dirname,'evidence','integrity-result.json'),JSON.stringify(result,null,2));console.log(JSON.stringify(result));if(!result.pass)process.exitCode=1;

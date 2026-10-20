@@ -1,0 +1,527 @@
+[
+  {
+    "id": "duplicate-real",
+    "width": 1366,
+    "status": "PASS",
+    "fixture": "fixtures/duplicate-real.csv",
+    "evidence": "evidence/browser-1366-duplicate-real.json"
+  },
+  {
+    "id": "duplicate-real-xlsx",
+    "width": 1366,
+    "status": "PASS",
+    "fixture": "fixtures/duplicate-real.xlsx",
+    "evidence": "evidence/browser-1366-duplicate-real-xlsx.json"
+  },
+  {
+    "id": "duplicate-real-xls",
+    "width": 1366,
+    "status": "PASS",
+    "fixture": "fixtures/duplicate-real.xls",
+    "evidence": "evidence/browser-1366-duplicate-real-xls.json"
+  },
+  {
+    "id": "duplicate-copy",
+    "width": 1366,
+    "status": "PASS",
+    "fixture": "fixtures/duplicate-copy.csv",
+    "evidence": "evidence/browser-1366-duplicate-copy.json"
+  },
+  {
+    "id": "duplicate-three",
+    "width": 1366,
+    "status": "PASS",
+    "fixture": "fixtures/duplicate-three.csv",
+    "evidence": "evidence/browser-1366-duplicate-three.json"
+  },
+  {
+    "id": "duplicate-nonadjacent",
+    "width": 1366,
+    "status": "PASS",
+    "fixture": "fixtures/duplicate-nonadjacent.csv",
+    "evidence": "evidence/browser-1366-duplicate-nonadjacent.json"
+  },
+  {
+    "id": "duplicate-no-order",
+    "width": 1366,
+    "status": "PASS",
+    "fixture": "fixtures/duplicate-no-order.csv",
+    "evidence": "evidence/browser-1366-duplicate-no-order.json"
+  },
+  {
+    "id": "duplicate-whitespace",
+    "width": 1366,
+    "status": "PASS",
+    "fixture": "fixtures/duplicate-whitespace.csv",
+    "evidence": "evidence/browser-1366-duplicate-whitespace.json"
+  },
+  {
+    "id": "duplicate-case",
+    "width": 1366,
+    "status": "PASS",
+    "fixture": "fixtures/duplicate-case.csv",
+    "evidence": "evidence/browser-1366-duplicate-case.json"
+  },
+  {
+    "id": "duplicate-normalized",
+    "width": 1366,
+    "status": "PASS",
+    "fixture": "fixtures/duplicate-normalized.csv",
+    "evidence": "evidence/browser-1366-duplicate-normalized.json"
+  },
+  {
+    "id": "duplicate-different-sku",
+    "width": 1366,
+    "status": "PASS",
+    "fixture": "fixtures/duplicate-different-sku.csv",
+    "evidence": "evidence/browser-1366-duplicate-different-sku.json"
+  },
+  {
+    "id": "duplicate-different-cost",
+    "width": 1366,
+    "status": "PASS",
+    "fixture": "fixtures/duplicate-different-cost.csv",
+    "evidence": "evidence/browser-1366-duplicate-different-cost.json"
+  },
+  {
+    "id": "duplicate-pipe-collision",
+    "width": 1366,
+    "status": "PASS",
+    "fixture": "fixtures/duplicate-pipe-collision.csv",
+    "evidence": "evidence/browser-1366-duplicate-pipe-collision.json"
+  },
+  {
+    "id": "duplicate-placeholder",
+    "width": 1366,
+    "status": "PASS",
+    "fixture": "fixtures/duplicate-placeholder.csv",
+    "evidence": "evidence/browser-1366-duplicate-placeholder.json"
+  },
+  {
+    "id": "order-reused-days",
+    "width": 1366,
+    "status": "PASS",
+    "fixture": "fixtures/order-reused-days.csv",
+    "evidence": "evidence/browser-1366-order-reused-days.json"
+  },
+  {
+    "id": "order-same-day-customers",
+    "width": 1366,
+    "status": "PASS",
+    "fixture": "fixtures/order-same-day-customers.csv",
+    "evidence": "evidence/browser-1366-order-same-day-customers.json"
+  },
+  {
+    "id": "order-same-day-uncertain",
+    "width": 1366,
+    "status": "FAIL",
+    "fixture": "fixtures/order-same-day-uncertain.csv",
+    "evidence": "evidence/browser-1366-order-same-day-uncertain.json"
+  },
+  {
+    "id": "order-multi-items",
+    "width": 1366,
+    "status": "PASS",
+    "fixture": "fixtures/order-multi-items.csv",
+    "evidence": "evidence/browser-1366-order-multi-items.json"
+  },
+  {
+    "id": "order-guests-uncertain",
+    "width": 1366,
+    "status": "FAIL",
+    "fixture": "fixtures/order-guests-uncertain.csv",
+    "evidence": "evidence/browser-1366-order-guests-uncertain.json"
+  },
+  {
+    "id": "order-guest-placeholder-collision",
+    "width": 1366,
+    "status": "FAIL",
+    "fixture": "fixtures/order-guest-placeholder-collision.csv",
+    "evidence": "evidence/browser-1366-order-guest-placeholder-collision.json"
+  },
+  {
+    "id": "order-raw-internal-collision",
+    "width": 1366,
+    "status": "FAIL",
+    "fixture": "fixtures/order-raw-internal-collision.csv",
+    "evidence": "evidence/browser-1366-order-raw-internal-collision.json"
+  },
+  {
+    "id": "order-hash-ids",
+    "width": 1366,
+    "status": "FAIL",
+    "fixture": "fixtures/order-hash-ids.csv",
+    "evidence": "evidence/browser-1366-order-hash-ids.json"
+  },
+  {
+    "id": "order-whitespace",
+    "width": 1366,
+    "status": "PASS",
+    "fixture": "fixtures/order-whitespace.csv",
+    "evidence": "evidence/browser-1366-order-whitespace.json"
+  },
+  {
+    "id": "order-case",
+    "width": 1366,
+    "status": "PASS",
+    "fixture": "fixtures/order-case.csv",
+    "evidence": "evidence/browser-1366-order-case.json"
+  },
+  {
+    "id": "order-long",
+    "width": 1366,
+    "status": "PASS",
+    "fixture": "fixtures/order-long.csv",
+    "evidence": "evidence/browser-1366-order-long.json"
+  },
+  {
+    "id": "order-times-uncertain",
+    "width": 1366,
+    "status": "FAIL",
+    "fixture": "fixtures/order-times-uncertain.csv",
+    "evidence": "evidence/browser-1366-order-times-uncertain.json"
+  },
+  {
+    "id": "order-auto-prefix",
+    "width": 1366,
+    "status": "PASS",
+    "fixture": "fixtures/order-auto-prefix.csv",
+    "evidence": "evidence/browser-1366-order-auto-prefix.json"
+  },
+  {
+    "id": "order-none",
+    "width": 1366,
+    "status": "PASS",
+    "fixture": "fixtures/order-none.csv",
+    "evidence": "evidence/browser-1366-order-none.json"
+  },
+  {
+    "id": "order-partial",
+    "width": 1366,
+    "status": "PASS",
+    "fixture": "fixtures/order-partial.csv",
+    "evidence": "evidence/browser-1366-order-partial.json"
+  },
+  {
+    "id": "order-partial-pairs",
+    "width": 1366,
+    "status": "PASS",
+    "fixture": "fixtures/order-partial-pairs.csv",
+    "evidence": "evidence/browser-1366-order-partial-pairs.json"
+  },
+  {
+    "id": "customer-coverage-100",
+    "width": 1366,
+    "status": "PASS",
+    "fixture": "fixtures/customer-coverage-100.csv",
+    "evidence": "evidence/browser-1366-customer-coverage-100.json"
+  },
+  {
+    "id": "customer-coverage-50",
+    "width": 1366,
+    "status": "PASS",
+    "fixture": "fixtures/customer-coverage-50.csv",
+    "evidence": "evidence/browser-1366-customer-coverage-50.json"
+  },
+  {
+    "id": "customer-coverage-10",
+    "width": 1366,
+    "status": "PASS",
+    "fixture": "fixtures/customer-coverage-10.csv",
+    "evidence": "evidence/browser-1366-customer-coverage-10.json"
+  },
+  {
+    "id": "customer-coverage-0_01",
+    "width": 1366,
+    "status": "PASS",
+    "fixture": "fixtures/customer-coverage-0_01.csv",
+    "evidence": "evidence/browser-1366-customer-coverage-0_01.json"
+  },
+  {
+    "id": "customer-coverage-0",
+    "width": 1366,
+    "status": "PASS",
+    "fixture": "fixtures/customer-coverage-0.csv",
+    "evidence": "evidence/browser-1366-customer-coverage-0.json"
+  },
+  {
+    "id": "customer-no-vip",
+    "width": 1366,
+    "status": "PASS",
+    "fixture": "fixtures/customer-no-vip.csv",
+    "evidence": "evidence/browser-1366-customer-no-vip.json"
+  },
+  {
+    "id": "customer-multiple-vip",
+    "width": 1366,
+    "status": "PASS",
+    "fixture": "fixtures/customer-multiple-vip.csv",
+    "evidence": "evidence/browser-1366-customer-multiple-vip.json"
+  },
+  {
+    "id": "customer-unreliable-coverage",
+    "width": 1366,
+    "status": "PASS",
+    "fixture": "fixtures/customer-unreliable-coverage.csv",
+    "evidence": "evidence/browser-1366-customer-unreliable-coverage.json"
+  },
+  {
+    "id": "profit-none",
+    "width": 1366,
+    "status": "PASS",
+    "fixture": "fixtures/profit-none.csv",
+    "evidence": "evidence/browser-1366-profit-none.json"
+  },
+  {
+    "id": "profit-partial",
+    "width": 1366,
+    "status": "PASS",
+    "fixture": "fixtures/profit-partial.csv",
+    "evidence": "evidence/browser-1366-profit-partial.json"
+  },
+  {
+    "id": "profit-positive",
+    "width": 1366,
+    "status": "PASS",
+    "fixture": "fixtures/profit-positive.csv",
+    "evidence": "evidence/browser-1366-profit-positive.json"
+  },
+  {
+    "id": "profit-negative",
+    "width": 1366,
+    "status": "PASS",
+    "fixture": "fixtures/profit-negative.csv",
+    "evidence": "evidence/browser-1366-profit-negative.json"
+  },
+  {
+    "id": "profit-zero",
+    "width": 1366,
+    "status": "PASS",
+    "fixture": "fixtures/profit-zero.csv",
+    "evidence": "evidence/browser-1366-profit-zero.json"
+  },
+  {
+    "id": "profit-mixed",
+    "width": 1366,
+    "status": "PASS",
+    "fixture": "fixtures/profit-mixed.csv",
+    "evidence": "evidence/browser-1366-profit-mixed.json"
+  },
+  {
+    "id": "profit-loss-break-even",
+    "width": 1366,
+    "status": "PASS",
+    "fixture": "fixtures/profit-loss-break-even.csv",
+    "evidence": "evidence/browser-1366-profit-loss-break-even.json"
+  },
+  {
+    "id": "profit-same-product-partial",
+    "width": 1366,
+    "status": "PASS",
+    "fixture": "fixtures/profit-same-product-partial.csv",
+    "evidence": "evidence/browser-1366-profit-same-product-partial.json"
+  },
+  {
+    "id": "profit-free-cost",
+    "width": 1366,
+    "status": "PASS",
+    "fixture": "fixtures/profit-free-cost.csv",
+    "evidence": "evidence/browser-1366-profit-free-cost.json"
+  },
+  {
+    "id": "repeat-six-0",
+    "width": 1366,
+    "status": "PASS",
+    "fixture": "fixtures/repeat-six-0.csv",
+    "evidence": "evidence/browser-1366-repeat-six-0.json"
+  },
+  {
+    "id": "repeat-six-3",
+    "width": 1366,
+    "status": "PASS",
+    "fixture": "fixtures/repeat-six-3.csv",
+    "evidence": "evidence/browser-1366-repeat-six-3.json"
+  },
+  {
+    "id": "repeat-six-6",
+    "width": 1366,
+    "status": "PASS",
+    "fixture": "fixtures/repeat-six-6.csv",
+    "evidence": "evidence/browser-1366-repeat-six-6.json"
+  },
+  {
+    "id": "repeat-months",
+    "width": 1366,
+    "status": "PASS",
+    "fixture": "fixtures/repeat-months.csv",
+    "evidence": "evidence/browser-1366-repeat-months.json"
+  },
+  {
+    "id": "combo-a",
+    "width": 1366,
+    "status": "PASS",
+    "fixture": "fixtures/combo-a.csv",
+    "evidence": "evidence/browser-1366-combo-a.json"
+  },
+  {
+    "id": "combo-b",
+    "width": 1366,
+    "status": "PASS",
+    "fixture": "fixtures/combo-b.csv",
+    "evidence": "evidence/browser-1366-combo-b.json"
+  },
+  {
+    "id": "csv-semicolon",
+    "width": 1366,
+    "status": "PASS",
+    "fixture": "fixtures/csv-semicolon.csv",
+    "evidence": "evidence/browser-1366-csv-semicolon.json"
+  },
+  {
+    "id": "csv-tab",
+    "width": 1366,
+    "status": "PASS",
+    "fixture": "fixtures/csv-tab.csv",
+    "evidence": "evidence/browser-1366-csv-tab.json"
+  },
+  {
+    "id": "duplicate-real",
+    "width": 768,
+    "status": "PASS",
+    "fixture": "fixtures/duplicate-real.csv",
+    "evidence": "evidence/browser-768-duplicate-real.json"
+  },
+  {
+    "id": "order-reused-days",
+    "width": 768,
+    "status": "PASS",
+    "fixture": "fixtures/order-reused-days.csv",
+    "evidence": "evidence/browser-768-order-reused-days.json"
+  },
+  {
+    "id": "order-raw-internal-collision",
+    "width": 768,
+    "status": "FAIL",
+    "fixture": "fixtures/order-raw-internal-collision.csv",
+    "evidence": "evidence/browser-768-order-raw-internal-collision.json"
+  },
+  {
+    "id": "order-guest-placeholder-collision",
+    "width": 768,
+    "status": "FAIL",
+    "fixture": "fixtures/order-guest-placeholder-collision.csv",
+    "evidence": "evidence/browser-768-order-guest-placeholder-collision.json"
+  },
+  {
+    "id": "customer-coverage-10",
+    "width": 768,
+    "status": "PASS",
+    "fixture": "fixtures/customer-coverage-10.csv",
+    "evidence": "evidence/browser-768-customer-coverage-10.json"
+  },
+  {
+    "id": "order-none",
+    "width": 768,
+    "status": "PASS",
+    "fixture": "fixtures/order-none.csv",
+    "evidence": "evidence/browser-768-order-none.json"
+  },
+  {
+    "id": "order-partial",
+    "width": 768,
+    "status": "PASS",
+    "fixture": "fixtures/order-partial.csv",
+    "evidence": "evidence/browser-768-order-partial.json"
+  },
+  {
+    "id": "profit-negative",
+    "width": 768,
+    "status": "PASS",
+    "fixture": "fixtures/profit-negative.csv",
+    "evidence": "evidence/browser-768-profit-negative.json"
+  },
+  {
+    "id": "profit-loss-break-even",
+    "width": 768,
+    "status": "PASS",
+    "fixture": "fixtures/profit-loss-break-even.csv",
+    "evidence": "evidence/browser-768-profit-loss-break-even.json"
+  },
+  {
+    "id": "repeat-six-0",
+    "width": 768,
+    "status": "PASS",
+    "fixture": "fixtures/repeat-six-0.csv",
+    "evidence": "evidence/browser-768-repeat-six-0.json"
+  },
+  {
+    "id": "duplicate-real",
+    "width": 375,
+    "status": "PASS",
+    "fixture": "fixtures/duplicate-real.csv",
+    "evidence": "evidence/browser-375-duplicate-real.json"
+  },
+  {
+    "id": "order-reused-days",
+    "width": 375,
+    "status": "PASS",
+    "fixture": "fixtures/order-reused-days.csv",
+    "evidence": "evidence/browser-375-order-reused-days.json"
+  },
+  {
+    "id": "order-raw-internal-collision",
+    "width": 375,
+    "status": "FAIL",
+    "fixture": "fixtures/order-raw-internal-collision.csv",
+    "evidence": "evidence/browser-375-order-raw-internal-collision.json"
+  },
+  {
+    "id": "order-guest-placeholder-collision",
+    "width": 375,
+    "status": "FAIL",
+    "fixture": "fixtures/order-guest-placeholder-collision.csv",
+    "evidence": "evidence/browser-375-order-guest-placeholder-collision.json"
+  },
+  {
+    "id": "customer-coverage-10",
+    "width": 375,
+    "status": "PASS",
+    "fixture": "fixtures/customer-coverage-10.csv",
+    "evidence": "evidence/browser-375-customer-coverage-10.json"
+  },
+  {
+    "id": "order-none",
+    "width": 375,
+    "status": "PASS",
+    "fixture": "fixtures/order-none.csv",
+    "evidence": "evidence/browser-375-order-none.json"
+  },
+  {
+    "id": "order-partial",
+    "width": 375,
+    "status": "PASS",
+    "fixture": "fixtures/order-partial.csv",
+    "evidence": "evidence/browser-375-order-partial.json"
+  },
+  {
+    "id": "profit-negative",
+    "width": 375,
+    "status": "PASS",
+    "fixture": "fixtures/profit-negative.csv",
+    "evidence": "evidence/browser-375-profit-negative.json"
+  },
+  {
+    "id": "profit-loss-break-even",
+    "width": 375,
+    "status": "PASS",
+    "fixture": "fixtures/profit-loss-break-even.csv",
+    "evidence": "evidence/browser-375-profit-loss-break-even.json"
+  },
+  {
+    "id": "repeat-six-0",
+    "width": 375,
+    "status": "PASS",
+    "fixture": "fixtures/repeat-six-0.csv",
+    "evidence": "evidence/browser-375-repeat-six-0.json"
+  }
+]

@@ -1,0 +1,29 @@
+diff --git "a/D:\\2.TEST_PROJECT\\MODEL data\\review\\project\\src\\test\\sampleDataset.test.ts" "b/D:\\2.TEST_PROJECT\\MODEL data\\src\\test\\sampleDataset.test.ts"
+index 0fce056..81e0db2 100644
+--- "a/D:\\2.TEST_PROJECT\\MODEL data\\review\\project\\src\\test\\sampleDataset.test.ts"	
++++ "b/D:\\2.TEST_PROJECT\\MODEL data\\src\\test\\sampleDataset.test.ts"	
+@@ -45,9 +45,10 @@ describe('Kiểm thử End-to-End với bộ dữ liệu mẫu 5.030 dòng (du_l
+     const analysis = runFullAnalysis(rawRows, mapping);
+ 
+     // Kiểm tra báo cáo làm sạch:
+-    // Tổng số dòng bị loại phải bằng số dòng lỗi đã đưa vào (~80 dòng lỗi: trùng lặp, thiếu ngày, số âm, số 0, thiếu mã)
+-    expect(analysis.cleaningReport.droppedTotal).toBeGreaterThanOrEqual(70);
+-    expect(analysis.cleaningReport.validRows).toBeGreaterThan(4900);
++    // Mặc định (UI-06 safe policy): 50 dòng lỗi định dạng bị loại, 42 dòng nghi trùng được giữ an toàn
++    expect(analysis.cleaningReport.droppedTotal).toBe(50);
++    expect(analysis.cleaningReport.validRows).toBe(4981);
++    expect(analysis.cleaningReport.suspectedDuplicates?.count).toBe(42);
+     expect(analysis.overview.totalRevenue).toBeGreaterThan(100000000); // > 100 triệu VND
+     expect(analysis.overview.totalProfit).toBeGreaterThan(0);
+     expect(analysis.overview.profitMargin).toBeGreaterThan(10);
+@@ -58,5 +59,10 @@ describe('Kiểm thử End-to-End với bộ dữ liệu mẫu 5.030 dòng (du_l
+     expect(analysis.customerAnalysis.vipCustomers.length).toBeGreaterThan(0);
+     expect(analysis.actionSuggestions.length).toBeGreaterThanOrEqual(3);
+     expect(analysis.conclusions.overview.length).toBeGreaterThan(20);
++
++    // Khi áp dụng chính sách loại dòng trùng lặp xác nhận (UI-06 strict policy):
++    const analysisStrict = runFullAnalysis(rawRows, { ...mapping, deduplicatePolicy: 'drop_exact_duplicates' });
++    expect(analysisStrict.cleaningReport.droppedTotal).toBe(92); // 50 lỗi + 42 trùng = 92
++    expect(analysisStrict.cleaningReport.validRows).toBe(4939);
+   });
+ });

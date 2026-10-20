@@ -1,0 +1,674 @@
+{
+  "console": [
+    {
+      "type": "error",
+      "text": "Failed to load resource: net::ERR_NETWORK_ACCESS_DENIED"
+    }
+  ],
+  "pageErrors": [],
+  "requests": [
+    {
+      "url": "http://127.0.0.1:5181/",
+      "method": "GET",
+      "resource": "document",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/@vite/client",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/main.tsx",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/@react-refresh",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/node_modules/.vite/deps/react.js?v=b72af8a4",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/node_modules/.vite/deps/react-dom_client.js?v=b72af8a4",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/index.css",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/App.tsx",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/theme/ThemeProvider.tsx",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=b72af8a4",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/node_modules/vite/dist/client/env.mjs",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/node_modules/.vite/deps/rolldown-runtime-DC62tzP2.js?v=b72af8a4",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/node_modules/.vite/deps/lucide-react.js?v=b72af8a4",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/components/common/Header.tsx",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/components/upload/FileUploadZone.tsx",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/components/upload/ColumnMapper.tsx",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/components/upload/CleaningReportModal.tsx",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/components/common/ThemeCustomizer.tsx",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/components/common/AnalysisLoader.tsx",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/hooks/useSalesWorker.ts",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/theme/useTheme.ts",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/theme/settings.ts",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/node_modules/.vite/deps/react-dom.js?v=b72af8a4",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/components/common/Visuals.tsx",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/components/common/Dialog.tsx",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/components/common/AnimatedNumber.tsx",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/core/columnMapping.ts",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap",
+      "method": "GET",
+      "resource": "stylesheet",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/workers/sales.worker.ts?worker_file&type=module",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/node_modules/vite/dist/client/env.mjs",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/core/parser.ts",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/core/analyzer.ts",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/node_modules/.vite/deps/papaparse.js?v=b72af8a4",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/node_modules/.vite/deps/xlsx.js?v=b72af8a4",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/core/columnMapping.ts",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/core/actionSuggestions.ts",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/core/cleaner.ts",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/core/customerMetrics.ts",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/core/overviewMetrics.ts",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/core/productMetrics.ts",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/core/textConclusions.ts",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/node_modules/.vite/deps/rolldown-runtime-DC62tzP2.js?v=b72af8a4",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/workers/sales.worker.ts?worker_file&type=module",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/node_modules/vite/dist/client/env.mjs",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/core/parser.ts",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/core/analyzer.ts",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/node_modules/.vite/deps/papaparse.js?v=b72af8a4",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/node_modules/.vite/deps/xlsx.js?v=b72af8a4",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/core/columnMapping.ts",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/core/actionSuggestions.ts",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/core/cleaner.ts",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/core/customerMetrics.ts",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/core/overviewMetrics.ts",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/core/productMetrics.ts",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/core/textConclusions.ts",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/node_modules/.vite/deps/rolldown-runtime-DC62tzP2.js?v=b72af8a4",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/workers/sales.worker.ts?worker_file&type=module",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/node_modules/vite/dist/client/env.mjs",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/core/parser.ts",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/core/analyzer.ts",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/node_modules/.vite/deps/papaparse.js?v=b72af8a4",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/node_modules/.vite/deps/xlsx.js?v=b72af8a4",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/core/columnMapping.ts",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/core/actionSuggestions.ts",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/core/cleaner.ts",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/core/customerMetrics.ts",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/core/overviewMetrics.ts",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/core/productMetrics.ts",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/core/textConclusions.ts",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/node_modules/.vite/deps/rolldown-runtime-DC62tzP2.js?v=b72af8a4",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/components/dashboard/OverviewTab.tsx",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/node_modules/.vite/deps/recharts.js?v=b72af8a4",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/core/textConclusions.ts",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/components/common/ChartKit.tsx",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/components/common/chartGradients.tsx",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/components/dashboard/KpiCard.tsx",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/components/dashboard/ProductTab.tsx",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/components/common/Pagination.tsx",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/components/export/exportCsv.ts",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/components/dashboard/CustomerTab.tsx",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/",
+      "method": "GET",
+      "resource": "document",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/@vite/client",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/main.tsx",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/@react-refresh",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/node_modules/.vite/deps/react.js?v=b72af8a4",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/node_modules/.vite/deps/react-dom_client.js?v=b72af8a4",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/index.css",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/App.tsx",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/theme/ThemeProvider.tsx",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=b72af8a4",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/node_modules/.vite/deps/rolldown-runtime-DC62tzP2.js?v=b72af8a4",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/node_modules/.vite/deps/react-dom.js?v=b72af8a4",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/node_modules/vite/dist/client/env.mjs",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/theme/settings.ts",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/theme/useTheme.ts",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/node_modules/.vite/deps/lucide-react.js?v=b72af8a4",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/components/common/Header.tsx",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/components/upload/FileUploadZone.tsx",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/components/upload/ColumnMapper.tsx",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/components/upload/CleaningReportModal.tsx",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/components/common/ThemeCustomizer.tsx",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/components/common/AnalysisLoader.tsx",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/hooks/useSalesWorker.ts",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/components/common/Visuals.tsx",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/components/common/Dialog.tsx",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/components/common/AnimatedNumber.tsx",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/core/columnMapping.ts",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap",
+      "method": "GET",
+      "resource": "stylesheet",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/favicon.svg",
+      "method": "GET",
+      "resource": "other",
+      "body": null
+    }
+  ],
+  "failed": [
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap",
+      "failure": {
+        "errorText": "net::ERR_NETWORK_ACCESS_DENIED"
+      }
+    }
+  ],
+  "progress": []
+}

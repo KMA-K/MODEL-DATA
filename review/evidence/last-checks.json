@@ -1,0 +1,1424 @@
+[
+  {
+    "name": "legacy-xls",
+    "repeat": 1,
+    "state": {
+      "text": "Bán Hàng Smarter.\n\nDữ liệu nhỏ. Góc nhìn lớn.\n\nKhông gian riêng của bạn\nPhân tích file mới\nDữ liệu được xử lý 100% trên thiết bị của bạn, bảo mật tuyệt đối và KHÔNG gửi lên bất kỳ máy chủ nào.\n\nKHÔNG GIAN KINH DOANH\n\nMỗi con số, một cơ hội.\n\nHiểu cửa hàng hôm nay. Quyết định tự tin hơn ngày mai.\n\n2026-09-30 — 2026-09-30\nlegacy.xls\n1 dòng hợp lệ\nBáo cáo làm sạch\nTổng quan\nSản phẩm\n1\nKhách hàng\n1\nTỔNG DOANH THU\n100.000 đ\n\n1 ngày kinh doanh được ghi nhận\n\nLỢI NHUẬN GỘP\n40.000 đ\n\nBiên lợi nhuận 40% · 100% doanh thu có giá vốn\n\nTỔNG ĐƠN HÀNG\n1\n\n2 sản phẩm đã bán\n\nGIÁ TRỊ ĐƠN TRUNG BÌNH\n100.000 đ\n\nDoanh thu bình quân mỗi hóa đơn\n\nĐIỂM TIN KINH DOANH\n\nCửa hàng ghi nhận 1 đơn với tổng doanh thu 100.000 đ trong 1 ngày, ghi nhận lợi nhuận gộp 40.000 đ trên phần dữ liệu có giá vốn (100% doanh thu; biên lãi 40%). Giá trị trung bình mỗi đơn đạt 100.000 đ.\n\nNhịp kinh doanh của cửa hàng\n\nDoanh thu và lợi nhuận theo tháng\n\n1 tháng\nDoanh thu\nLợi nhuận gộp\n09\n0tr\n0tr\n0tr\n0tr\n0tr\n\nDữ liệu phát sinh trong 1 tháng duy nhất.\n\nNhững mặt hàng dẫn đầu\n\nTop 5 theo doanh thu\n\n01\n\nTrà\n\n100.000 đ\n\nMẶT HÀNG\n\n1\n\nKHÁCH HÀNG\n\n1\n\nTỪ DỮ LIỆU ĐẾN HÀNH ĐỘNG\n\nCơ hội tiếp theo của bạn\n2 gợi ý\nĐảm bảo nguồn hàng cho 1 sản phẩm chủ lực (Nhóm A)\n\nChỉ 1 mặt hàng này mang về 100% doanh thu toàn tiệm (100.000 đ), dẫn đầu là \"Trà\". Hãy luôn kiểm kê và đặt hàng nhà cung cấp sớm để tránh đứt hàng vào giờ cao điểm.\n\n100% doanh thu\nGia tăng giá trị đơn hàng trung bình (hiện tại 100.000 đ)\n\nĐể tăng thêm doanh thu mà không cần tìm thêm khách mới, hãy áp dụng chương trình \"Hóa đơn trên 130.000 đ được tặng thêm quà nhỏ hoặc miễn phí giao hàng\".\n\nAOV: 100.000 đ\nKHÁCH VIP\n1\n\nKhách chi tiêu cao và còn gắn bó\n\nSẢN PHẨM CHỦ LỰC\n1\n\nĐóng góp 100% doanh thu\n\nBán Hàng Smarter · Những quyết định tốt bắt đầu từ dữ liệu rõ ràng.\nTùy chỉnh giao diện\n0tr",
+      "kpis": [
+        {
+          "title": "TỔNG DOANH THU",
+          "value": "100.000 đ",
+          "subtitle": "1 ngày kinh doanh được ghi nhận"
+        },
+        {
+          "title": "LỢI NHUẬN GỘP",
+          "value": "40.000 đ",
+          "subtitle": "Biên lợi nhuận 40% · 100% doanh thu có giá vốn"
+        },
+        {
+          "title": "TỔNG ĐƠN HÀNG",
+          "value": "1",
+          "subtitle": "2 sản phẩm đã bán"
+        },
+        {
+          "title": "GIÁ TRỊ ĐƠN TRUNG BÌNH",
+          "value": "100.000 đ",
+          "subtitle": "Doanh thu bình quân mỗi hóa đơn"
+        },
+        {
+          "title": "KHÁCH VIP",
+          "value": "1",
+          "subtitle": "Khách chi tiêu cao và còn gắn bó"
+        },
+        {
+          "title": "SẢN PHẨM CHỦ LỰC",
+          "value": "1",
+          "subtitle": "Đóng góp 100% doanh thu"
+        }
+      ],
+      "tables": [],
+      "overflow": {
+        "width": 1366,
+        "scrollWidth": 1366
+      },
+      "theme": {
+        "theme": "light",
+        "accent": "emerald",
+        "density": "comfortable",
+        "motion": "reduced"
+      }
+    }
+  },
+  {
+    "name": "zero-valid-error",
+    "repeat": 1,
+    "state": {
+      "text": "Bán Hàng Smarter.\n\nDữ liệu nhỏ. Góc nhìn lớn.\n\nKhông gian riêng của bạn\nPhân tích file mới\nDữ liệu được xử lý 100% trên thiết bị của bạn, bảo mật tuyệt đối và KHÔNG gửi lên bất kỳ máy chủ nào.\nKhông có dòng hợp lệ. Hãy kiểm tra ghép cột và định dạng dữ liệu.×\n\nBƯỚC 02 · XÁC NHẬN DỮ LIỆU\n\nĐúng cột. Đúng góc nhìn.\n\nChúng tôi đã ghép cột gợi ý. Bạn kiểm tra lại trước khi bắt đầu nhé.\n\ndate-invalid.csv\n\n1 dòng · 9 cột · 0.2 KB\n\nXem trước dữ liệu\nGhép cột dữ liệu\n\nCần ngày, sản phẩm, số lượng và doanh thu hoặc đơn giá. Mỗi dòng tương ứng một mặt hàng trong hóa đơn.\n\nTự nhận diện tiếng Việt\nNgày bán *\nChọn cột tương ứng\nMã đơn hàng\nNgày bán\nTên sản phẩm\nSố lượng\nĐơn giá\nDoanh thu\nGiá vốn\nMã khách hàng\nDanh mục\nNgày phát sinh giao dịch\nTên / mã sản phẩm *\nChọn cột tương ứng\nMã đơn hàng\nNgày bán\nTên sản phẩm\nSố lượng\nĐơn giá\nDoanh thu\nGiá vốn\nMã khách hàng\nDanh mục\nNhận diện mặt hàng\nSố lượng *\nChọn cột tương ứng\nMã đơn hàng\nNgày bán\nTên sản phẩm\nSố lượng\nĐơn giá\nDoanh thu\nGiá vốn\nMã khách hàng\nDanh mục\nSố lượng trên từng dòng hàng\nDoanh thu\nKhông có / bỏ qua\nMã đơn hàng\nNgày bán\nTên sản phẩm\nSố lượng\nĐơn giá\nDoanh thu\nGiá vốn\nMã khách hàng\nDanh mục\nThành tiền của từng dòng, không phải tổng hóa đơn\nĐơn giá bán\nKhông có / bỏ qua\nMã đơn hàng\nNgày bán\nTên sản phẩm\nSố lượng\nĐơn giá\nDoanh thu\nGiá vốn\nMã khách hàng\nDanh mục\nDùng tính doanh thu nếu thiếu thành tiền\nGiá vốn đơn vị\nKhông có / bỏ qua\nMã đơn hàng\nNgày bán\nTên sản phẩm\nSố lượng\nĐơn giá\nDoanh thu\nGiá vốn\nMã khách hàng\nDanh mục\nMở phân tích lợi nhuận gộp\nMã đơn / hóa đơn\nKhông có / bỏ qua\nMã đơn hàng\nNgày bán\nTên sản phẩm\nSố lượng\nĐơn giá\nDoanh thu\nGiá vốn\nMã khách hàng\nDanh mục\nTính số đơn, AOV và cặp mua cùng\nMã / tên khách hàng\nKhông có / bỏ qua\nMã đơn hàng\nNgày bán\nTên sản phẩm\nSố lượng\nĐơn giá\nDoanh thu\nGiá vốn\nMã khách hàng\nDanh mục\nMở phân nhóm và chăm sóc khách hàng\nDanh mục sản phẩm\nKhông có / bỏ qua\nMã đơn hàng\nNgày bán\nTên sản phẩm\nSố lượng\nĐơn giá\nDoanh thu\nGiá vốn\nMã khách hàng\nDanh mục\nNhóm hàng hóa trong cửa hàng\nChọn file khác\nKhám phá dữ liệu\nBán Hàng Smarter · Những quyết định tốt bắt đầu từ dữ liệu rõ ràng.\nTùy chỉnh giao diện",
+      "kpis": [],
+      "tables": [],
+      "overflow": {
+        "width": 1366,
+        "scrollWidth": 1366
+      },
+      "theme": {
+        "theme": "light",
+        "accent": "emerald",
+        "density": "comfortable",
+        "motion": "reduced"
+      }
+    }
+  },
+  {
+    "name": "retention-unsupported",
+    "repeat": 1,
+    "state": {
+      "text": "Bán Hàng Smarter.\n\nDữ liệu nhỏ. Góc nhìn lớn.\n\nKhông gian riêng của bạn\nPhân tích file mới\nDữ liệu được xử lý 100% trên thiết bị của bạn, bảo mật tuyệt đối và KHÔNG gửi lên bất kỳ máy chủ nào.\n\nKHÔNG GIAN KINH DOANH\n\nMỗi con số, một cơ hội.\n\nHiểu cửa hàng hôm nay. Quyết định tự tin hơn ngày mai.\n\n2026-09-30 — 2026-09-30\nsame-day-customers.csv\n6 dòng hợp lệ\nBáo cáo làm sạch\nTổng quan\nSản phẩm\n1\nKhách hàng\n6\nKHÁCH HÀNG\n6\n\nCó giao dịch trong kỳ dữ liệu\n\nKHÁCH VIP\n2\n\nChi tiêu cao và mua gần đây\n\nCẦN CHĂM SÓC\n0\n\nKhách thân thiết lâu chưa quay lại\n\nKHÁCH MỚI\n4\n\nMột lần mua và còn gần đây\n\nGÓC NHÌN KHÁCH HÀNG · RFM\n\n2 khách VIP đóng góp 38.7% doanh thu (29.000 đ). Cửa hàng đang duy trì tỷ lệ khách quay lại mua sắm rất tích cực.\n\nKhách hàng đang ở đâu trong hành trình?\n\nQuy mô từng nhóm · Mốc tính: 2026-09-30\n\nVIP\nTrung thành\nMới\nNguy cơ\nNgừng mua\nBình thường\n0\n1\n2\n3\n4\nƯu tiên một lời hỏi thăm\n\nKhách thân thiết đang có nguy cơ rời đi\n\nChưa có khách thuộc nhóm nguy cơ\n\nTheo quy tắc hiện tại, chưa có khách chi tiêu cao hoặc thường xuyên mua đã vắng hơn 60 ngày.\n\nHiểu từng khách hàng\n\nToàn bộ 6 khách hàng · Phân nhóm theo dữ liệu trong file.\n\nXuất CSV\nTất cả phân khúc\nVIP\nTrung thành\nMới\nCó nguy cơ rời đi\nĐã ngừng mua\nBình thường\nKhách hàng\n\tTổng chi tiêu\n\tSố đơn\n\tGần nhất\n\tPhân khúc\tGợi ý chăm sóc\nKH5\t15.000 đ\t1\t2026-09-300 ngày trước mốc\tVIP\tKhách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền.\nKH4\t14.000 đ\t1\t2026-09-300 ngày trước mốc\tVIP\tKhách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền.\nKH3\t13.000 đ\t1\t2026-09-300 ngày trước mốc\tMới\tKhách hàng mới phát sinh đơn đầu tiên. Gửi ưu đãi cho lần mua tiếp theo.\nKH2\t12.000 đ\t1\t2026-09-300 ngày trước mốc\tMới\tKhách hàng mới phát sinh đơn đầu tiên. Gửi ưu đãi cho lần mua tiếp theo.\nKH1\t11.000 đ\t1\t2026-09-300 ngày trước mốc\tMới\tKhách hàng mới phát sinh đơn đầu tiên. Gửi ưu đãi cho lần mua tiếp theo.\nKH0\t10.000 đ\t1\t2026-09-300 ngày trước mốc\tMới\tKhách hàng mới phát sinh đơn đầu tiên. Gửi ưu đãi cho lần mua tiếp theo.\n1–6 / 6 kết quả\n1 / 1\nBán Hàng Smarter · Những quyết định tốt bắt đầu từ dữ liệu rõ ràng.\nTùy chỉnh giao diện\n0",
+      "kpis": [
+        {
+          "title": "KHÁCH HÀNG",
+          "value": "6",
+          "subtitle": "Có giao dịch trong kỳ dữ liệu"
+        },
+        {
+          "title": "KHÁCH VIP",
+          "value": "2",
+          "subtitle": "Chi tiêu cao và mua gần đây"
+        },
+        {
+          "title": "CẦN CHĂM SÓC",
+          "value": "0",
+          "subtitle": "Khách thân thiết lâu chưa quay lại"
+        },
+        {
+          "title": "KHÁCH MỚI",
+          "value": "4",
+          "subtitle": "Một lần mua và còn gần đây"
+        }
+      ],
+      "tables": [
+        [
+          "KH5",
+          "15.000 đ",
+          "1",
+          "2026-09-300 ngày trước mốc",
+          "VIP",
+          "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+        ],
+        [
+          "KH4",
+          "14.000 đ",
+          "1",
+          "2026-09-300 ngày trước mốc",
+          "VIP",
+          "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+        ],
+        [
+          "KH3",
+          "13.000 đ",
+          "1",
+          "2026-09-300 ngày trước mốc",
+          "Mới",
+          "Khách hàng mới phát sinh đơn đầu tiên. Gửi ưu đãi cho lần mua tiếp theo."
+        ],
+        [
+          "KH2",
+          "12.000 đ",
+          "1",
+          "2026-09-300 ngày trước mốc",
+          "Mới",
+          "Khách hàng mới phát sinh đơn đầu tiên. Gửi ưu đãi cho lần mua tiếp theo."
+        ],
+        [
+          "KH1",
+          "11.000 đ",
+          "1",
+          "2026-09-300 ngày trước mốc",
+          "Mới",
+          "Khách hàng mới phát sinh đơn đầu tiên. Gửi ưu đãi cho lần mua tiếp theo."
+        ],
+        [
+          "KH0",
+          "10.000 đ",
+          "1",
+          "2026-09-300 ngày trước mốc",
+          "Mới",
+          "Khách hàng mới phát sinh đơn đầu tiên. Gửi ưu đãi cho lần mua tiếp theo."
+        ]
+      ],
+      "overflow": {
+        "width": 1366,
+        "scrollWidth": 1366
+      },
+      "theme": {
+        "theme": "light",
+        "accent": "emerald",
+        "density": "comfortable",
+        "motion": "reduced"
+      }
+    },
+    "worker": {
+      "cleaningReport": {
+        "totalRows": 6,
+        "validRows": 6,
+        "droppedTotal": 0,
+        "reasons": []
+      },
+      "overview": {
+        "hasReliableOrderIds": true,
+        "costCoverage": 100,
+        "totalRevenue": 75000,
+        "totalQuantity": 12,
+        "totalOrders": 6,
+        "averageOrderValue": 12500,
+        "totalProfit": 30000,
+        "profitMargin": 40,
+        "uniqueProducts": 1,
+        "uniqueCustomers": 6,
+        "dateRange": {
+          "start": "2026-09-30",
+          "end": "2026-09-30",
+          "days": 1
+        },
+        "monthlyRevenue": [
+          {
+            "month": "2026-09",
+            "revenue": 75000,
+            "orders": 6,
+            "profit": 30000
+          }
+        ]
+      },
+      "productAnalysis": {
+        "products": [
+          {
+            "id": "Trà",
+            "name": "Trà",
+            "category": "Đồ dùng thử",
+            "quantity": 12,
+            "revenue": 75000,
+            "revenueShare": 100,
+            "cumulativeShare": 100,
+            "abcGroup": "A",
+            "costPrice": 3750,
+            "profit": 30000,
+            "profitMargin": 40,
+            "ordersCount": 6,
+            "trend": "Ổn định",
+            "monthlyTrendData": [
+              {
+                "month": "2026-09",
+                "quantity": 12,
+                "revenue": 75000
+              }
+            ],
+            "recommendation": "Đáng đầu tư",
+            "reasonText": "Sản phẩm chủ lực (Nhóm A), đóng góp 100.0% doanh thu. Luôn ưu tiên giữ hàng và vị trí trưng bày đẹp."
+          }
+        ],
+        "abcSummary": {
+          "groupA": {
+            "count": 1,
+            "revenue": 75000,
+            "percentage": 100
+          },
+          "groupB": {
+            "count": 0,
+            "revenue": 0,
+            "percentage": 0
+          },
+          "groupC": {
+            "count": 0,
+            "revenue": 0,
+            "percentage": 0
+          }
+        },
+        "topProfitable": [
+          {
+            "id": "Trà",
+            "name": "Trà",
+            "category": "Đồ dùng thử",
+            "quantity": 12,
+            "revenue": 75000,
+            "revenueShare": 100,
+            "cumulativeShare": 100,
+            "abcGroup": "A",
+            "costPrice": 3750,
+            "profit": 30000,
+            "profitMargin": 40,
+            "ordersCount": 6,
+            "trend": "Ổn định",
+            "monthlyTrendData": [
+              {
+                "month": "2026-09",
+                "quantity": 12,
+                "revenue": 75000
+              }
+            ],
+            "recommendation": "Đáng đầu tư",
+            "reasonText": "Sản phẩm chủ lực (Nhóm A), đóng góp 100.0% doanh thu. Luôn ưu tiên giữ hàng và vị trí trưng bày đẹp."
+          }
+        ],
+        "topRevenue": [
+          {
+            "id": "Trà",
+            "name": "Trà",
+            "category": "Đồ dùng thử",
+            "quantity": 12,
+            "revenue": 75000,
+            "revenueShare": 100,
+            "cumulativeShare": 100,
+            "abcGroup": "A",
+            "costPrice": 3750,
+            "profit": 30000,
+            "profitMargin": 40,
+            "ordersCount": 6,
+            "trend": "Ổn định",
+            "monthlyTrendData": [
+              {
+                "month": "2026-09",
+                "quantity": 12,
+                "revenue": 75000
+              }
+            ],
+            "recommendation": "Đáng đầu tư",
+            "reasonText": "Sản phẩm chủ lực (Nhóm A), đóng góp 100.0% doanh thu. Luôn ưu tiên giữ hàng và vị trí trưng bày đẹp."
+          }
+        ],
+        "slowMoving": [],
+        "coOccurrences": [],
+        "hasCostPrice": true,
+        "hasOrderId": true
+      },
+      "customerAnalysis": {
+        "hasCustomerData": true,
+        "customers": [
+          {
+            "customerId": "KH5",
+            "customerName": "KH5",
+            "ordersCount": 1,
+            "totalSpend": 15000,
+            "averageOrderValue": 15000,
+            "lastOrderDate": "2026-09-30",
+            "daysSinceLastOrder": 0,
+            "firstOrderDate": "2026-09-30",
+            "rfmScore": {
+              "r": 5,
+              "f": 1,
+              "m": 5,
+              "total": 11
+            },
+            "segment": "VIP",
+            "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+          },
+          {
+            "customerId": "KH4",
+            "customerName": "KH4",
+            "ordersCount": 1,
+            "totalSpend": 14000,
+            "averageOrderValue": 14000,
+            "lastOrderDate": "2026-09-30",
+            "daysSinceLastOrder": 0,
+            "firstOrderDate": "2026-09-30",
+            "rfmScore": {
+              "r": 5,
+              "f": 1,
+              "m": 5,
+              "total": 11
+            },
+            "segment": "VIP",
+            "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+          },
+          {
+            "customerId": "KH3",
+            "customerName": "KH3",
+            "ordersCount": 1,
+            "totalSpend": 13000,
+            "averageOrderValue": 13000,
+            "lastOrderDate": "2026-09-30",
+            "daysSinceLastOrder": 0,
+            "firstOrderDate": "2026-09-30",
+            "rfmScore": {
+              "r": 5,
+              "f": 1,
+              "m": 4,
+              "total": 10
+            },
+            "segment": "Mới",
+            "actionAdvice": "Khách hàng mới phát sinh đơn đầu tiên. Gửi ưu đãi cho lần mua tiếp theo."
+          },
+          {
+            "customerId": "KH2",
+            "customerName": "KH2",
+            "ordersCount": 1,
+            "totalSpend": 12000,
+            "averageOrderValue": 12000,
+            "lastOrderDate": "2026-09-30",
+            "daysSinceLastOrder": 0,
+            "firstOrderDate": "2026-09-30",
+            "rfmScore": {
+              "r": 5,
+              "f": 1,
+              "m": 4,
+              "total": 10
+            },
+            "segment": "Mới",
+            "actionAdvice": "Khách hàng mới phát sinh đơn đầu tiên. Gửi ưu đãi cho lần mua tiếp theo."
+          },
+          {
+            "customerId": "KH1",
+            "customerName": "KH1",
+            "ordersCount": 1,
+            "totalSpend": 11000,
+            "averageOrderValue": 11000,
+            "lastOrderDate": "2026-09-30",
+            "daysSinceLastOrder": 0,
+            "firstOrderDate": "2026-09-30",
+            "rfmScore": {
+              "r": 5,
+              "f": 1,
+              "m": 4,
+              "total": 10
+            },
+            "segment": "Mới",
+            "actionAdvice": "Khách hàng mới phát sinh đơn đầu tiên. Gửi ưu đãi cho lần mua tiếp theo."
+          },
+          {
+            "customerId": "KH0",
+            "customerName": "KH0",
+            "ordersCount": 1,
+            "totalSpend": 10000,
+            "averageOrderValue": 10000,
+            "lastOrderDate": "2026-09-30",
+            "daysSinceLastOrder": 0,
+            "firstOrderDate": "2026-09-30",
+            "rfmScore": {
+              "r": 5,
+              "f": 1,
+              "m": 4,
+              "total": 10
+            },
+            "segment": "Mới",
+            "actionAdvice": "Khách hàng mới phát sinh đơn đầu tiên. Gửi ưu đãi cho lần mua tiếp theo."
+          }
+        ],
+        "totalCustomers": 6,
+        "segmentsSummary": [
+          {
+            "segment": "VIP",
+            "count": 2,
+            "percentage": 33.3,
+            "totalRevenue": 29000,
+            "revenuePercentage": 38.7
+          },
+          {
+            "segment": "Trung thành",
+            "count": 0,
+            "percentage": 0,
+            "totalRevenue": 0,
+            "revenuePercentage": 0
+          },
+          {
+            "segment": "Mới",
+            "count": 4,
+            "percentage": 66.7,
+            "totalRevenue": 46000,
+            "revenuePercentage": 61.3
+          },
+          {
+            "segment": "Có nguy cơ rời đi",
+            "count": 0,
+            "percentage": 0,
+            "totalRevenue": 0,
+            "revenuePercentage": 0
+          },
+          {
+            "segment": "Đã ngừng mua",
+            "count": 0,
+            "percentage": 0,
+            "totalRevenue": 0,
+            "revenuePercentage": 0
+          },
+          {
+            "segment": "Bình thường",
+            "count": 0,
+            "percentage": 0,
+            "totalRevenue": 0,
+            "revenuePercentage": 0
+          }
+        ],
+        "topCustomers": [
+          {
+            "customerId": "KH5",
+            "customerName": "KH5",
+            "ordersCount": 1,
+            "totalSpend": 15000,
+            "averageOrderValue": 15000,
+            "lastOrderDate": "2026-09-30",
+            "daysSinceLastOrder": 0,
+            "firstOrderDate": "2026-09-30",
+            "rfmScore": {
+              "r": 5,
+              "f": 1,
+              "m": 5,
+              "total": 11
+            },
+            "segment": "VIP",
+            "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+          },
+          {
+            "customerId": "KH4",
+            "customerName": "KH4",
+            "ordersCount": 1,
+            "totalSpend": 14000,
+            "averageOrderValue": 14000,
+            "lastOrderDate": "2026-09-30",
+            "daysSinceLastOrder": 0,
+            "firstOrderDate": "2026-09-30",
+            "rfmScore": {
+              "r": 5,
+              "f": 1,
+              "m": 5,
+              "total": 11
+            },
+            "segment": "VIP",
+            "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+          },
+          {
+            "customerId": "KH3",
+            "customerName": "KH3",
+            "ordersCount": 1,
+            "totalSpend": 13000,
+            "averageOrderValue": 13000,
+            "lastOrderDate": "2026-09-30",
+            "daysSinceLastOrder": 0,
+            "firstOrderDate": "2026-09-30",
+            "rfmScore": {
+              "r": 5,
+              "f": 1,
+              "m": 4,
+              "total": 10
+            },
+            "segment": "Mới",
+            "actionAdvice": "Khách hàng mới phát sinh đơn đầu tiên. Gửi ưu đãi cho lần mua tiếp theo."
+          },
+          {
+            "customerId": "KH2",
+            "customerName": "KH2",
+            "ordersCount": 1,
+            "totalSpend": 12000,
+            "averageOrderValue": 12000,
+            "lastOrderDate": "2026-09-30",
+            "daysSinceLastOrder": 0,
+            "firstOrderDate": "2026-09-30",
+            "rfmScore": {
+              "r": 5,
+              "f": 1,
+              "m": 4,
+              "total": 10
+            },
+            "segment": "Mới",
+            "actionAdvice": "Khách hàng mới phát sinh đơn đầu tiên. Gửi ưu đãi cho lần mua tiếp theo."
+          },
+          {
+            "customerId": "KH1",
+            "customerName": "KH1",
+            "ordersCount": 1,
+            "totalSpend": 11000,
+            "averageOrderValue": 11000,
+            "lastOrderDate": "2026-09-30",
+            "daysSinceLastOrder": 0,
+            "firstOrderDate": "2026-09-30",
+            "rfmScore": {
+              "r": 5,
+              "f": 1,
+              "m": 4,
+              "total": 10
+            },
+            "segment": "Mới",
+            "actionAdvice": "Khách hàng mới phát sinh đơn đầu tiên. Gửi ưu đãi cho lần mua tiếp theo."
+          },
+          {
+            "customerId": "KH0",
+            "customerName": "KH0",
+            "ordersCount": 1,
+            "totalSpend": 10000,
+            "averageOrderValue": 10000,
+            "lastOrderDate": "2026-09-30",
+            "daysSinceLastOrder": 0,
+            "firstOrderDate": "2026-09-30",
+            "rfmScore": {
+              "r": 5,
+              "f": 1,
+              "m": 4,
+              "total": 10
+            },
+            "segment": "Mới",
+            "actionAdvice": "Khách hàng mới phát sinh đơn đầu tiên. Gửi ưu đãi cho lần mua tiếp theo."
+          }
+        ],
+        "vipCustomers": [
+          {
+            "customerId": "KH5",
+            "customerName": "KH5",
+            "ordersCount": 1,
+            "totalSpend": 15000,
+            "averageOrderValue": 15000,
+            "lastOrderDate": "2026-09-30",
+            "daysSinceLastOrder": 0,
+            "firstOrderDate": "2026-09-30",
+            "rfmScore": {
+              "r": 5,
+              "f": 1,
+              "m": 5,
+              "total": 11
+            },
+            "segment": "VIP",
+            "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+          },
+          {
+            "customerId": "KH4",
+            "customerName": "KH4",
+            "ordersCount": 1,
+            "totalSpend": 14000,
+            "averageOrderValue": 14000,
+            "lastOrderDate": "2026-09-30",
+            "daysSinceLastOrder": 0,
+            "firstOrderDate": "2026-09-30",
+            "rfmScore": {
+              "r": 5,
+              "f": 1,
+              "m": 5,
+              "total": 11
+            },
+            "segment": "VIP",
+            "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+          }
+        ],
+        "atRiskCustomers": [],
+        "churnedCustomers": [],
+        "newCustomers": [
+          {
+            "customerId": "KH3",
+            "customerName": "KH3",
+            "ordersCount": 1,
+            "totalSpend": 13000,
+            "averageOrderValue": 13000,
+            "lastOrderDate": "2026-09-30",
+            "daysSinceLastOrder": 0,
+            "firstOrderDate": "2026-09-30",
+            "rfmScore": {
+              "r": 5,
+              "f": 1,
+              "m": 4,
+              "total": 10
+            },
+            "segment": "Mới",
+            "actionAdvice": "Khách hàng mới phát sinh đơn đầu tiên. Gửi ưu đãi cho lần mua tiếp theo."
+          },
+          {
+            "customerId": "KH2",
+            "customerName": "KH2",
+            "ordersCount": 1,
+            "totalSpend": 12000,
+            "averageOrderValue": 12000,
+            "lastOrderDate": "2026-09-30",
+            "daysSinceLastOrder": 0,
+            "firstOrderDate": "2026-09-30",
+            "rfmScore": {
+              "r": 5,
+              "f": 1,
+              "m": 4,
+              "total": 10
+            },
+            "segment": "Mới",
+            "actionAdvice": "Khách hàng mới phát sinh đơn đầu tiên. Gửi ưu đãi cho lần mua tiếp theo."
+          },
+          {
+            "customerId": "KH1",
+            "customerName": "KH1",
+            "ordersCount": 1,
+            "totalSpend": 11000,
+            "averageOrderValue": 11000,
+            "lastOrderDate": "2026-09-30",
+            "daysSinceLastOrder": 0,
+            "firstOrderDate": "2026-09-30",
+            "rfmScore": {
+              "r": 5,
+              "f": 1,
+              "m": 4,
+              "total": 10
+            },
+            "segment": "Mới",
+            "actionAdvice": "Khách hàng mới phát sinh đơn đầu tiên. Gửi ưu đãi cho lần mua tiếp theo."
+          },
+          {
+            "customerId": "KH0",
+            "customerName": "KH0",
+            "ordersCount": 1,
+            "totalSpend": 10000,
+            "averageOrderValue": 10000,
+            "lastOrderDate": "2026-09-30",
+            "daysSinceLastOrder": 0,
+            "firstOrderDate": "2026-09-30",
+            "rfmScore": {
+              "r": 5,
+              "f": 1,
+              "m": 4,
+              "total": 10
+            },
+            "segment": "Mới",
+            "actionAdvice": "Khách hàng mới phát sinh đơn đầu tiên. Gửi ưu đãi cho lần mua tiếp theo."
+          }
+        ]
+      },
+      "actionSuggestions": [
+        {
+          "id": "prod-abc-stock",
+          "type": "inventory",
+          "severity": "high",
+          "title": "Đảm bảo nguồn hàng cho 1 sản phẩm chủ lực (Nhóm A)",
+          "description": "Chỉ 1 mặt hàng này mang về 100% doanh thu toàn tiệm (75.000 đ), dẫn đầu là \"Trà\". Hãy luôn kiểm kê và đặt hàng nhà cung cấp sớm để tránh đứt hàng vào giờ cao điểm.",
+          "metricBadge": "100% doanh thu"
+        },
+        {
+          "id": "overview-aov",
+          "type": "pricing",
+          "severity": "info",
+          "title": "Gia tăng giá trị đơn hàng trung bình (hiện tại 12.500 đ)",
+          "description": "Để tăng thêm doanh thu mà không cần tìm thêm khách mới, hãy áp dụng chương trình \"Hóa đơn trên 20.000 đ được tặng thêm quà nhỏ hoặc miễn phí giao hàng\".",
+          "metricBadge": "AOV: 12.500 đ"
+        }
+      ],
+      "conclusions": {
+        "overview": "Cửa hàng ghi nhận **6 đơn** với tổng doanh thu **75.000 đ** trong 1 ngày, ghi nhận lợi nhuận gộp **30.000 đ** trên phần dữ liệu có giá vốn (100% doanh thu; biên lãi **40%**). Giá trị trung bình mỗi đơn đạt **12.500 đ**.",
+        "monthlyTrend": "Dữ liệu phát sinh trong 1 tháng duy nhất.",
+        "productABC": "Chỉ **1 sản phẩm nhóm A** (chiếm 100% số lượng mặt hàng) đã đóng góp tới **100% doanh thu** (75.000 đ). Trong khi đó, **0 sản phẩm nhóm C** chỉ đóng góp 0%.",
+        "productProfit": "Mặt hàng mang lại nhiều tiền lãi nhất là **Trà** với lợi nhuận gộp **30.000 đ** (biên lãi **40%**).",
+        "customerRFM": "**2 khách VIP** đóng góp **38.7% doanh thu** (29.000 đ). Cửa hàng đang duy trì tỷ lệ khách quay lại mua sắm rất tích cực.",
+        "crossSelling": "Chưa có cặp sản phẩm mua cùng nổi bật."
+      },
+      "columnMapping": {
+        "dateCol": "Ngày bán",
+        "productCol": "Tên sản phẩm",
+        "quantityCol": "Số lượng",
+        "revenueCol": "Doanh thu",
+        "unitPriceCol": "Đơn giá",
+        "customerIdCol": "Mã khách hàng",
+        "costPriceCol": "Giá vốn",
+        "orderIdCol": "Mã đơn hàng",
+        "categoryCol": "Danh mục"
+      }
+    }
+  },
+  {
+    "name": "legacy-xls",
+    "repeat": 2,
+    "state": {
+      "text": "Bán Hàng Smarter.\n\nDữ liệu nhỏ. Góc nhìn lớn.\n\nKhông gian riêng của bạn\nPhân tích file mới\nDữ liệu được xử lý 100% trên thiết bị của bạn, bảo mật tuyệt đối và KHÔNG gửi lên bất kỳ máy chủ nào.\n\nKHÔNG GIAN KINH DOANH\n\nMỗi con số, một cơ hội.\n\nHiểu cửa hàng hôm nay. Quyết định tự tin hơn ngày mai.\n\n2026-09-30 — 2026-09-30\nlegacy.xls\n1 dòng hợp lệ\nBáo cáo làm sạch\nTổng quan\nSản phẩm\n1\nKhách hàng\n1\nTỔNG DOANH THU\n100.000 đ\n\n1 ngày kinh doanh được ghi nhận\n\nLỢI NHUẬN GỘP\n40.000 đ\n\nBiên lợi nhuận 40% · 100% doanh thu có giá vốn\n\nTỔNG ĐƠN HÀNG\n1\n\n2 sản phẩm đã bán\n\nGIÁ TRỊ ĐƠN TRUNG BÌNH\n100.000 đ\n\nDoanh thu bình quân mỗi hóa đơn\n\nĐIỂM TIN KINH DOANH\n\nCửa hàng ghi nhận 1 đơn với tổng doanh thu 100.000 đ trong 1 ngày, ghi nhận lợi nhuận gộp 40.000 đ trên phần dữ liệu có giá vốn (100% doanh thu; biên lãi 40%). Giá trị trung bình mỗi đơn đạt 100.000 đ.\n\nNhịp kinh doanh của cửa hàng\n\nDoanh thu và lợi nhuận theo tháng\n\n1 tháng\nDoanh thu\nLợi nhuận gộp\n09\n0tr\n0tr\n0tr\n0tr\n0tr\n\nDữ liệu phát sinh trong 1 tháng duy nhất.\n\nNhững mặt hàng dẫn đầu\n\nTop 5 theo doanh thu\n\n01\n\nTrà\n\n100.000 đ\n\nMẶT HÀNG\n\n1\n\nKHÁCH HÀNG\n\n1\n\nTỪ DỮ LIỆU ĐẾN HÀNH ĐỘNG\n\nCơ hội tiếp theo của bạn\n2 gợi ý\nĐảm bảo nguồn hàng cho 1 sản phẩm chủ lực (Nhóm A)\n\nChỉ 1 mặt hàng này mang về 100% doanh thu toàn tiệm (100.000 đ), dẫn đầu là \"Trà\". Hãy luôn kiểm kê và đặt hàng nhà cung cấp sớm để tránh đứt hàng vào giờ cao điểm.\n\n100% doanh thu\nGia tăng giá trị đơn hàng trung bình (hiện tại 100.000 đ)\n\nĐể tăng thêm doanh thu mà không cần tìm thêm khách mới, hãy áp dụng chương trình \"Hóa đơn trên 130.000 đ được tặng thêm quà nhỏ hoặc miễn phí giao hàng\".\n\nAOV: 100.000 đ\nKHÁCH VIP\n1\n\nKhách chi tiêu cao và còn gắn bó\n\nSẢN PHẨM CHỦ LỰC\n1\n\nĐóng góp 100% doanh thu\n\nBán Hàng Smarter · Những quyết định tốt bắt đầu từ dữ liệu rõ ràng.\nTùy chỉnh giao diện\n0tr",
+      "kpis": [
+        {
+          "title": "TỔNG DOANH THU",
+          "value": "100.000 đ",
+          "subtitle": "1 ngày kinh doanh được ghi nhận"
+        },
+        {
+          "title": "LỢI NHUẬN GỘP",
+          "value": "40.000 đ",
+          "subtitle": "Biên lợi nhuận 40% · 100% doanh thu có giá vốn"
+        },
+        {
+          "title": "TỔNG ĐƠN HÀNG",
+          "value": "1",
+          "subtitle": "2 sản phẩm đã bán"
+        },
+        {
+          "title": "GIÁ TRỊ ĐƠN TRUNG BÌNH",
+          "value": "100.000 đ",
+          "subtitle": "Doanh thu bình quân mỗi hóa đơn"
+        },
+        {
+          "title": "KHÁCH VIP",
+          "value": "1",
+          "subtitle": "Khách chi tiêu cao và còn gắn bó"
+        },
+        {
+          "title": "SẢN PHẨM CHỦ LỰC",
+          "value": "1",
+          "subtitle": "Đóng góp 100% doanh thu"
+        }
+      ],
+      "tables": [],
+      "overflow": {
+        "width": 1366,
+        "scrollWidth": 1366
+      },
+      "theme": {
+        "theme": "light",
+        "accent": "emerald",
+        "density": "comfortable",
+        "motion": "reduced"
+      }
+    }
+  },
+  {
+    "name": "zero-valid-error",
+    "repeat": 2,
+    "state": {
+      "text": "Bán Hàng Smarter.\n\nDữ liệu nhỏ. Góc nhìn lớn.\n\nKhông gian riêng của bạn\nPhân tích file mới\nDữ liệu được xử lý 100% trên thiết bị của bạn, bảo mật tuyệt đối và KHÔNG gửi lên bất kỳ máy chủ nào.\nKhông có dòng hợp lệ. Hãy kiểm tra ghép cột và định dạng dữ liệu.×\n\nBƯỚC 02 · XÁC NHẬN DỮ LIỆU\n\nĐúng cột. Đúng góc nhìn.\n\nChúng tôi đã ghép cột gợi ý. Bạn kiểm tra lại trước khi bắt đầu nhé.\n\ndate-invalid.csv\n\n1 dòng · 9 cột · 0.2 KB\n\nXem trước dữ liệu\nGhép cột dữ liệu\n\nCần ngày, sản phẩm, số lượng và doanh thu hoặc đơn giá. Mỗi dòng tương ứng một mặt hàng trong hóa đơn.\n\nTự nhận diện tiếng Việt\nNgày bán *\nChọn cột tương ứng\nMã đơn hàng\nNgày bán\nTên sản phẩm\nSố lượng\nĐơn giá\nDoanh thu\nGiá vốn\nMã khách hàng\nDanh mục\nNgày phát sinh giao dịch\nTên / mã sản phẩm *\nChọn cột tương ứng\nMã đơn hàng\nNgày bán\nTên sản phẩm\nSố lượng\nĐơn giá\nDoanh thu\nGiá vốn\nMã khách hàng\nDanh mục\nNhận diện mặt hàng\nSố lượng *\nChọn cột tương ứng\nMã đơn hàng\nNgày bán\nTên sản phẩm\nSố lượng\nĐơn giá\nDoanh thu\nGiá vốn\nMã khách hàng\nDanh mục\nSố lượng trên từng dòng hàng\nDoanh thu\nKhông có / bỏ qua\nMã đơn hàng\nNgày bán\nTên sản phẩm\nSố lượng\nĐơn giá\nDoanh thu\nGiá vốn\nMã khách hàng\nDanh mục\nThành tiền của từng dòng, không phải tổng hóa đơn\nĐơn giá bán\nKhông có / bỏ qua\nMã đơn hàng\nNgày bán\nTên sản phẩm\nSố lượng\nĐơn giá\nDoanh thu\nGiá vốn\nMã khách hàng\nDanh mục\nDùng tính doanh thu nếu thiếu thành tiền\nGiá vốn đơn vị\nKhông có / bỏ qua\nMã đơn hàng\nNgày bán\nTên sản phẩm\nSố lượng\nĐơn giá\nDoanh thu\nGiá vốn\nMã khách hàng\nDanh mục\nMở phân tích lợi nhuận gộp\nMã đơn / hóa đơn\nKhông có / bỏ qua\nMã đơn hàng\nNgày bán\nTên sản phẩm\nSố lượng\nĐơn giá\nDoanh thu\nGiá vốn\nMã khách hàng\nDanh mục\nTính số đơn, AOV và cặp mua cùng\nMã / tên khách hàng\nKhông có / bỏ qua\nMã đơn hàng\nNgày bán\nTên sản phẩm\nSố lượng\nĐơn giá\nDoanh thu\nGiá vốn\nMã khách hàng\nDanh mục\nMở phân nhóm và chăm sóc khách hàng\nDanh mục sản phẩm\nKhông có / bỏ qua\nMã đơn hàng\nNgày bán\nTên sản phẩm\nSố lượng\nĐơn giá\nDoanh thu\nGiá vốn\nMã khách hàng\nDanh mục\nNhóm hàng hóa trong cửa hàng\nChọn file khác\nKhám phá dữ liệu\nBán Hàng Smarter · Những quyết định tốt bắt đầu từ dữ liệu rõ ràng.\nTùy chỉnh giao diện",
+      "kpis": [],
+      "tables": [],
+      "overflow": {
+        "width": 1366,
+        "scrollWidth": 1366
+      },
+      "theme": {
+        "theme": "light",
+        "accent": "emerald",
+        "density": "comfortable",
+        "motion": "reduced"
+      }
+    }
+  },
+  {
+    "name": "retention-unsupported",
+    "repeat": 2,
+    "state": {
+      "text": "Bán Hàng Smarter.\n\nDữ liệu nhỏ. Góc nhìn lớn.\n\nKhông gian riêng của bạn\nPhân tích file mới\nDữ liệu được xử lý 100% trên thiết bị của bạn, bảo mật tuyệt đối và KHÔNG gửi lên bất kỳ máy chủ nào.\n\nKHÔNG GIAN KINH DOANH\n\nMỗi con số, một cơ hội.\n\nHiểu cửa hàng hôm nay. Quyết định tự tin hơn ngày mai.\n\n2026-09-30 — 2026-09-30\nsame-day-customers.csv\n6 dòng hợp lệ\nBáo cáo làm sạch\nTổng quan\nSản phẩm\n1\nKhách hàng\n6\nKHÁCH HÀNG\n6\n\nCó giao dịch trong kỳ dữ liệu\n\nKHÁCH VIP\n2\n\nChi tiêu cao và mua gần đây\n\nCẦN CHĂM SÓC\n0\n\nKhách thân thiết lâu chưa quay lại\n\nKHÁCH MỚI\n4\n\nMột lần mua và còn gần đây\n\nGÓC NHÌN KHÁCH HÀNG · RFM\n\n2 khách VIP đóng góp 38.7% doanh thu (29.000 đ). Cửa hàng đang duy trì tỷ lệ khách quay lại mua sắm rất tích cực.\n\nKhách hàng đang ở đâu trong hành trình?\n\nQuy mô từng nhóm · Mốc tính: 2026-09-30\n\nVIP\nTrung thành\nMới\nNguy cơ\nNgừng mua\nBình thường\n0\n1\n2\n3\n4\nƯu tiên một lời hỏi thăm\n\nKhách thân thiết đang có nguy cơ rời đi\n\nChưa có khách thuộc nhóm nguy cơ\n\nTheo quy tắc hiện tại, chưa có khách chi tiêu cao hoặc thường xuyên mua đã vắng hơn 60 ngày.\n\nHiểu từng khách hàng\n\nToàn bộ 6 khách hàng · Phân nhóm theo dữ liệu trong file.\n\nXuất CSV\nTất cả phân khúc\nVIP\nTrung thành\nMới\nCó nguy cơ rời đi\nĐã ngừng mua\nBình thường\nKhách hàng\n\tTổng chi tiêu\n\tSố đơn\n\tGần nhất\n\tPhân khúc\tGợi ý chăm sóc\nKH5\t15.000 đ\t1\t2026-09-300 ngày trước mốc\tVIP\tKhách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền.\nKH4\t14.000 đ\t1\t2026-09-300 ngày trước mốc\tVIP\tKhách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền.\nKH3\t13.000 đ\t1\t2026-09-300 ngày trước mốc\tMới\tKhách hàng mới phát sinh đơn đầu tiên. Gửi ưu đãi cho lần mua tiếp theo.\nKH2\t12.000 đ\t1\t2026-09-300 ngày trước mốc\tMới\tKhách hàng mới phát sinh đơn đầu tiên. Gửi ưu đãi cho lần mua tiếp theo.\nKH1\t11.000 đ\t1\t2026-09-300 ngày trước mốc\tMới\tKhách hàng mới phát sinh đơn đầu tiên. Gửi ưu đãi cho lần mua tiếp theo.\nKH0\t10.000 đ\t1\t2026-09-300 ngày trước mốc\tMới\tKhách hàng mới phát sinh đơn đầu tiên. Gửi ưu đãi cho lần mua tiếp theo.\n1–6 / 6 kết quả\n1 / 1\nBán Hàng Smarter · Những quyết định tốt bắt đầu từ dữ liệu rõ ràng.\nTùy chỉnh giao diện\n0",
+      "kpis": [
+        {
+          "title": "KHÁCH HÀNG",
+          "value": "6",
+          "subtitle": "Có giao dịch trong kỳ dữ liệu"
+        },
+        {
+          "title": "KHÁCH VIP",
+          "value": "2",
+          "subtitle": "Chi tiêu cao và mua gần đây"
+        },
+        {
+          "title": "CẦN CHĂM SÓC",
+          "value": "0",
+          "subtitle": "Khách thân thiết lâu chưa quay lại"
+        },
+        {
+          "title": "KHÁCH MỚI",
+          "value": "4",
+          "subtitle": "Một lần mua và còn gần đây"
+        }
+      ],
+      "tables": [
+        [
+          "KH5",
+          "15.000 đ",
+          "1",
+          "2026-09-300 ngày trước mốc",
+          "VIP",
+          "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+        ],
+        [
+          "KH4",
+          "14.000 đ",
+          "1",
+          "2026-09-300 ngày trước mốc",
+          "VIP",
+          "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+        ],
+        [
+          "KH3",
+          "13.000 đ",
+          "1",
+          "2026-09-300 ngày trước mốc",
+          "Mới",
+          "Khách hàng mới phát sinh đơn đầu tiên. Gửi ưu đãi cho lần mua tiếp theo."
+        ],
+        [
+          "KH2",
+          "12.000 đ",
+          "1",
+          "2026-09-300 ngày trước mốc",
+          "Mới",
+          "Khách hàng mới phát sinh đơn đầu tiên. Gửi ưu đãi cho lần mua tiếp theo."
+        ],
+        [
+          "KH1",
+          "11.000 đ",
+          "1",
+          "2026-09-300 ngày trước mốc",
+          "Mới",
+          "Khách hàng mới phát sinh đơn đầu tiên. Gửi ưu đãi cho lần mua tiếp theo."
+        ],
+        [
+          "KH0",
+          "10.000 đ",
+          "1",
+          "2026-09-300 ngày trước mốc",
+          "Mới",
+          "Khách hàng mới phát sinh đơn đầu tiên. Gửi ưu đãi cho lần mua tiếp theo."
+        ]
+      ],
+      "overflow": {
+        "width": 1366,
+        "scrollWidth": 1366
+      },
+      "theme": {
+        "theme": "light",
+        "accent": "emerald",
+        "density": "comfortable",
+        "motion": "reduced"
+      }
+    },
+    "worker": {
+      "cleaningReport": {
+        "totalRows": 6,
+        "validRows": 6,
+        "droppedTotal": 0,
+        "reasons": []
+      },
+      "overview": {
+        "hasReliableOrderIds": true,
+        "costCoverage": 100,
+        "totalRevenue": 75000,
+        "totalQuantity": 12,
+        "totalOrders": 6,
+        "averageOrderValue": 12500,
+        "totalProfit": 30000,
+        "profitMargin": 40,
+        "uniqueProducts": 1,
+        "uniqueCustomers": 6,
+        "dateRange": {
+          "start": "2026-09-30",
+          "end": "2026-09-30",
+          "days": 1
+        },
+        "monthlyRevenue": [
+          {
+            "month": "2026-09",
+            "revenue": 75000,
+            "orders": 6,
+            "profit": 30000
+          }
+        ]
+      },
+      "productAnalysis": {
+        "products": [
+          {
+            "id": "Trà",
+            "name": "Trà",
+            "category": "Đồ dùng thử",
+            "quantity": 12,
+            "revenue": 75000,
+            "revenueShare": 100,
+            "cumulativeShare": 100,
+            "abcGroup": "A",
+            "costPrice": 3750,
+            "profit": 30000,
+            "profitMargin": 40,
+            "ordersCount": 6,
+            "trend": "Ổn định",
+            "monthlyTrendData": [
+              {
+                "month": "2026-09",
+                "quantity": 12,
+                "revenue": 75000
+              }
+            ],
+            "recommendation": "Đáng đầu tư",
+            "reasonText": "Sản phẩm chủ lực (Nhóm A), đóng góp 100.0% doanh thu. Luôn ưu tiên giữ hàng và vị trí trưng bày đẹp."
+          }
+        ],
+        "abcSummary": {
+          "groupA": {
+            "count": 1,
+            "revenue": 75000,
+            "percentage": 100
+          },
+          "groupB": {
+            "count": 0,
+            "revenue": 0,
+            "percentage": 0
+          },
+          "groupC": {
+            "count": 0,
+            "revenue": 0,
+            "percentage": 0
+          }
+        },
+        "topProfitable": [
+          {
+            "id": "Trà",
+            "name": "Trà",
+            "category": "Đồ dùng thử",
+            "quantity": 12,
+            "revenue": 75000,
+            "revenueShare": 100,
+            "cumulativeShare": 100,
+            "abcGroup": "A",
+            "costPrice": 3750,
+            "profit": 30000,
+            "profitMargin": 40,
+            "ordersCount": 6,
+            "trend": "Ổn định",
+            "monthlyTrendData": [
+              {
+                "month": "2026-09",
+                "quantity": 12,
+                "revenue": 75000
+              }
+            ],
+            "recommendation": "Đáng đầu tư",
+            "reasonText": "Sản phẩm chủ lực (Nhóm A), đóng góp 100.0% doanh thu. Luôn ưu tiên giữ hàng và vị trí trưng bày đẹp."
+          }
+        ],
+        "topRevenue": [
+          {
+            "id": "Trà",
+            "name": "Trà",
+            "category": "Đồ dùng thử",
+            "quantity": 12,
+            "revenue": 75000,
+            "revenueShare": 100,
+            "cumulativeShare": 100,
+            "abcGroup": "A",
+            "costPrice": 3750,
+            "profit": 30000,
+            "profitMargin": 40,
+            "ordersCount": 6,
+            "trend": "Ổn định",
+            "monthlyTrendData": [
+              {
+                "month": "2026-09",
+                "quantity": 12,
+                "revenue": 75000
+              }
+            ],
+            "recommendation": "Đáng đầu tư",
+            "reasonText": "Sản phẩm chủ lực (Nhóm A), đóng góp 100.0% doanh thu. Luôn ưu tiên giữ hàng và vị trí trưng bày đẹp."
+          }
+        ],
+        "slowMoving": [],
+        "coOccurrences": [],
+        "hasCostPrice": true,
+        "hasOrderId": true
+      },
+      "customerAnalysis": {
+        "hasCustomerData": true,
+        "customers": [
+          {
+            "customerId": "KH5",
+            "customerName": "KH5",
+            "ordersCount": 1,
+            "totalSpend": 15000,
+            "averageOrderValue": 15000,
+            "lastOrderDate": "2026-09-30",
+            "daysSinceLastOrder": 0,
+            "firstOrderDate": "2026-09-30",
+            "rfmScore": {
+              "r": 5,
+              "f": 1,
+              "m": 5,
+              "total": 11
+            },
+            "segment": "VIP",
+            "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+          },
+          {
+            "customerId": "KH4",
+            "customerName": "KH4",
+            "ordersCount": 1,
+            "totalSpend": 14000,
+            "averageOrderValue": 14000,
+            "lastOrderDate": "2026-09-30",
+            "daysSinceLastOrder": 0,
+            "firstOrderDate": "2026-09-30",
+            "rfmScore": {
+              "r": 5,
+              "f": 1,
+              "m": 5,
+              "total": 11
+            },
+            "segment": "VIP",
+            "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+          },
+          {
+            "customerId": "KH3",
+            "customerName": "KH3",
+            "ordersCount": 1,
+            "totalSpend": 13000,
+            "averageOrderValue": 13000,
+            "lastOrderDate": "2026-09-30",
+            "daysSinceLastOrder": 0,
+            "firstOrderDate": "2026-09-30",
+            "rfmScore": {
+              "r": 5,
+              "f": 1,
+              "m": 4,
+              "total": 10
+            },
+            "segment": "Mới",
+            "actionAdvice": "Khách hàng mới phát sinh đơn đầu tiên. Gửi ưu đãi cho lần mua tiếp theo."
+          },
+          {
+            "customerId": "KH2",
+            "customerName": "KH2",
+            "ordersCount": 1,
+            "totalSpend": 12000,
+            "averageOrderValue": 12000,
+            "lastOrderDate": "2026-09-30",
+            "daysSinceLastOrder": 0,
+            "firstOrderDate": "2026-09-30",
+            "rfmScore": {
+              "r": 5,
+              "f": 1,
+              "m": 4,
+              "total": 10
+            },
+            "segment": "Mới",
+            "actionAdvice": "Khách hàng mới phát sinh đơn đầu tiên. Gửi ưu đãi cho lần mua tiếp theo."
+          },
+          {
+            "customerId": "KH1",
+            "customerName": "KH1",
+            "ordersCount": 1,
+            "totalSpend": 11000,
+            "averageOrderValue": 11000,
+            "lastOrderDate": "2026-09-30",
+            "daysSinceLastOrder": 0,
+            "firstOrderDate": "2026-09-30",
+            "rfmScore": {
+              "r": 5,
+              "f": 1,
+              "m": 4,
+              "total": 10
+            },
+            "segment": "Mới",
+            "actionAdvice": "Khách hàng mới phát sinh đơn đầu tiên. Gửi ưu đãi cho lần mua tiếp theo."
+          },
+          {
+            "customerId": "KH0",
+            "customerName": "KH0",
+            "ordersCount": 1,
+            "totalSpend": 10000,
+            "averageOrderValue": 10000,
+            "lastOrderDate": "2026-09-30",
+            "daysSinceLastOrder": 0,
+            "firstOrderDate": "2026-09-30",
+            "rfmScore": {
+              "r": 5,
+              "f": 1,
+              "m": 4,
+              "total": 10
+            },
+            "segment": "Mới",
+            "actionAdvice": "Khách hàng mới phát sinh đơn đầu tiên. Gửi ưu đãi cho lần mua tiếp theo."
+          }
+        ],
+        "totalCustomers": 6,
+        "segmentsSummary": [
+          {
+            "segment": "VIP",
+            "count": 2,
+            "percentage": 33.3,
+            "totalRevenue": 29000,
+            "revenuePercentage": 38.7
+          },
+          {
+            "segment": "Trung thành",
+            "count": 0,
+            "percentage": 0,
+            "totalRevenue": 0,
+            "revenuePercentage": 0
+          },
+          {
+            "segment": "Mới",
+            "count": 4,
+            "percentage": 66.7,
+            "totalRevenue": 46000,
+            "revenuePercentage": 61.3
+          },
+          {
+            "segment": "Có nguy cơ rời đi",
+            "count": 0,
+            "percentage": 0,
+            "totalRevenue": 0,
+            "revenuePercentage": 0
+          },
+          {
+            "segment": "Đã ngừng mua",
+            "count": 0,
+            "percentage": 0,
+            "totalRevenue": 0,
+            "revenuePercentage": 0
+          },
+          {
+            "segment": "Bình thường",
+            "count": 0,
+            "percentage": 0,
+            "totalRevenue": 0,
+            "revenuePercentage": 0
+          }
+        ],
+        "topCustomers": [
+          {
+            "customerId": "KH5",
+            "customerName": "KH5",
+            "ordersCount": 1,
+            "totalSpend": 15000,
+            "averageOrderValue": 15000,
+            "lastOrderDate": "2026-09-30",
+            "daysSinceLastOrder": 0,
+            "firstOrderDate": "2026-09-30",
+            "rfmScore": {
+              "r": 5,
+              "f": 1,
+              "m": 5,
+              "total": 11
+            },
+            "segment": "VIP",
+            "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+          },
+          {
+            "customerId": "KH4",
+            "customerName": "KH4",
+            "ordersCount": 1,
+            "totalSpend": 14000,
+            "averageOrderValue": 14000,
+            "lastOrderDate": "2026-09-30",
+            "daysSinceLastOrder": 0,
+            "firstOrderDate": "2026-09-30",
+            "rfmScore": {
+              "r": 5,
+              "f": 1,
+              "m": 5,
+              "total": 11
+            },
+            "segment": "VIP",
+            "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+          },
+          {
+            "customerId": "KH3",
+            "customerName": "KH3",
+            "ordersCount": 1,
+            "totalSpend": 13000,
+            "averageOrderValue": 13000,
+            "lastOrderDate": "2026-09-30",
+            "daysSinceLastOrder": 0,
+            "firstOrderDate": "2026-09-30",
+            "rfmScore": {
+              "r": 5,
+              "f": 1,
+              "m": 4,
+              "total": 10
+            },
+            "segment": "Mới",
+            "actionAdvice": "Khách hàng mới phát sinh đơn đầu tiên. Gửi ưu đãi cho lần mua tiếp theo."
+          },
+          {
+            "customerId": "KH2",
+            "customerName": "KH2",
+            "ordersCount": 1,
+            "totalSpend": 12000,
+            "averageOrderValue": 12000,
+            "lastOrderDate": "2026-09-30",
+            "daysSinceLastOrder": 0,
+            "firstOrderDate": "2026-09-30",
+            "rfmScore": {
+              "r": 5,
+              "f": 1,
+              "m": 4,
+              "total": 10
+            },
+            "segment": "Mới",
+            "actionAdvice": "Khách hàng mới phát sinh đơn đầu tiên. Gửi ưu đãi cho lần mua tiếp theo."
+          },
+          {
+            "customerId": "KH1",
+            "customerName": "KH1",
+            "ordersCount": 1,
+            "totalSpend": 11000,
+            "averageOrderValue": 11000,
+            "lastOrderDate": "2026-09-30",
+            "daysSinceLastOrder": 0,
+            "firstOrderDate": "2026-09-30",
+            "rfmScore": {
+              "r": 5,
+              "f": 1,
+              "m": 4,
+              "total": 10
+            },
+            "segment": "Mới",
+            "actionAdvice": "Khách hàng mới phát sinh đơn đầu tiên. Gửi ưu đãi cho lần mua tiếp theo."
+          },
+          {
+            "customerId": "KH0",
+            "customerName": "KH0",
+            "ordersCount": 1,
+            "totalSpend": 10000,
+            "averageOrderValue": 10000,
+            "lastOrderDate": "2026-09-30",
+            "daysSinceLastOrder": 0,
+            "firstOrderDate": "2026-09-30",
+            "rfmScore": {
+              "r": 5,
+              "f": 1,
+              "m": 4,
+              "total": 10
+            },
+            "segment": "Mới",
+            "actionAdvice": "Khách hàng mới phát sinh đơn đầu tiên. Gửi ưu đãi cho lần mua tiếp theo."
+          }
+        ],
+        "vipCustomers": [
+          {
+            "customerId": "KH5",
+            "customerName": "KH5",
+            "ordersCount": 1,
+            "totalSpend": 15000,
+            "averageOrderValue": 15000,
+            "lastOrderDate": "2026-09-30",
+            "daysSinceLastOrder": 0,
+            "firstOrderDate": "2026-09-30",
+            "rfmScore": {
+              "r": 5,
+              "f": 1,
+              "m": 5,
+              "total": 11
+            },
+            "segment": "VIP",
+            "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+          },
+          {
+            "customerId": "KH4",
+            "customerName": "KH4",
+            "ordersCount": 1,
+            "totalSpend": 14000,
+            "averageOrderValue": 14000,
+            "lastOrderDate": "2026-09-30",
+            "daysSinceLastOrder": 0,
+            "firstOrderDate": "2026-09-30",
+            "rfmScore": {
+              "r": 5,
+              "f": 1,
+              "m": 5,
+              "total": 11
+            },
+            "segment": "VIP",
+            "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+          }
+        ],
+        "atRiskCustomers": [],
+        "churnedCustomers": [],
+        "newCustomers": [
+          {
+            "customerId": "KH3",
+            "customerName": "KH3",
+            "ordersCount": 1,
+            "totalSpend": 13000,
+            "averageOrderValue": 13000,
+            "lastOrderDate": "2026-09-30",
+            "daysSinceLastOrder": 0,
+            "firstOrderDate": "2026-09-30",
+            "rfmScore": {
+              "r": 5,
+              "f": 1,
+              "m": 4,
+              "total": 10
+            },
+            "segment": "Mới",
+            "actionAdvice": "Khách hàng mới phát sinh đơn đầu tiên. Gửi ưu đãi cho lần mua tiếp theo."
+          },
+          {
+            "customerId": "KH2",
+            "customerName": "KH2",
+            "ordersCount": 1,
+            "totalSpend": 12000,
+            "averageOrderValue": 12000,
+            "lastOrderDate": "2026-09-30",
+            "daysSinceLastOrder": 0,
+            "firstOrderDate": "2026-09-30",
+            "rfmScore": {
+              "r": 5,
+              "f": 1,
+              "m": 4,
+              "total": 10
+            },
+            "segment": "Mới",
+            "actionAdvice": "Khách hàng mới phát sinh đơn đầu tiên. Gửi ưu đãi cho lần mua tiếp theo."
+          },
+          {
+            "customerId": "KH1",
+            "customerName": "KH1",
+            "ordersCount": 1,
+            "totalSpend": 11000,
+            "averageOrderValue": 11000,
+            "lastOrderDate": "2026-09-30",
+            "daysSinceLastOrder": 0,
+            "firstOrderDate": "2026-09-30",
+            "rfmScore": {
+              "r": 5,
+              "f": 1,
+              "m": 4,
+              "total": 10
+            },
+            "segment": "Mới",
+            "actionAdvice": "Khách hàng mới phát sinh đơn đầu tiên. Gửi ưu đãi cho lần mua tiếp theo."
+          },
+          {
+            "customerId": "KH0",
+            "customerName": "KH0",
+            "ordersCount": 1,
+            "totalSpend": 10000,
+            "averageOrderValue": 10000,
+            "lastOrderDate": "2026-09-30",
+            "daysSinceLastOrder": 0,
+            "firstOrderDate": "2026-09-30",
+            "rfmScore": {
+              "r": 5,
+              "f": 1,
+              "m": 4,
+              "total": 10
+            },
+            "segment": "Mới",
+            "actionAdvice": "Khách hàng mới phát sinh đơn đầu tiên. Gửi ưu đãi cho lần mua tiếp theo."
+          }
+        ]
+      },
+      "actionSuggestions": [
+        {
+          "id": "prod-abc-stock",
+          "type": "inventory",
+          "severity": "high",
+          "title": "Đảm bảo nguồn hàng cho 1 sản phẩm chủ lực (Nhóm A)",
+          "description": "Chỉ 1 mặt hàng này mang về 100% doanh thu toàn tiệm (75.000 đ), dẫn đầu là \"Trà\". Hãy luôn kiểm kê và đặt hàng nhà cung cấp sớm để tránh đứt hàng vào giờ cao điểm.",
+          "metricBadge": "100% doanh thu"
+        },
+        {
+          "id": "overview-aov",
+          "type": "pricing",
+          "severity": "info",
+          "title": "Gia tăng giá trị đơn hàng trung bình (hiện tại 12.500 đ)",
+          "description": "Để tăng thêm doanh thu mà không cần tìm thêm khách mới, hãy áp dụng chương trình \"Hóa đơn trên 20.000 đ được tặng thêm quà nhỏ hoặc miễn phí giao hàng\".",
+          "metricBadge": "AOV: 12.500 đ"
+        }
+      ],
+      "conclusions": {
+        "overview": "Cửa hàng ghi nhận **6 đơn** với tổng doanh thu **75.000 đ** trong 1 ngày, ghi nhận lợi nhuận gộp **30.000 đ** trên phần dữ liệu có giá vốn (100% doanh thu; biên lãi **40%**). Giá trị trung bình mỗi đơn đạt **12.500 đ**.",
+        "monthlyTrend": "Dữ liệu phát sinh trong 1 tháng duy nhất.",
+        "productABC": "Chỉ **1 sản phẩm nhóm A** (chiếm 100% số lượng mặt hàng) đã đóng góp tới **100% doanh thu** (75.000 đ). Trong khi đó, **0 sản phẩm nhóm C** chỉ đóng góp 0%.",
+        "productProfit": "Mặt hàng mang lại nhiều tiền lãi nhất là **Trà** với lợi nhuận gộp **30.000 đ** (biên lãi **40%**).",
+        "customerRFM": "**2 khách VIP** đóng góp **38.7% doanh thu** (29.000 đ). Cửa hàng đang duy trì tỷ lệ khách quay lại mua sắm rất tích cực.",
+        "crossSelling": "Chưa có cặp sản phẩm mua cùng nổi bật."
+      },
+      "columnMapping": {
+        "dateCol": "Ngày bán",
+        "productCol": "Tên sản phẩm",
+        "quantityCol": "Số lượng",
+        "revenueCol": "Doanh thu",
+        "unitPriceCol": "Đơn giá",
+        "customerIdCol": "Mã khách hàng",
+        "costPriceCol": "Giá vốn",
+        "orderIdCol": "Mã đơn hàng",
+        "categoryCol": "Danh mục"
+      }
+    }
+  }
+]

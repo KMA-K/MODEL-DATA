@@ -1,0 +1,18 @@
+{
+  "findings": 18,
+  "counts": {
+    "Nghiêm trọng": 3,
+    "Quan trọng": 11,
+    "Nhỏ": 3,
+    "Gợi ý": 1
+  },
+  "integrity": {
+    "files": 85,
+    "changed": [],
+    "missing": [],
+    "added": [],
+    "pass": true
+  },
+  "matrixCases": 55,
+  "uiActions": 48
+}

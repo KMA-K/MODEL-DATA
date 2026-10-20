@@ -1,0 +1,2979 @@
+{
+  "hypotheses": [
+    {
+      "id": "H1",
+      "repeat": 1,
+      "overview": {
+        "text": "Bán Hàng Smarter.\n\nDữ liệu nhỏ. Góc nhìn lớn.\n\nKhông gian riêng của bạn\nPhân tích file mới\nDữ liệu được xử lý 100% trên thiết bị của bạn, bảo mật tuyệt đối và KHÔNG gửi lên bất kỳ máy chủ nào.\n\nKHÔNG GIAN KINH DOANH\n\nMỗi con số, một cơ hội.\n\nHiểu cửa hàng hôm nay. Quyết định tự tin hơn ngày mai.\n\n2026-09-30 — 2026-09-30\norder-none.csv\n2 dòng hợp lệ\nBáo cáo làm sạch\nTổng quan\nSản phẩm\n2\nKhách hàng\n2\nTỔNG DOANH THU\n120.000 đ\n\n1 ngày kinh doanh được ghi nhận\n\nLỢI NHUẬN GỘP\n48.000 đ\n\nBiên lợi nhuận 40% · 100% doanh thu có giá vốn\n\nTỔNG ĐƠN HÀNG\nChưa đủ dữ liệu\n\nCần mã đơn cho đầy đủ các dòng\n\nGIÁ TRỊ ĐƠN TRUNG BÌNH\nChưa đủ dữ liệu\n\nThêm cột Mã đơn hàng để tính AOV\n\nĐIỂM TIN KINH DOANH\n\nTổng doanh thu 120.000 đ trong 1 ngày, ghi nhận lợi nhuận gộp 48.000 đ trên phần dữ liệu có giá vốn (100% doanh thu; biên lãi 40%). Bổ sung mã hóa đơn cho các dòng để tính số đơn và giá trị đơn trung bình.\n\nNhịp kinh doanh của cửa hàng\n\nDoanh thu và lợi nhuận theo tháng\n\n1 tháng\nDoanh thu\nLợi nhuận gộp\n09\n0tr\n0tr\n0tr\n0tr\n0tr\n\nDữ liệu phát sinh trong 1 tháng duy nhất.\n\nNhững mặt hàng dẫn đầu\n\nTop 5 theo doanh thu\n\n01\n\nTrà\n\n100.000 đ\n02\n\nBánh\n\n20.000 đ\n\nMẶT HÀNG\n\n2\n\nKHÁCH HÀNG\n\n2\n\nTỪ DỮ LIỆU ĐẾN HÀNH ĐỘNG\n\nCơ hội tiếp theo của bạn\n1 gợi ý\nĐảm bảo nguồn hàng cho 1 sản phẩm chủ lực (Nhóm A)\n\nChỉ 1 mặt hàng này mang về 83.3% doanh thu toàn tiệm (100.000 đ), dẫn đầu là \"Trà\". Hãy luôn kiểm kê và đặt hàng nhà cung cấp sớm để tránh đứt hàng vào giờ cao điểm.\n\n83.3% doanh thu\nKHÁCH VIP\n1\n\nKhách chi tiêu cao và còn gắn bó\n\nSẢN PHẨM CHỦ LỰC\n1\n\nĐóng góp 83.3% doanh thu\n\nThêm mã hóa đơn để mở đầy đủ phân tích\n\nDoanh thu vẫn được tính theo dòng hàng. Số đơn, giá trị đơn trung bình và tần suất mua cần mã hóa đơn cho mọi dòng dữ liệu.\n\nBán Hàng Smarter · Những quyết định tốt bắt đầu từ dữ liệu rõ ràng.\nTùy chỉnh giao diện\n0tr",
+        "kpis": [
+          {
+            "title": "TỔNG DOANH THU",
+            "value": "120.000 đ",
+            "subtitle": "1 ngày kinh doanh được ghi nhận"
+          },
+          {
+            "title": "LỢI NHUẬN GỘP",
+            "value": "48.000 đ",
+            "subtitle": "Biên lợi nhuận 40% · 100% doanh thu có giá vốn"
+          },
+          {
+            "title": "TỔNG ĐƠN HÀNG",
+            "value": "Chưa đủ dữ liệu",
+            "subtitle": "Cần mã đơn cho đầy đủ các dòng"
+          },
+          {
+            "title": "GIÁ TRỊ ĐƠN TRUNG BÌNH",
+            "value": "Chưa đủ dữ liệu",
+            "subtitle": "Thêm cột Mã đơn hàng để tính AOV"
+          },
+          {
+            "title": "KHÁCH VIP",
+            "value": "1",
+            "subtitle": "Khách chi tiêu cao và còn gắn bó"
+          },
+          {
+            "title": "SẢN PHẨM CHỦ LỰC",
+            "value": "1",
+            "subtitle": "Đóng góp 83.3% doanh thu"
+          }
+        ],
+        "tables": [],
+        "overflow": {
+          "width": 1366,
+          "scrollWidth": 1366
+        },
+        "theme": {
+          "theme": "light",
+          "accent": "emerald",
+          "density": "comfortable",
+          "motion": "reduced"
+        }
+      },
+      "customers": {
+        "text": "Bán Hàng Smarter.\n\nDữ liệu nhỏ. Góc nhìn lớn.\n\nKhông gian riêng của bạn\nPhân tích file mới\nDữ liệu được xử lý 100% trên thiết bị của bạn, bảo mật tuyệt đối và KHÔNG gửi lên bất kỳ máy chủ nào.\n\nKHÔNG GIAN KINH DOANH\n\nMỗi con số, một cơ hội.\n\nHiểu cửa hàng hôm nay. Quyết định tự tin hơn ngày mai.\n\n2026-09-30 — 2026-09-30\norder-none.csv\n2 dòng hợp lệ\nBáo cáo làm sạch\nTổng quan\nSản phẩm\n2\nKhách hàng\n2\nCần mã hóa đơn để phân nhóm khách chính xác\n\nĐã nhận diện 2 khách hàng. Bổ sung mã đơn cho tất cả dòng để tính tần suất mua và phân nhóm RFM đáng tin cậy.\n\nBán Hàng Smarter · Những quyết định tốt bắt đầu từ dữ liệu rõ ràng.\nTùy chỉnh giao diện\n0tr",
+        "kpis": [],
+        "tables": [],
+        "overflow": {
+          "width": 1366,
+          "scrollWidth": 1366
+        },
+        "theme": {
+          "theme": "light",
+          "accent": "emerald",
+          "density": "comfortable",
+          "motion": "reduced"
+        }
+      }
+    },
+    {
+      "id": "negative-profit",
+      "repeat": 1,
+      "state": {
+        "text": "Bán Hàng Smarter.\n\nDữ liệu nhỏ. Góc nhìn lớn.\n\nKhông gian riêng của bạn\nPhân tích file mới\nDữ liệu được xử lý 100% trên thiết bị của bạn, bảo mật tuyệt đối và KHÔNG gửi lên bất kỳ máy chủ nào.\n\nKHÔNG GIAN KINH DOANH\n\nMỗi con số, một cơ hội.\n\nHiểu cửa hàng hôm nay. Quyết định tự tin hơn ngày mai.\n\n2026-09-30 — 2026-09-30\nnegative-profit.csv\n1 dòng hợp lệ\nBáo cáo làm sạch\nTổng quan\nSản phẩm\n1\nKhách hàng\n1\nNHÓM A · CHỦ LỰC\n1\n\n100% doanh thu · 100.000 đ\n\nNHÓM B · ĐỀU ĐẶN\n0\n\n0% doanh thu · 0 đ\n\nNHÓM C · ĐÓNG GÓP THẤP\n0\n\n0% doanh thu · 0 đ\n\nGÓC NHÌN SẢN PHẨM · ABC\n\nChỉ 1 sản phẩm nhóm A (chiếm 100% số lượng mặt hàng) đã đóng góp tới 100% doanh thu (100.000 đ). Trong khi đó, 0 sản phẩm nhóm C chỉ đóng góp 0%.\n\nTop 10 mặt hàng tạo doanh thu\n\nSản phẩm nổi bật trong kỳ dữ liệu\n\n0tr\n0tr\n0tr\n0tr\n0tr\nTrà\nSức khỏe danh mục\n\nNhững điểm cần lưu ý trước khi nhập hàng\n\nCần nhập cột Giá vốn để xem xếp hạng biên lợi nhuận và lãi gộp.\n\nLợi nhuận chỉ tính trên các dòng có giá vốn hợp lệ.\n\n0 mặt hàng có doanh thu thấp và xu hướng giảm. Kiểm tra tồn kho và mùa vụ trước khi quyết định.\n\nNhững cặp thường đi cùng nhau\n\nGợi ý trưng bày hoặc thử nghiệm combo\n\nChưa có đơn chứa nhiều sản phẩm để tìm cặp mua cùng.\n\nDanh mục sản phẩm\n\nTìm kiếm, lọc và sắp xếp để xem điều bạn quan tâm.\n\nXuất CSV\nTất cả nhóm ABC\nNhóm A\nNhóm B\nNhóm C\nTất cả khuyến nghị\nĐáng đầu tư\nDuy trì ổn định\nCân nhắc loại bỏ\nSản phẩm\n\tSố lượng\n\tDoanh thu\n\tABC\tLợi nhuận\n\tXu hướng\tGợi ý\nTràĐồ dùng thử\t2\t100.000 đ\tA\t-40.000 đ\tỔn định\tĐáng đầu tư\n1–1 / 1 kết quả\n1 / 1\nBán Hàng Smarter · Những quyết định tốt bắt đầu từ dữ liệu rõ ràng.\nTùy chỉnh giao diện\nTrà",
+        "kpis": [
+          {
+            "title": "NHÓM A · CHỦ LỰC",
+            "value": "1",
+            "subtitle": "100% doanh thu · 100.000 đ"
+          },
+          {
+            "title": "NHÓM B · ĐỀU ĐẶN",
+            "value": "0",
+            "subtitle": "0% doanh thu · 0 đ"
+          },
+          {
+            "title": "NHÓM C · ĐÓNG GÓP THẤP",
+            "value": "0",
+            "subtitle": "0% doanh thu · 0 đ"
+          }
+        ],
+        "tables": [
+          [
+            "TràĐồ dùng thử",
+            "2",
+            "100.000 đ",
+            "A",
+            "-40.000 đ",
+            "Ổn định",
+            "Đáng đầu tư"
+          ]
+        ],
+        "overflow": {
+          "width": 1366,
+          "scrollWidth": 1366
+        },
+        "theme": {
+          "theme": "light",
+          "accent": "emerald",
+          "density": "comfortable",
+          "motion": "reduced"
+        }
+      }
+    },
+    {
+      "id": "H2",
+      "repeat": 1,
+      "style": {
+        "name": "appleSpringReveal",
+        "duration": "1e-05s",
+        "delay": "0s",
+        "root": "reduced",
+        "canvases": 0
+      }
+    },
+    {
+      "id": "H3",
+      "repeat": 1,
+      "css": {
+        "examples": [
+          {
+            "cls": "block",
+            "defined": false,
+            "nodes": [
+              {
+                "tag": "SMALL",
+                "text": "Đồ dùng thử",
+                "display": "inline",
+                "minWidth": "0px",
+                "maxWidth": "none",
+                "whiteSpace": "normal"
+              },
+              {
+                "tag": "SMALL",
+                "text": "Đồ dùng thử",
+                "display": "inline",
+                "minWidth": "0px",
+                "maxWidth": "none",
+                "whiteSpace": "normal"
+              },
+              {
+                "tag": "SMALL",
+                "text": "Đồ dùng thử",
+                "display": "inline",
+                "minWidth": "0px",
+                "maxWidth": "none",
+                "whiteSpace": "normal"
+              }
+            ]
+          },
+          {
+            "cls": "inline-flex",
+            "defined": false,
+            "nodes": [
+              {
+                "tag": "SPAN",
+                "text": "Tăng trưởng",
+                "display": "inline",
+                "minWidth": "0px",
+                "maxWidth": "none",
+                "whiteSpace": "normal"
+              },
+              {
+                "tag": "SPAN",
+                "text": "Giảm sút",
+                "display": "inline",
+                "minWidth": "0px",
+                "maxWidth": "none",
+                "whiteSpace": "normal"
+              },
+              {
+                "tag": "SPAN",
+                "text": "Tăng trưởng",
+                "display": "inline",
+                "minWidth": "0px",
+                "maxWidth": "none",
+                "whiteSpace": "normal"
+              }
+            ]
+          },
+          {
+            "cls": "whitespace-nowrap",
+            "defined": false,
+            "nodes": [
+              {
+                "tag": "SPAN",
+                "text": "Tăng trưởng",
+                "display": "inline",
+                "minWidth": "0px",
+                "maxWidth": "none",
+                "whiteSpace": "normal"
+              },
+              {
+                "tag": "SPAN",
+                "text": "Giảm sút",
+                "display": "inline",
+                "minWidth": "0px",
+                "maxWidth": "none",
+                "whiteSpace": "normal"
+              },
+              {
+                "tag": "SPAN",
+                "text": "Tăng trưởng",
+                "display": "inline",
+                "minWidth": "0px",
+                "maxWidth": "none",
+                "whiteSpace": "normal"
+              }
+            ]
+          },
+          {
+            "cls": "min-w-0",
+            "defined": false,
+            "nodes": []
+          },
+          {
+            "cls": "min-w-56",
+            "defined": false,
+            "nodes": []
+          },
+          {
+            "cls": "max-w-72",
+            "defined": false,
+            "nodes": []
+          },
+          {
+            "cls": "text-base",
+            "defined": false,
+            "nodes": []
+          },
+          {
+            "cls": "ml-auto",
+            "defined": false,
+            "nodes": []
+          }
+        ],
+        "small": [
+          {
+            "text": "Đồ dùng thử",
+            "display": "inline"
+          },
+          {
+            "text": "Đồ dùng thử",
+            "display": "inline"
+          }
+        ],
+        "rootFont": "16px"
+      }
+    },
+    {
+      "id": "dialog",
+      "repeat": 1,
+      "visible": false,
+      "rects": [
+        {
+          "tag": "DIALOG",
+          "cls": "glass-dialog theme-drawer ",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "dialog-inner",
+          "rect": {
+            "x": 906,
+            "y": 218.5,
+            "width": 440,
+            "height": 761.5,
+            "top": 218.5,
+            "right": 1346,
+            "bottom": 980,
+            "left": 906
+          }
+        }
+      ]
+    },
+    {
+      "id": "H1",
+      "repeat": 2,
+      "overview": {
+        "text": "Bán Hàng Smarter.\n\nDữ liệu nhỏ. Góc nhìn lớn.\n\nKhông gian riêng của bạn\nPhân tích file mới\nDữ liệu được xử lý 100% trên thiết bị của bạn, bảo mật tuyệt đối và KHÔNG gửi lên bất kỳ máy chủ nào.\n\nKHÔNG GIAN KINH DOANH\n\nMỗi con số, một cơ hội.\n\nHiểu cửa hàng hôm nay. Quyết định tự tin hơn ngày mai.\n\n2026-09-30 — 2026-09-30\norder-none.csv\n2 dòng hợp lệ\nBáo cáo làm sạch\nTổng quan\nSản phẩm\n2\nKhách hàng\n2\nTỔNG DOANH THU\n120.000 đ\n\n1 ngày kinh doanh được ghi nhận\n\nLỢI NHUẬN GỘP\n48.000 đ\n\nBiên lợi nhuận 40% · 100% doanh thu có giá vốn\n\nTỔNG ĐƠN HÀNG\nChưa đủ dữ liệu\n\nCần mã đơn cho đầy đủ các dòng\n\nGIÁ TRỊ ĐƠN TRUNG BÌNH\nChưa đủ dữ liệu\n\nThêm cột Mã đơn hàng để tính AOV\n\nĐIỂM TIN KINH DOANH\n\nTổng doanh thu 120.000 đ trong 1 ngày, ghi nhận lợi nhuận gộp 48.000 đ trên phần dữ liệu có giá vốn (100% doanh thu; biên lãi 40%). Bổ sung mã hóa đơn cho các dòng để tính số đơn và giá trị đơn trung bình.\n\nNhịp kinh doanh của cửa hàng\n\nDoanh thu và lợi nhuận theo tháng\n\n1 tháng\nDoanh thu\nLợi nhuận gộp\n09\n0tr\n0tr\n0tr\n0tr\n0tr\n\nDữ liệu phát sinh trong 1 tháng duy nhất.\n\nNhững mặt hàng dẫn đầu\n\nTop 5 theo doanh thu\n\n01\n\nTrà\n\n100.000 đ\n02\n\nBánh\n\n20.000 đ\n\nMẶT HÀNG\n\n2\n\nKHÁCH HÀNG\n\n2\n\nTỪ DỮ LIỆU ĐẾN HÀNH ĐỘNG\n\nCơ hội tiếp theo của bạn\n1 gợi ý\nĐảm bảo nguồn hàng cho 1 sản phẩm chủ lực (Nhóm A)\n\nChỉ 1 mặt hàng này mang về 83.3% doanh thu toàn tiệm (100.000 đ), dẫn đầu là \"Trà\". Hãy luôn kiểm kê và đặt hàng nhà cung cấp sớm để tránh đứt hàng vào giờ cao điểm.\n\n83.3% doanh thu\nKHÁCH VIP\n1\n\nKhách chi tiêu cao và còn gắn bó\n\nSẢN PHẨM CHỦ LỰC\n1\n\nĐóng góp 83.3% doanh thu\n\nThêm mã hóa đơn để mở đầy đủ phân tích\n\nDoanh thu vẫn được tính theo dòng hàng. Số đơn, giá trị đơn trung bình và tần suất mua cần mã hóa đơn cho mọi dòng dữ liệu.\n\nBán Hàng Smarter · Những quyết định tốt bắt đầu từ dữ liệu rõ ràng.\nTùy chỉnh giao diện\n0tr",
+        "kpis": [
+          {
+            "title": "TỔNG DOANH THU",
+            "value": "120.000 đ",
+            "subtitle": "1 ngày kinh doanh được ghi nhận"
+          },
+          {
+            "title": "LỢI NHUẬN GỘP",
+            "value": "48.000 đ",
+            "subtitle": "Biên lợi nhuận 40% · 100% doanh thu có giá vốn"
+          },
+          {
+            "title": "TỔNG ĐƠN HÀNG",
+            "value": "Chưa đủ dữ liệu",
+            "subtitle": "Cần mã đơn cho đầy đủ các dòng"
+          },
+          {
+            "title": "GIÁ TRỊ ĐƠN TRUNG BÌNH",
+            "value": "Chưa đủ dữ liệu",
+            "subtitle": "Thêm cột Mã đơn hàng để tính AOV"
+          },
+          {
+            "title": "KHÁCH VIP",
+            "value": "1",
+            "subtitle": "Khách chi tiêu cao và còn gắn bó"
+          },
+          {
+            "title": "SẢN PHẨM CHỦ LỰC",
+            "value": "1",
+            "subtitle": "Đóng góp 83.3% doanh thu"
+          }
+        ],
+        "tables": [],
+        "overflow": {
+          "width": 1366,
+          "scrollWidth": 1366
+        },
+        "theme": {
+          "theme": "light",
+          "accent": "emerald",
+          "density": "comfortable",
+          "motion": "reduced"
+        }
+      },
+      "customers": {
+        "text": "Bán Hàng Smarter.\n\nDữ liệu nhỏ. Góc nhìn lớn.\n\nKhông gian riêng của bạn\nPhân tích file mới\nDữ liệu được xử lý 100% trên thiết bị của bạn, bảo mật tuyệt đối và KHÔNG gửi lên bất kỳ máy chủ nào.\n\nKHÔNG GIAN KINH DOANH\n\nMỗi con số, một cơ hội.\n\nHiểu cửa hàng hôm nay. Quyết định tự tin hơn ngày mai.\n\n2026-09-30 — 2026-09-30\norder-none.csv\n2 dòng hợp lệ\nBáo cáo làm sạch\nTổng quan\nSản phẩm\n2\nKhách hàng\n2\nCần mã hóa đơn để phân nhóm khách chính xác\n\nĐã nhận diện 2 khách hàng. Bổ sung mã đơn cho tất cả dòng để tính tần suất mua và phân nhóm RFM đáng tin cậy.\n\nBán Hàng Smarter · Những quyết định tốt bắt đầu từ dữ liệu rõ ràng.\nTùy chỉnh giao diện\n0tr",
+        "kpis": [],
+        "tables": [],
+        "overflow": {
+          "width": 1366,
+          "scrollWidth": 1366
+        },
+        "theme": {
+          "theme": "light",
+          "accent": "emerald",
+          "density": "comfortable",
+          "motion": "reduced"
+        }
+      }
+    },
+    {
+      "id": "negative-profit",
+      "repeat": 2,
+      "state": {
+        "text": "Bán Hàng Smarter.\n\nDữ liệu nhỏ. Góc nhìn lớn.\n\nKhông gian riêng của bạn\nPhân tích file mới\nDữ liệu được xử lý 100% trên thiết bị của bạn, bảo mật tuyệt đối và KHÔNG gửi lên bất kỳ máy chủ nào.\n\nKHÔNG GIAN KINH DOANH\n\nMỗi con số, một cơ hội.\n\nHiểu cửa hàng hôm nay. Quyết định tự tin hơn ngày mai.\n\n2026-09-30 — 2026-09-30\nnegative-profit.csv\n1 dòng hợp lệ\nBáo cáo làm sạch\nTổng quan\nSản phẩm\n1\nKhách hàng\n1\nNHÓM A · CHỦ LỰC\n1\n\n100% doanh thu · 100.000 đ\n\nNHÓM B · ĐỀU ĐẶN\n0\n\n0% doanh thu · 0 đ\n\nNHÓM C · ĐÓNG GÓP THẤP\n0\n\n0% doanh thu · 0 đ\n\nGÓC NHÌN SẢN PHẨM · ABC\n\nChỉ 1 sản phẩm nhóm A (chiếm 100% số lượng mặt hàng) đã đóng góp tới 100% doanh thu (100.000 đ). Trong khi đó, 0 sản phẩm nhóm C chỉ đóng góp 0%.\n\nTop 10 mặt hàng tạo doanh thu\n\nSản phẩm nổi bật trong kỳ dữ liệu\n\n0tr\n0tr\n0tr\n0tr\n0tr\nTrà\nSức khỏe danh mục\n\nNhững điểm cần lưu ý trước khi nhập hàng\n\nCần nhập cột Giá vốn để xem xếp hạng biên lợi nhuận và lãi gộp.\n\nLợi nhuận chỉ tính trên các dòng có giá vốn hợp lệ.\n\n0 mặt hàng có doanh thu thấp và xu hướng giảm. Kiểm tra tồn kho và mùa vụ trước khi quyết định.\n\nNhững cặp thường đi cùng nhau\n\nGợi ý trưng bày hoặc thử nghiệm combo\n\nChưa có đơn chứa nhiều sản phẩm để tìm cặp mua cùng.\n\nDanh mục sản phẩm\n\nTìm kiếm, lọc và sắp xếp để xem điều bạn quan tâm.\n\nXuất CSV\nTất cả nhóm ABC\nNhóm A\nNhóm B\nNhóm C\nTất cả khuyến nghị\nĐáng đầu tư\nDuy trì ổn định\nCân nhắc loại bỏ\nSản phẩm\n\tSố lượng\n\tDoanh thu\n\tABC\tLợi nhuận\n\tXu hướng\tGợi ý\nTràĐồ dùng thử\t2\t100.000 đ\tA\t-40.000 đ\tỔn định\tĐáng đầu tư\n1–1 / 1 kết quả\n1 / 1\nBán Hàng Smarter · Những quyết định tốt bắt đầu từ dữ liệu rõ ràng.\nTùy chỉnh giao diện\nTrà",
+        "kpis": [
+          {
+            "title": "NHÓM A · CHỦ LỰC",
+            "value": "1",
+            "subtitle": "100% doanh thu · 100.000 đ"
+          },
+          {
+            "title": "NHÓM B · ĐỀU ĐẶN",
+            "value": "0",
+            "subtitle": "0% doanh thu · 0 đ"
+          },
+          {
+            "title": "NHÓM C · ĐÓNG GÓP THẤP",
+            "value": "0",
+            "subtitle": "0% doanh thu · 0 đ"
+          }
+        ],
+        "tables": [
+          [
+            "TràĐồ dùng thử",
+            "2",
+            "100.000 đ",
+            "A",
+            "-40.000 đ",
+            "Ổn định",
+            "Đáng đầu tư"
+          ]
+        ],
+        "overflow": {
+          "width": 1366,
+          "scrollWidth": 1366
+        },
+        "theme": {
+          "theme": "light",
+          "accent": "emerald",
+          "density": "comfortable",
+          "motion": "reduced"
+        }
+      }
+    },
+    {
+      "id": "H2",
+      "repeat": 2,
+      "style": {
+        "name": "appleSpringReveal",
+        "duration": "1e-05s",
+        "delay": "0s",
+        "root": "reduced",
+        "canvases": 0
+      }
+    },
+    {
+      "id": "H3",
+      "repeat": 2,
+      "css": {
+        "examples": [
+          {
+            "cls": "block",
+            "defined": false,
+            "nodes": [
+              {
+                "tag": "SMALL",
+                "text": "Đồ dùng thử",
+                "display": "inline",
+                "minWidth": "0px",
+                "maxWidth": "none",
+                "whiteSpace": "normal"
+              },
+              {
+                "tag": "SMALL",
+                "text": "Đồ dùng thử",
+                "display": "inline",
+                "minWidth": "0px",
+                "maxWidth": "none",
+                "whiteSpace": "normal"
+              },
+              {
+                "tag": "SMALL",
+                "text": "Đồ dùng thử",
+                "display": "inline",
+                "minWidth": "0px",
+                "maxWidth": "none",
+                "whiteSpace": "normal"
+              }
+            ]
+          },
+          {
+            "cls": "inline-flex",
+            "defined": false,
+            "nodes": [
+              {
+                "tag": "SPAN",
+                "text": "Tăng trưởng",
+                "display": "inline",
+                "minWidth": "0px",
+                "maxWidth": "none",
+                "whiteSpace": "normal"
+              },
+              {
+                "tag": "SPAN",
+                "text": "Giảm sút",
+                "display": "inline",
+                "minWidth": "0px",
+                "maxWidth": "none",
+                "whiteSpace": "normal"
+              },
+              {
+                "tag": "SPAN",
+                "text": "Tăng trưởng",
+                "display": "inline",
+                "minWidth": "0px",
+                "maxWidth": "none",
+                "whiteSpace": "normal"
+              }
+            ]
+          },
+          {
+            "cls": "whitespace-nowrap",
+            "defined": false,
+            "nodes": [
+              {
+                "tag": "SPAN",
+                "text": "Tăng trưởng",
+                "display": "inline",
+                "minWidth": "0px",
+                "maxWidth": "none",
+                "whiteSpace": "normal"
+              },
+              {
+                "tag": "SPAN",
+                "text": "Giảm sút",
+                "display": "inline",
+                "minWidth": "0px",
+                "maxWidth": "none",
+                "whiteSpace": "normal"
+              },
+              {
+                "tag": "SPAN",
+                "text": "Tăng trưởng",
+                "display": "inline",
+                "minWidth": "0px",
+                "maxWidth": "none",
+                "whiteSpace": "normal"
+              }
+            ]
+          },
+          {
+            "cls": "min-w-0",
+            "defined": false,
+            "nodes": []
+          },
+          {
+            "cls": "min-w-56",
+            "defined": false,
+            "nodes": []
+          },
+          {
+            "cls": "max-w-72",
+            "defined": false,
+            "nodes": []
+          },
+          {
+            "cls": "text-base",
+            "defined": false,
+            "nodes": []
+          },
+          {
+            "cls": "ml-auto",
+            "defined": false,
+            "nodes": []
+          }
+        ],
+        "small": [
+          {
+            "text": "Đồ dùng thử",
+            "display": "inline"
+          },
+          {
+            "text": "Đồ dùng thử",
+            "display": "inline"
+          }
+        ],
+        "rootFont": "16px"
+      }
+    },
+    {
+      "id": "dialog",
+      "repeat": 2,
+      "visible": false,
+      "rects": [
+        {
+          "tag": "DIALOG",
+          "cls": "glass-dialog theme-drawer ",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "dialog-inner",
+          "rect": {
+            "x": 906,
+            "y": 218.5,
+            "width": 440,
+            "height": 761.5,
+            "top": 218.5,
+            "right": 1346,
+            "bottom": 980,
+            "left": 906
+          }
+        }
+      ]
+    }
+  ],
+  "performance": [
+    {
+      "rows": 50000,
+      "repeat": 1,
+      "parseMs": 341,
+      "analyzeMs": 686,
+      "baseline": {
+        "metrics": [
+          {
+            "name": "Timestamp",
+            "value": 14128.244271
+          },
+          {
+            "name": "AudioHandlers",
+            "value": 0
+          },
+          {
+            "name": "AudioWorkletProcessors",
+            "value": 0
+          },
+          {
+            "name": "Documents",
+            "value": 1
+          },
+          {
+            "name": "Frames",
+            "value": 1
+          },
+          {
+            "name": "JSEventListeners",
+            "value": 172
+          },
+          {
+            "name": "LayoutObjects",
+            "value": 190
+          },
+          {
+            "name": "MediaKeySessions",
+            "value": 0
+          },
+          {
+            "name": "MediaKeys",
+            "value": 0
+          },
+          {
+            "name": "Nodes",
+            "value": 222
+          },
+          {
+            "name": "Resources",
+            "value": 7
+          },
+          {
+            "name": "ContextLifecycleStateObservers",
+            "value": 3
+          },
+          {
+            "name": "V8PerContextDatas",
+            "value": 2
+          },
+          {
+            "name": "WorkerGlobalScopes",
+            "value": 0
+          },
+          {
+            "name": "UACSSResources",
+            "value": 0
+          },
+          {
+            "name": "RTCPeerConnections",
+            "value": 0
+          },
+          {
+            "name": "ResourceFetchers",
+            "value": 1
+          },
+          {
+            "name": "AdSubframes",
+            "value": 0
+          },
+          {
+            "name": "DetachedScriptStates",
+            "value": 0
+          },
+          {
+            "name": "ArrayBufferContents",
+            "value": 0
+          },
+          {
+            "name": "LayoutCount",
+            "value": 0
+          },
+          {
+            "name": "RecalcStyleCount",
+            "value": 0
+          },
+          {
+            "name": "LayoutDuration",
+            "value": 0
+          },
+          {
+            "name": "RecalcStyleDuration",
+            "value": 0
+          },
+          {
+            "name": "DevToolsCommandDuration",
+            "value": 0.000039
+          },
+          {
+            "name": "ScriptDuration",
+            "value": 0
+          },
+          {
+            "name": "V8CompileDuration",
+            "value": 0
+          },
+          {
+            "name": "TaskDuration",
+            "value": 0.015069
+          },
+          {
+            "name": "TaskOtherDuration",
+            "value": 0.01503
+          },
+          {
+            "name": "ThreadTime",
+            "value": 0.014961
+          },
+          {
+            "name": "ProcessTime",
+            "value": 0.362161
+          },
+          {
+            "name": "JSHeapUsedSize",
+            "value": 13476732
+          },
+          {
+            "name": "JSHeapTotalSize",
+            "value": 14102528
+          },
+          {
+            "name": "FirstMeaningfulPaint",
+            "value": 0
+          },
+          {
+            "name": "DomContentLoaded",
+            "value": 14128.143881
+          },
+          {
+            "name": "NavigationStart",
+            "value": 14127.982838
+          }
+        ]
+      },
+      "afterParse": {
+        "metrics": [
+          {
+            "name": "Timestamp",
+            "value": 14128.600813
+          },
+          {
+            "name": "AudioHandlers",
+            "value": 0
+          },
+          {
+            "name": "AudioWorkletProcessors",
+            "value": 0
+          },
+          {
+            "name": "Documents",
+            "value": 1
+          },
+          {
+            "name": "Frames",
+            "value": 1
+          },
+          {
+            "name": "JSEventListeners",
+            "value": 204
+          },
+          {
+            "name": "LayoutObjects",
+            "value": 236
+          },
+          {
+            "name": "MediaKeySessions",
+            "value": 0
+          },
+          {
+            "name": "MediaKeys",
+            "value": 0
+          },
+          {
+            "name": "Nodes",
+            "value": 1008
+          },
+          {
+            "name": "Resources",
+            "value": 7
+          },
+          {
+            "name": "ContextLifecycleStateObservers",
+            "value": 10
+          },
+          {
+            "name": "V8PerContextDatas",
+            "value": 2
+          },
+          {
+            "name": "WorkerGlobalScopes",
+            "value": 0
+          },
+          {
+            "name": "UACSSResources",
+            "value": 0
+          },
+          {
+            "name": "RTCPeerConnections",
+            "value": 0
+          },
+          {
+            "name": "ResourceFetchers",
+            "value": 1
+          },
+          {
+            "name": "AdSubframes",
+            "value": 0
+          },
+          {
+            "name": "DetachedScriptStates",
+            "value": 0
+          },
+          {
+            "name": "ArrayBufferContents",
+            "value": 0
+          },
+          {
+            "name": "LayoutCount",
+            "value": 4
+          },
+          {
+            "name": "RecalcStyleCount",
+            "value": 7
+          },
+          {
+            "name": "LayoutDuration",
+            "value": 0.011591
+          },
+          {
+            "name": "RecalcStyleDuration",
+            "value": 0.003256
+          },
+          {
+            "name": "DevToolsCommandDuration",
+            "value": 0.009578
+          },
+          {
+            "name": "ScriptDuration",
+            "value": 0.073472
+          },
+          {
+            "name": "V8CompileDuration",
+            "value": 0
+          },
+          {
+            "name": "TaskDuration",
+            "value": 0.126722
+          },
+          {
+            "name": "TaskOtherDuration",
+            "value": 0.028825
+          },
+          {
+            "name": "ThreadTime",
+            "value": 0.12717
+          },
+          {
+            "name": "ProcessTime",
+            "value": 0.756228
+          },
+          {
+            "name": "JSHeapUsedSize",
+            "value": 26768224
+          },
+          {
+            "name": "JSHeapTotalSize",
+            "value": 36130816
+          },
+          {
+            "name": "FirstMeaningfulPaint",
+            "value": 0
+          },
+          {
+            "name": "DomContentLoaded",
+            "value": 14128.143881
+          },
+          {
+            "name": "NavigationStart",
+            "value": 14127.982838
+          }
+        ]
+      },
+      "afterAnalysis": {
+        "metrics": [
+          {
+            "name": "Timestamp",
+            "value": 14129.287485
+          },
+          {
+            "name": "AudioHandlers",
+            "value": 0
+          },
+          {
+            "name": "AudioWorkletProcessors",
+            "value": 0
+          },
+          {
+            "name": "Documents",
+            "value": 1
+          },
+          {
+            "name": "Frames",
+            "value": 1
+          },
+          {
+            "name": "JSEventListeners",
+            "value": 1252
+          },
+          {
+            "name": "LayoutObjects",
+            "value": 719
+          },
+          {
+            "name": "MediaKeySessions",
+            "value": 0
+          },
+          {
+            "name": "MediaKeys",
+            "value": 0
+          },
+          {
+            "name": "Nodes",
+            "value": 1495
+          },
+          {
+            "name": "Resources",
+            "value": 13
+          },
+          {
+            "name": "ContextLifecycleStateObservers",
+            "value": 11
+          },
+          {
+            "name": "V8PerContextDatas",
+            "value": 2
+          },
+          {
+            "name": "WorkerGlobalScopes",
+            "value": 0
+          },
+          {
+            "name": "UACSSResources",
+            "value": 0
+          },
+          {
+            "name": "RTCPeerConnections",
+            "value": 0
+          },
+          {
+            "name": "ResourceFetchers",
+            "value": 1
+          },
+          {
+            "name": "AdSubframes",
+            "value": 0
+          },
+          {
+            "name": "DetachedScriptStates",
+            "value": 0
+          },
+          {
+            "name": "ArrayBufferContents",
+            "value": 0
+          },
+          {
+            "name": "LayoutCount",
+            "value": 35
+          },
+          {
+            "name": "RecalcStyleCount",
+            "value": 45
+          },
+          {
+            "name": "LayoutDuration",
+            "value": 0.032233
+          },
+          {
+            "name": "RecalcStyleDuration",
+            "value": 0.009877
+          },
+          {
+            "name": "DevToolsCommandDuration",
+            "value": 0.018588
+          },
+          {
+            "name": "ScriptDuration",
+            "value": 0.232743
+          },
+          {
+            "name": "V8CompileDuration",
+            "value": 0
+          },
+          {
+            "name": "TaskDuration",
+            "value": 0.354676
+          },
+          {
+            "name": "TaskOtherDuration",
+            "value": 0.061235
+          },
+          {
+            "name": "ThreadTime",
+            "value": 0.351451
+          },
+          {
+            "name": "ProcessTime",
+            "value": 1.346882
+          },
+          {
+            "name": "JSHeapUsedSize",
+            "value": 37902664
+          },
+          {
+            "name": "JSHeapTotalSize",
+            "value": 47063040
+          },
+          {
+            "name": "FirstMeaningfulPaint",
+            "value": 0
+          },
+          {
+            "name": "DomContentLoaded",
+            "value": 14128.143881
+          },
+          {
+            "name": "NavigationStart",
+            "value": 14127.982838
+          }
+        ]
+      },
+      "maxTickMs": 82.59999999962747,
+      "ticks": 94,
+      "progress": [
+        {
+          "at": 342.90000000037253,
+          "percent": 10,
+          "label": "Đang đọc dữ liệu..."
+        },
+        {
+          "at": 754.7999999988824,
+          "percent": 15,
+          "label": "Đang chuẩn hóa và kiểm tra dữ liệu...",
+          "rows": 50000
+        },
+        {
+          "at": 835.9000000003725,
+          "percent": 35,
+          "label": "Đang tính doanh thu và lợi nhuận...",
+          "rows": 50000
+        },
+        {
+          "at": 856.7999999988824,
+          "percent": 55,
+          "label": "Đang tìm sản phẩm bán chạy và các cặp mua cùng...",
+          "rows": 50000
+        },
+        {
+          "at": 871.6999999992549,
+          "percent": 75,
+          "label": "Đang phân nhóm khách hàng RFM...",
+          "rows": 50000
+        },
+        {
+          "at": 877.5,
+          "percent": 92,
+          "label": "Đang tổng hợp nhận xét và gợi ý hành động...",
+          "rows": 50000
+        },
+        {
+          "at": 880.6999999992549,
+          "percent": 100,
+          "label": "Phân tích hoàn tất!",
+          "rows": 50000
+        }
+      ]
+    },
+    {
+      "rows": 50000,
+      "repeat": 2,
+      "parseMs": 312,
+      "analyzeMs": 684,
+      "baseline": {
+        "metrics": [
+          {
+            "name": "Timestamp",
+            "value": 14130.296661
+          },
+          {
+            "name": "AudioHandlers",
+            "value": 0
+          },
+          {
+            "name": "AudioWorkletProcessors",
+            "value": 0
+          },
+          {
+            "name": "Documents",
+            "value": 1
+          },
+          {
+            "name": "Frames",
+            "value": 1
+          },
+          {
+            "name": "JSEventListeners",
+            "value": 172
+          },
+          {
+            "name": "LayoutObjects",
+            "value": 190
+          },
+          {
+            "name": "MediaKeySessions",
+            "value": 0
+          },
+          {
+            "name": "MediaKeys",
+            "value": 0
+          },
+          {
+            "name": "Nodes",
+            "value": 222
+          },
+          {
+            "name": "Resources",
+            "value": 7
+          },
+          {
+            "name": "ContextLifecycleStateObservers",
+            "value": 3
+          },
+          {
+            "name": "V8PerContextDatas",
+            "value": 2
+          },
+          {
+            "name": "WorkerGlobalScopes",
+            "value": 0
+          },
+          {
+            "name": "UACSSResources",
+            "value": 0
+          },
+          {
+            "name": "RTCPeerConnections",
+            "value": 0
+          },
+          {
+            "name": "ResourceFetchers",
+            "value": 1
+          },
+          {
+            "name": "AdSubframes",
+            "value": 0
+          },
+          {
+            "name": "DetachedScriptStates",
+            "value": 0
+          },
+          {
+            "name": "ArrayBufferContents",
+            "value": 0
+          },
+          {
+            "name": "LayoutCount",
+            "value": 0
+          },
+          {
+            "name": "RecalcStyleCount",
+            "value": 0
+          },
+          {
+            "name": "LayoutDuration",
+            "value": 0
+          },
+          {
+            "name": "RecalcStyleDuration",
+            "value": 0
+          },
+          {
+            "name": "DevToolsCommandDuration",
+            "value": 0.000032
+          },
+          {
+            "name": "ScriptDuration",
+            "value": 0
+          },
+          {
+            "name": "V8CompileDuration",
+            "value": 0
+          },
+          {
+            "name": "TaskDuration",
+            "value": 0.016128
+          },
+          {
+            "name": "TaskOtherDuration",
+            "value": 0.016096
+          },
+          {
+            "name": "ThreadTime",
+            "value": 0.015772
+          },
+          {
+            "name": "ProcessTime",
+            "value": 0.367611
+          },
+          {
+            "name": "JSHeapUsedSize",
+            "value": 13476700
+          },
+          {
+            "name": "JSHeapTotalSize",
+            "value": 14102528
+          },
+          {
+            "name": "FirstMeaningfulPaint",
+            "value": 0
+          },
+          {
+            "name": "DomContentLoaded",
+            "value": 14130.195718
+          },
+          {
+            "name": "NavigationStart",
+            "value": 14130.040723
+          }
+        ]
+      },
+      "afterParse": {
+        "metrics": [
+          {
+            "name": "Timestamp",
+            "value": 14130.624679
+          },
+          {
+            "name": "AudioHandlers",
+            "value": 0
+          },
+          {
+            "name": "AudioWorkletProcessors",
+            "value": 0
+          },
+          {
+            "name": "Documents",
+            "value": 1
+          },
+          {
+            "name": "Frames",
+            "value": 1
+          },
+          {
+            "name": "JSEventListeners",
+            "value": 204
+          },
+          {
+            "name": "LayoutObjects",
+            "value": 236
+          },
+          {
+            "name": "MediaKeySessions",
+            "value": 0
+          },
+          {
+            "name": "MediaKeys",
+            "value": 0
+          },
+          {
+            "name": "Nodes",
+            "value": 1008
+          },
+          {
+            "name": "Resources",
+            "value": 7
+          },
+          {
+            "name": "ContextLifecycleStateObservers",
+            "value": 10
+          },
+          {
+            "name": "V8PerContextDatas",
+            "value": 2
+          },
+          {
+            "name": "WorkerGlobalScopes",
+            "value": 0
+          },
+          {
+            "name": "UACSSResources",
+            "value": 0
+          },
+          {
+            "name": "RTCPeerConnections",
+            "value": 0
+          },
+          {
+            "name": "ResourceFetchers",
+            "value": 1
+          },
+          {
+            "name": "AdSubframes",
+            "value": 0
+          },
+          {
+            "name": "DetachedScriptStates",
+            "value": 0
+          },
+          {
+            "name": "ArrayBufferContents",
+            "value": 0
+          },
+          {
+            "name": "LayoutCount",
+            "value": 4
+          },
+          {
+            "name": "RecalcStyleCount",
+            "value": 7
+          },
+          {
+            "name": "LayoutDuration",
+            "value": 0.012108
+          },
+          {
+            "name": "RecalcStyleDuration",
+            "value": 0.003474
+          },
+          {
+            "name": "DevToolsCommandDuration",
+            "value": 0.009136
+          },
+          {
+            "name": "ScriptDuration",
+            "value": 0.074722
+          },
+          {
+            "name": "V8CompileDuration",
+            "value": 0
+          },
+          {
+            "name": "TaskDuration",
+            "value": 0.128265
+          },
+          {
+            "name": "TaskOtherDuration",
+            "value": 0.028825
+          },
+          {
+            "name": "ThreadTime",
+            "value": 0.127959
+          },
+          {
+            "name": "ProcessTime",
+            "value": 0.755864
+          },
+          {
+            "name": "JSHeapUsedSize",
+            "value": 27022612
+          },
+          {
+            "name": "JSHeapTotalSize",
+            "value": 35868672
+          },
+          {
+            "name": "FirstMeaningfulPaint",
+            "value": 0
+          },
+          {
+            "name": "DomContentLoaded",
+            "value": 14130.195718
+          },
+          {
+            "name": "NavigationStart",
+            "value": 14130.040723
+          }
+        ]
+      },
+      "afterAnalysis": {
+        "metrics": [
+          {
+            "name": "Timestamp",
+            "value": 14131.309868
+          },
+          {
+            "name": "AudioHandlers",
+            "value": 0
+          },
+          {
+            "name": "AudioWorkletProcessors",
+            "value": 0
+          },
+          {
+            "name": "Documents",
+            "value": 1
+          },
+          {
+            "name": "Frames",
+            "value": 1
+          },
+          {
+            "name": "JSEventListeners",
+            "value": 1252
+          },
+          {
+            "name": "LayoutObjects",
+            "value": 719
+          },
+          {
+            "name": "MediaKeySessions",
+            "value": 0
+          },
+          {
+            "name": "MediaKeys",
+            "value": 0
+          },
+          {
+            "name": "Nodes",
+            "value": 1495
+          },
+          {
+            "name": "Resources",
+            "value": 13
+          },
+          {
+            "name": "ContextLifecycleStateObservers",
+            "value": 11
+          },
+          {
+            "name": "V8PerContextDatas",
+            "value": 2
+          },
+          {
+            "name": "WorkerGlobalScopes",
+            "value": 0
+          },
+          {
+            "name": "UACSSResources",
+            "value": 0
+          },
+          {
+            "name": "RTCPeerConnections",
+            "value": 0
+          },
+          {
+            "name": "ResourceFetchers",
+            "value": 1
+          },
+          {
+            "name": "AdSubframes",
+            "value": 0
+          },
+          {
+            "name": "DetachedScriptStates",
+            "value": 0
+          },
+          {
+            "name": "ArrayBufferContents",
+            "value": 0
+          },
+          {
+            "name": "LayoutCount",
+            "value": 34
+          },
+          {
+            "name": "RecalcStyleCount",
+            "value": 44
+          },
+          {
+            "name": "LayoutDuration",
+            "value": 0.033634
+          },
+          {
+            "name": "RecalcStyleDuration",
+            "value": 0.009477
+          },
+          {
+            "name": "DevToolsCommandDuration",
+            "value": 0.018877
+          },
+          {
+            "name": "ScriptDuration",
+            "value": 0.23715
+          },
+          {
+            "name": "V8CompileDuration",
+            "value": 0
+          },
+          {
+            "name": "TaskDuration",
+            "value": 0.363132
+          },
+          {
+            "name": "TaskOtherDuration",
+            "value": 0.063994
+          },
+          {
+            "name": "ThreadTime",
+            "value": 0.356624
+          },
+          {
+            "name": "ProcessTime",
+            "value": 1.345471
+          },
+          {
+            "name": "JSHeapUsedSize",
+            "value": 35637556
+          },
+          {
+            "name": "JSHeapTotalSize",
+            "value": 47013888
+          },
+          {
+            "name": "FirstMeaningfulPaint",
+            "value": 0
+          },
+          {
+            "name": "DomContentLoaded",
+            "value": 14130.195718
+          },
+          {
+            "name": "NavigationStart",
+            "value": 14130.040723
+          }
+        ]
+      },
+      "maxTickMs": 79.40000000037253,
+      "ticks": 92,
+      "progress": [
+        {
+          "at": 340,
+          "percent": 10,
+          "label": "Đang đọc dữ liệu..."
+        },
+        {
+          "at": 724.2000000011176,
+          "percent": 15,
+          "label": "Đang chuẩn hóa và kiểm tra dữ liệu...",
+          "rows": 50000
+        },
+        {
+          "at": 804.1000000014901,
+          "percent": 35,
+          "label": "Đang tính doanh thu và lợi nhuận...",
+          "rows": 50000
+        },
+        {
+          "at": 824.9000000003725,
+          "percent": 55,
+          "label": "Đang tìm sản phẩm bán chạy và các cặp mua cùng...",
+          "rows": 50000
+        },
+        {
+          "at": 838.7000000011176,
+          "percent": 75,
+          "label": "Đang phân nhóm khách hàng RFM...",
+          "rows": 50000
+        },
+        {
+          "at": 845,
+          "percent": 92,
+          "label": "Đang tổng hợp nhận xét và gợi ý hành động...",
+          "rows": 50000
+        },
+        {
+          "at": 848.2000000011176,
+          "percent": 100,
+          "label": "Phân tích hoàn tất!",
+          "rows": 50000
+        }
+      ]
+    },
+    {
+      "rows": 200000,
+      "repeat": 1,
+      "parseMs": 934,
+      "analyzeMs": 1259,
+      "baseline": {
+        "metrics": [
+          {
+            "name": "Timestamp",
+            "value": 14132.327614
+          },
+          {
+            "name": "AudioHandlers",
+            "value": 0
+          },
+          {
+            "name": "AudioWorkletProcessors",
+            "value": 0
+          },
+          {
+            "name": "Documents",
+            "value": 1
+          },
+          {
+            "name": "Frames",
+            "value": 1
+          },
+          {
+            "name": "JSEventListeners",
+            "value": 172
+          },
+          {
+            "name": "LayoutObjects",
+            "value": 190
+          },
+          {
+            "name": "MediaKeySessions",
+            "value": 0
+          },
+          {
+            "name": "MediaKeys",
+            "value": 0
+          },
+          {
+            "name": "Nodes",
+            "value": 222
+          },
+          {
+            "name": "Resources",
+            "value": 7
+          },
+          {
+            "name": "ContextLifecycleStateObservers",
+            "value": 3
+          },
+          {
+            "name": "V8PerContextDatas",
+            "value": 2
+          },
+          {
+            "name": "WorkerGlobalScopes",
+            "value": 0
+          },
+          {
+            "name": "UACSSResources",
+            "value": 0
+          },
+          {
+            "name": "RTCPeerConnections",
+            "value": 0
+          },
+          {
+            "name": "ResourceFetchers",
+            "value": 1
+          },
+          {
+            "name": "AdSubframes",
+            "value": 0
+          },
+          {
+            "name": "DetachedScriptStates",
+            "value": 0
+          },
+          {
+            "name": "ArrayBufferContents",
+            "value": 0
+          },
+          {
+            "name": "LayoutCount",
+            "value": 0
+          },
+          {
+            "name": "RecalcStyleCount",
+            "value": 0
+          },
+          {
+            "name": "LayoutDuration",
+            "value": 0
+          },
+          {
+            "name": "RecalcStyleDuration",
+            "value": 0
+          },
+          {
+            "name": "DevToolsCommandDuration",
+            "value": 0.000035
+          },
+          {
+            "name": "ScriptDuration",
+            "value": 0
+          },
+          {
+            "name": "V8CompileDuration",
+            "value": 0
+          },
+          {
+            "name": "TaskDuration",
+            "value": 0.015819
+          },
+          {
+            "name": "TaskOtherDuration",
+            "value": 0.015784
+          },
+          {
+            "name": "ThreadTime",
+            "value": 0.015555
+          },
+          {
+            "name": "ProcessTime",
+            "value": 0.364019
+          },
+          {
+            "name": "JSHeapUsedSize",
+            "value": 13476488
+          },
+          {
+            "name": "JSHeapTotalSize",
+            "value": 14102528
+          },
+          {
+            "name": "FirstMeaningfulPaint",
+            "value": 0
+          },
+          {
+            "name": "DomContentLoaded",
+            "value": 14132.229689
+          },
+          {
+            "name": "NavigationStart",
+            "value": 14132.075387
+          }
+        ]
+      },
+      "afterParse": {
+        "metrics": [
+          {
+            "name": "Timestamp",
+            "value": 14133.277518
+          },
+          {
+            "name": "AudioHandlers",
+            "value": 0
+          },
+          {
+            "name": "AudioWorkletProcessors",
+            "value": 0
+          },
+          {
+            "name": "Documents",
+            "value": 1
+          },
+          {
+            "name": "Frames",
+            "value": 1
+          },
+          {
+            "name": "JSEventListeners",
+            "value": 204
+          },
+          {
+            "name": "LayoutObjects",
+            "value": 236
+          },
+          {
+            "name": "MediaKeySessions",
+            "value": 0
+          },
+          {
+            "name": "MediaKeys",
+            "value": 0
+          },
+          {
+            "name": "Nodes",
+            "value": 1008
+          },
+          {
+            "name": "Resources",
+            "value": 7
+          },
+          {
+            "name": "ContextLifecycleStateObservers",
+            "value": 10
+          },
+          {
+            "name": "V8PerContextDatas",
+            "value": 2
+          },
+          {
+            "name": "WorkerGlobalScopes",
+            "value": 0
+          },
+          {
+            "name": "UACSSResources",
+            "value": 0
+          },
+          {
+            "name": "RTCPeerConnections",
+            "value": 0
+          },
+          {
+            "name": "ResourceFetchers",
+            "value": 1
+          },
+          {
+            "name": "AdSubframes",
+            "value": 0
+          },
+          {
+            "name": "DetachedScriptStates",
+            "value": 0
+          },
+          {
+            "name": "ArrayBufferContents",
+            "value": 0
+          },
+          {
+            "name": "LayoutCount",
+            "value": 4
+          },
+          {
+            "name": "RecalcStyleCount",
+            "value": 7
+          },
+          {
+            "name": "LayoutDuration",
+            "value": 0.012571
+          },
+          {
+            "name": "RecalcStyleDuration",
+            "value": 0.003177
+          },
+          {
+            "name": "DevToolsCommandDuration",
+            "value": 0.008953
+          },
+          {
+            "name": "ScriptDuration",
+            "value": 0.221952
+          },
+          {
+            "name": "V8CompileDuration",
+            "value": 0
+          },
+          {
+            "name": "TaskDuration",
+            "value": 0.297354
+          },
+          {
+            "name": "TaskOtherDuration",
+            "value": 0.050701
+          },
+          {
+            "name": "ThreadTime",
+            "value": 0.265302
+          },
+          {
+            "name": "ProcessTime",
+            "value": 1.489157
+          },
+          {
+            "name": "JSHeapUsedSize",
+            "value": 61955848
+          },
+          {
+            "name": "JSHeapTotalSize",
+            "value": 83771392
+          },
+          {
+            "name": "FirstMeaningfulPaint",
+            "value": 14132.314935
+          },
+          {
+            "name": "DomContentLoaded",
+            "value": 14132.229689
+          },
+          {
+            "name": "NavigationStart",
+            "value": 14132.075387
+          }
+        ]
+      },
+      "afterAnalysis": {
+        "metrics": [
+          {
+            "name": "Timestamp",
+            "value": 14134.53781
+          },
+          {
+            "name": "AudioHandlers",
+            "value": 0
+          },
+          {
+            "name": "AudioWorkletProcessors",
+            "value": 0
+          },
+          {
+            "name": "Documents",
+            "value": 1
+          },
+          {
+            "name": "Frames",
+            "value": 1
+          },
+          {
+            "name": "JSEventListeners",
+            "value": 1252
+          },
+          {
+            "name": "LayoutObjects",
+            "value": 719
+          },
+          {
+            "name": "MediaKeySessions",
+            "value": 0
+          },
+          {
+            "name": "MediaKeys",
+            "value": 0
+          },
+          {
+            "name": "Nodes",
+            "value": 1495
+          },
+          {
+            "name": "Resources",
+            "value": 13
+          },
+          {
+            "name": "ContextLifecycleStateObservers",
+            "value": 11
+          },
+          {
+            "name": "V8PerContextDatas",
+            "value": 2
+          },
+          {
+            "name": "WorkerGlobalScopes",
+            "value": 0
+          },
+          {
+            "name": "UACSSResources",
+            "value": 0
+          },
+          {
+            "name": "RTCPeerConnections",
+            "value": 0
+          },
+          {
+            "name": "ResourceFetchers",
+            "value": 1
+          },
+          {
+            "name": "AdSubframes",
+            "value": 0
+          },
+          {
+            "name": "DetachedScriptStates",
+            "value": 0
+          },
+          {
+            "name": "ArrayBufferContents",
+            "value": 0
+          },
+          {
+            "name": "LayoutCount",
+            "value": 36
+          },
+          {
+            "name": "RecalcStyleCount",
+            "value": 46
+          },
+          {
+            "name": "LayoutDuration",
+            "value": 0.036019
+          },
+          {
+            "name": "RecalcStyleDuration",
+            "value": 0.009624
+          },
+          {
+            "name": "DevToolsCommandDuration",
+            "value": 0.018421
+          },
+          {
+            "name": "ScriptDuration",
+            "value": 0.474499
+          },
+          {
+            "name": "V8CompileDuration",
+            "value": 0
+          },
+          {
+            "name": "TaskDuration",
+            "value": 0.633962
+          },
+          {
+            "name": "TaskOtherDuration",
+            "value": 0.095399
+          },
+          {
+            "name": "ThreadTime",
+            "value": 0.608976
+          },
+          {
+            "name": "ProcessTime",
+            "value": 2.719553
+          },
+          {
+            "name": "JSHeapUsedSize",
+            "value": 85930772
+          },
+          {
+            "name": "JSHeapTotalSize",
+            "value": 91787264
+          },
+          {
+            "name": "FirstMeaningfulPaint",
+            "value": 14132.314935
+          },
+          {
+            "name": "DomContentLoaded",
+            "value": 14132.229689
+          },
+          {
+            "name": "NavigationStart",
+            "value": 14132.075387
+          }
+        ]
+      },
+      "maxTickMs": 211.5,
+      "ticks": 149,
+      "progress": [
+        {
+          "at": 332.2999999988824,
+          "percent": 10,
+          "label": "Đang đọc dữ liệu..."
+        },
+        {
+          "at": 1545,
+          "percent": 15,
+          "label": "Đang chuẩn hóa và kiểm tra dữ liệu...",
+          "rows": 200000
+        },
+        {
+          "at": 1870.199999999255,
+          "percent": 35,
+          "label": "Đang tính doanh thu và lợi nhuận...",
+          "rows": 200000
+        },
+        {
+          "at": 1926.5999999996275,
+          "percent": 55,
+          "label": "Đang tìm sản phẩm bán chạy và các cặp mua cùng...",
+          "rows": 200000
+        },
+        {
+          "at": 2008.5999999996275,
+          "percent": 75,
+          "label": "Đang phân nhóm khách hàng RFM...",
+          "rows": 200000
+        },
+        {
+          "at": 2021.7999999988824,
+          "percent": 92,
+          "label": "Đang tổng hợp nhận xét và gợi ý hành động...",
+          "rows": 200000
+        },
+        {
+          "at": 2025.5999999996275,
+          "percent": 100,
+          "label": "Phân tích hoàn tất!",
+          "rows": 200000
+        }
+      ]
+    },
+    {
+      "rows": 200000,
+      "repeat": 2,
+      "parseMs": 947,
+      "analyzeMs": 1226,
+      "baseline": {
+        "metrics": [
+          {
+            "name": "Timestamp",
+            "value": 14135.537234
+          },
+          {
+            "name": "AudioHandlers",
+            "value": 0
+          },
+          {
+            "name": "AudioWorkletProcessors",
+            "value": 0
+          },
+          {
+            "name": "Documents",
+            "value": 1
+          },
+          {
+            "name": "Frames",
+            "value": 1
+          },
+          {
+            "name": "JSEventListeners",
+            "value": 172
+          },
+          {
+            "name": "LayoutObjects",
+            "value": 190
+          },
+          {
+            "name": "MediaKeySessions",
+            "value": 0
+          },
+          {
+            "name": "MediaKeys",
+            "value": 0
+          },
+          {
+            "name": "Nodes",
+            "value": 222
+          },
+          {
+            "name": "Resources",
+            "value": 7
+          },
+          {
+            "name": "ContextLifecycleStateObservers",
+            "value": 3
+          },
+          {
+            "name": "V8PerContextDatas",
+            "value": 2
+          },
+          {
+            "name": "WorkerGlobalScopes",
+            "value": 0
+          },
+          {
+            "name": "UACSSResources",
+            "value": 0
+          },
+          {
+            "name": "RTCPeerConnections",
+            "value": 0
+          },
+          {
+            "name": "ResourceFetchers",
+            "value": 1
+          },
+          {
+            "name": "AdSubframes",
+            "value": 0
+          },
+          {
+            "name": "DetachedScriptStates",
+            "value": 0
+          },
+          {
+            "name": "ArrayBufferContents",
+            "value": 0
+          },
+          {
+            "name": "LayoutCount",
+            "value": 0
+          },
+          {
+            "name": "RecalcStyleCount",
+            "value": 0
+          },
+          {
+            "name": "LayoutDuration",
+            "value": 0
+          },
+          {
+            "name": "RecalcStyleDuration",
+            "value": 0
+          },
+          {
+            "name": "DevToolsCommandDuration",
+            "value": 0.000038
+          },
+          {
+            "name": "ScriptDuration",
+            "value": 0
+          },
+          {
+            "name": "V8CompileDuration",
+            "value": 0
+          },
+          {
+            "name": "TaskDuration",
+            "value": 0.015769
+          },
+          {
+            "name": "TaskOtherDuration",
+            "value": 0.015731
+          },
+          {
+            "name": "ThreadTime",
+            "value": 0.015751
+          },
+          {
+            "name": "ProcessTime",
+            "value": 0.361498
+          },
+          {
+            "name": "JSHeapUsedSize",
+            "value": 13475840
+          },
+          {
+            "name": "JSHeapTotalSize",
+            "value": 14364672
+          },
+          {
+            "name": "FirstMeaningfulPaint",
+            "value": 0
+          },
+          {
+            "name": "DomContentLoaded",
+            "value": 14135.435457
+          },
+          {
+            "name": "NavigationStart",
+            "value": 14135.277226
+          }
+        ]
+      },
+      "afterParse": {
+        "metrics": [
+          {
+            "name": "Timestamp",
+            "value": 14136.49933
+          },
+          {
+            "name": "AudioHandlers",
+            "value": 0
+          },
+          {
+            "name": "AudioWorkletProcessors",
+            "value": 0
+          },
+          {
+            "name": "Documents",
+            "value": 1
+          },
+          {
+            "name": "Frames",
+            "value": 1
+          },
+          {
+            "name": "JSEventListeners",
+            "value": 204
+          },
+          {
+            "name": "LayoutObjects",
+            "value": 236
+          },
+          {
+            "name": "MediaKeySessions",
+            "value": 0
+          },
+          {
+            "name": "MediaKeys",
+            "value": 0
+          },
+          {
+            "name": "Nodes",
+            "value": 1008
+          },
+          {
+            "name": "Resources",
+            "value": 7
+          },
+          {
+            "name": "ContextLifecycleStateObservers",
+            "value": 10
+          },
+          {
+            "name": "V8PerContextDatas",
+            "value": 2
+          },
+          {
+            "name": "WorkerGlobalScopes",
+            "value": 0
+          },
+          {
+            "name": "UACSSResources",
+            "value": 0
+          },
+          {
+            "name": "RTCPeerConnections",
+            "value": 0
+          },
+          {
+            "name": "ResourceFetchers",
+            "value": 1
+          },
+          {
+            "name": "AdSubframes",
+            "value": 0
+          },
+          {
+            "name": "DetachedScriptStates",
+            "value": 0
+          },
+          {
+            "name": "ArrayBufferContents",
+            "value": 0
+          },
+          {
+            "name": "LayoutCount",
+            "value": 4
+          },
+          {
+            "name": "RecalcStyleCount",
+            "value": 7
+          },
+          {
+            "name": "LayoutDuration",
+            "value": 0.011509
+          },
+          {
+            "name": "RecalcStyleDuration",
+            "value": 0.003114
+          },
+          {
+            "name": "DevToolsCommandDuration",
+            "value": 0.009208
+          },
+          {
+            "name": "ScriptDuration",
+            "value": 0.211656
+          },
+          {
+            "name": "V8CompileDuration",
+            "value": 0
+          },
+          {
+            "name": "TaskDuration",
+            "value": 0.288995
+          },
+          {
+            "name": "TaskOtherDuration",
+            "value": 0.053508
+          },
+          {
+            "name": "ThreadTime",
+            "value": 0.259775
+          },
+          {
+            "name": "ProcessTime",
+            "value": 1.474316
+          },
+          {
+            "name": "JSHeapUsedSize",
+            "value": 61955752
+          },
+          {
+            "name": "JSHeapTotalSize",
+            "value": 82984960
+          },
+          {
+            "name": "FirstMeaningfulPaint",
+            "value": 14135.523459
+          },
+          {
+            "name": "DomContentLoaded",
+            "value": 14135.435457
+          },
+          {
+            "name": "NavigationStart",
+            "value": 14135.277226
+          }
+        ]
+      },
+      "afterAnalysis": {
+        "metrics": [
+          {
+            "name": "Timestamp",
+            "value": 14137.726302
+          },
+          {
+            "name": "AudioHandlers",
+            "value": 0
+          },
+          {
+            "name": "AudioWorkletProcessors",
+            "value": 0
+          },
+          {
+            "name": "Documents",
+            "value": 1
+          },
+          {
+            "name": "Frames",
+            "value": 1
+          },
+          {
+            "name": "JSEventListeners",
+            "value": 1252
+          },
+          {
+            "name": "LayoutObjects",
+            "value": 719
+          },
+          {
+            "name": "MediaKeySessions",
+            "value": 0
+          },
+          {
+            "name": "MediaKeys",
+            "value": 0
+          },
+          {
+            "name": "Nodes",
+            "value": 1495
+          },
+          {
+            "name": "Resources",
+            "value": 13
+          },
+          {
+            "name": "ContextLifecycleStateObservers",
+            "value": 11
+          },
+          {
+            "name": "V8PerContextDatas",
+            "value": 2
+          },
+          {
+            "name": "WorkerGlobalScopes",
+            "value": 0
+          },
+          {
+            "name": "UACSSResources",
+            "value": 0
+          },
+          {
+            "name": "RTCPeerConnections",
+            "value": 0
+          },
+          {
+            "name": "ResourceFetchers",
+            "value": 1
+          },
+          {
+            "name": "AdSubframes",
+            "value": 0
+          },
+          {
+            "name": "DetachedScriptStates",
+            "value": 0
+          },
+          {
+            "name": "ArrayBufferContents",
+            "value": 0
+          },
+          {
+            "name": "LayoutCount",
+            "value": 36
+          },
+          {
+            "name": "RecalcStyleCount",
+            "value": 46
+          },
+          {
+            "name": "LayoutDuration",
+            "value": 0.030838
+          },
+          {
+            "name": "RecalcStyleDuration",
+            "value": 0.009174
+          },
+          {
+            "name": "DevToolsCommandDuration",
+            "value": 0.018659
+          },
+          {
+            "name": "ScriptDuration",
+            "value": 0.450368
+          },
+          {
+            "name": "V8CompileDuration",
+            "value": 0
+          },
+          {
+            "name": "TaskDuration",
+            "value": 0.607178
+          },
+          {
+            "name": "TaskOtherDuration",
+            "value": 0.098139
+          },
+          {
+            "name": "ThreadTime",
+            "value": 0.586467
+          },
+          {
+            "name": "ProcessTime",
+            "value": 2.665851
+          },
+          {
+            "name": "JSHeapUsedSize",
+            "value": 85924488
+          },
+          {
+            "name": "JSHeapTotalSize",
+            "value": 92049408
+          },
+          {
+            "name": "FirstMeaningfulPaint",
+            "value": 14135.523459
+          },
+          {
+            "name": "DomContentLoaded",
+            "value": 14135.435457
+          },
+          {
+            "name": "NavigationStart",
+            "value": 14135.277226
+          }
+        ]
+      },
+      "maxTickMs": 204.7999999988824,
+      "ticks": 151,
+      "progress": [
+        {
+          "at": 337.59999999962747,
+          "percent": 10,
+          "label": "Đang đọc dữ liệu..."
+        },
+        {
+          "at": 1567.199999999255,
+          "percent": 15,
+          "label": "Đang chuẩn hóa và kiểm tra dữ liệu...",
+          "rows": 200000
+        },
+        {
+          "at": 1884.199999999255,
+          "percent": 35,
+          "label": "Đang tính doanh thu và lợi nhuận...",
+          "rows": 200000
+        },
+        {
+          "at": 1936.5999999996275,
+          "percent": 55,
+          "label": "Đang tìm sản phẩm bán chạy và các cặp mua cùng...",
+          "rows": 200000
+        },
+        {
+          "at": 2014.7999999988824,
+          "percent": 75,
+          "label": "Đang phân nhóm khách hàng RFM...",
+          "rows": 200000
+        },
+        {
+          "at": 2027.5,
+          "percent": 92,
+          "label": "Đang tổng hợp nhận xét và gợi ý hành động...",
+          "rows": 200000
+        },
+        {
+          "at": 2032.699999999255,
+          "percent": 100,
+          "label": "Phân tích hoàn tất!",
+          "rows": 200000
+        }
+      ]
+    }
+  ],
+  "cancellation": [
+    {
+      "stage": "parse",
+      "repeat": 1,
+      "state": {
+        "text": "Bán Hàng Smarter.\n\nDữ liệu nhỏ. Góc nhìn lớn.\n\nKhông gian riêng của bạn\nKhám phá dữ liệu mẫu\nDữ liệu được xử lý 100% trên thiết bị của bạn, bảo mật tuyệt đối và KHÔNG gửi lên bất kỳ máy chủ nào.\n\nTRỢ LÝ DỮ LIỆU CHO CỬA HÀNG\n\nBán hàng mỗi ngày.\nThấu hiểu từng con số.\n\nBiến file bán hàng thành góc nhìn rõ ràng về doanh thu, sản phẩm và khách hàng. Không cần giỏi Excel để tìm ra cơ hội tiếp theo.\n\nMột bức tranh kinh doanh.\nNhiều quyết định sáng suốt.\n\nĐưa dữ liệu của bạn vào đây\n\nKéo thả file bán hàng hoặc chọn từ thiết bị.\n\nChọn file bán hàng\nCSV, XLSX, XLS · Số dòng xử lý tùy bộ nhớ thiết bị\nFile của bạn luôn ở trên thiết bị của bạn.\nChưa có file? Cứ thử trước.\n\nDữ liệu mẫu với 5.030 dòng và 50 mặt hàng.\n\nKhám phá\nTải CSV mẫu\nTải Excel mẫu\nNhìn rõ bức tranh kinh doanh\n\nDoanh thu, lợi nhuận và xu hướng được trình bày dễ hiểu.\n\nTừ con số đến hành động\n\nTìm mặt hàng chủ lực và nhóm khách cần chăm sóc.\n\nRiêng tư ngay từ đầu\n\nPhân tích tại thiết bị, không cần tài khoản hay tải dữ liệu lên.\n\nBán Hàng Smarter · Những quyết định tốt bắt đầu từ dữ liệu rõ ràng.\nTùy chỉnh giao diện",
+        "kpis": [],
+        "tables": [],
+        "overflow": {
+          "width": 1366,
+          "scrollWidth": 1366
+        },
+        "theme": {
+          "theme": "light",
+          "accent": "emerald",
+          "density": "comfortable",
+          "motion": "reduced"
+        }
+      },
+      "life": {
+        "created": 1,
+        "terminated": 1,
+        "active": 0,
+        "urls": 0,
+        "revoked": 0
+      }
+    },
+    {
+      "stage": "analyze-at-35",
+      "repeat": 1,
+      "state": {
+        "text": "Bán Hàng Smarter.\n\nDữ liệu nhỏ. Góc nhìn lớn.\n\nKhông gian riêng của bạn\nPhân tích file mới\nDữ liệu được xử lý 100% trên thiết bị của bạn, bảo mật tuyệt đối và KHÔNG gửi lên bất kỳ máy chủ nào.\n\nMỘT CHÚT NỮA THÔI\n\nĐang tìm câu chuyện trong dữ liệu\n\nĐang tính doanh thu và lợi nhuận...\n\n200.000 dòng bán hàng\n\nHủy xử lý\nBán Hàng Smarter · Những quyết định tốt bắt đầu từ dữ liệu rõ ràng.\nTùy chỉnh giao diện",
+        "kpis": [],
+        "tables": [],
+        "overflow": {
+          "width": 1366,
+          "scrollWidth": 1366
+        },
+        "theme": {
+          "theme": "light",
+          "accent": "emerald",
+          "density": "comfortable",
+          "motion": "reduced"
+        }
+      },
+      "life": {
+        "created": 3,
+        "terminated": 3,
+        "active": 0,
+        "urls": 0,
+        "revoked": 0
+      },
+      "events": [
+        {
+          "at": 165.09999999962747,
+          "percent": 10,
+          "label": "Đang đọc dữ liệu..."
+        },
+        {
+          "at": 277.69999999925494,
+          "percent": 10,
+          "label": "Đang đọc dữ liệu..."
+        },
+        {
+          "at": 1656.199999999255,
+          "percent": 15,
+          "label": "Đang chuẩn hóa và kiểm tra dữ liệu...",
+          "rows": 200000
+        },
+        {
+          "at": 1994.699999999255,
+          "percent": 35,
+          "label": "Đang tính doanh thu và lợi nhuận...",
+          "rows": 200000
+        }
+      ]
+    },
+    {
+      "stage": "sample-slow-route",
+      "repeat": 1,
+      "state": {
+        "text": "Bán Hàng Smarter.\n\nDữ liệu nhỏ. Góc nhìn lớn.\n\nKhông gian riêng của bạn\nKhám phá dữ liệu mẫu\nDữ liệu được xử lý 100% trên thiết bị của bạn, bảo mật tuyệt đối và KHÔNG gửi lên bất kỳ máy chủ nào.\n\nTRỢ LÝ DỮ LIỆU CHO CỬA HÀNG\n\nBán hàng mỗi ngày.\nThấu hiểu từng con số.\n\nBiến file bán hàng thành góc nhìn rõ ràng về doanh thu, sản phẩm và khách hàng. Không cần giỏi Excel để tìm ra cơ hội tiếp theo.\n\nMột bức tranh kinh doanh.\nNhiều quyết định sáng suốt.\n\nĐưa dữ liệu của bạn vào đây\n\nKéo thả file bán hàng hoặc chọn từ thiết bị.\n\nChọn file bán hàng\nCSV, XLSX, XLS · Số dòng xử lý tùy bộ nhớ thiết bị\nFile của bạn luôn ở trên thiết bị của bạn.\nChưa có file? Cứ thử trước.\n\nDữ liệu mẫu với 5.030 dòng và 50 mặt hàng.\n\nKhám phá\nTải CSV mẫu\nTải Excel mẫu\nNhìn rõ bức tranh kinh doanh\n\nDoanh thu, lợi nhuận và xu hướng được trình bày dễ hiểu.\n\nTừ con số đến hành động\n\nTìm mặt hàng chủ lực và nhóm khách cần chăm sóc.\n\nRiêng tư ngay từ đầu\n\nPhân tích tại thiết bị, không cần tài khoản hay tải dữ liệu lên.\n\nBán Hàng Smarter · Những quyết định tốt bắt đầu từ dữ liệu rõ ràng.\nTùy chỉnh giao diện",
+        "kpis": [],
+        "tables": [],
+        "overflow": {
+          "width": 1366,
+          "scrollWidth": 1366
+        },
+        "theme": {
+          "theme": "light",
+          "accent": "emerald",
+          "density": "comfortable",
+          "motion": "reduced"
+        }
+      }
+    },
+    {
+      "stage": "parse",
+      "repeat": 2,
+      "state": {
+        "text": "Bán Hàng Smarter.\n\nDữ liệu nhỏ. Góc nhìn lớn.\n\nKhông gian riêng của bạn\nKhám phá dữ liệu mẫu\nDữ liệu được xử lý 100% trên thiết bị của bạn, bảo mật tuyệt đối và KHÔNG gửi lên bất kỳ máy chủ nào.\n\nTRỢ LÝ DỮ LIỆU CHO CỬA HÀNG\n\nBán hàng mỗi ngày.\nThấu hiểu từng con số.\n\nBiến file bán hàng thành góc nhìn rõ ràng về doanh thu, sản phẩm và khách hàng. Không cần giỏi Excel để tìm ra cơ hội tiếp theo.\n\nMột bức tranh kinh doanh.\nNhiều quyết định sáng suốt.\n\nĐưa dữ liệu của bạn vào đây\n\nKéo thả file bán hàng hoặc chọn từ thiết bị.\n\nChọn file bán hàng\nCSV, XLSX, XLS · Số dòng xử lý tùy bộ nhớ thiết bị\nFile của bạn luôn ở trên thiết bị của bạn.\nChưa có file? Cứ thử trước.\n\nDữ liệu mẫu với 5.030 dòng và 50 mặt hàng.\n\nKhám phá\nTải CSV mẫu\nTải Excel mẫu\nNhìn rõ bức tranh kinh doanh\n\nDoanh thu, lợi nhuận và xu hướng được trình bày dễ hiểu.\n\nTừ con số đến hành động\n\nTìm mặt hàng chủ lực và nhóm khách cần chăm sóc.\n\nRiêng tư ngay từ đầu\n\nPhân tích tại thiết bị, không cần tài khoản hay tải dữ liệu lên.\n\nBán Hàng Smarter · Những quyết định tốt bắt đầu từ dữ liệu rõ ràng.\nTùy chỉnh giao diện",
+        "kpis": [],
+        "tables": [],
+        "overflow": {
+          "width": 1366,
+          "scrollWidth": 1366
+        },
+        "theme": {
+          "theme": "light",
+          "accent": "emerald",
+          "density": "comfortable",
+          "motion": "reduced"
+        }
+      },
+      "life": {
+        "created": 1,
+        "terminated": 1,
+        "active": 0,
+        "urls": 0,
+        "revoked": 0
+      }
+    },
+    {
+      "stage": "analyze-at-35",
+      "repeat": 2,
+      "state": {
+        "text": "Bán Hàng Smarter.\n\nDữ liệu nhỏ. Góc nhìn lớn.\n\nKhông gian riêng của bạn\nPhân tích file mới\nDữ liệu được xử lý 100% trên thiết bị của bạn, bảo mật tuyệt đối và KHÔNG gửi lên bất kỳ máy chủ nào.\n\nMỘT CHÚT NỮA THÔI\n\nĐang tìm câu chuyện trong dữ liệu\n\nĐang tính doanh thu và lợi nhuận...\n\n200.000 dòng bán hàng\n\nHủy xử lý\nBán Hàng Smarter · Những quyết định tốt bắt đầu từ dữ liệu rõ ràng.\nTùy chỉnh giao diện",
+        "kpis": [],
+        "tables": [],
+        "overflow": {
+          "width": 1366,
+          "scrollWidth": 1366
+        },
+        "theme": {
+          "theme": "light",
+          "accent": "emerald",
+          "density": "comfortable",
+          "motion": "reduced"
+        }
+      },
+      "life": {
+        "created": 3,
+        "terminated": 3,
+        "active": 0,
+        "urls": 0,
+        "revoked": 0
+      },
+      "events": [
+        {
+          "at": 171,
+          "percent": 10,
+          "label": "Đang đọc dữ liệu..."
+        },
+        {
+          "at": 300.6000000014901,
+          "percent": 10,
+          "label": "Đang đọc dữ liệu..."
+        },
+        {
+          "at": 1693,
+          "percent": 15,
+          "label": "Đang chuẩn hóa và kiểm tra dữ liệu...",
+          "rows": 200000
+        },
+        {
+          "at": 2026,
+          "percent": 35,
+          "label": "Đang tính doanh thu và lợi nhuận...",
+          "rows": 200000
+        }
+      ]
+    },
+    {
+      "stage": "sample-slow-route",
+      "repeat": 2,
+      "state": {
+        "text": "Bán Hàng Smarter.\n\nDữ liệu nhỏ. Góc nhìn lớn.\n\nKhông gian riêng của bạn\nKhám phá dữ liệu mẫu\nDữ liệu được xử lý 100% trên thiết bị của bạn, bảo mật tuyệt đối và KHÔNG gửi lên bất kỳ máy chủ nào.\n\nTRỢ LÝ DỮ LIỆU CHO CỬA HÀNG\n\nBán hàng mỗi ngày.\nThấu hiểu từng con số.\n\nBiến file bán hàng thành góc nhìn rõ ràng về doanh thu, sản phẩm và khách hàng. Không cần giỏi Excel để tìm ra cơ hội tiếp theo.\n\nMột bức tranh kinh doanh.\nNhiều quyết định sáng suốt.\n\nĐưa dữ liệu của bạn vào đây\n\nKéo thả file bán hàng hoặc chọn từ thiết bị.\n\nChọn file bán hàng\nCSV, XLSX, XLS · Số dòng xử lý tùy bộ nhớ thiết bị\nFile của bạn luôn ở trên thiết bị của bạn.\nChưa có file? Cứ thử trước.\n\nDữ liệu mẫu với 5.030 dòng và 50 mặt hàng.\n\nKhám phá\nTải CSV mẫu\nTải Excel mẫu\nNhìn rõ bức tranh kinh doanh\n\nDoanh thu, lợi nhuận và xu hướng được trình bày dễ hiểu.\n\nTừ con số đến hành động\n\nTìm mặt hàng chủ lực và nhóm khách cần chăm sóc.\n\nRiêng tư ngay từ đầu\n\nPhân tích tại thiết bị, không cần tài khoản hay tải dữ liệu lên.\n\nBán Hàng Smarter · Những quyết định tốt bắt đầu từ dữ liệu rõ ràng.\nTùy chỉnh giao diện",
+        "kpis": [],
+        "tables": [],
+        "overflow": {
+          "width": 1366,
+          "scrollWidth": 1366
+        },
+        "theme": {
+          "theme": "light",
+          "accent": "emerald",
+          "density": "comfortable",
+          "motion": "reduced"
+        }
+      }
+    }
+  ],
+  "cleanup": [
+    {
+      "repeat": 1,
+      "afterExport": {
+        "created": 2,
+        "terminated": 2,
+        "active": 0,
+        "urls": 1,
+        "revoked": 1
+      }
+    },
+    {
+      "repeat": 1,
+      "afterReset": {
+        "created": 2,
+        "terminated": 2,
+        "active": 0,
+        "urls": 1,
+        "revoked": 1
+      }
+    },
+    {
+      "repeat": 2,
+      "afterExport": {
+        "created": 2,
+        "terminated": 2,
+        "active": 0,
+        "urls": 1,
+        "revoked": 1
+      }
+    },
+    {
+      "repeat": 2,
+      "afterReset": {
+        "created": 2,
+        "terminated": 2,
+        "active": 0,
+        "urls": 1,
+        "revoked": 1
+      }
+    }
+  ],
+  "tooltips": [
+    {
+      "tab": "Tổng quan",
+      "repeat": 1,
+      "text": [
+        "2026-08Doanh thu252.500 đLợi nhuận gộp101.000 đ"
+      ]
+    },
+    {
+      "tab": "Sản phẩm",
+      "repeat": 1,
+      "text": [
+        "TràDoanh thu150.000 đ"
+      ]
+    },
+    {
+      "tab": "Khách hàng",
+      "repeat": 1,
+      "text": [
+        "Có nguy cơ rời điKhách hàng1"
+      ]
+    },
+    {
+      "tab": "Tổng quan",
+      "repeat": 2,
+      "text": [
+        "2026-08Doanh thu252.500 đLợi nhuận gộp101.000 đ"
+      ]
+    },
+    {
+      "tab": "Sản phẩm",
+      "repeat": 2,
+      "text": [
+        "TràDoanh thu150.000 đ"
+      ]
+    },
+    {
+      "tab": "Khách hàng",
+      "repeat": 2,
+      "text": [
+        "Có nguy cơ rời điKhách hàng1"
+      ]
+    }
+  ],
+  "network": {
+    "requests": 740,
+    "external": [
+      {
+        "url": "https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap",
+        "method": "GET",
+        "resource": "stylesheet",
+        "body": null
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap",
+        "method": "GET",
+        "resource": "stylesheet",
+        "body": null
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap",
+        "method": "GET",
+        "resource": "stylesheet",
+        "body": null
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap",
+        "method": "GET",
+        "resource": "stylesheet",
+        "body": null
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap",
+        "method": "GET",
+        "resource": "stylesheet",
+        "body": null
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap",
+        "method": "GET",
+        "resource": "stylesheet",
+        "body": null
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap",
+        "method": "GET",
+        "resource": "stylesheet",
+        "body": null
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap",
+        "method": "GET",
+        "resource": "stylesheet",
+        "body": null
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap",
+        "method": "GET",
+        "resource": "stylesheet",
+        "body": null
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap",
+        "method": "GET",
+        "resource": "stylesheet",
+        "body": null
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap",
+        "method": "GET",
+        "resource": "stylesheet",
+        "body": null
+      }
+    ],
+    "markerRequests": [],
+    "post": [],
+    "failed": [
+      {
+        "url": "https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap",
+        "failure": {
+          "errorText": "net::ERR_NETWORK_ACCESS_DENIED"
+        }
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap",
+        "failure": {
+          "errorText": "net::ERR_NETWORK_ACCESS_DENIED"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:5181/sample-data/du_lieu_ban_hang_mau.csv",
+        "failure": {
+          "errorText": "net::ERR_ABORTED"
+        }
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap",
+        "failure": {
+          "errorText": "net::ERR_NETWORK_ACCESS_DENIED"
+        }
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap",
+        "failure": {
+          "errorText": "net::ERR_NETWORK_ACCESS_DENIED"
+        }
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap",
+        "failure": {
+          "errorText": "net::ERR_NETWORK_ACCESS_DENIED"
+        }
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap",
+        "failure": {
+          "errorText": "net::ERR_NETWORK_ACCESS_DENIED"
+        }
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap",
+        "failure": {
+          "errorText": "net::ERR_NETWORK_ACCESS_DENIED"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:5181/sample-data/du_lieu_ban_hang_mau.csv",
+        "failure": {
+          "errorText": "net::ERR_ABORTED"
+        }
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap",
+        "failure": {
+          "errorText": "net::ERR_NETWORK_ACCESS_DENIED"
+        }
+      }
+    ]
+  }
+}

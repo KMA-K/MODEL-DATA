@@ -1,0 +1,13 @@
+diff --git "a/D:\\2.TEST_PROJECT\\MODEL data\\review\\project\\dist\\index.html" "b/D:\\2.TEST_PROJECT\\MODEL data\\dist\\index.html"
+index 6391a51..9152d9c 100644
+--- "a/D:\\2.TEST_PROJECT\\MODEL data\\review\\project\\dist\\index.html"	
++++ "b/D:\\2.TEST_PROJECT\\MODEL data\\dist\\index.html"	
+@@ -18,7 +18,7 @@
+         if ([16, 18, 20].includes(settings.fontSize)) root.style.fontSize = settings.fontSize + 'px';
+       } catch {}
+     </script>
+-    <script type="module" crossorigin src="/assets/index-Dgg9Kv7c.js"></script>
++    <script type="module" crossorigin src="/assets/index-YHTDEjPw.js"></script>
+     <link rel="stylesheet" crossorigin href="/assets/index-BVh66A9d.css">
+   </head>
+   <body>

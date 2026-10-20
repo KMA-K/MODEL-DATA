@@ -1,0 +1,84 @@
+diff --git "a/D:\\2.TEST_PROJECT\\MODEL data\\review\\project\\src\\core\\customerMetrics.ts" "b/D:\\2.TEST_PROJECT\\MODEL data\\src\\core\\customerMetrics.ts"
+index c60e9c9..e151bc8 100644
+--- "a/D:\\2.TEST_PROJECT\\MODEL data\\review\\project\\src\\core\\customerMetrics.ts"	
++++ "b/D:\\2.TEST_PROJECT\\MODEL data\\src\\core\\customerMetrics.ts"	
+@@ -1,7 +1,11 @@
+ // src/core/customerMetrics.ts
+ import { CleanRow, CustomerAnalysisResult, CustomerMetricsItem, RFMSegment } from './types';
+ 
+-export function calculateCustomerMetrics(cleanRows: CleanRow[]): CustomerAnalysisResult {
++export function calculateCustomerMetrics(cleanRows: CleanRow[], storeRevenueOverride?: number): CustomerAnalysisResult {
++  const totalStoreRevenue = storeRevenueOverride !== undefined 
++    ? storeRevenueOverride 
++    : cleanRows.reduce((sum, r) => sum + r.revenue, 0);
++
+   // Kiểm tra có dữ liệu khách hàng không
+   const hasCust = cleanRows.some(r => r.customerId && r.customerId.trim() !== '');
+ 
+@@ -10,6 +14,11 @@ export function calculateCustomerMetrics(cleanRows: CleanRow[]): CustomerAnalysi
+       hasCustomerData: false,
+       customers: [],
+       totalCustomers: 0,
++      totalStoreRevenue: Math.round(totalStoreRevenue),
++      identifiedCustomerRevenue: 0,
++      customerRevenueCoverage: 0,
++      repeatCustomersCount: 0,
++      repeatCustomerRate: 0,
+       segmentsSummary: [],
+       topCustomers: [],
+       vipCustomers: [],
+@@ -80,6 +89,11 @@ export function calculateCustomerMetrics(cleanRows: CleanRow[]): CustomerAnalysi
+       hasCustomerData: false,
+       customers: [],
+       totalCustomers: 0,
++      totalStoreRevenue: Math.round(totalStoreRevenue),
++      identifiedCustomerRevenue: 0,
++      customerRevenueCoverage: 0,
++      repeatCustomersCount: 0,
++      repeatCustomerRate: 0,
+       segmentsSummary: [],
+       topCustomers: [],
+       vipCustomers: [],
+@@ -168,8 +182,18 @@ export function calculateCustomerMetrics(cleanRows: CleanRow[]): CustomerAnalysi
+     });
+   }
+ 
+-  // Tổng hợp tỷ trọng các nhóm
+-  const totalStoreCustomerSpend = customerItems.reduce((sum, c) => sum + c.totalSpend, 0);
++  // Tỷ lệ khách quay lại mua sắm (UI-18)
++  const repeatCustomersCount = customerItems.filter(c => c.ordersCount >= 2).length;
++  const repeatCustomerRate = totalCustomers > 0 
++    ? parseFloat(((repeatCustomersCount / totalCustomers) * 100).toFixed(1)) 
++    : 0;
++
++  // Tổng hợp tỷ trọng các nhóm và phân biệt mẫu số (UI-17)
++  const identifiedCustomerRevenue = customerItems.reduce((sum, c) => sum + c.totalSpend, 0);
++  const customerRevenueCoverage = totalStoreRevenue > 0
++    ? parseFloat(((identifiedCustomerRevenue / totalStoreRevenue) * 100).toFixed(1))
++    : 0;
++
+   const segmentOrder: RFMSegment[] = ['VIP', 'Trung thành', 'Mới', 'Có nguy cơ rời đi', 'Đã ngừng mua', 'Bình thường'];
+ 
+   const segmentsSummary = segmentOrder.map(seg => {
+@@ -181,7 +205,8 @@ export function calculateCustomerMetrics(cleanRows: CleanRow[]): CustomerAnalysi
+       count,
+       percentage: totalCustomers > 0 ? parseFloat(((count / totalCustomers) * 100).toFixed(1)) : 0,
+       totalRevenue: Math.round(spend),
+-      revenuePercentage: totalStoreCustomerSpend > 0 ? parseFloat(((spend / totalStoreCustomerSpend) * 100).toFixed(1)) : 0
++      revenuePercentage: identifiedCustomerRevenue > 0 ? parseFloat(((spend / identifiedCustomerRevenue) * 100).toFixed(1)) : 0,
++      storeRevenuePercentage: totalStoreRevenue > 0 ? parseFloat(((spend / totalStoreRevenue) * 100).toFixed(1)) : 0
+     };
+   });
+ 
+@@ -189,6 +214,11 @@ export function calculateCustomerMetrics(cleanRows: CleanRow[]): CustomerAnalysi
+     hasCustomerData: true,
+     customers: customerItems,
+     totalCustomers,
++    totalStoreRevenue: Math.round(totalStoreRevenue),
++    identifiedCustomerRevenue: Math.round(identifiedCustomerRevenue),
++    customerRevenueCoverage,
++    repeatCustomersCount,
++    repeatCustomerRate,
+     segmentsSummary,
+     topCustomers: [...customerItems].sort((a, b) => b.totalSpend - a.totalSpend).slice(0, 15),
+     vipCustomers: customerItems.filter(c => c.segment === 'VIP'),

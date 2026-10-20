@@ -1,0 +1,98 @@
+{
+  "rawRows": 3,
+  "validRows": 3,
+  "dropped": {},
+  "samples": {},
+  "revenue": 100000,
+  "orders": 1,
+  "aov": 100000,
+  "profit": 40000,
+  "margin": 40,
+  "products": [
+    {
+      "name": "A",
+      "revenue": 80000,
+      "quantity": 2,
+      "profit": 32000,
+      "monthly": {
+        "2026-09": 80000
+      },
+      "abc": "A",
+      "share": 80,
+      "trend": "Ổn định",
+      "recommendation": "Đáng đầu tư"
+    },
+    {
+      "name": "B",
+      "revenue": 15000,
+      "quantity": 2,
+      "profit": 6000,
+      "monthly": {
+        "2026-09": 15000
+      },
+      "abc": "B",
+      "share": 15,
+      "trend": "Ổn định",
+      "recommendation": "Duy trì ổn định"
+    },
+    {
+      "name": "C",
+      "revenue": 5000,
+      "quantity": 2,
+      "profit": 2000,
+      "monthly": {
+        "2026-09": 5000
+      },
+      "abc": "C",
+      "share": 5,
+      "trend": "Ổn định",
+      "recommendation": "Duy trì ổn định"
+    }
+  ],
+  "pairs": [
+    {
+      "names": [
+        "A",
+        "B"
+      ],
+      "count": 1,
+      "percentage": 100
+    },
+    {
+      "names": [
+        "A",
+        "C"
+      ],
+      "count": 1,
+      "percentage": 100
+    },
+    {
+      "names": [
+        "B",
+        "C"
+      ],
+      "count": 1,
+      "percentage": 100
+    }
+  ],
+  "customers": [
+    {
+      "id": "KH1",
+      "spend": 100000,
+      "frequency": 1,
+      "last": "2026-09-30",
+      "recency": 0,
+      "segment": "VIP",
+      "r": 5,
+      "f": 1,
+      "m": 5
+    }
+  ],
+  "vipThreshold": 100000,
+  "monthly": [
+    {
+      "month": "2026-09",
+      "revenue": 100000
+    }
+  ]
+}

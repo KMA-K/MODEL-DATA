@@ -1,0 +1,120 @@
+{
+  "rawRows": 7,
+  "validRows": 7,
+  "dropped": {},
+  "samples": {},
+  "revenue": 741000,
+  "orders": 7,
+  "aov": 105857,
+  "profit": 296400,
+  "margin": 40,
+  "products": [
+    {
+      "name": "Trà",
+      "revenue": 700000,
+      "quantity": 4,
+      "profit": 280000,
+      "monthly": {
+        "2026-07": 300000,
+        "2026-08": 400000,
+        "2026-09": 0
+      },
+      "abc": "A",
+      "share": 94.46693657219973,
+      "trend": "Giảm sút",
+      "recommendation": "Đáng đầu tư"
+    },
+    {
+      "name": "Bánh",
+      "revenue": 40000,
+      "quantity": 8,
+      "profit": 16000,
+      "monthly": {
+        "2026-07": 0,
+        "2026-08": 0,
+        "2026-09": 40000
+      },
+      "abc": "B",
+      "share": 5.398110661268556,
+      "trend": "Mới xuất hiện",
+      "recommendation": "Duy trì ổn định"
+    },
+    {
+      "name": "Kẹo",
+      "revenue": 1000,
+      "quantity": 2,
+      "profit": 400,
+      "monthly": {
+        "2026-07": 0,
+        "2026-08": 0,
+        "2026-09": 1000
+      },
+      "abc": "C",
+      "share": 0.1349527665317139,
+      "trend": "Mới xuất hiện",
+      "recommendation": "Duy trì ổn định"
+    }
+  ],
+  "pairs": [],
+  "customers": [
+    {
+      "id": "KH-R60",
+      "spend": 400000,
+      "frequency": 1,
+      "last": "2026-08-01",
+      "recency": 60,
+      "segment": "VIP",
+      "r": 4,
+      "f": 1,
+      "m": 5
+    },
+    {
+      "id": "KH-R61",
+      "spend": 300000,
+      "frequency": 1,
+      "last": "2026-07-31",
+      "recency": 61,
+      "segment": "Có nguy cơ rời đi",
+      "r": 3,
+      "f": 1,
+      "m": 5
+    },
+    {
+      "id": "KH-F4",
+      "spend": 40000,
+      "frequency": 4,
+      "last": "2026-09-30",
+      "recency": 0,
+      "segment": "Trung thành",
+      "r": 5,
+      "f": 3,
+      "m": 2
+    },
+    {
+      "id": "KH-low",
+      "spend": 1000,
+      "frequency": 1,
+      "last": "2026-09-30",
+      "recency": 0,
+      "segment": "Mới",
+      "r": 5,
+      "f": 1,
+      "m": 2
+    }
+  ],
+  "vipThreshold": 222300,
+  "monthly": [
+    {
+      "month": "2026-07",
+      "revenue": 300000
+    },
+    {
+      "month": "2026-08",
+      "revenue": 400000
+    },
+    {
+      "month": "2026-09",
+      "revenue": 41000
+    }
+  ]
+}

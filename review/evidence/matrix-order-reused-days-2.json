@@ -1,0 +1,612 @@
+{
+  "status": "dashboard",
+  "mapping": {
+    "map-dateCol": "Ngày bán",
+    "map-productCol": "Tên sản phẩm",
+    "map-quantityCol": "Số lượng",
+    "map-revenueCol": "Doanh thu",
+    "map-unitPriceCol": "Đơn giá",
+    "map-costPriceCol": "Giá vốn",
+    "map-orderIdCol": "Mã đơn hàng",
+    "map-customerIdCol": "Mã khách hàng",
+    "map-categoryCol": "Danh mục"
+  },
+  "overview": {
+    "hasReliableOrderIds": true,
+    "costCoverage": 100,
+    "totalRevenue": 120000,
+    "totalQuantity": 4,
+    "totalOrders": 1,
+    "averageOrderValue": 120000,
+    "totalProfit": 48000,
+    "profitMargin": 40,
+    "uniqueProducts": 2,
+    "uniqueCustomers": 2,
+    "dateRange": {
+      "start": "2026-09-01",
+      "end": "2026-09-30",
+      "days": 30
+    },
+    "monthlyRevenue": [
+      {
+        "month": "2026-09",
+        "revenue": 120000,
+        "orders": 1,
+        "profit": 48000
+      }
+    ]
+  },
+  "cleaning": {
+    "totalRows": 2,
+    "validRows": 2,
+    "droppedTotal": 0,
+    "reasons": []
+  },
+  "products": [
+    {
+      "id": "Trà",
+      "name": "Trà",
+      "category": "Đồ dùng thử",
+      "quantity": 2,
+      "revenue": 100000,
+      "revenueShare": 83.3,
+      "cumulativeShare": 83.3,
+      "abcGroup": "A",
+      "costPrice": 30000,
+      "profit": 40000,
+      "profitMargin": 40,
+      "ordersCount": 1,
+      "trend": "Ổn định",
+      "monthlyTrendData": [
+        {
+          "month": "2026-09",
+          "quantity": 2,
+          "revenue": 100000
+        }
+      ],
+      "recommendation": "Đáng đầu tư",
+      "reasonText": "Sản phẩm chủ lực (Nhóm A), đóng góp 83.3% doanh thu. Luôn ưu tiên giữ hàng và vị trí trưng bày đẹp."
+    },
+    {
+      "id": "Bánh",
+      "name": "Bánh",
+      "category": "Đồ dùng thử",
+      "quantity": 2,
+      "revenue": 20000,
+      "revenueShare": 16.7,
+      "cumulativeShare": 100,
+      "abcGroup": "B",
+      "costPrice": 6000,
+      "profit": 8000,
+      "profitMargin": 40,
+      "ordersCount": 1,
+      "trend": "Ổn định",
+      "monthlyTrendData": [
+        {
+          "month": "2026-09",
+          "quantity": 2,
+          "revenue": 20000
+        }
+      ],
+      "recommendation": "Duy trì ổn định",
+      "reasonText": "Sản phẩm bán ổn định ở mức trung bình, phục vụ nhu cầu thường ngày của khách."
+    }
+  ],
+  "customers": [
+    {
+      "customerId": "KH1",
+      "customerName": "KH1",
+      "ordersCount": 1,
+      "totalSpend": 100000,
+      "averageOrderValue": 100000,
+      "lastOrderDate": "2026-09-30",
+      "daysSinceLastOrder": 0,
+      "firstOrderDate": "2026-09-30",
+      "rfmScore": {
+        "r": 5,
+        "f": 1,
+        "m": 5,
+        "total": 11
+      },
+      "segment": "VIP",
+      "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+    },
+    {
+      "customerId": "KH2",
+      "customerName": "KH2",
+      "ordersCount": 1,
+      "totalSpend": 20000,
+      "averageOrderValue": 20000,
+      "lastOrderDate": "2026-09-01",
+      "daysSinceLastOrder": 29,
+      "firstOrderDate": "2026-09-01",
+      "rfmScore": {
+        "r": 5,
+        "f": 1,
+        "m": 3,
+        "total": 9
+      },
+      "segment": "Mới",
+      "actionAdvice": "Khách hàng mới phát sinh đơn đầu tiên. Gửi ưu đãi cho lần mua tiếp theo."
+    }
+  ],
+  "conclusions": {
+    "overview": "Cửa hàng ghi nhận **1 đơn** với tổng doanh thu **120.000 đ** trong 30 ngày, ghi nhận lợi nhuận gộp **48.000 đ** trên phần dữ liệu có giá vốn (100% doanh thu; biên lãi **40%**). Giá trị trung bình mỗi đơn đạt **120.000 đ**.",
+    "monthlyTrend": "Dữ liệu phát sinh trong 1 tháng duy nhất.",
+    "productABC": "Chỉ **1 sản phẩm nhóm A** (chiếm 50% số lượng mặt hàng) đã đóng góp tới **83.3% doanh thu** (100.000 đ). Trong khi đó, **0 sản phẩm nhóm C** chỉ đóng góp 0%.",
+    "productProfit": "Mặt hàng mang lại nhiều tiền lãi nhất là **Trà** với lợi nhuận gộp **40.000 đ** (biên lãi **40%**).",
+    "customerRFM": "**1 khách VIP** đóng góp **83.3% doanh thu** (100.000 đ). Cửa hàng đang duy trì tỷ lệ khách quay lại mua sắm rất tích cực.",
+    "crossSelling": "Cặp đôi mua cùng nhiều nhất là \"Bánh\" & \"Trà\" (1 đơn)."
+  },
+  "kpis": [
+    {
+      "title": "TỔNG DOANH THU",
+      "value": "120.000 đ",
+      "subtitle": "30 ngày kinh doanh được ghi nhận"
+    },
+    {
+      "title": "LỢI NHUẬN GỘP",
+      "value": "48.000 đ",
+      "subtitle": "Biên lợi nhuận 40% · 100% doanh thu có giá vốn"
+    },
+    {
+      "title": "TỔNG ĐƠN HÀNG",
+      "value": "1",
+      "subtitle": "4 sản phẩm đã bán"
+    },
+    {
+      "title": "GIÁ TRỊ ĐƠN TRUNG BÌNH",
+      "value": "120.000 đ",
+      "subtitle": "Doanh thu bình quân mỗi hóa đơn"
+    },
+    {
+      "title": "KHÁCH VIP",
+      "value": "1",
+      "subtitle": "Khách chi tiêu cao và còn gắn bó"
+    },
+    {
+      "title": "SẢN PHẨM CHỦ LỰC",
+      "value": "1",
+      "subtitle": "Đóng góp 83.3% doanh thu"
+    }
+  ],
+  "text": "Bán Hàng Smarter.\n\nDữ liệu nhỏ. Góc nhìn lớn.\n\nKhông gian riêng của bạn\nPhân tích file mới\nDữ liệu được xử lý 100% trên thiết bị của bạn, bảo mật tuyệt đối và KHÔNG gửi lên bất kỳ máy chủ nào.\n\nKHÔNG GIAN KINH DOANH\n\nMỗi con số, một cơ hội.\n\nHiểu cửa hàng hôm nay. Quyết định tự tin hơn ngày mai.\n\n2026-09-01 — 2026-09-30\norder-reused-days.csv\n2 dòng hợp lệ\nBáo cáo làm sạch\nTổng quan\nSản phẩm\n2\nKhách hàng\n2\nTỔNG DOANH THU\n120.000 đ\n\n30 ngày kinh doanh được ghi nhận\n\nLỢI NHUẬN GỘP\n48.000 đ\n\nBiên lợi nhuận 40% · 100% doanh thu có giá vốn\n\nTỔNG ĐƠN HÀNG\n1\n\n4 sản phẩm đã bán\n\nGIÁ TRỊ ĐƠN TRUNG BÌNH\n120.000 đ\n\nDoanh thu bình quân mỗi hóa đơn\n\nĐIỂM TIN KINH DOANH\n\nCửa hàng ghi nhận 1 đơn với tổng doanh thu 120.000 đ trong 30 ngày, ghi nhận lợi nhuận gộp 48.000 đ trên phần dữ liệu có giá vốn (100% doanh thu; biên lãi 40%). Giá trị trung bình mỗi đơn đạt 120.000 đ.\n\nNhịp kinh doanh của cửa hàng\n\nDoanh thu và lợi nhuận theo tháng\n\n1 tháng\nDoanh thu\nLợi nhuận gộp\n09\n0tr\n0tr\n0tr\n0tr\n0tr\n\nDữ liệu phát sinh trong 1 tháng duy nhất.\n\nNhững mặt hàng dẫn đầu\n\nTop 5 theo doanh thu\n\n01\n\nTrà\n\n100.000 đ\n02\n\nBánh\n\n20.000 đ\n\nMẶT HÀNG\n\n2\n\nKHÁCH HÀNG\n\n2\n\nTỪ DỮ LIỆU ĐẾN HÀNH ĐỘNG\n\nCơ hội tiếp theo của bạn\n3 gợi ý\nĐảm bảo nguồn hàng cho 1 sản phẩm chủ lực (Nhóm A)\n\nChỉ 1 mặt hàng này mang về 83.3% doanh thu toàn tiệm (100.000 đ), dẫn đầu là \"Trà\". Hãy luôn kiểm kê và đặt hàng nhà cung cấp sớm để tránh đứt hàng vào giờ cao điểm.\n\n83.3% doanh thu\nTạo combo bán chéo \"Bánh\" & \"Trà\"\n\nKhách hàng đã mua cùng 2 món này trong 1 hóa đơn (100% các đơn từ 2 món). Bạn nên đặt 2 món cạnh nhau trên kệ trưng bày hoặc tạo gói khuyến mãi mua kèm để gia tăng giá trị giỏ hàng.\n\n1 đơn mua chung\nGia tăng giá trị đơn hàng trung bình (hiện tại 120.000 đ)\n\nĐể tăng thêm doanh thu mà không cần tìm thêm khách mới, hãy áp dụng chương trình \"Hóa đơn trên 160.000 đ được tặng thêm quà nhỏ hoặc miễn phí giao hàng\".\n\nAOV: 120.000 đ\nKHÁCH VIP\n1\n\nKhách chi tiêu cao và còn gắn bó\n\nSẢN PHẨM CHỦ LỰC\n1\n\nĐóng góp 83.3% doanh thu\n\nBán Hàng Smarter · Những quyết định tốt bắt đầu từ dữ liệu rõ ràng.\nTùy chỉnh giao diện\n0tr",
+  "reportText": "CHẤT LƯỢNG DỮ LIỆU\n\nBáo cáo làm sạch\n\nDòng đầu vào\n\n2\n\nHợp lệ\n\n2\n\nBị loại\n\n0\nTất cả các dòng đều hợp lệ.\n\nSố thứ tự tính từ bản ghi dữ liệu đầu tiên, không bao gồm tiêu đề. Báo cáo giữ tối đa 5 bản ghi mẫu cho mỗi lý do.\n\n×",
+  "progress": [
+    {
+      "at": 149.89999999850988,
+      "percent": 10,
+      "label": "Đang đọc dữ liệu..."
+    },
+    {
+      "at": 353.59999999962747,
+      "percent": 15,
+      "label": "Đang chuẩn hóa và kiểm tra dữ liệu...",
+      "rows": 2
+    },
+    {
+      "at": 355.8999999985099,
+      "percent": 35,
+      "label": "Đang tính doanh thu và lợi nhuận...",
+      "rows": 2
+    },
+    {
+      "at": 355.8999999985099,
+      "percent": 55,
+      "label": "Đang tìm sản phẩm bán chạy và các cặp mua cùng...",
+      "rows": 2
+    },
+    {
+      "at": 355.8999999985099,
+      "percent": 75,
+      "label": "Đang phân nhóm khách hàng RFM...",
+      "rows": 2
+    },
+    {
+      "at": 355.8999999985099,
+      "percent": 92,
+      "label": "Đang tổng hợp nhận xét và gợi ý hành động...",
+      "rows": 2
+    },
+    {
+      "at": 355.8999999985099,
+      "percent": 100,
+      "label": "Phân tích hoàn tất!",
+      "rows": 2
+    }
+  ],
+  "screenshot": "screenshots/matrix-order-reused-days-2-result.png",
+  "reportPicture": "screenshots/matrix-order-reused-days-2-report.png",
+  "overflow": {
+    "width": 1366,
+    "scrollWidth": 1366
+  },
+  "durationMs": 1568,
+  "console": [
+    {
+      "type": "error",
+      "text": "Failed to load resource: net::ERR_NETWORK_ACCESS_DENIED"
+    }
+  ],
+  "pageErrors": [],
+  "requests": [
+    {
+      "url": "http://127.0.0.1:5181/",
+      "method": "GET",
+      "resource": "document",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/@vite/client",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/main.tsx",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/@react-refresh",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/node_modules/vite/dist/client/env.mjs",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/node_modules/.vite/deps/react.js?v=b72af8a4",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/node_modules/.vite/deps/react-dom_client.js?v=b72af8a4",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/index.css",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/App.tsx",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/theme/ThemeProvider.tsx",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=b72af8a4",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/node_modules/.vite/deps/rolldown-runtime-DC62tzP2.js?v=b72af8a4",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/node_modules/.vite/deps/react-dom.js?v=b72af8a4",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/node_modules/.vite/deps/lucide-react.js?v=b72af8a4",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/components/common/Header.tsx",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/components/upload/FileUploadZone.tsx",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/components/upload/ColumnMapper.tsx",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/components/upload/CleaningReportModal.tsx",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/components/common/ThemeCustomizer.tsx",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/components/common/AnalysisLoader.tsx",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/hooks/useSalesWorker.ts",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/theme/useTheme.ts",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/theme/settings.ts",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/components/common/Visuals.tsx",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/core/columnMapping.ts",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/components/common/Dialog.tsx",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/components/common/AnimatedNumber.tsx",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap",
+      "method": "GET",
+      "resource": "stylesheet",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/favicon.svg",
+      "method": "GET",
+      "resource": "other",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/workers/sales.worker.ts?worker_file&type=module",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/node_modules/vite/dist/client/env.mjs",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/core/parser.ts",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/core/analyzer.ts",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/node_modules/.vite/deps/papaparse.js?v=b72af8a4",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/node_modules/.vite/deps/xlsx.js?v=b72af8a4",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/core/columnMapping.ts",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/core/actionSuggestions.ts",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/core/cleaner.ts",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/core/customerMetrics.ts",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/core/overviewMetrics.ts",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/core/productMetrics.ts",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/core/textConclusions.ts",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/node_modules/.vite/deps/rolldown-runtime-DC62tzP2.js?v=b72af8a4",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/workers/sales.worker.ts?worker_file&type=module",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/node_modules/vite/dist/client/env.mjs",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/core/parser.ts",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/core/analyzer.ts",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/node_modules/.vite/deps/papaparse.js?v=b72af8a4",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/node_modules/.vite/deps/xlsx.js?v=b72af8a4",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/core/columnMapping.ts",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/core/actionSuggestions.ts",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/core/cleaner.ts",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/core/customerMetrics.ts",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/core/overviewMetrics.ts",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/core/productMetrics.ts",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/core/textConclusions.ts",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/node_modules/.vite/deps/rolldown-runtime-DC62tzP2.js?v=b72af8a4",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/components/dashboard/OverviewTab.tsx",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/node_modules/.vite/deps/recharts.js?v=b72af8a4",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/core/textConclusions.ts",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/components/common/ChartKit.tsx",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/components/common/chartGradients.tsx",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    },
+    {
+      "url": "http://127.0.0.1:5181/src/components/dashboard/KpiCard.tsx",
+      "method": "GET",
+      "resource": "script",
+      "body": null
+    }
+  ]
+}

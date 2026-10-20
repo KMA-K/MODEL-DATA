@@ -1,0 +1,88 @@
+diff --git "a/D:\\2.TEST_PROJECT\\MODEL data\\review\\project\\src\\core\\types.ts" "b/D:\\2.TEST_PROJECT\\MODEL data\\src\\core\\types.ts"
+index d859e09..0949d1b 100644
+--- "a/D:\\2.TEST_PROJECT\\MODEL data\\review\\project\\src\\core\\types.ts"	
++++ "b/D:\\2.TEST_PROJECT\\MODEL data\\src\\core\\types.ts"	
+@@ -11,6 +11,8 @@ export type StandardField =
+   | 'orderId'
+   | 'category';
+ 
++export type DeduplicatePolicy = 'keep_all' | 'drop_exact_duplicates';
++
+ export interface ColumnMappingConfig {
+   dateCol: string;          // Bắt buộc: Ngày bán
+   productCol: string;       // Bắt buộc: Tên hoặc Mã sản phẩm
+@@ -21,11 +23,13 @@ export interface ColumnMappingConfig {
+   costPriceCol?: string;    // Tùy chọn: Giá vốn
+   orderIdCol?: string;      // Tùy chọn: Mã hóa đơn / đơn hàng
+   categoryCol?: string;     // Tùy chọn: Nhóm / Danh mục sản phẩm
++  deduplicatePolicy?: DeduplicatePolicy; // Chính sách xử lý dòng trùng lặp (mặc định: 'keep_all')
+ }
+ 
+ export interface CleanRow {
+   rowIndex: number;         // Dòng gốc trong file (1-based)
+-  orderId: string;          // Mã đơn (hoặc tự tạo nếu thiếu)
++  orderId: string;          // Mã định danh giao dịch nội bộ (disambiguated transaction ID)
++  rawOrderId?: string | null;// Mã hóa đơn nguồn từ file (null nếu không có)
+   date: string;             // Định dạng YYYY-MM-DD
+   monthStr: string;         // Định dạng YYYY-MM để nhóm theo tháng
+   timestamp: number;        // Epoch millis để sắp xếp nhanh
+@@ -53,6 +57,12 @@ export interface CleaningReport {
+   validRows: number;
+   droppedTotal: number;
+   reasons: DropReasonCount[];
++  suspectedDuplicates?: {
++    count: number;
++    sampleRows: number[];
++    totalRevenue: number;
++    policyApplied: DeduplicatePolicy;
++  };
+ }
+ 
+ export interface ParseResult {
+@@ -64,9 +74,18 @@ export interface ParseResult {
+   fileSizeBytes: number;
+ }
+ 
++export type OrderIdStatus = 
++  | 'reliable'              // Mã đơn duy nhất, hợp lệ, nhất quán
++  | 'reused_disambiguated'  // Mã đơn tái sử dụng qua ngày/khách nhưng đã được tách thành giao dịch riêng
++  | 'unreliable'            // Mã đơn xung đột không đủ cơ sở phân tách
++  | 'missing';              // Không có cột mã đơn hoặc thiếu phần lớn
++
+ // Chỉ số Tổng quan (Overview)
+ export interface OverviewMetrics {
+   hasReliableOrderIds: boolean;
++  orderIdStatus: OrderIdStatus;
++  hasOrderCollisions: boolean;
++  orderIdWarning?: string;
+   costCoverage: number;
+   totalRevenue: number;
+   totalQuantity: number;
+@@ -118,6 +137,7 @@ export interface ProductAnalysisResult {
+     groupC: { count: number; revenue: number; percentage: number };
+   };
+   topProfitable: ProductMetricsItem[];
++  topLossMaking: ProductMetricsItem[];
+   topRevenue: ProductMetricsItem[];
+   slowMoving: ProductMetricsItem[]; // Sản phẩm cần cân nhắc bỏ
+   coOccurrences: CoOccurrenceItem[]; // Cặp sản phẩm hay mua cùng (nếu có orderId)
+@@ -152,12 +172,18 @@ export interface CustomerAnalysisResult {
+   customers: CustomerMetricsItem[];
+   hasCustomerData: boolean;
+   totalCustomers: number;
++  totalStoreRevenue: number;           // Tổng doanh thu toàn cửa hàng (mẫu số toàn cục)
++  identifiedCustomerRevenue: number;   // Doanh thu của nhóm khách đã nhận diện
++  customerRevenueCoverage: number;     // % độ phủ doanh thu có mã khách
++  repeatCustomersCount: number;        // Số khách có ít nhất 2 đơn hợp lệ
++  repeatCustomerRate: number;          // Tỷ lệ khách mua lặp lại (%)
+   segmentsSummary: {
+     segment: RFMSegment;
+     count: number;
+     percentage: number;
+     totalRevenue: number;
+-    revenuePercentage: number;
++    revenuePercentage: number;         // % trên doanh thu có mã khách
++    storeRevenuePercentage: number;    // % trên tổng doanh thu toàn cửa hàng
+   }[];
+   topCustomers: CustomerMetricsItem[];
+   vipCustomers: CustomerMetricsItem[];

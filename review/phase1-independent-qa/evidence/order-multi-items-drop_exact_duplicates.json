@@ -1,0 +1,582 @@
+{
+  "fixture": "fixtures/order-multi-items.csv",
+  "groundTruth": {
+    "orders": [
+      "A",
+      "A",
+      "A"
+    ]
+  },
+  "expected": {
+    "rawRows": 3,
+    "validRows": 3,
+    "dropped": 0,
+    "invalid": [],
+    "duplicateRows": [],
+    "suspectedCount": 0,
+    "suspectedRevenue": 0,
+    "keptIndices": [
+      1,
+      2,
+      3
+    ],
+    "revenue": 180000,
+    "quantity": 3,
+    "profit": 0,
+    "margin": 0,
+    "costCoverage": 100,
+    "orders": 1,
+    "aov": 180000,
+    "products": [
+      {
+        "name": "Trà",
+        "revenue": 100000,
+        "quantity": 1,
+        "profit": 40000,
+        "orders": 1,
+        "category": "Đồ uống",
+        "monthly": {
+          "2026-09": 100000
+        },
+        "abc": "A"
+      },
+      {
+        "name": "Bánh",
+        "revenue": 50000,
+        "quantity": 1,
+        "profit": -10000,
+        "orders": 1,
+        "category": "Đồ uống",
+        "monthly": {
+          "2026-09": 50000
+        },
+        "abc": "A"
+      },
+      {
+        "name": "Sữa",
+        "revenue": 30000,
+        "quantity": 1,
+        "profit": -30000,
+        "orders": 1,
+        "category": "Đồ uống",
+        "monthly": {
+          "2026-09": 30000
+        },
+        "abc": "B"
+      }
+    ],
+    "customers": [
+      {
+        "id": "KH1",
+        "spend": 180000,
+        "last": "2026-09-01",
+        "frequency": 1,
+        "recency": 0,
+        "segment": "VIP"
+      }
+    ],
+    "identifiedRevenue": 180000,
+    "coverage": 100,
+    "vipRevenue": 180000,
+    "storeVipShare": 100,
+    "identifiedVipShare": 100,
+    "vipCount": 1,
+    "repeatCount": 0,
+    "repeatRate": 0,
+    "pairs": [
+      {
+        "names": [
+          "Bánh",
+          "Sữa"
+        ],
+        "count": 1,
+        "percentage": 100
+      },
+      {
+        "names": [
+          "Bánh",
+          "Trà"
+        ],
+        "count": 1,
+        "percentage": 100
+      },
+      {
+        "names": [
+          "Sữa",
+          "Trà"
+        ],
+        "count": 1,
+        "percentage": 100
+      }
+    ],
+    "uncertain": false,
+    "missingOrders": false
+  },
+  "actual": {
+    "report": {
+      "totalRows": 3,
+      "validRows": 3,
+      "droppedTotal": 0,
+      "reasons": []
+    },
+    "overview": {
+      "hasReliableOrderIds": true,
+      "orderIdStatus": "reliable",
+      "hasOrderCollisions": false,
+      "costCoverage": 100,
+      "totalRevenue": 180000,
+      "totalQuantity": 3,
+      "totalOrders": 1,
+      "averageOrderValue": 180000,
+      "totalProfit": 0,
+      "profitMargin": 0,
+      "uniqueProducts": 3,
+      "uniqueCustomers": 1,
+      "dateRange": {
+        "start": "2026-09-01",
+        "end": "2026-09-01",
+        "days": 1
+      },
+      "monthlyRevenue": [
+        {
+          "month": "2026-09",
+          "revenue": 180000,
+          "orders": 1,
+          "profit": 0
+        }
+      ]
+    },
+    "customers": {
+      "hasCustomerData": true,
+      "customers": [
+        {
+          "customerId": "KH1",
+          "customerName": "KH1",
+          "ordersCount": 1,
+          "totalSpend": 180000,
+          "averageOrderValue": 180000,
+          "lastOrderDate": "2026-09-01",
+          "daysSinceLastOrder": 0,
+          "firstOrderDate": "2026-09-01",
+          "rfmScore": {
+            "r": 5,
+            "f": 1,
+            "m": 5,
+            "total": 11
+          },
+          "segment": "VIP",
+          "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+        }
+      ],
+      "totalCustomers": 1,
+      "totalStoreRevenue": 180000,
+      "identifiedCustomerRevenue": 180000,
+      "customerRevenueCoverage": 100,
+      "repeatCustomersCount": 0,
+      "repeatCustomerRate": 0,
+      "segmentsSummary": [
+        {
+          "segment": "VIP",
+          "count": 1,
+          "percentage": 100,
+          "totalRevenue": 180000,
+          "revenuePercentage": 100,
+          "storeRevenuePercentage": 100
+        },
+        {
+          "segment": "Trung thành",
+          "count": 0,
+          "percentage": 0,
+          "totalRevenue": 0,
+          "revenuePercentage": 0,
+          "storeRevenuePercentage": 0
+        },
+        {
+          "segment": "Mới",
+          "count": 0,
+          "percentage": 0,
+          "totalRevenue": 0,
+          "revenuePercentage": 0,
+          "storeRevenuePercentage": 0
+        },
+        {
+          "segment": "Có nguy cơ rời đi",
+          "count": 0,
+          "percentage": 0,
+          "totalRevenue": 0,
+          "revenuePercentage": 0,
+          "storeRevenuePercentage": 0
+        },
+        {
+          "segment": "Đã ngừng mua",
+          "count": 0,
+          "percentage": 0,
+          "totalRevenue": 0,
+          "revenuePercentage": 0,
+          "storeRevenuePercentage": 0
+        },
+        {
+          "segment": "Bình thường",
+          "count": 0,
+          "percentage": 0,
+          "totalRevenue": 0,
+          "revenuePercentage": 0,
+          "storeRevenuePercentage": 0
+        }
+      ],
+      "topCustomers": [
+        {
+          "customerId": "KH1",
+          "customerName": "KH1",
+          "ordersCount": 1,
+          "totalSpend": 180000,
+          "averageOrderValue": 180000,
+          "lastOrderDate": "2026-09-01",
+          "daysSinceLastOrder": 0,
+          "firstOrderDate": "2026-09-01",
+          "rfmScore": {
+            "r": 5,
+            "f": 1,
+            "m": 5,
+            "total": 11
+          },
+          "segment": "VIP",
+          "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+        }
+      ],
+      "vipCustomers": [
+        {
+          "customerId": "KH1",
+          "customerName": "KH1",
+          "ordersCount": 1,
+          "totalSpend": 180000,
+          "averageOrderValue": 180000,
+          "lastOrderDate": "2026-09-01",
+          "daysSinceLastOrder": 0,
+          "firstOrderDate": "2026-09-01",
+          "rfmScore": {
+            "r": 5,
+            "f": 1,
+            "m": 5,
+            "total": 11
+          },
+          "segment": "VIP",
+          "actionAdvice": "Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+        }
+      ],
+      "atRiskCustomers": [],
+      "churnedCustomers": [],
+      "newCustomers": []
+    },
+    "products": {
+      "products": [
+        {
+          "id": "Trà",
+          "name": "Trà",
+          "category": "Đồ uống",
+          "quantity": 1,
+          "revenue": 100000,
+          "revenueShare": 55.6,
+          "cumulativeShare": 55.6,
+          "abcGroup": "A",
+          "costPrice": 60000,
+          "profit": 40000,
+          "profitMargin": 40,
+          "ordersCount": 1,
+          "trend": "Ổn định",
+          "monthlyTrendData": [
+            {
+              "month": "2026-09",
+              "quantity": 1,
+              "revenue": 100000
+            }
+          ],
+          "recommendation": "Đáng đầu tư",
+          "reasonText": "Sản phẩm chủ lực (Nhóm A), đóng góp 55.6% doanh thu. Luôn ưu tiên giữ hàng và vị trí trưng bày đẹp."
+        },
+        {
+          "id": "Bánh",
+          "name": "Bánh",
+          "category": "Đồ uống",
+          "quantity": 1,
+          "revenue": 50000,
+          "revenueShare": 27.8,
+          "cumulativeShare": 83.3,
+          "abcGroup": "A",
+          "costPrice": 60000,
+          "profit": -10000,
+          "profitMargin": -20,
+          "ordersCount": 1,
+          "trend": "Ổn định",
+          "monthlyTrendData": [
+            {
+              "month": "2026-09",
+              "quantity": 1,
+              "revenue": 50000
+            }
+          ],
+          "recommendation": "Đáng đầu tư",
+          "reasonText": "Sản phẩm chủ lực (Nhóm A), đóng góp 27.8% doanh thu. Luôn ưu tiên giữ hàng và vị trí trưng bày đẹp."
+        },
+        {
+          "id": "Sữa",
+          "name": "Sữa",
+          "category": "Đồ uống",
+          "quantity": 1,
+          "revenue": 30000,
+          "revenueShare": 16.7,
+          "cumulativeShare": 100,
+          "abcGroup": "B",
+          "costPrice": 60000,
+          "profit": -30000,
+          "profitMargin": -100,
+          "ordersCount": 1,
+          "trend": "Ổn định",
+          "monthlyTrendData": [
+            {
+              "month": "2026-09",
+              "quantity": 1,
+              "revenue": 30000
+            }
+          ],
+          "recommendation": "Duy trì ổn định",
+          "reasonText": "Sản phẩm bán ổn định ở mức trung bình, phục vụ nhu cầu thường ngày của khách."
+        }
+      ],
+      "abcSummary": {
+        "groupA": {
+          "count": 2,
+          "revenue": 150000,
+          "percentage": 83.3
+        },
+        "groupB": {
+          "count": 1,
+          "revenue": 30000,
+          "percentage": 16.7
+        },
+        "groupC": {
+          "count": 0,
+          "revenue": 0,
+          "percentage": 0
+        }
+      },
+      "topProfitable": [
+        {
+          "id": "Trà",
+          "name": "Trà",
+          "category": "Đồ uống",
+          "quantity": 1,
+          "revenue": 100000,
+          "revenueShare": 55.6,
+          "cumulativeShare": 55.6,
+          "abcGroup": "A",
+          "costPrice": 60000,
+          "profit": 40000,
+          "profitMargin": 40,
+          "ordersCount": 1,
+          "trend": "Ổn định",
+          "monthlyTrendData": [
+            {
+              "month": "2026-09",
+              "quantity": 1,
+              "revenue": 100000
+            }
+          ],
+          "recommendation": "Đáng đầu tư",
+          "reasonText": "Sản phẩm chủ lực (Nhóm A), đóng góp 55.6% doanh thu. Luôn ưu tiên giữ hàng và vị trí trưng bày đẹp."
+        }
+      ],
+      "topLossMaking": [
+        {
+          "id": "Sữa",
+          "name": "Sữa",
+          "category": "Đồ uống",
+          "quantity": 1,
+          "revenue": 30000,
+          "revenueShare": 16.7,
+          "cumulativeShare": 100,
+          "abcGroup": "B",
+          "costPrice": 60000,
+          "profit": -30000,
+          "profitMargin": -100,
+          "ordersCount": 1,
+          "trend": "Ổn định",
+          "monthlyTrendData": [
+            {
+              "month": "2026-09",
+              "quantity": 1,
+              "revenue": 30000
+            }
+          ],
+          "recommendation": "Duy trì ổn định",
+          "reasonText": "Sản phẩm bán ổn định ở mức trung bình, phục vụ nhu cầu thường ngày của khách."
+        },
+        {
+          "id": "Bánh",
+          "name": "Bánh",
+          "category": "Đồ uống",
+          "quantity": 1,
+          "revenue": 50000,
+          "revenueShare": 27.8,
+          "cumulativeShare": 83.3,
+          "abcGroup": "A",
+          "costPrice": 60000,
+          "profit": -10000,
+          "profitMargin": -20,
+          "ordersCount": 1,
+          "trend": "Ổn định",
+          "monthlyTrendData": [
+            {
+              "month": "2026-09",
+              "quantity": 1,
+              "revenue": 50000
+            }
+          ],
+          "recommendation": "Đáng đầu tư",
+          "reasonText": "Sản phẩm chủ lực (Nhóm A), đóng góp 27.8% doanh thu. Luôn ưu tiên giữ hàng và vị trí trưng bày đẹp."
+        }
+      ],
+      "topRevenue": [
+        {
+          "id": "Trà",
+          "name": "Trà",
+          "category": "Đồ uống",
+          "quantity": 1,
+          "revenue": 100000,
+          "revenueShare": 55.6,
+          "cumulativeShare": 55.6,
+          "abcGroup": "A",
+          "costPrice": 60000,
+          "profit": 40000,
+          "profitMargin": 40,
+          "ordersCount": 1,
+          "trend": "Ổn định",
+          "monthlyTrendData": [
+            {
+              "month": "2026-09",
+              "quantity": 1,
+              "revenue": 100000
+            }
+          ],
+          "recommendation": "Đáng đầu tư",
+          "reasonText": "Sản phẩm chủ lực (Nhóm A), đóng góp 55.6% doanh thu. Luôn ưu tiên giữ hàng và vị trí trưng bày đẹp."
+        },
+        {
+          "id": "Bánh",
+          "name": "Bánh",
+          "category": "Đồ uống",
+          "quantity": 1,
+          "revenue": 50000,
+          "revenueShare": 27.8,
+          "cumulativeShare": 83.3,
+          "abcGroup": "A",
+          "costPrice": 60000,
+          "profit": -10000,
+          "profitMargin": -20,
+          "ordersCount": 1,
+          "trend": "Ổn định",
+          "monthlyTrendData": [
+            {
+              "month": "2026-09",
+              "quantity": 1,
+              "revenue": 50000
+            }
+          ],
+          "recommendation": "Đáng đầu tư",
+          "reasonText": "Sản phẩm chủ lực (Nhóm A), đóng góp 27.8% doanh thu. Luôn ưu tiên giữ hàng và vị trí trưng bày đẹp."
+        },
+        {
+          "id": "Sữa",
+          "name": "Sữa",
+          "category": "Đồ uống",
+          "quantity": 1,
+          "revenue": 30000,
+          "revenueShare": 16.7,
+          "cumulativeShare": 100,
+          "abcGroup": "B",
+          "costPrice": 60000,
+          "profit": -30000,
+          "profitMargin": -100,
+          "ordersCount": 1,
+          "trend": "Ổn định",
+          "monthlyTrendData": [
+            {
+              "month": "2026-09",
+              "quantity": 1,
+              "revenue": 30000
+            }
+          ],
+          "recommendation": "Duy trì ổn định",
+          "reasonText": "Sản phẩm bán ổn định ở mức trung bình, phục vụ nhu cầu thường ngày của khách."
+        }
+      ],
+      "slowMoving": [],
+      "coOccurrences": [
+        {
+          "productA": "Bánh",
+          "productB": "Sữa",
+          "count": 1,
+          "percentage": 100
+        },
+        {
+          "productA": "Bánh",
+          "productB": "Trà",
+          "count": 1,
+          "percentage": 100
+        },
+        {
+          "productA": "Sữa",
+          "productB": "Trà",
+          "count": 1,
+          "percentage": 100
+        }
+      ],
+      "hasCostPrice": true,
+      "hasOrderId": true
+    },
+    "conclusions": {
+      "overview": "Cửa hàng ghi nhận **1 đơn** với tổng doanh thu **180.000 đ** trong 1 ngày, ghi nhận lợi nhuận gộp **0 đ** trên phần dữ liệu có giá vốn (100% doanh thu; biên lãi **0%**). Giá trị trung bình mỗi đơn đạt **180.000 đ**.",
+      "monthlyTrend": "Dữ liệu phát sinh trong 1 tháng duy nhất.",
+      "productABC": "Chỉ **2 sản phẩm nhóm A** (chiếm 67% số lượng mặt hàng) đã đóng góp tới **83.3% doanh thu** (150.000 đ). Trong khi đó, **0 sản phẩm nhóm C** chỉ đóng góp 0%.",
+      "productProfit": "Mặt hàng mang lại nhiều tiền lãi nhất là **Trà** với lợi nhuận gộp **40.000 đ** (biên lãi **40%**). Cửa hàng có 2 mặt hàng đang bán thấp hơn giá vốn.",
+      "customerRFM": "**1 khách VIP** đóng góp **100% doanh thu** (180.000 đ). Toàn bộ **1 khách hàng** đều mới phát sinh 1 đơn hàng trong kỳ dữ liệu (chưa có lượt mua lặp lại).",
+      "crossSelling": "Cặp đôi mua cùng nhiều nhất là \"Bánh\" & \"Sữa\" (1 đơn)."
+    },
+    "actions": [
+      {
+        "id": "prod-abc-stock",
+        "type": "inventory",
+        "severity": "high",
+        "title": "Đảm bảo nguồn hàng cho 2 sản phẩm chủ lực (Nhóm A)",
+        "description": "Chỉ 2 mặt hàng này mang về 83.3% doanh thu toàn tiệm (150.000 đ), dẫn đầu là \"Trà\". Hãy luôn kiểm kê và đặt hàng nhà cung cấp sớm để tránh đứt hàng vào giờ cao điểm.",
+        "metricBadge": "83.3% doanh thu"
+      },
+      {
+        "id": "prod-cross-sell",
+        "type": "pricing",
+        "severity": "medium",
+        "title": "Tạo combo bán chéo \"Bánh\" & \"Sữa\"",
+        "description": "Khách hàng đã mua cùng 2 món này trong 1 hóa đơn (100% các đơn từ 2 món). Bạn nên đặt 2 món cạnh nhau trên kệ trưng bày hoặc tạo gói khuyến mãi mua kèm để gia tăng giá trị giỏ hàng.",
+        "metricBadge": "1 đơn mua chung"
+      },
+      {
+        "id": "overview-aov",
+        "type": "pricing",
+        "severity": "info",
+        "title": "Gia tăng giá trị đơn hàng trung bình (hiện tại 180.000 đ)",
+        "description": "Để tăng thêm doanh thu mà không cần tìm thêm khách mới, hãy áp dụng chương trình \"Hóa đơn trên 230.000 đ được tặng thêm quà nhỏ hoặc miễn phí giao hàng\".",
+        "metricBadge": "AOV: 180.000 đ"
+      }
+    ]
+  },
+  "comparison": {
+    "id": "order-multi-items-drop_exact_duplicates",
+    "checks": 37,
+    "failures": [],
+    "status": "PASS",
+    "deterministic": true,
+    "elapsedMs": 0,
+    "fixture": "fixtures/order-multi-items.csv",
+    "uncertain": false
+  }
+}

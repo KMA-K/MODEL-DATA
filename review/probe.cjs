@@ -1,0 +1,2 @@
+const {chromium}=require('../node_modules/playwright');
+(async()=>{const browser=await chromium.launch({channel:'msedge',headless:true});const page=await browser.newPage();await page.setContent('<html><body><h1>Playwright Edge probe</h1></body></html>');await page.screenshot({path:__dirname+'/screenshots/browser-probe.png'});console.log(JSON.stringify({browser:browser.version(),title:await page.locator('h1').innerText()}));await browser.close();})().catch(error=>{console.error(error);process.exitCode=1;});

@@ -1,0 +1,16 @@
+diff --git "a/D:\\2.TEST_PROJECT\\MODEL data\\review\\project\\test-results\\.last-run.json" "b/D:\\2.TEST_PROJECT\\MODEL data\\test-results\\.last-run.json"
+index 24c2f63..cbcc1fb 100644
+--- "a/D:\\2.TEST_PROJECT\\MODEL data\\review\\project\\test-results\\.last-run.json"	
++++ "b/D:\\2.TEST_PROJECT\\MODEL data\\test-results\\.last-run.json"	
+@@ -1,8 +1,4 @@
+ {
+-  "status": "failed",
+-  "failedTests": [
+-    "89b9c2ab2cd22ac32784-2a8f5360c47f78411f15",
+-    "89b9c2ab2cd22ac32784-5a81ca3dd43d07096518",
+-    "89b9c2ab2cd22ac32784-a753c556e3cdc0b09d3e"
+-  ]
++  "status": "passed",
++  "failedTests": []
+ }
+\ No newline at end of file

@@ -1,0 +1,34 @@
+diff --git "a/D:\\2.TEST_PROJECT\\MODEL data\\review\\project\\src\\core\\productMetrics.ts" "b/D:\\2.TEST_PROJECT\\MODEL data\\src\\core\\productMetrics.ts"
+index 4203547..0e10e45 100644
+--- "a/D:\\2.TEST_PROJECT\\MODEL data\\review\\project\\src\\core\\productMetrics.ts"	
++++ "b/D:\\2.TEST_PROJECT\\MODEL data\\src\\core\\productMetrics.ts"	
+@@ -18,6 +18,7 @@ export function calculateProductMetrics(cleanRows: CleanRow[]): ProductAnalysisR
+         groupC: { count: 0, revenue: 0, percentage: 0 }
+       },
+       topProfitable: [],
++      topLossMaking: [],
+       topRevenue: [],
+       slowMoving: [],
+       coOccurrences: [],
+@@ -257,6 +258,13 @@ export function calculateProductMetrics(cleanRows: CleanRow[]): ProductAnalysisR
+         .slice(0, 10)
+     : [];
+ 
++  const topLossMaking = hasAnyCost
++    ? [...products]
++        .filter(p => p.profit !== null && p.profit < 0)
++        .sort((a, b) => (a.profit || 0) - (b.profit || 0))
++        .slice(0, 10)
++    : [];
++
+   const slowMoving = products
+     .filter(p => p.recommendation === 'Cân nhắc loại bỏ')
+     .slice(0, 10);
+@@ -281,6 +289,7 @@ export function calculateProductMetrics(cleanRows: CleanRow[]): ProductAnalysisR
+       }
+     },
+     topProfitable,
++    topLossMaking,
+     topRevenue,
+     slowMoving,
+     coOccurrences,

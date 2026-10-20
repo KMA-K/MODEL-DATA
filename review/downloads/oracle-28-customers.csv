@@ -1,0 +1,7 @@
+﻿"Mã khách","Tên khách","Phân khúc","Tổng chi tiêu","Số đơn","Số ngày chưa mua","Gợi ý chăm sóc"
+"KH-vip","KH-vip","VIP","350000","4","0","Khách VIP đang mua đều. Nên gửi quà tri ân, chăm sóc đặc quyền."
+"KH-risk","KH-risk","Có nguy cơ rời đi","300000","4","112","Từng chi tiêu nhiều nhưng quá 60 ngày chưa quay lại. Cần liên hệ ngay!"
+"KH-normal","KH-normal","Bình thường","165000","3","59","Duy trì chăm sóc tiêu chuẩn."
+"KH-loyal","KH-loyal","Trung thành","162500","5","0","Khách mua thường xuyên. Tặng voucher hoặc điểm tích lũy để duy trì thói quen."
+"KH-churn","KH-churn","Đã ngừng mua","15000","1","152","Khách chỉ mua 1 lần từ lâu. Không cần tốn quá nhiều chi phí tiếp thị."
+"KH-new","KH-new","Mới","7500","1","0","Khách hàng mới phát sinh đơn đầu tiên. Gửi ưu đãi cho lần mua tiếp theo."
